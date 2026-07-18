@@ -23,6 +23,7 @@ alwaysApply: true
 - Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago
 - Movimientos cancelados o devueltos (usar neto)
 - Ingresos / transferencias recibidas
+- **Reserva automática** (y cualquier concepto “Reserva automática” de Mercado Pago): eliminar / no catalogar / no cargar
 
 ## Propiedades (carpetas separadas)
 - Consorcio De Propietarios → Expensas **CIUDAD**
