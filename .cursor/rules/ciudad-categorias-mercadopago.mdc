@@ -61,9 +61,9 @@ alwaysApply: true
 - En catálogo y en comentario de `Almacen Detalle` (columna Comentario)
 
 ## FARMACIA (categoría principal)
-- Farmacity, Farmacia Selma (Selma Salvatori), Farmacia Maure — siempre `FARMACIA`
-- Comentario obligatorio: `FARMACIA · <nombre de farmacia>` (ej. `FARMACIA · Farmacity`)
-- Fila hoja `2026`: `CASA / FARMACIA / Farmacia` — no van a Extras Sol ni a almacén
+- Farmacity, Farmacia Maure — siempre `FARMACIA` (fila `2026` CASA / FARMACIA; comentario `FARMACIA · <nombre>`)
+- **Selma Salvatori** / Farmacia Selma → **ALMACEN SOL** con comentario `FARMACIA · Farmacia Selma` (no Extras)
+- Comentario obligatorio con nombre de farmacia
 
 ## Otras
 - Metrogas → GAS | AGIP ABL → ABL | Telecentro → TV CABLE (CIUDAD)
