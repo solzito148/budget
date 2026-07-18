@@ -24,6 +24,7 @@ alwaysApply: true
 - Movimientos cancelados o devueltos (usar neto)
 - Ingresos / transferencias recibidas
 - **Reserva automática** (y cualquier concepto “Reserva automática” de Mercado Pago): eliminar / no catalogar / no cargar
+- **Dinero retirado**: no es gasto de CIUDAD — cargar solo en hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario). No suma al TOTAL de la hoja `2026`
 
 ## Propiedades (carpetas separadas)
 - Consorcio De Propietarios → Expensas **CIUDAD**
