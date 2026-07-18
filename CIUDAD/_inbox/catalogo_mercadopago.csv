@@ -6,8 +6,8 @@
 2025-12-26,Melt Helado Natural,31250,ALMACEN_SOL,2025
 2025-12-26,Mercado Libre,68400,EXCLUIR,reintegro + 2025
 2025-12-28,Sube Viajes,660,EXTRAS_SOL,SUBE 2025
-2025-12-28,Susana Carmen Ortiz,114300,LIMPIEZA,2025 — fuera planilla 2026
-2025-12-28,Susana Carmen Ortiz,18000,LIMPIEZA,2025 — fuera planilla 2026
+2025-12-28,Susana Carmen Ortiz,114300,LIMPIEZA,2025 — fuera planilla 2026 · ya en LIMPIEZA CASA (no almacén)
+2025-12-28,Susana Carmen Ortiz,18000,LIMPIEZA,2025 — fuera planilla 2026 · ya en LIMPIEZA CASA (no almacén)
 2025-12-29,Libreria Marin,8300,EXTRAS_SOL,2025
 2025-12-30,Compraenkalbb,29766,PENDIENTE,2025
 2025-12-30,Longchamp,382500,EXCLUIR,rechazado
@@ -26,10 +26,10 @@
 2026-01-04,Ceferina,530000,PENDIENTE,compra TC
 2026-01-04,Noelia Soledad Caballero Britez,8180,PENDIENTE,transferencia
 2026-01-04,Gusmar Hnos Srl,4850,PENDIENTE,tienda física
-2026-01-04,Susana Carmen Ortiz,18600,LIMPIEZA,Limpieza Susana
-2026-01-04,Susana Carmen Ortiz,43572,LIMPIEZA,Limpieza Susana
-2026-01-04,Susana Carmen Ortiz,84051,LIMPIEZA,Limpieza Susana
-2026-01-04,Susana Carmen Ortiz,7100,LIMPIEZA,Limpieza Susana
+2026-01-04,Susana Carmen Ortiz,18600,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-01-04,Susana Carmen Ortiz,43572,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-01-04,Susana Carmen Ortiz,84051,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-01-04,Susana Carmen Ortiz,7100,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-05,Shell,197,ALMACEN_SOL,Combustible — Shell
 2026-01-05,Shell,46,ALMACEN_SOL,Combustible — Shell
 2026-01-05,Dia Online,15092,ALMACEN_SOL,Día Online
@@ -67,8 +67,8 @@
 2026-01-10,Compraenkalbb,77748,PENDIENTE,pago online
 2026-01-10,Farmacia Maure,116500,EXTRAS_SOL,farmacia
 2026-01-11,Havanna,22100,ALMACEN_SOL,Havanna
-2026-01-11,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
-2026-01-11,Susana Carmen Ortiz,16800,LIMPIEZA,Limpieza Susana
+2026-01-11,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-01-11,Susana Carmen Ortiz,16800,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-12,Tarjeta de crédito,200000,EXCLUIR,pago resumen TC
 2026-01-13,Valeria Laura Mele,44100,PENDIENTE,transferencia
 2026-01-13,Tarjeta de crédito,1282375,EXCLUIR,pago resumen TC
@@ -79,8 +79,8 @@
 2026-01-17,Dia Online,13465,EXCLUIR,devuelto neto 0
 2026-01-18,Arca,107075,IMPUESTOS_AFIP,ARCA
 2026-01-18,Carrefour,4089,ALMACEN_SOL,Carrefour
-2026-01-18,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
-2026-01-18,Susana Carmen Ortiz,15400,LIMPIEZA,Limpieza Susana
+2026-01-18,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-01-18,Susana Carmen Ortiz,15400,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-19,Sanes Maria Sole,800000,EXCLUIR,propia
 2026-01-19,Didi,5227,TRANSPORTE,Didi
 2026-01-19,Didi,83,TRANSPORTE,Didi
@@ -105,8 +105,8 @@
 2026-01-25,Mercado Libre,43300,PENDIENTE,ML
 2026-01-25,Mercado Libre,113472,PENDIENTE,ML
 2026-01-25,Mercado Libre,24562,PENDIENTE,ML
-2026-01-25,Susana Carmen Ortiz,158895,LIMPIEZA,Limpieza Susana
-2026-01-25,Susana Carmen Ortiz,6700,LIMPIEZA,Limpieza Susana
+2026-01-25,Susana Carmen Ortiz,158895,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-01-25,Susana Carmen Ortiz,6700,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-27,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO · propina
 2026-01-27,Pedidosya Market,35404,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
 2026-01-27,Copetin Catering,19550,ALMACEN_SOL,catering
@@ -130,8 +130,8 @@
 2026-02-01,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-02-01,Pedidosya,1499,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-02-01,Pedidosya Market,118132,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
-2026-02-01,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
-2026-02-01,Susana Carmen Ortiz,17300,LIMPIEZA,Limpieza Susana
+2026-02-01,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-02-01,Susana Carmen Ortiz,17300,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-01,Apple,45711,EXTRAS_SOL,Apple
 2026-02-02,Cabify,4971,TRANSPORTE,Cabify
 2026-02-02,Cabify,4447,TRANSPORTE,Cabify
@@ -144,8 +144,8 @@
 2026-02-05,Copetin Catering,2940,ALMACEN_SOL,catering
 2026-02-05,Didi,4600,TRANSPORTE,Didi
 2026-02-06,Cabify,6466,TRANSPORTE,Cabify
-2026-02-06,Susana Carmen Ortiz,123020,LIMPIEZA,Limpieza Susana
-2026-02-06,Susana Carmen Ortiz,3000,LIMPIEZA,Limpieza Susana
+2026-02-06,Susana Carmen Ortiz,123020,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-02-06,Susana Carmen Ortiz,3000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-06,Sanes Maria Sole,US$650,EXCLUIR,propia USD
 2026-02-06,Sanes Maria Sole,US$700,EXCLUIR,propia USD
 2026-02-06,Sanes Maria Sole,US$2000,EXCLUIR,propia USD
@@ -187,7 +187,7 @@
 2026-02-14,Mercado Libre,10391,EXCLUIR,devuelto neto 0
 2026-02-14,Tu Papelera,43100,EXTRAS_SOL,librería/papelera
 2026-02-14,Supermercados Dia,5622,ALMACEN_SOL,Día
-2026-02-15,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
+2026-02-15,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-17,Alberto Roque Sachetti,30000,PENDIENTE,transferencia
 2026-02-18,Supermercados Dia,37335,ALMACEN_SOL,Día
 2026-02-18,Copetin Catering,2703,ALMACEN_SOL,catering
@@ -199,8 +199,8 @@
 2026-02-20,Lourdes Elizabeth Tadeo Salvador,18500,PENDIENTE,transferencia
 2026-02-20,Farmacia Maure,124100,EXTRAS_SOL,farmacia
 2026-02-20,Arca,67246,IMPUESTOS_AFIP,ARCA
-2026-02-21,Susana Carmen Ortiz,58986,LIMPIEZA,Limpieza Susana
-2026-02-21,Susana Carmen Ortiz,3240,LIMPIEZA,Limpieza Susana
+2026-02-21,Susana Carmen Ortiz,58986,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-02-21,Susana Carmen Ortiz,3240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-21,Sanes Maria Sole,60000,EXCLUIR,propia
 2026-02-21,Clinicas Altamirao,40000,EXTRAS_SOL,salud
 2026-02-22,Havanna,9600,ALMACEN_SOL,Havanna
@@ -226,7 +226,7 @@
 2026-03-01,Evelyn Rosana Tolaba,2000,PENDIENTE,transferencia
 2026-03-01,Ricardo Rodriguez,25000,PENDIENTE,tienda física
 2026-03-01,Christian Pablo Ventura,120000,PENDIENTE,transferencia
-2026-03-01,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
+2026-03-01,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-01,Maria Soledad Sanes,36000,EXCLUIR,propia
 2026-03-02,Lourdes Elizabeth Tadeo Salvador,400,PENDIENTE,transferencia
 2026-03-02,Apple,5453,EXTRAS_SOL,Apple
@@ -237,8 +237,8 @@
 2026-03-05,Huevos Point,14500,ALMACEN_SOL,huevos
 2026-03-06,Coto,114263,ALMACEN_SOL,super
 2026-03-06,Tuenti,4000,CELULAR,Tuenti
-2026-03-06,Susana Carmen Ortiz,91841,LIMPIEZA,Limpieza Susana
-2026-03-06,Susana Carmen Ortiz,20000,LIMPIEZA,Limpieza Susana
+2026-03-06,Susana Carmen Ortiz,91841,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-03-06,Susana Carmen Ortiz,20000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
 2026-03-06,Fideicomiso Ava Palpa,5484067,AVA,expensas/cuota AVA — otra carpeta
 2026-03-09,Compraenkalbb,56250,PENDIENTE,pago online
@@ -264,8 +264,8 @@
 2026-03-13,Didi,8410,TRANSPORTE,Didi
 2026-03-13,Ronda.,14000,PENDIENTE,tienda física ¿qué es?
 2026-03-13,Ebanx S.A.,5757,TRANSPORTE,Uber/Ebanx
-2026-03-14,Susana Carmen Ortiz,9000,LIMPIEZA,Limpieza Susana
-2026-03-14,Susana Carmen Ortiz,77568,LIMPIEZA,Limpieza Susana
+2026-03-14,Susana Carmen Ortiz,9000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-03-14,Susana Carmen Ortiz,77568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-14,Galletotas,19500,ALMACEN_SOL,galletitas
 2026-03-14,Didi,4590,TRANSPORTE,Didi
 2026-03-14,Oporto Almacen,51920,ALMACEN_SOL,almacén
@@ -312,7 +312,7 @@
 2026-03-25,Paws Pet Market,35700,EXTRAS_SOL,mascotas
 2026-03-26,Agustina Vissani,75000,AGUS_PSA,confirmar AGUS/PSA
 2026-03-27,Tuenti,4000,CELULAR,Tuenti
-2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,Limpieza Susana
+2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-30,Generacion 20 Combustibles,88999,ALMACEN_SOL,combustible
 2026-03-30,Mercado Libre,248070,PENDIENTE,ML
 2026-03-30,Cuota Social Carp,30560,EXTRAS_SOL,cuota social
@@ -335,9 +335,9 @@
 2026-04-04,Ebanx S.A.,4207,TRANSPORTE,Uber/Ebanx
 2026-04-04,Ebanx S.A.,4691,TRANSPORTE,Uber/Ebanx
 2026-04-04,Sofía Entivero,519441,PENDIENTE,compra
-2026-04-04,Susana Carmen Ortiz,11000,LIMPIEZA,Limpieza Susana
-2026-04-04,Susana Carmen Ortiz,9000,LIMPIEZA,Limpieza Susana
-2026-04-04,Susana Carmen Ortiz,82416,LIMPIEZA,Limpieza Susana
+2026-04-04,Susana Carmen Ortiz,11000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-04-04,Susana Carmen Ortiz,9000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-04-04,Susana Carmen Ortiz,82416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-05,Ema Maldonado,7000,PENDIENTE,transferencia
 2026-04-05,Wordpress,,EXTRAS_SOL,US$228
 2026-04-06,Metrogas,4850,GAS,Metrogas
@@ -352,7 +352,7 @@
 2026-04-07,Smartcell Lacroze,16500,CELULAR,celular tienda
 2026-04-07,Mercado Libre,29725,PENDIENTE,ML
 2026-04-07,Ana Silvia Castillo,79000,PENDIENTE,transferencia
-2026-04-08,Susana Carmen Ortiz,100000,LIMPIEZA,Limpieza Susana
+2026-04-08,Susana Carmen Ortiz,100000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-08,Yenny Paola Calisaya,15120,PENDIENTE,transferencia
 2026-04-08,Didi,4450,TRANSPORTE,Didi
 2026-04-08,Copetin Catering,17050,ALMACEN_SOL,catering
@@ -375,7 +375,7 @@
 2026-04-11,Didi,7200,TRANSPORTE,transporte
 2026-04-11,Vitalcer,34830,ALMACEN_SOL,dietética
 2026-04-12,Apple,14520,EXTRAS_SOL,Apple
-2026-04-12,Susana Carmen Ortiz,96567,LIMPIEZA,Limpieza Susana
+2026-04-12,Susana Carmen Ortiz,96567,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-12,Nicky Cheese propina,1920,ALMACEN_SOL,quesos propina
 2026-04-12,Nicky Cheese,19200,ALMACEN_SOL,quesos
 2026-04-13,Didi,6620,TRANSPORTE,transporte
@@ -390,8 +390,8 @@
 2026-04-15,Ebanx S.A.,5910,TRANSPORTE,Uber
 2026-04-16,Ebanx S.A.,8578,TRANSPORTE,Uber
 2026-04-18,Sanes Maria Sole,,EXCLUIR,propia US$100
-2026-04-18,Susana Carmen Ortiz,94416,LIMPIEZA,Limpieza Susana
-2026-04-18,Susana Carmen Ortiz,16200,LIMPIEZA,Limpieza Susana
+2026-04-18,Susana Carmen Ortiz,94416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-04-18,Susana Carmen Ortiz,16200,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-18,Ebanx S.A.,18208,TRANSPORTE,Uber
 2026-04-18,ingresos varios,117000,INGRESO,recibidas 39k x3
 2026-04-18,Cosi Mi Piace propina,21276,EXTRAS_SOL,evento
@@ -419,7 +419,7 @@
 2026-04-24,Didi,5420,TRANSPORTE,transporte
 2026-04-24,Súper Pollo,16140,ALMACEN_SOL,pollo
 2026-04-24,Fundacion Soplo De Vida,40000,EXTRAS_SOL,donación
-2026-04-25,Susana Carmen Ortiz,91416,LIMPIEZA,Limpieza Susana
+2026-04-25,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-25,Todo Tartas,11400,ALMACEN_SOL,panadería
 2026-04-25,Sanes Maria Sole,,EXCLUIR,propia US$100
 2026-04-25,Sanes Maria Sole,,EXCLUIR,propia US$500
@@ -442,7 +442,7 @@
 2026-05-02,ACA,751,AUTO,ACA
 2026-05-02,Tamara Ginesin,3000,INGRESO,recibida
 2026-05-02,Cosi Mi Piace,30133,EXTRAS_SOL,restaurante
-2026-05-02,Susana Carmen Ortiz,88416,LIMPIEZA,Limpieza Susana
+2026-05-02,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-02,Tuenti,4200,CELULAR,Tuenti
 2026-05-02,Profesional Belgrano,72249,EXTRAS_SOL,¿farmacia?
 2026-05-04,Clinicas Altamirao,40000,EXTRAS_SOL,salud
@@ -467,8 +467,8 @@
 2026-05-08,Didi,7400,EXCLUIR,cancelado neto 0
 2026-05-08,Ana Magariños,5000,INGRESO,recibida
 2026-05-08,Florencia Risi,60900,PENDIENTE,transferencia
-2026-05-09,Susana Carmen Ortiz,91416,LIMPIEZA,Limpieza Susana
-2026-05-09,Susana Carmen Ortiz,3000,LIMPIEZA,Limpieza Susana
+2026-05-09,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-05-09,Susana Carmen Ortiz,3000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-09,Mercado Libre,38637,PENDIENTE,ML
 2026-05-09,Coto,47361,ALMACEN_SOL,supermercado
 2026-05-09,Tuenti,16650,CELULAR,Tuenti
@@ -495,8 +495,8 @@
 2026-05-13,Mercado Libre,132299,PENDIENTE,ML
 2026-05-13,Daniela Lopez,3100,PENDIENTE,transferencia
 2026-05-13,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
-2026-05-13,Susana Carmen Ortiz,20000,LIMPIEZA,Limpieza Susana
-2026-05-13,Susana Carmen Ortiz,35000,LIMPIEZA,Limpieza Susana
+2026-05-13,Susana Carmen Ortiz,20000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-05-13,Susana Carmen Ortiz,35000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-13,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
 2026-05-13,Valeria Mele,21600,PENDIENTE,transferencia
 2026-05-14,Arca VEP,17344,IMPUESTOS_AFIP,ARCA VEP
@@ -504,8 +504,8 @@
 2026-05-15,Sanes Maria Sole,400000,EXCLUIR,propia
 2026-05-15,Agustina Vissani,125000,AGUS_PSA,confirmar AGUS/PSA
 2026-05-15,General Collect,2496700,PENDIENTE,cobranza
-2026-05-16,Susana Carmen Ortiz,96567,LIMPIEZA,Limpieza Susana
-2026-05-16,Susana Carmen Ortiz,8000,LIMPIEZA,Limpieza Susana
+2026-05-16,Susana Carmen Ortiz,96567,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-05-16,Susana Carmen Ortiz,8000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-16,Sanes Maria Sole,100000,EXCLUIR,propia
 2026-05-16,Sanes Maria Sole,,EXCLUIR,propia US$300
 2026-05-16,PedidosYa Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
@@ -526,8 +526,8 @@
 2026-05-22,Didi,5700,TRANSPORTE,transporte
 2026-05-22,Ebanx S.A.,6782,TRANSPORTE,Uber
 2026-05-23,Bimba Y Lola,748000,EXTRAS_SOL,ropa
-2026-05-23,Susana Carmen Ortiz,91416,LIMPIEZA,Limpieza Susana
-2026-05-23,Susana Carmen Ortiz,10000,LIMPIEZA,Limpieza Susana
+2026-05-23,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-05-23,Susana Carmen Ortiz,10000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-23,Mercado Libre,35544,PENDIENTE,ML
 2026-05-23,Christian Ventura,300000,PENDIENTE,transferencia
 2026-05-23,Arredondo,10290,ALMACEN_SOL,tienda física
@@ -561,7 +561,7 @@
 2026-05-30,Shell,18314,ALMACEN_SOL,nafta · combustible
 2026-05-30,Shell,1415,ALMACEN_SOL,nafta · combustible
 2026-05-30,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-05-30,Susana Carmen Ortiz,101718,LIMPIEZA,Limpieza Susana
+2026-05-30,Susana Carmen Ortiz,101718,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-31,Vercel Domains,,EXTRAS_SOL,US$11.25
 2026-06-01,Sanes Maria Sole,,EXCLUIR,propia US$300
 2026-06-01,Huevos Point,7500,ALMACEN_SOL,huevos
@@ -576,8 +576,8 @@
 2026-06-05,Sanes Maria Sole,,EXCLUIR,cancelado US$500
 2026-06-05,Fideicomiso Ava Palpa,5850639,AVA,Ava Palpa
 2026-06-06,Fundacion Soplo De Vida,100000,EXTRAS_SOL,donación
-2026-06-06,Susana Carmen Ortiz,104718,LIMPIEZA,Limpieza Susana
-2026-06-06,Susana Carmen Ortiz,6000,LIMPIEZA,Limpieza Susana
+2026-06-06,Susana Carmen Ortiz,104718,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-06-06,Susana Carmen Ortiz,6000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-06,Guillermo Galarraga,14500,PENDIENTE,transferencia
 2026-06-07,Coto,348208,ALMACEN_SOL,supermercado
 2026-06-07,ACA,711,AUTO,ACA
@@ -601,8 +601,8 @@
 2026-06-13,Saphirus,79900,PENDIENTE,¿hogar?
 2026-06-13,Todo Tartas,11700,ALMACEN_SOL,panadería
 2026-06-13,Apple,18558,EXTRAS_SOL,Apple
-2026-06-14,Susana Carmen Ortiz,88416,LIMPIEZA,Limpieza Susana
-2026-06-14,Susana Carmen Ortiz,2000,LIMPIEZA,Limpieza Susana
+2026-06-14,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-06-14,Susana Carmen Ortiz,2000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-15,Madmuscles,99727,EXTRAS_SOL,fitness
 2026-06-16,Damaris Oliveira,2542970,PENDIENTE,compra grande
 2026-06-16,Sanes Maria Sole,,EXCLUIR,propia US$500
@@ -618,8 +618,8 @@
 2026-06-19,Edesur,2198,PENDIENTE,luz ¿propiedad?
 2026-06-20,PedidosYa Propina,1500,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-20,PedidosYa,47299,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
-2026-06-20,Susana Carmen Ortiz,112020,LIMPIEZA,Limpieza Susana
-2026-06-20,Susana Carmen Ortiz,6000,LIMPIEZA,Limpieza Susana
+2026-06-20,Susana Carmen Ortiz,112020,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-06-20,Susana Carmen Ortiz,6000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-20,Christian Ventura,20000,PENDIENTE,transferencia
 2026-06-21,Shell,1648,ALMACEN_SOL,nafta · combustible
 2026-06-21,Sanes Maria Sole,,EXCLUIR,propia US$400
@@ -640,8 +640,8 @@
 2026-06-26,Todo Tartas,23700,ALMACEN_SOL,panadería
 2026-06-26,Didi,5300,TRANSPORTE,transporte
 2026-06-26,Didi,6500,TRANSPORTE,transporte
-2026-06-27,Susana Carmen Ortiz,552827,LIMPIEZA,Limpieza Susana
-2026-06-27,Susana Carmen Ortiz,5000,LIMPIEZA,Limpieza Susana
+2026-06-27,Susana Carmen Ortiz,552827,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-06-27,Susana Carmen Ortiz,5000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-27,Open 25,17000,ALMACEN_SOL,tienda
 2026-06-27,Confitería Dos Escudos,40600,ALMACEN_SOL,confitería
 2026-06-27,Florencia De La Torre,20000,PENDIENTE,transferencia
@@ -667,8 +667,8 @@
 2026-07-05,Analia Veronica Roay,49000,PENDIENTE,transferencia
 2026-07-05,Didi,6280,TRANSPORTE,transporte
 2026-07-05,Antonela Guidobono,38700,PENDIENTE,transferencia
-2026-07-05,Susana Carmen Ortiz,123240,LIMPIEZA,Limpieza Susana
-2026-07-05,Susana Carmen Ortiz,9500,LIMPIEZA,Limpieza Susana
+2026-07-05,Susana Carmen Ortiz,123240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
+2026-07-05,Susana Carmen Ortiz,9500,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-07-06,Jose Cristian Montaño,2500,PENDIENTE,transferencia
 2026-07-06,Analia Veronica Roay,8002,PENDIENTE,transferencia
 2026-07-06,Copetin Catering,765,ALMACEN_SOL,catering
@@ -698,7 +698,7 @@
 2026-07-12,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-07-12,Sanes Maria Sole,100000,EXCLUIR,propia
 2026-07-12,Apple,19481,EXTRAS_SOL,Apple
-2026-07-12,Susana Carmen Ortiz,120240,LIMPIEZA,Limpieza Susana
+2026-07-12,Susana Carmen Ortiz,120240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-07-13,Carnes Tito,8160,ALMACEN_SOL,carnicería
 2026-07-13,Ebanx S.A.,6809,TRANSPORTE,Uber
 2026-07-13,Arca,38957,IMPUESTOS_AFIP,ARCA
