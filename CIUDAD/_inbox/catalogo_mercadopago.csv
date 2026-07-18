@@ -1,4 +1,27 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-02-09,Didi,4320,TRANSPORTE,Didi
+2026-02-09,Cabify,4955,TRANSPORTE,Cabify
+2026-02-10,Sanes Maria Sole,2000000,EXCLUIR,propia
+2026-02-10,Feed,645,ALMACEN_SOL,comida
+2026-02-10,Copetin Catering,2940,ALMACEN_SOL,catering
+2026-02-10,Copetin Catering,7500,EXCLUIR,devuelto
+2026-02-10,Copetin Catering,1770,ALMACEN_SOL,catering
+2026-02-10,Didi,3976,TRANSPORTE,Didi
+2026-02-11,Didi,5830,TRANSPORTE,Didi
+2026-02-11,Didi,4590,TRANSPORTE,Didi
+2026-02-12,Paws Pet Market,27200,EXTRAS_SOL,mascotas
+2026-02-12,Sodastream,53037,SODASTREAM,repuestos
+2026-02-12,Compraenkalbb,30336,PENDIENTE,pago online
+2026-02-13,Cabify,5479,TRANSPORTE,Cabify
+2026-02-13,Pablo Ezequiel Alderetes,60000,PENDIENTE,transferencia
+2026-02-13,Agip Abl Gcba,83757,ABL,ABL GCBA
+2026-02-14,Ebanx S.A.,6335,EXCLUIR,devuelto neto 0
+2026-02-14,Didi,6780,TRANSPORTE,Didi
+2026-02-14,Veronica Alejandra Mendez,3500,PENDIENTE,transferencia
+2026-02-14,Veronica Alejandra Mendez,9500,PENDIENTE,transferencia
+2026-02-14,Mercado Libre,10391,EXCLUIR,devuelto neto 0
+2026-02-14,Tu Papelera,43100,EXTRAS_SOL,librería/papelera
+2026-02-14,Supermercados Dia,5622,ALMACEN_SOL,Día
 2026-02-15,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
 2026-02-17,Alberto Roque Sachetti,30000,PENDIENTE,transferencia
 2026-02-18,Supermercados Dia,37335,ALMACEN_SOL,Día
