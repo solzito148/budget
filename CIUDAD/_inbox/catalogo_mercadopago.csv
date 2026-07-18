@@ -112,8 +112,8 @@
 2026-04-29,Didi,3904,TRANSPORTE,transporte
 2026-04-29,Compraenkalbb,86747,PENDIENTE,compra online
 2026-04-29,Didi,4670,TRANSPORTE,transporte
-2026-04-30,Shell,27579,AUTO,nafta
-2026-04-30,Shell,1307,AUTO,nafta
+2026-04-30,Shell,27579,ALMACEN_SOL,nafta · combustible
+2026-04-30,Shell,1307,ALMACEN_SOL,nafta · combustible
 2026-04-30,Todo Tartas,30500,ALMACEN_SOL,panadería
 2026-05-01,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-05-02,ACA,751,AUTO,ACA
@@ -235,8 +235,8 @@
 2026-05-29,Ebanx S.A.,5478,TRANSPORTE,Uber
 2026-05-29,Ebanx S.A.,5194,TRANSPORTE,Uber
 2026-05-30,Carrefour,24333,ALMACEN_SOL,supermercado
-2026-05-30,Shell,18314,AUTO,nafta
-2026-05-30,Shell,1415,AUTO,nafta
+2026-05-30,Shell,18314,ALMACEN_SOL,nafta · combustible
+2026-05-30,Shell,1415,ALMACEN_SOL,nafta · combustible
 2026-05-30,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-05-30,Susana Carmen Ortiz,101718,LIMPIEZA,Limpieza Susana
 2026-05-31,Vercel Domains,,EXTRAS_SOL,US$11.25
@@ -298,7 +298,7 @@
 2026-06-20,Susana Carmen Ortiz,112020,LIMPIEZA,Limpieza Susana
 2026-06-20,Susana Carmen Ortiz,6000,LIMPIEZA,Limpieza Susana
 2026-06-20,Christian Ventura,20000,PENDIENTE,transferencia
-2026-06-21,Shell,1648,AUTO,nafta
+2026-06-21,Shell,1648,ALMACEN_SOL,nafta · combustible
 2026-06-21,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-06-22,Súper Pollo,40939,ALMACEN_SOL,pollo
 2026-06-22,Arca,67246,IMPUESTOS_AFIP,ARCA
