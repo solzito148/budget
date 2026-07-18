@@ -34,8 +34,14 @@ alwaysApply: true
 - Coto, Carrefour, Día, Súper Pollo, Huevos Point, Carnes Tito
 - Todo Tartas, Vitalcer, Nicky Cheese, Copetin Catering, Le Pain Quotidien
 - Open 25, Confitería Dos Escudos, Green Eat, Tienda De Café, Valenti
-- PedidosYa / PedidosYa Propina / Pedidosya Empanada
 - Dean & Dennys
+
+## PedidosYa — siempre comentar SUPERMERCADO o COMIDA
+- **PedidosYa Market** → `PEDIDOS YA · SUPERMERCADO` (almacén)
+- **PedidosYa** / **Pedidosya Empanada** (y delivery resto) → `PEDIDOS YA · COMIDA`
+- **PedidosYa Propina** → misma etiqueta del pedido del día (`· propina`); si solo hay Market ese día → SUPERMERCADO; si hay PedidosYa comida → COMIDA; default COMIDA
+- **PedidosYa Plus** → Extras Sol (suscripción, no almacén)
+- En catálogo y en comentario de `Almacen Detalle` (columna Comentario)
 
 ## Otras
 - Metrogas → GAS | AGIP ABL → ABL | Telecentro → TV CABLE

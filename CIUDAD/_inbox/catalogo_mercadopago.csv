@@ -46,7 +46,7 @@
 2026-01-08,Gabriela Reggio,46300,EXCLUIR,ingreso recibido
 2026-01-08,Sanes Maria Sole,156000,EXCLUIR,propia
 2026-01-08,Sanes Maria Sole,US$165,EXCLUIR,propia USD
-2026-01-08,Pedidosya Propina,750,ALMACEN_SOL,propina
+2026-01-08,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-01-08,Ceferina,395000,PENDIENTE,pago TC
 2026-01-08,Promarine Erisea,350000,PENDIENTE,compra TC
 2026-01-08,Selma Salvatori,29546,PENDIENTE,compra
@@ -58,11 +58,11 @@
 2026-01-09,Consorcio De Copropi,376564,PENDIENTE,¿qué propiedad?
 2026-01-09,Antonela Beatriz Guidobono,46300,EXCLUIR,ingreso recibido
 2026-01-09,Maria Lujan Paz,46300,EXCLUIR,ingreso recibido
-2026-01-09,Pedidosya Plus,5490,EXTRAS_SOL,suscripción Plus
+2026-01-09,Pedidosya Plus,5490,EXTRAS_SOL,PEDIDOS YA · suscripción Plus (no almacén)
 2026-01-09,Tuenti,14700,CELULAR,Tuenti
-2026-01-10,Pedidosya Propina,1000,ALMACEN_SOL,propina
-2026-01-10,Pedidosya,51455,ALMACEN_SOL,neto tras devolución parcial
-2026-01-10,Pedidosya,2748,EXCLUIR,devolución parcial
+2026-01-10,Pedidosya Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-01-10,Pedidosya,51455,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
+2026-01-10,Pedidosya,2748,EXCLUIR,PEDIDOS YA · COMIDA · devolución parcial
 2026-01-10,Personal,34921,CELULAR,Personal
 2026-01-10,Compraenkalbb,77748,PENDIENTE,pago online
 2026-01-10,Farmacia Maure,116500,EXTRAS_SOL,farmacia
@@ -107,8 +107,8 @@
 2026-01-25,Mercado Libre,24562,PENDIENTE,ML
 2026-01-25,Susana Carmen Ortiz,158895,LIMPIEZA,Limpieza Susana
 2026-01-25,Susana Carmen Ortiz,6700,LIMPIEZA,Limpieza Susana
-2026-01-27,Pedidosya Propina,750,ALMACEN_SOL,propina
-2026-01-27,Pedidosya Market,35404,ALMACEN_SOL,PedidosYa Market
+2026-01-27,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO · propina
+2026-01-27,Pedidosya Market,35404,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
 2026-01-27,Copetin Catering,19550,ALMACEN_SOL,catering
 2026-01-27,Didi,3892,TRANSPORTE,Didi
 2026-01-28,Luna Maria Laur,45000,PENDIENTE,transferencia
@@ -127,9 +127,9 @@
 2026-02-01,Didi,3570,TRANSPORTE,Didi
 2026-02-01,Didi,4421,TRANSPORTE,Didi
 2026-02-01,Sanes Maria Sole,100000,EXCLUIR,propia
-2026-02-01,Pedidosya Propina,750,ALMACEN_SOL,propina
-2026-02-01,Pedidosya,1499,ALMACEN_SOL,PedidosYa
-2026-02-01,Pedidosya Market,118132,ALMACEN_SOL,PedidosYa Market
+2026-02-01,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-02-01,Pedidosya,1499,ALMACEN_SOL,PEDIDOS YA · COMIDA
+2026-02-01,Pedidosya Market,118132,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
 2026-02-01,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
 2026-02-01,Susana Carmen Ortiz,17300,LIMPIEZA,Limpieza Susana
 2026-02-01,Apple,45711,EXTRAS_SOL,Apple
@@ -165,7 +165,7 @@
 2026-02-09,Didi,4320,TRANSPORTE,Didi
 2026-02-09,Cabify,4955,TRANSPORTE,Cabify
 2026-02-09,Didi,4710,TRANSPORTE,Didi
-2026-02-09,Pedidosya Plus,5990,EXTRAS_SOL,suscripción Plus
+2026-02-09,Pedidosya Plus,5990,EXTRAS_SOL,PEDIDOS YA · suscripción Plus (no almacén)
 2026-02-10,Sanes Maria Sole,2000000,EXCLUIR,propia
 2026-02-10,Feed,645,ALMACEN_SOL,comida
 2026-02-10,Copetin Catering,2940,ALMACEN_SOL,catering
@@ -324,9 +324,9 @@
 2026-03-31,Didi,6540,TRANSPORTE,Didi
 2026-04-01,Libreria Marin,1500,EXTRAS_SOL,librería
 2026-04-01,Mercado Libre,427718,PENDIENTE,ML
-2026-04-02,PedidosYa Propina,2000,ALMACEN_SOL,delivery propina
+2026-04-02,PedidosYa Propina,2000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-02,Compraenkalbb,82746,PENDIENTE,compra online
-2026-04-02,Pedidosya Empanada,36519,ALMACEN_SOL,delivery
+2026-04-02,Pedidosya Empanada,36519,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-04-02,Apple,5448,EXTRAS_SOL,Apple
 2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,supermercado
 2026-04-03,ACA,881,AUTO,ACA
@@ -364,8 +364,8 @@
 2026-04-09,Arca VEP,85300,IMPUESTOS_AFIP,ARCA VEP
 2026-04-09,Tuenti,16650,CELULAR,Tuenti
 2026-04-10,Paws Pet Market,71400,EXTRAS_SOL,mascotas
-2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,delivery propina
-2026-04-10,PedidosYa,2599,ALMACEN_SOL,delivery
+2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-04-10,PedidosYa,2599,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-04-10,Apple,359951,EXTRAS_SOL,Apple
 2026-04-10,Mercado Libre,17041,PENDIENTE,ML
 2026-04-10,Mercado Libre,126540,PENDIENTE,ML
@@ -508,8 +508,8 @@
 2026-05-16,Susana Carmen Ortiz,8000,LIMPIEZA,Limpieza Susana
 2026-05-16,Sanes Maria Sole,100000,EXCLUIR,propia
 2026-05-16,Sanes Maria Sole,,EXCLUIR,propia US$300
-2026-05-16,PedidosYa Propina,1000,ALMACEN_SOL,delivery propina
-2026-05-16,PedidosYa,17519,ALMACEN_SOL,delivery
+2026-05-16,PedidosYa Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-05-16,PedidosYa,17519,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-05-16,Valeria Mele,90000,PENDIENTE,transferencia
 2026-05-18,Edesur,1441,PENDIENTE,luz ¿propiedad?
 2026-05-18,Leocan,79924,EXTRAS_SOL,mascotas
@@ -535,8 +535,8 @@
 2026-05-24,Ebanx S.A.,5722,EXCLUIR,Uber refund neto 0
 2026-05-24,Didi,87,TRANSPORTE,transporte
 2026-05-24,Didi,6820,TRANSPORTE,transporte
-2026-05-24,PedidosYa Propina,1100,ALMACEN_SOL,delivery propina
-2026-05-24,PedidosYa,21618,ALMACEN_SOL,delivery
+2026-05-24,PedidosYa Propina,1100,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-05-24,PedidosYa,21618,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-05-24,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-05-26,Didi,6990,TRANSPORTE,transporte
 2026-05-26,Movistar Arena,19000,EXTRAS_SOL,evento
@@ -589,14 +589,14 @@
 2026-06-10,Arca,37572,IMPUESTOS_AFIP,ARCA
 2026-06-10,Consorcio De Copropi,666347,PENDIENTE,posible AVA/otra
 2026-06-10,Consorcio De Propiet,246150,EXPENSAS_CIUDAD,Expensas junio ya cargado
-2026-06-11,PedidosYa Propina,1200,ALMACEN_SOL,delivery propina
-2026-06-11,PedidosYa,28384,ALMACEN_SOL,delivery
+2026-06-11,PedidosYa Propina,1200,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-06-11,PedidosYa,28384,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-11,Huevos Point,10500,ALMACEN_SOL,huevos
 2026-06-11,Personal,55106,CELULAR,Personal
 2026-06-11,Apple,331291,EXTRAS_SOL,Apple
 2026-06-12,Correo Argentino,48000,EXTRAS_SOL,envíos
-2026-06-12,PedidosYa Propina,900,ALMACEN_SOL,delivery propina
-2026-06-12,PedidosYa,17189,ALMACEN_SOL,delivery
+2026-06-12,PedidosYa Propina,900,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-06-12,PedidosYa,17189,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-12,Agustina Vissani,135000,AGUS_PSA,confirmar AGUS/PSA
 2026-06-13,Saphirus,79900,PENDIENTE,¿hogar?
 2026-06-13,Todo Tartas,11700,ALMACEN_SOL,panadería
@@ -606,7 +606,7 @@
 2026-06-15,Madmuscles,99727,EXTRAS_SOL,fitness
 2026-06-16,Damaris Oliveira,2542970,PENDIENTE,compra grande
 2026-06-16,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-06-16,PedidosYa,68899,ALMACEN_SOL,delivery
+2026-06-16,PedidosYa,68899,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-16,Dermacycle,150000,EXTRAS_SOL,estética
 2026-06-17,Telecentro Sa,48420,TV_CABLE,Telecentro
 2026-06-17,Sanes Maria Sole,,EXCLUIR,propia US$500
@@ -616,8 +616,8 @@
 2026-06-18,Tienda De Café,18700,ALMACEN_SOL,café
 2026-06-19,Todo Tartas,28000,ALMACEN_SOL,panadería
 2026-06-19,Edesur,2198,PENDIENTE,luz ¿propiedad?
-2026-06-20,PedidosYa Propina,1500,ALMACEN_SOL,delivery propina
-2026-06-20,PedidosYa,47299,ALMACEN_SOL,delivery neto parcial
+2026-06-20,PedidosYa Propina,1500,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-06-20,PedidosYa,47299,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
 2026-06-20,Susana Carmen Ortiz,112020,LIMPIEZA,Limpieza Susana
 2026-06-20,Susana Carmen Ortiz,6000,LIMPIEZA,Limpieza Susana
 2026-06-20,Christian Ventura,20000,PENDIENTE,transferencia
@@ -662,8 +662,8 @@
 2026-07-03,Arca VEP,41824,IMPUESTOS_AFIP,ARCA VEP
 2026-07-03,Ebanx S.A.,6951,EXCLUIR,Uber refund neto 0
 2026-07-03,Didi,6560,TRANSPORTE,transporte
-2026-07-04,PedidosYa Propina,1200,ALMACEN_SOL,delivery propina
-2026-07-04,PedidosYa,31799,ALMACEN_SOL,delivery
+2026-07-04,PedidosYa Propina,1200,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-07-04,PedidosYa,31799,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-07-05,Analia Veronica Roay,49000,PENDIENTE,transferencia
 2026-07-05,Didi,6280,TRANSPORTE,transporte
 2026-07-05,Antonela Guidobono,38700,PENDIENTE,transferencia
@@ -720,7 +720,7 @@
 2026-07-16,Mercado Libre,62900,PENDIENTE,ML
 2026-07-17,Mercado Libre,11747,PENDIENTE,ML
 2026-07-17,Mercado Libre,26311,PENDIENTE,ML
-2026-07-17,PedidosYa,73345,ALMACEN_SOL,delivery
+2026-07-17,PedidosYa,73345,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-07-17,Florencia Londero,8000,PENDIENTE,transferencia
 2026-07-17,Didi,5800,TRANSPORTE,transporte
 2026-07-17,Ebanx S.A.,4390,TRANSPORTE,Uber
