@@ -22,9 +22,9 @@ alwaysApply: true
 - Pago de resumen de tarjeta de crédito
 - Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago
 - Movimientos cancelados o devueltos (usar neto)
-- Ingresos / transferencias recibidas
 - **Reserva automática** (y cualquier concepto “Reserva automática” de Mercado Pago): eliminar / no catalogar / no cargar
-- **Dinero retirado**: no es gasto de CIUDAD — cargar solo en hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario). No suma al TOTAL de la hoja `2026`
+- **Dinero retirado**: no es gasto de CIUDAD — cargar solo en hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario). No suma al total de la hoja `2026`
+- **Ingreso de dinero** / transferencias recibidas: no es gasto — cargar solo en hoja `Ingresos` (Fecha | Mes | Concepto / origen | Monto | Medio | Comentario). No suma al total de la hoja `2026`
 
 ## Inversión (hoja separada)
 - Bonos, plazos fijos, fondos y otros movimientos de inversión → hoja `Inversión`
