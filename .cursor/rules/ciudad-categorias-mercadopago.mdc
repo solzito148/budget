@@ -26,6 +26,11 @@ alwaysApply: true
 - **Reserva automática** (y cualquier concepto “Reserva automática” de Mercado Pago): eliminar / no catalogar / no cargar
 - **Dinero retirado**: no es gasto de CIUDAD — cargar solo en hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario). No suma al TOTAL de la hoja `2026`
 
+## Inversión (hoja separada)
+- Bonos, plazos fijos, fondos y otros movimientos de inversión → hoja `Inversión`
+- Registrar tipo, movimiento (`Inversión`, `Rescate` o `Rendimiento`), instrumento, monto, entidad, vencimiento, tasa y comentario
+- No cargar como gasto ni sumar al TOTAL de la hoja `2026`
+
 ## Propiedades (carpetas separadas)
 - Consorcio De Propietarios → Expensas **CIUDAD**
 - Cons De Prop E Bonorino 82 → Expensas **BONORINO**
