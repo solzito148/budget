@@ -1,5 +1,28 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-03-11,Didi,3941,TRANSPORTE,Didi
+2026-03-11,Didi,3312,TRANSPORTE,Didi
+2026-03-11,Bee Coffee,6100,ALMACEN_SOL,café
+2026-03-12,Súper Pollo,33619,ALMACEN_SOL,pollo
+2026-03-13,Maria Soledad Martinez,27500,PENDIENTE,transferencia
+2026-03-13,Fernando Paredes Aguilar,40000,PENDIENTE,transferencia
+2026-03-13,Didi,8410,TRANSPORTE,Didi
+2026-03-13,Ronda.,14000,PENDIENTE,tienda física ¿qué es?
+2026-03-13,Ebanx S.A.,5757,TRANSPORTE,Uber/Ebanx
+2026-03-14,Susana Carmen Ortiz,9000,LIMPIEZA,Limpieza Susana
+2026-03-14,Susana Carmen Ortiz,77568,LIMPIEZA,Limpieza Susana
+2026-03-14,Galletotas,19500,ALMACEN_SOL,galletitas
+2026-03-14,Didi,4590,TRANSPORTE,Didi
+2026-03-14,Oporto Almacen,51920,ALMACEN_SOL,almacén
+2026-03-14,Didi,4450,TRANSPORTE,Didi
+2026-03-14,Ebanx S.A.,5203,EXCLUIR,devuelto neto 0
+2026-03-15,Jorge Celso Doben,100000,PENDIENTE,transferencia
+2026-03-15,Madmuscles,26489,EXTRAS_SOL,fitness
+2026-03-15,Madmuscles,26489,EXCLUIR,rechazado
 2026-03-16,Andrea Palacios,50000,PENDIENTE,transferencia
+2026-03-16,Mesarina Castro Kimberly Juliet,10000,PENDIENTE,transferencia
+2026-03-16,ACA,661,AUTO,ACA
+2026-03-16,Telepase,8700,AUTO,peaje
+2026-03-16,Locky Plantas,40000,EXTRAS_SOL,plantas
 2026-03-17,Bin Chen,8900,PENDIENTE,transferencia
 2026-03-17,Didi,5084,TRANSPORTE,Didi
 2026-03-17,Ebanx S.A.,10551,EXCLUIR,devuelto neto 0
