@@ -1,4 +1,23 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-01-03,Supermercados Dia,3624,ALMACEN_SOL,Día
+2026-01-04,Tiempo Latino S.A,382500,PENDIENTE,compra TC
+2026-01-04,Ceferina,530000,PENDIENTE,compra TC
+2026-01-04,Noelia Soledad Caballero Britez,8180,PENDIENTE,transferencia
+2026-01-04,Gusmar Hnos Srl,4850,PENDIENTE,tienda física
+2026-01-04,Susana Carmen Ortiz,18600,LIMPIEZA,Limpieza Susana
+2026-01-04,Susana Carmen Ortiz,43572,LIMPIEZA,Limpieza Susana
+2026-01-04,Susana Carmen Ortiz,84051,LIMPIEZA,Limpieza Susana
+2026-01-04,Susana Carmen Ortiz,7100,LIMPIEZA,Limpieza Susana
+2026-01-05,Shell,197,ALMACEN_SOL,Combustible — Shell
+2026-01-05,Shell,46,ALMACEN_SOL,Combustible — Shell
+2026-01-05,Dia Online,15092,ALMACEN_SOL,Día Online
+2026-01-05,Fideicomiso Ava Palpa,5291593,AVA,AVA — otra carpeta
+2026-01-06,Copetin Catering,645,ALMACEN_SOL,catering
+2026-01-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
+2026-01-06,Mercado Libre,43389,PENDIENTE,ML
+2026-01-07,Agip,12435,ABL,AGIP — ¿ABL?
+2026-01-07,Consorcio De Propiet,35260,EXPENSAS_CIUDAD,parte expensas ene (total 273500 ya en hoja)
+2026-01-07,Consorcio De Propiet,238240,EXPENSAS_CIUDAD,parte expensas ene (total 273500 ya en hoja)
 2026-01-08,Sanes Maria Sole,255061,EXCLUIR,propia
 2026-01-08,Maria Soledad Martinez,46300,EXCLUIR,ingreso recibido
 2026-01-08,Florencia Ivana Risi,46300,EXCLUIR,ingreso recibido
@@ -6,6 +25,11 @@
 2026-01-08,Sanes Maria Sole,156000,EXCLUIR,propia
 2026-01-08,Sanes Maria Sole,US$165,EXCLUIR,propia USD
 2026-01-08,Pedidosya Propina,750,ALMACEN_SOL,propina
+2026-01-08,Ceferina,395000,PENDIENTE,pago TC
+2026-01-08,Promarine Erisea,350000,PENDIENTE,compra TC
+2026-01-08,Selma Salvatori,29546,PENDIENTE,compra
+2026-01-08,Andres Javier Di Pasqua,12426,PENDIENTE,compra
+2026-01-08,Copetin Catering,3585,ALMACEN_SOL,catering
 2026-01-09,Catore Srl,44000,PENDIENTE,transferencia
 2026-01-09,Tarjeta de crédito,164709,EXCLUIR,pago resumen TC
 2026-01-09,Sanes Maria Sole,2000000,EXCLUIR,propia
