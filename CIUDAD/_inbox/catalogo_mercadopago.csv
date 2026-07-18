@@ -9,7 +9,7 @@
 2025-12-28,Susana Carmen Ortiz,114300,LIMPIEZA,2025 — fuera planilla 2026 · ya en LIMPIEZA CASA (no almacén)
 2025-12-28,Susana Carmen Ortiz,18000,LIMPIEZA,2025 — fuera planilla 2026 · ya en LIMPIEZA CASA (no almacén)
 2025-12-29,Libreria Marin,8300,EXTRAS_SOL,2025
-2025-12-30,Compraenkalbb,29766,PENDIENTE,2025
+2025-12-30,Compraenkalbb,29766,ALMACEN_SOL,COMIDA · RAMON
 2025-12-30,Longchamp,382500,EXCLUIR,rechazado
 2025-12-30,Sanes Maria Sole,US$169.88,EXCLUIR,propia USD 2025
 2025-12-31,Apple,1861,EXTRAS_SOL,2025 — fuera planilla 2026
@@ -64,7 +64,7 @@
 2026-01-10,Pedidosya,51455,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
 2026-01-10,Pedidosya,2748,EXCLUIR,PEDIDOS YA · COMIDA · devolución parcial
 2026-01-10,Personal,34921,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
-2026-01-10,Compraenkalbb,77748,PENDIENTE,pago online
+2026-01-10,Compraenkalbb,77748,ALMACEN_SOL,COMIDA · RAMON
 2026-01-10,Farmacia Maure,116500,FARMACIA,FARMACIA · Farmacia Maure
 2026-01-11,Havanna,22100,ALMACEN_SOL,COMIDA · HAVANNA
 2026-01-11,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -176,7 +176,7 @@
 2026-02-11,Didi,4590,TRANSPORTE,Didi
 2026-02-12,Paws Pet Market,27200,EXTRAS_SOL,mascotas
 2026-02-12,Sodastream,53037,SODASTREAM,repuestos
-2026-02-12,Compraenkalbb,30336,PENDIENTE,pago online
+2026-02-12,Compraenkalbb,30336,ALMACEN_SOL,COMIDA · RAMON
 2026-02-13,Cabify,5479,TRANSPORTE,Cabify
 2026-02-13,Pablo Ezequiel Alderetes,60000,PENDIENTE,transferencia
 2026-02-13,Agip Abl Gcba,83757,ABL,ABL GCBA
@@ -241,7 +241,7 @@
 2026-03-06,Susana Carmen Ortiz,20000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
 2026-03-06,Fideicomiso Ava Palpa,5484067,AVA,expensas/cuota AVA — otra carpeta
-2026-03-09,Compraenkalbb,56250,PENDIENTE,pago online
+2026-03-09,Compraenkalbb,56250,ALMACEN_SOL,COMIDA · RAMON
 2026-03-09,Todo Tartas,11000,ALMACEN_SOL,tartas
 2026-03-09,Didi,6530,EXCLUIR,cancelado neto 0
 2026-03-09,Movistar Arena,33000,EXTRAS_SOL,evento
@@ -325,7 +325,7 @@
 2026-04-01,Libreria Marin,1500,EXTRAS_SOL,librería
 2026-04-01,Mercado Libre,427718,PENDIENTE,ML
 2026-04-02,PedidosYa Propina,2000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
-2026-04-02,Compraenkalbb,82746,PENDIENTE,compra online
+2026-04-02,Compraenkalbb,82746,ALMACEN_SOL,COMIDA · RAMON
 2026-04-02,Pedidosya Empanada,36519,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-04-02,Apple,5448,EXTRAS_SOL,Apple
 2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,SUPERMERCADO · Día
@@ -433,7 +433,7 @@
 2026-04-28,Cosi Mi Piace,277360,EXTRAS_SOL,evento
 2026-04-29,Didi,4520,TRANSPORTE,transporte
 2026-04-29,Didi,3904,TRANSPORTE,transporte
-2026-04-29,Compraenkalbb,86747,PENDIENTE,compra online
+2026-04-29,Compraenkalbb,86747,ALMACEN_SOL,COMIDA · RAMON
 2026-04-29,Didi,4670,TRANSPORTE,transporte
 2026-04-30,Shell,27579,ALMACEN_SOL,nafta · combustible
 2026-04-30,Shell,1307,ALMACEN_SOL,nafta · combustible

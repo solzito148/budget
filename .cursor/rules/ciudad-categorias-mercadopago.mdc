@@ -51,6 +51,7 @@ alwaysApply: true
 - **Nemuri Sushi** (compra) → siempre `COMIDA · SUSHI` (ALMACEN SOL)
 - **Valenti SA** (compra) → siempre `COMIDA · VALENTI SA` (ALMACEN SOL)
 - **Havanna** → siempre `COMIDA · HAVANNA` (ALMACEN SOL)
+- **Compraenkalbb** (= comercio **Kalbby**) → siempre `COMIDA · RAMON` (ALMACEN SOL; detalle: Kalbby / Ramón)
 
 ## PedidosYa — siempre comentar SUPERMERCADO o COMIDA
 - **PedidosYa Market** → `PEDIDOS YA · SUPERMERCADO` (almacén)
