@@ -33,6 +33,7 @@ alwaysApply: true
 
 ## Propiedades (carpetas separadas)
 - **Consorcio De Propiet** / Consorcio De Propietarios (transferencia enviada) → siempre **Pago de Expensas · CIUDAD 1132**
+- Identificación bancaria CIUDAD: Entidad **Patagonia** / Banco Patagonia · CBU `0340116900116010765007` · CUIL `30714962473` → siempre **Expensas CIUDAD** (aunque el nombre del consorcio varíe)
 - Cons De Prop E Bonorino 82 → **Pago de Expensas · BONORINO**
 - Consorcio De Copropi → **Pago de Expensas · A CONFIRMAR** (propiedad pendiente)
 - Fideicomiso Ava Palpa → **AVA**
