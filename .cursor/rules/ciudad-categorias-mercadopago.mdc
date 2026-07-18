@@ -43,7 +43,7 @@ alwaysApply: true
 ## ALMACEN SOL (comida / supermercado)
 - **Coto / Carrefour / Día** (tienda física, online o ecommerce) → siempre `SUPERMERCADO · Coto|Carrefour|Día` (ALMACEN SOL)
 - Súper Pollo, Huevos Point, Carnes Tito
-- Todo Tartas, Vitalcer, Nicky Cheese, Copetin Catering, Le Pain Quotidien
+- Todo Tartas, Vitalcer, Nicky Cheese, Le Pain Quotidien
 - Open 25, Confitería Dos Escudos, Green Eat, Tienda De Café
 - Dean & Dennys
 - **Florencia Londero** → COMIDA · Chocolates CHIAZZA (comentario: `COMIDA · Chocolates CHIAZZA`)
@@ -74,6 +74,7 @@ alwaysApply: true
 - ACA → auto (Extras) salvo que digas Combustible
 - Apple / Vercel / mascotas / donaciones → Extras Sol
 - **Pandora Jewelry** (compra): eliminar / no catalogar / no cargar
+- **Copetin Catering**: no cargar en ALMACEN SOL (quitar / excluir del almacén)
 - Arca / ARCA VEP → impuestos AFIP
 - Mercado Libre → pendiente
 

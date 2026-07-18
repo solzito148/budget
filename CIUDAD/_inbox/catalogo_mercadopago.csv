@@ -34,7 +34,7 @@
 2026-01-05,Shell,46,ALMACEN_SOL,Combustible — Shell
 2026-01-05,Dia Online,15092,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-05,Fideicomiso Ava Palpa,5291593,AVA,AVA — otra carpeta
-2026-01-06,Copetin Catering,645,ALMACEN_SOL,catering
+2026-01-06,Copetin Catering,645,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
 2026-01-06,Mercado Libre,43389,PENDIENTE,ML
 2026-01-07,Agip,12435,ABL,AGIP — ¿ABL?
@@ -51,7 +51,7 @@
 2026-01-08,Promarine Erisea,350000,GASTO_PERSONAL_SOL,Promarine · gasto personal Sol · hoja Gasto Personal Sol
 2026-01-08,Selma Salvatori,29546,ALMACEN_SOL,FARMACIA · Farmacia Selma
 2026-01-08,Andres Javier Di Pasqua,12426,PENDIENTE,compra
-2026-01-08,Copetin Catering,3585,ALMACEN_SOL,catering
+2026-01-08,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-09,Catore Srl,44000,PENDIENTE,transferencia
 2026-01-09,Tarjeta de crédito,164709,EXCLUIR,pago resumen TC
 2026-01-09,Sanes Maria Sole,2000000,EXCLUIR,propia
@@ -72,7 +72,7 @@
 2026-01-12,Tarjeta de crédito,200000,EXCLUIR,pago resumen TC
 2026-01-13,Valeria Laura Mele,44100,PENDIENTE,transferencia
 2026-01-13,Tarjeta de crédito,1282375,EXCLUIR,pago resumen TC
-2026-01-13,Copetin Catering,2940,ALMACEN_SOL,catering
+2026-01-13,Copetin Catering,2940,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-15,Marcelo Alejandro Kattan,11000,PENDIENTE,transferencia
 2026-01-15,Mercado Libre,95930,PENDIENTE,ML
 2026-01-17,Veronica Alejandra Mendez,22000,PENDIENTE,transferencia
@@ -85,17 +85,17 @@
 2026-01-19,Didi,5227,TRANSPORTE,Didi
 2026-01-19,Didi,83,TRANSPORTE,Didi
 2026-01-19,Didi,4123,TRANSPORTE,Didi
-2026-01-19,Copetin Catering,3585,ALMACEN_SOL,catering
+2026-01-19,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-20,Yenny Paola Calisaya Cquispe,6605,PENDIENTE,transferencia
 2026-01-20,Sanes Maria Sole,US$106.75,EXCLUIR,propia USD
 2026-01-20,Sanes Maria Sole,80000,EXCLUIR,propia
 2026-01-20,Didi,5170,TRANSPORTE,Didi
-2026-01-20,Copetin Catering,3585,ALMACEN_SOL,catering
+2026-01-20,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-20,Didi,3633,TRANSPORTE,Didi
 2026-01-22,Mercurio Furchi,17000,PENDIENTE,transferencia
 2026-01-22,Open 25,2100,ALMACEN_SOL,Open 25
 2026-01-22,Didi,4820,TRANSPORTE,Didi
-2026-01-22,Copetin Catering,11950,ALMACEN_SOL,catering
+2026-01-22,Copetin Catering,11950,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-24,Oporto Almacen,37767,ALMACEN_SOL,almacén
 2026-01-24,Gabriel Anibal Fradkin,58000,PENDIENTE,transferencia
 2026-01-24,Bee Coffee,10500,ALMACEN_SOL,café
@@ -109,13 +109,13 @@
 2026-01-25,Susana Carmen Ortiz,6700,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-27,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO · propina
 2026-01-27,Pedidosya Market,35404,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
-2026-01-27,Copetin Catering,19550,ALMACEN_SOL,catering
+2026-01-27,Copetin Catering,19550,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-27,Didi,3892,TRANSPORTE,Didi
 2026-01-28,Luna Maria Laur,45000,PENDIENTE,transferencia
 2026-01-28,Valeria Laura Mele,145400,PENDIENTE,transferencia
 2026-01-29,Ebanx S.A.,7260,TRANSPORTE,Uber/Ebanx
 2026-01-29,Feed,2150,ALMACEN_SOL,comida
-2026-01-29,Copetin Catering,9800,ALMACEN_SOL,catering
+2026-01-29,Copetin Catering,9800,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-01-29,Didi,6282,TRANSPORTE,Didi
 2026-01-30,Didi,2745,TRANSPORTE,Didi
 2026-01-30,Didi,2565,TRANSPORTE,Didi
@@ -138,10 +138,10 @@
 2026-02-02,Mercado Libre,19652,PENDIENTE,ML
 2026-02-02,Apple,5553,EXTRAS_SOL,Apple
 2026-02-03,Feed,645,ALMACEN_SOL,comida
-2026-02-03,Copetin Catering,3585,ALMACEN_SOL,catering
+2026-02-03,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-02-03,Didi,4760,TRANSPORTE,Didi
 2026-02-05,Feed,645,ALMACEN_SOL,comida
-2026-02-05,Copetin Catering,2940,ALMACEN_SOL,catering
+2026-02-05,Copetin Catering,2940,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-02-05,Didi,4600,TRANSPORTE,Didi
 2026-02-06,Cabify,6466,TRANSPORTE,Cabify
 2026-02-06,Susana Carmen Ortiz,123020,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -168,9 +168,9 @@
 2026-02-09,Pedidosya Plus,5990,EXTRAS_SOL,PEDIDOS YA · suscripción Plus (no almacén)
 2026-02-10,Sanes Maria Sole,2000000,EXCLUIR,propia
 2026-02-10,Feed,645,ALMACEN_SOL,comida
-2026-02-10,Copetin Catering,2940,ALMACEN_SOL,catering
+2026-02-10,Copetin Catering,2940,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-02-10,Copetin Catering,7500,EXCLUIR,devuelto
-2026-02-10,Copetin Catering,1770,ALMACEN_SOL,catering
+2026-02-10,Copetin Catering,1770,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-02-10,Didi,3976,TRANSPORTE,Didi
 2026-02-11,Didi,5830,TRANSPORTE,Didi
 2026-02-11,Didi,4590,TRANSPORTE,Didi
@@ -190,7 +190,7 @@
 2026-02-15,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-17,Alberto Roque Sachetti,30000,PENDIENTE,transferencia
 2026-02-18,Supermercados Dia,37335,ALMACEN_SOL,SUPERMERCADO · Día
-2026-02-18,Copetin Catering,2703,ALMACEN_SOL,catering
+2026-02-18,Copetin Catering,2703,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-02-18,Didi,6090,TRANSPORTE,Didi
 2026-02-18,Ebanx S.A.,2590,TRANSPORTE,Uber/Ebanx
 2026-02-19,Quiche Sibulka Marcelo Gaston,30000,PENDIENTE,transferencia
@@ -207,7 +207,7 @@
 2026-02-23,Apple,17631,EXTRAS_SOL,Apple
 2026-02-23,Valeria Laura Mele,72000,PENDIENTE,transferencia
 2026-02-24,Sanes Maria Sole,400000,EXCLUIR,propia
-2026-02-24,Copetin Catering,13500,ALMACEN_SOL,catering
+2026-02-24,Copetin Catering,13500,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-02-24,Didi,4564,TRANSPORTE,Didi
 2026-02-24,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-24,Ebanx S.A.,3092,TRANSPORTE,Uber/Ebanx
@@ -320,7 +320,7 @@
 2026-03-31,Shell,1118,ALMACEN_SOL,combustible
 2026-03-31,Shell,653,ALMACEN_SOL,combustible
 2026-03-31,Ebanx S.A.,10839,TRANSPORTE,Uber/Ebanx
-2026-03-31,Copetin Catering,13500,ALMACEN_SOL,catering
+2026-03-31,Copetin Catering,13500,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-03-31,Didi,6540,TRANSPORTE,Didi
 2026-04-01,Libreria Marin,1500,EXTRAS_SOL,librería
 2026-04-01,Mercado Libre,427718,PENDIENTE,ML
@@ -344,7 +344,7 @@
 2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-06,Farmacia Maure,191500,FARMACIA,FARMACIA · Farmacia Maure
 2026-04-06,Ebanx S.A.,6793,TRANSPORTE,Uber/Ebanx
-2026-04-06,Copetin Catering,12650,ALMACEN_SOL,catering
+2026-04-06,Copetin Catering,12650,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-04-06,Fideicomiso Ava Palpa,5553706,AVA,Ava Palpa
 2026-04-06,Créditos Mercado Pago,819946,EXCLUIR,cuota 7/24
 2026-04-06,Didi,9800,TRANSPORTE,Didi
@@ -355,7 +355,7 @@
 2026-04-08,Susana Carmen Ortiz,100000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-08,Yenny Paola Calisaya,15120,PENDIENTE,transferencia
 2026-04-08,Didi,4450,TRANSPORTE,Didi
-2026-04-08,Copetin Catering,17050,ALMACEN_SOL,catering
+2026-04-08,Copetin Catering,17050,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-04-08,Didi,6180,EXCLUIR,cancelado neto 0
 2026-04-08,Ebanx S.A.,6351,TRANSPORTE,Uber/Ebanx
 2026-04-09,Sanes Maria Sole,1500000,EXCLUIR,propia
@@ -402,7 +402,7 @@
 2026-04-20,Mercado Libre,185340,PENDIENTE,ML
 2026-04-20,Arca,67246,IMPUESTOS_AFIP,ARCA
 2026-04-20,Didi,5330,TRANSPORTE,transporte
-2026-04-20,Copetin Catering,12650,ALMACEN_SOL,catering
+2026-04-20,Copetin Catering,12650,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-04-20,Ebanx S.A.,7974,EXCLUIR,Uber refund neto 0
 2026-04-20,Ebanx S.A.,6882,EXCLUIR,Uber refund neto 0
 2026-04-20,Didi,5992,TRANSPORTE,transporte
@@ -565,7 +565,7 @@
 2026-05-31,Vercel Domains,,EXTRAS_SOL,US$11.25
 2026-06-01,Sanes Maria Sole,,EXCLUIR,propia US$300
 2026-06-01,Huevos Point,7500,ALMACEN_SOL,huevos
-2026-06-01,Copetin Catering,2700,ALMACEN_SOL,catering
+2026-06-01,Copetin Catering,2700,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-06-02,Andres Di Pasqua,32046,PENDIENTE,compra
 2026-06-02,Correo Argentino,22500,EXTRAS_SOL,envíos
 2026-06-03,Vercel Domains,,EXTRAS_SOL,US$11.25
@@ -670,7 +670,7 @@
 2026-07-05,Susana Carmen Ortiz,9500,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-07-06,Jose Cristian Montaño,2500,PENDIENTE,transferencia
 2026-07-06,Analia Veronica Roay,8002,PENDIENTE,transferencia
-2026-07-06,Copetin Catering,765,ALMACEN_SOL,catering
+2026-07-06,Copetin Catering,765,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-07-06,Le Pain Quotidien,3295,ALMACEN_SOL,panadería
 2026-07-06,Federico Martinez Escariz,572005,PENDIENTE,transferencia
 2026-07-06,Ebanx S.A.,6911,TRANSPORTE,Uber
