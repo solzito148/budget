@@ -2,7 +2,7 @@
 2025-12-23,Sanes Maria Sole,US$996,EXCLUIR,propia USD 2025
 2025-12-24,Huevos Point,23500,ALMACEN_SOL,2025
 2025-12-25,Mercado Libre,41790,PENDIENTE,ML 2025
-2025-12-26,Apple,9434,EXTRAS_SOL,2025
+2025-12-26,Apple,9434,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2025-12-26,Melt Helado Natural,31250,ALMACEN_SOL,2025
 2025-12-26,Mercado Libre,68400,EXCLUIR,reintegro + 2025
 2025-12-28,Sube Viajes,660,EXTRAS_SOL,SUBE 2025
@@ -12,15 +12,15 @@
 2025-12-30,Compraenkalbb,29766,ALMACEN_SOL,COMIDA · RAMON
 2025-12-30,Longchamp,382500,EXCLUIR,rechazado
 2025-12-30,Sanes Maria Sole,US$169.88,EXCLUIR,propia USD 2025
-2025-12-31,Apple,1861,EXTRAS_SOL,2025 — fuera planilla 2026
-2025-12-31,Apple,18779,EXTRAS_SOL,2025 — fuera planilla 2026
+2025-12-31,Apple,1861,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2025-12-31,Apple,18779,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-01-02,Supermercados Dia,17603,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-02,Maria Sanes,1152000,EXCLUIR,propia
 2026-01-02,Mercado Libre,232640,PENDIENTE,ML
 2026-01-02,Mercado Libre,50523,PENDIENTE,ML
 2026-01-02,Carrefour,8037,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-01-02,Supermercados Dia,4005,ALMACEN_SOL,SUPERMERCADO · Día
-2026-01-02,Apple,5621,EXTRAS_SOL,Apple
+2026-01-02,Apple,5621,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-01-03,Supermercados Dia,3624,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-04,Tiempo Latino S.A,382500,PENDIENTE,compra TC
 2026-01-04,Ceferina,530000,PENDIENTE,compra TC
@@ -132,11 +132,11 @@
 2026-02-01,Pedidosya Market,118132,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
 2026-02-01,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-01,Susana Carmen Ortiz,17300,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
-2026-02-01,Apple,45711,EXTRAS_SOL,Apple
+2026-02-01,Apple,45711,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-02,Cabify,4971,TRANSPORTE,Cabify
 2026-02-02,Cabify,4447,TRANSPORTE,Cabify
 2026-02-02,Mercado Libre,19652,PENDIENTE,ML
-2026-02-02,Apple,5553,EXTRAS_SOL,Apple
+2026-02-02,Apple,5553,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-03,Feed,645,ALMACEN_SOL,comida
 2026-02-03,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
 2026-02-03,Didi,4760,TRANSPORTE,Didi
@@ -204,7 +204,7 @@
 2026-02-21,Sanes Maria Sole,60000,EXCLUIR,propia
 2026-02-21,Clinicas Altamirao,40000,EXTRAS_SOL,salud
 2026-02-22,Havanna,9600,ALMACEN_SOL,COMIDA · HAVANNA
-2026-02-23,Apple,17631,EXTRAS_SOL,Apple
+2026-02-23,Apple,17631,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-23,Valeria Laura Mele,72000,PENDIENTE,transferencia
 2026-02-24,Sanes Maria Sole,400000,EXCLUIR,propia
 2026-02-24,Copetin Catering,13500,EXCLUIR,Copetin — sacado de ALMACEN SOL
@@ -229,7 +229,7 @@
 2026-03-01,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-01,Maria Soledad Sanes,36000,EXCLUIR,propia
 2026-03-02,Lourdes Elizabeth Tadeo Salvador,400,PENDIENTE,transferencia
-2026-03-02,Apple,5453,EXTRAS_SOL,Apple
+2026-03-02,Apple,5453,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-03,Le Pain Quotidien,1344,ALMACEN_SOL,panadería
 2026-03-03,Agip Abl Gcba,88141,ABL,ABL GCBA
 2026-03-04,Jardin Del Pilar Sa-Norte,4000000,PENDIENTE,transferencia grande
@@ -301,7 +301,7 @@
 2026-03-21,Didi,4230,TRANSPORTE,Didi
 2026-03-22,Adidas,137998,EXTRAS_SOL,ropa
 2026-03-22,Open 25,50000,ALMACEN_SOL,tienda
-2026-03-22,Apple,29810,EXTRAS_SOL,Apple
+2026-03-22,Apple,29810,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-23,Supermercados Dia,47664,ALMACEN_SOL,SUPERMERCADO · Día
 2026-03-23,Claude.ai Subscription,,EXTRAS_SOL,US$200
 2026-03-23,Awada,604001,EXTRAS_SOL,ropa
@@ -327,7 +327,7 @@
 2026-04-02,PedidosYa Propina,2000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-02,Compraenkalbb,82746,ALMACEN_SOL,COMIDA · RAMON
 2026-04-02,Pedidosya Empanada,36519,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-04-02,Apple,5448,EXTRAS_SOL,Apple
+2026-04-02,Apple,5448,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-03,ACA,881,AUTO,ACA
 2026-04-03,Coto,149320,ALMACEN_SOL,SUPERMERCADO · Coto
@@ -366,7 +366,7 @@
 2026-04-10,Paws Pet Market,71400,EXTRAS_SOL,mascotas
 2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-10,PedidosYa,2599,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-04-10,Apple,359951,EXTRAS_SOL,Apple
+2026-04-10,Apple,359951,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-04-10,Mercado Libre,17041,PENDIENTE,ML
 2026-04-10,Mercado Libre,126540,PENDIENTE,ML
 2026-04-10,Mercado Libre,129200,PENDIENTE,ML
@@ -374,7 +374,7 @@
 2026-04-11,Ebanx S.A.,9962,TRANSPORTE,Uber
 2026-04-11,Didi,7200,TRANSPORTE,transporte
 2026-04-11,Vitalcer,34830,ALMACEN_SOL,dietética
-2026-04-12,Apple,14520,EXTRAS_SOL,Apple
+2026-04-12,Apple,14520,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-04-12,Susana Carmen Ortiz,96567,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-12,Nicky Cheese propina,1920,ALMACEN_SOL,quesos propina
 2026-04-12,Nicky Cheese,19200,ALMACEN_SOL,quesos
@@ -488,7 +488,7 @@
 2026-05-11,Didi,6230,EXCLUIR,cancelado neto 0
 2026-05-12,Personal,53245,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
 2026-05-12,Didi,3912,TRANSPORTE,transporte
-2026-05-12,Apple,18353,EXTRAS_SOL,Apple
+2026-05-12,Apple,18353,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-05-12,Didi,200,TRANSPORTE,transporte
 2026-05-12,Didi,6180,TRANSPORTE,transporte
 2026-05-12,Cons De Prop E Bonorino 82,200340,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
@@ -592,14 +592,14 @@
 2026-06-11,PedidosYa,28384,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-11,Huevos Point,10500,ALMACEN_SOL,huevos
 2026-06-11,Personal,55106,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
-2026-06-11,Apple,331291,EXTRAS_SOL,Apple
+2026-06-11,Apple,331291,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-06-12,Correo Argentino,48000,EXTRAS_SOL,envíos
 2026-06-12,PedidosYa Propina,900,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-12,PedidosYa,17189,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-12,Agustina Vissani,135000,AGUS_PSA,confirmar AGUS/PSA
 2026-06-13,Saphirus,79900,PENDIENTE,¿hogar?
 2026-06-13,Todo Tartas,11700,ALMACEN_SOL,panadería
-2026-06-13,Apple,18558,EXTRAS_SOL,Apple
+2026-06-13,Apple,18558,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-06-14,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-14,Susana Carmen Ortiz,2000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-15,Madmuscles,99727,EXTRAS_SOL,fitness
@@ -695,7 +695,7 @@
 2026-07-12,Klash Pro,27000,PENDIENTE,compra
 2026-07-12,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-07-12,Sanes Maria Sole,100000,EXCLUIR,propia
-2026-07-12,Apple,19481,EXTRAS_SOL,Apple
+2026-07-12,Apple,19481,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-07-12,Susana Carmen Ortiz,120240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-07-13,Carnes Tito,8160,ALMACEN_SOL,carnicería
 2026-07-13,Ebanx S.A.,6809,TRANSPORTE,Uber
