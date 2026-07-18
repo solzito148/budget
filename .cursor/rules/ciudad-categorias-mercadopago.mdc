@@ -31,6 +31,7 @@ alwaysApply: true
 - Cons De Prop E Bonorino 82 → Expensas **BONORINO**
 - Consorcio De Copropi → confirmar
 - Fideicomiso Ava Palpa → **AVA**
+- **Personal / Personal Pago directo** → **OHIGGINS** · `TV CABLE-INTERNET` / `Personal — Pago directo`. Nunca CIUDAD. Archivo: `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
 
 ## ALMACEN SOL (comida / supermercado)
 - Coto, Carrefour, Día, Súper Pollo, Huevos Point, Carnes Tito
@@ -52,8 +53,8 @@ alwaysApply: true
 - Fila hoja `2026`: `CASA / FARMACIA / Farmacia` — no van a Extras Sol ni a almacén
 
 ## Otras
-- Metrogas → GAS | AGIP ABL → ABL | Telecentro → TV CABLE
-- Personal / Tuenti → celular
+- Metrogas → GAS | AGIP ABL → ABL | Telecentro → TV CABLE (CIUDAD)
+- Tuenti → celular (CIUDAD); **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
 - Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
 - ACA → auto (Extras) salvo que digas Combustible
 - Apple / Vercel / mascotas / donaciones → Extras Sol
