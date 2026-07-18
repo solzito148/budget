@@ -1,6 +1,30 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-04-01,Libreria Marin,1500,EXTRAS_SOL,librería
+2026-04-01,Mercado Libre,427718,PENDIENTE,ML
+2026-04-02,PedidosYa Propina,2000,ALMACEN_SOL,delivery propina
+2026-04-02,Compraenkalbb,82746,PENDIENTE,compra online
+2026-04-02,Pedidosya Empanada,36519,ALMACEN_SOL,delivery
+2026-04-02,Apple,5448,EXTRAS_SOL,Apple
+2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,supermercado
+2026-04-03,ACA,881,AUTO,ACA
+2026-04-03,Coto,149320,ALMACEN_SOL,supermercado
+2026-04-03,Metrogas,37316,GAS,Metrogas
+2026-04-04,Ebanx S.A.,4207,TRANSPORTE,Uber/Ebanx
+2026-04-04,Ebanx S.A.,4691,TRANSPORTE,Uber/Ebanx
+2026-04-04,Sofía Entivero,519441,PENDIENTE,compra
+2026-04-04,Susana Carmen Ortiz,11000,LIMPIEZA,Limpieza Susana
+2026-04-04,Susana Carmen Ortiz,9000,LIMPIEZA,Limpieza Susana
+2026-04-04,Susana Carmen Ortiz,82416,LIMPIEZA,Limpieza Susana
+2026-04-05,Ema Maldonado,7000,PENDIENTE,transferencia
+2026-04-05,Wordpress,,EXTRAS_SOL,US$228
 2026-04-06,Metrogas,4850,GAS,Metrogas
 2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,supermercado
+2026-04-06,Farmacia Maure,191500,EXTRAS_SOL,farmacia
+2026-04-06,Ebanx S.A.,6793,TRANSPORTE,Uber/Ebanx
+2026-04-06,Copetin Catering,12650,ALMACEN_SOL,catering
+2026-04-06,Fideicomiso Ava Palpa,5553706,AVA,Ava Palpa
+2026-04-06,Créditos Mercado Pago,819946,EXCLUIR,cuota 7/24
+2026-04-06,Didi,9800,TRANSPORTE,Didi
 2026-04-07,Gabriel Fradkin,110000,PENDIENTE,transferencia
 2026-04-07,Smartcell Lacroze,16500,CELULAR,celular tienda
 2026-04-07,Mercado Libre,29725,PENDIENTE,ML
