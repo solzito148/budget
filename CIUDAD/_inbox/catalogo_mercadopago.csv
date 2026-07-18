@@ -38,8 +38,8 @@
 2026-01-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
 2026-01-06,Mercado Libre,43389,PENDIENTE,ML
 2026-01-07,Agip,12435,ABL,AGIP — ¿ABL?
-2026-01-07,Consorcio De Propiet,35260,EXPENSAS_CIUDAD,parte expensas ene (total 273500 ya en hoja)
-2026-01-07,Consorcio De Propiet,238240,EXPENSAS_CIUDAD,parte expensas ene (total 273500 ya en hoja)
+2026-01-07,Consorcio De Propiet,35260,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
+2026-01-07,Consorcio De Propiet,238240,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-01-08,Sanes Maria Sole,255061,EXCLUIR,propia
 2026-01-08,Maria Soledad Martinez,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-08,Florencia Ivana Risi,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
@@ -55,7 +55,7 @@
 2026-01-09,Catore Srl,44000,PENDIENTE,transferencia
 2026-01-09,Tarjeta de crédito,164709,EXCLUIR,pago resumen TC
 2026-01-09,Sanes Maria Sole,2000000,EXCLUIR,propia
-2026-01-09,Consorcio De Copropi,376564,PENDIENTE,¿qué propiedad?
+2026-01-09,Consorcio De Copropi,376564,PENDIENTE,Pago de Expensas · ¿propiedad? (Consorcio De Copropi)
 2026-01-09,Antonela Beatriz Guidobono,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Maria Lujan Paz,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Pedidosya Plus,5490,EXTRAS_SOL,PEDIDOS YA · suscripción Plus (no almacén)
@@ -152,8 +152,8 @@
 2026-02-06,Carrefour Ecommerce,22768,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-02-06,Andres Javier Di Pasqua,24852,PENDIENTE,compra
 2026-02-06,Sanes Maria Sole,900000,EXCLUIR,propia
-2026-02-06,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Expensas CIUDAD — ya en hoja
-2026-02-06,Consorcio De Copropi,395551,PENDIENTE,¿qué propiedad?
+2026-02-06,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
+2026-02-06,Consorcio De Copropi,395551,PENDIENTE,Pago de Expensas · ¿propiedad? (Consorcio De Copropi)
 2026-02-06,Arca,37096,IMPUESTOS_AFIP,ARCA
 2026-02-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
 2026-02-07,Cabify,4950,TRANSPORTE,Cabify
@@ -252,8 +252,8 @@
 2026-03-09,Didi,5980,TRANSPORTE,Didi
 2026-03-10,Sanes Maria Sole,600000,EXCLUIR,propia
 2026-03-10,Arca,37096,IMPUESTOS_AFIP,ARCA
-2026-03-10,Consorcio De Copropi,402934,PENDIENTE,¿qué propiedad?
-2026-03-10,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Expensas CIUDAD — ya en hoja
+2026-03-10,Consorcio De Copropi,402934,PENDIENTE,Pago de Expensas · ¿propiedad? (Consorcio De Copropi)
+2026-03-10,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-03-10,Tuenti,16000,CELULAR,Tuenti
 2026-03-11,Didi,3941,TRANSPORTE,Didi
 2026-03-11,Didi,3312,TRANSPORTE,Didi
@@ -491,7 +491,7 @@
 2026-05-12,Apple,18353,EXTRAS_SOL,Apple
 2026-05-12,Didi,200,TRANSPORTE,transporte
 2026-05-12,Didi,6180,TRANSPORTE,transporte
-2026-05-12,Cons De Prop E Bonorino 82,200340,EXPENSAS_BONORINO,ya cargado BONORINO mayo 200340
+2026-05-12,Cons De Prop E Bonorino 82,200340,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
 2026-05-13,Mercado Libre,132299,PENDIENTE,ML
 2026-05-13,Daniela Lopez,3100,PENDIENTE,transferencia
 2026-05-13,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
@@ -584,11 +584,11 @@
 2026-06-08,Créditos Mercado Pago,819946,EXCLUIR,cuota 9/24
 2026-06-08,Tuenti,17400,CELULAR,Tuenti
 2026-06-10,Casa Godoy,806000,PENDIENTE,¿obra/casa?
-2026-06-10,Cons De Prop E Bonorino 82,219145,EXPENSAS_BONORINO,Bonorino
+2026-06-10,Cons De Prop E Bonorino 82,219145,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
 2026-06-10,Karina Venturo,8293,PENDIENTE,transferencia
 2026-06-10,Arca,37572,IMPUESTOS_AFIP,ARCA
-2026-06-10,Consorcio De Copropi,666347,PENDIENTE,posible AVA/otra
-2026-06-10,Consorcio De Propiet,246150,EXPENSAS_CIUDAD,Expensas junio ya cargado
+2026-06-10,Consorcio De Copropi,666347,PENDIENTE,Pago de Expensas · ¿propiedad? (Consorcio De Copropi)
+2026-06-10,Consorcio De Propiet,246150,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-06-11,PedidosYa Propina,1200,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-11,PedidosYa,28384,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-11,Huevos Point,10500,ALMACEN_SOL,huevos
@@ -684,9 +684,9 @@
 2026-07-08,Tuenti,18000,CELULAR,Tuenti
 2026-07-09,Carlos Farinella,80000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-07-09,Valenti Sa,26400,ALMACEN_SOL,COMIDA · VALENTI SA
-2026-07-09,Consorcio De Copropi,829490,PENDIENTE,posible AVA/otra
-2026-07-09,Cons De Prop E Bonorino 82,209393,EXPENSAS_BONORINO,Bonorino
-2026-07-09,Consorcio De Propiet,273500,EXPENSAS_CIUDAD,Expensas julio ya cargado
+2026-07-09,Consorcio De Copropi,829490,PENDIENTE,Pago de Expensas · ¿propiedad? (Consorcio De Copropi)
+2026-07-09,Cons De Prop E Bonorino 82,209393,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
+2026-07-09,Consorcio De Propiet,273500,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-07-09,Sanes Maria Sole,1500000,EXCLUIR,propia
 2026-07-10,Sikorski Mara,5000,PENDIENTE,transferencia
 2026-07-11,Franco Yonatan Britez,1500,PENDIENTE,transferencia

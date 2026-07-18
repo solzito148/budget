@@ -32,10 +32,11 @@ alwaysApply: true
 - No cargar como gasto ni sumar al TOTAL de la hoja `2026`
 
 ## Propiedades (carpetas separadas)
-- Consorcio De Propietarios → Expensas **CIUDAD**
-- Cons De Prop E Bonorino 82 → Expensas **BONORINO**
-- Consorcio De Copropi → confirmar
+- **Consorcio De Propiet** / Consorcio De Propietarios (transferencia enviada) → siempre **Pago de Expensas · CIUDAD 1132**
+- Cons De Prop E Bonorino 82 → **Pago de Expensas · BONORINO**
+- Consorcio De Copropi → **Pago de Expensas · A CONFIRMAR** (propiedad pendiente)
 - Fideicomiso Ava Palpa → **AVA**
+- Todos estos movimientos → hoja `Expensas Consorcios` (Fecha | Mes | Consorcio | Propiedad | Monto | Medio | Comentario). **Nunca ALMACEN SOL**
 - **Personal / Personal Pago directo** → **OHIGGINS** · `TV CABLE-INTERNET` / `Personal — Pago directo`. Nunca CIUDAD. Archivo: `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
 
 ## ALMACEN SOL (comida / supermercado)
