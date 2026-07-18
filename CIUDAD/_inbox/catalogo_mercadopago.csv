@@ -23,7 +23,7 @@
 2026-01-02,Apple,5621,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-01-03,Supermercados Dia,3624,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-04,Tiempo Latino S.A,382500,PENDIENTE,compra TC
-2026-01-04,Ceferina,530000,PENDIENTE,compra TC
+2026-01-04,Ceferina,530000,GASTO_PERSONAL_SOL,ROPA · Ceferina · hoja Gasto Personal Sol
 2026-01-04,Noelia Soledad Caballero Britez,8180,ALMACEN_SOL,COMIDA · VERDULERÍA
 2026-01-04,Gusmar Hnos Srl,4850,PENDIENTE,tienda física
 2026-01-04,Susana Carmen Ortiz,18600,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -47,7 +47,7 @@
 2026-01-08,Sanes Maria Sole,156000,EXCLUIR,propia
 2026-01-08,Sanes Maria Sole,US$165,EXCLUIR,propia USD
 2026-01-08,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
-2026-01-08,Ceferina,395000,PENDIENTE,pago TC
+2026-01-08,Ceferina,395000,GASTO_PERSONAL_SOL,ROPA · Ceferina · hoja Gasto Personal Sol
 2026-01-08,Promarine Erisea,350000,GASTO_PERSONAL_SOL,Promarine · gasto personal Sol · hoja Gasto Personal Sol
 2026-01-08,Selma Salvatori,29546,ALMACEN_SOL,FARMACIA · Farmacia Selma
 2026-01-08,Andres Javier Di Pasqua,12426,PENDIENTE,compra
