@@ -13,6 +13,7 @@ alwaysApply: true
 ## ALMACEN SOL — COMBUSTIBLE
 - YPF
 - Shell
+- Generacion 20 Combustibles (y similares)
 - Cargar en hoja `Almacen Detalle` (Importe Sol) con detalle tipo `Combustible — Shell/YPF`
 - No van a Extras ni a categoría AUTO
 

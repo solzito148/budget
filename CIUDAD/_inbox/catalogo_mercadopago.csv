@@ -1,4 +1,28 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-03-21,Didi,4230,TRANSPORTE,Didi
+2026-03-22,Adidas,137998,EXTRAS_SOL,ropa
+2026-03-22,Open 25,50000,ALMACEN_SOL,tienda
+2026-03-22,Apple,29810,EXTRAS_SOL,Apple
+2026-03-23,Supermercados Dia,47664,ALMACEN_SOL,supermercado
+2026-03-23,Claude.ai Subscription,,EXTRAS_SOL,US$200
+2026-03-23,Awada,604001,EXTRAS_SOL,ropa
+2026-03-23,Carcasa,9900,EXTRAS_SOL,accesorio
+2026-03-24,Mercado Libre,60193,PENDIENTE,ML
+2026-03-24,Mercado Libre,377337,PENDIENTE,ML
+2026-03-24,Mercado Libre,101899,PENDIENTE,ML
+2026-03-25,Paws Pet Market,35700,EXTRAS_SOL,mascotas
+2026-03-26,Agustina Vissani,75000,AGUS_PSA,confirmar AGUS/PSA
+2026-03-27,Tuenti,4000,CELULAR,Tuenti
+2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,Limpieza Susana
+2026-03-30,Generacion 20 Combustibles,88999,ALMACEN_SOL,combustible
+2026-03-30,Mercado Libre,248070,PENDIENTE,ML
+2026-03-30,Cuota Social Carp,30560,EXTRAS_SOL,cuota social
+2026-03-31,Shell,264,ALMACEN_SOL,combustible
+2026-03-31,Shell,1118,ALMACEN_SOL,combustible
+2026-03-31,Shell,653,ALMACEN_SOL,combustible
+2026-03-31,Ebanx S.A.,10839,TRANSPORTE,Uber/Ebanx
+2026-03-31,Copetin Catering,13500,ALMACEN_SOL,catering
+2026-03-31,Didi,6540,TRANSPORTE,Didi
 2026-04-01,Libreria Marin,1500,EXTRAS_SOL,librería
 2026-04-01,Mercado Libre,427718,PENDIENTE,ML
 2026-04-02,PedidosYa Propina,2000,ALMACEN_SOL,delivery propina
