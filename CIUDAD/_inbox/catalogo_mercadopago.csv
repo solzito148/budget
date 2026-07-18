@@ -59,7 +59,7 @@
 2026-01-09,Antonela Beatriz Guidobono,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Maria Lujan Paz,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Pedidosya Plus,5490,EXTRAS_SOL,PEDIDOS YA · suscripción Plus (no almacén)
-2026-01-09,Tuenti,14700,CELULAR,Tuenti
+2026-01-09,Tuenti,14700,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-01-10,Pedidosya Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-01-10,Pedidosya,51455,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
 2026-01-10,Pedidosya,2748,EXCLUIR,PEDIDOS YA · COMIDA · devolución parcial
@@ -160,7 +160,7 @@
 2026-02-07,Open 25,1170,ALMACEN_SOL,Open 25
 2026-02-08,Cabify,5992,TRANSPORTE,Cabify
 2026-02-08,Carrefour Ecommerce,21990,ALMACEN_SOL,SUPERMERCADO · Carrefour
-2026-02-08,Tuenti,14700,CELULAR,Tuenti
+2026-02-08,Tuenti,14700,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-08,Carlos Leonardo Farinella,70000,PENDIENTE,transferencia
 2026-02-09,Didi,4320,TRANSPORTE,Didi
 2026-02-09,Cabify,4955,TRANSPORTE,Cabify
@@ -209,7 +209,7 @@
 2026-02-24,Sanes Maria Sole,400000,EXCLUIR,propia
 2026-02-24,Copetin Catering,13500,ALMACEN_SOL,catering
 2026-02-24,Didi,4564,TRANSPORTE,Didi
-2026-02-24,Tuenti,4000,CELULAR,Tuenti
+2026-02-24,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-24,Ebanx S.A.,3092,TRANSPORTE,Uber/Ebanx
 2026-02-24,Ebanx S.A.,4690,TRANSPORTE,Uber/Ebanx
 2026-02-26,Didi,4870,TRANSPORTE,Didi
@@ -218,7 +218,7 @@
 2026-02-26,Didi,7137,EXCLUIR,cancelado neto 0
 2026-02-26,Didi,6730,EXCLUIR,cancelado neto 0
 2026-02-27,Cesar David Ledesma,310000,PENDIENTE,transferencia
-2026-02-27,Tuenti,4000,CELULAR,Tuenti
+2026-02-27,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-28,Shell,61,ALMACEN_SOL,Combustible — Shell
 2026-02-28,Shell,418,ALMACEN_SOL,Combustible — Shell
 2026-02-28,Shell,788,ALMACEN_SOL,Combustible — Shell
@@ -236,7 +236,7 @@
 2026-03-05,Paws Pet Market,9000,EXTRAS_SOL,mascotas
 2026-03-05,Huevos Point,14500,ALMACEN_SOL,huevos
 2026-03-06,Coto,114263,ALMACEN_SOL,SUPERMERCADO · Coto
-2026-03-06,Tuenti,4000,CELULAR,Tuenti
+2026-03-06,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-06,Susana Carmen Ortiz,91841,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-06,Susana Carmen Ortiz,20000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
@@ -254,7 +254,7 @@
 2026-03-10,Arca,37096,IMPUESTOS_AFIP,ARCA
 2026-03-10,Consorcio De Copropi,402934,PENDIENTE,Pago de Expensas · ¿propiedad? (Consorcio De Copropi)
 2026-03-10,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
-2026-03-10,Tuenti,16000,CELULAR,Tuenti
+2026-03-10,Tuenti,16000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-11,Didi,3941,TRANSPORTE,Didi
 2026-03-11,Didi,3312,TRANSPORTE,Didi
 2026-03-11,Bee Coffee,6100,ALMACEN_SOL,café
@@ -311,7 +311,7 @@
 2026-03-24,Mercado Libre,101899,PENDIENTE,ML
 2026-03-25,Paws Pet Market,35700,EXTRAS_SOL,mascotas
 2026-03-26,Agustina Vissani,75000,AGUS_PSA,confirmar AGUS/PSA
-2026-03-27,Tuenti,4000,CELULAR,Tuenti
+2026-03-27,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-30,Generacion 20 Combustibles,88999,ALMACEN_SOL,combustible
 2026-03-30,Mercado Libre,248070,PENDIENTE,ML
@@ -362,7 +362,7 @@
 2026-04-09,Arca,37450,IMPUESTOS_AFIP,ARCA
 2026-04-09,Sanes Maria Sole,,EXCLUIR,propia US$800
 2026-04-09,Arca VEP,85300,IMPUESTOS_AFIP,ARCA VEP
-2026-04-09,Tuenti,16650,CELULAR,Tuenti
+2026-04-09,Tuenti,16650,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-04-10,Paws Pet Market,71400,EXTRAS_SOL,mascotas
 2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-10,PedidosYa,2599,ALMACEN_SOL,PEDIDOS YA · COMIDA
@@ -423,7 +423,7 @@
 2026-04-25,Todo Tartas,11400,ALMACEN_SOL,panadería
 2026-04-25,Sanes Maria Sole,,EXCLUIR,propia US$100
 2026-04-25,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-04-25,Tuenti,4200,CELULAR,Tuenti
+2026-04-25,Tuenti,4200,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-04-26,Mauro Ascunce,2100,PENDIENTE,transferencia
 2026-04-27,Ebanx S.A.,5763,EXCLUIR,Uber refund neto 0
 2026-04-27,Didi,5100,TRANSPORTE,transporte
@@ -443,7 +443,7 @@
 2026-05-02,Tamara Ginesin,3000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-05-02,Cosi Mi Piace,30133,EXTRAS_SOL,restaurante
 2026-05-02,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
-2026-05-02,Tuenti,4200,CELULAR,Tuenti
+2026-05-02,Tuenti,4200,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-05-02,Profesional Belgrano,72249,EXTRAS_SOL,¿farmacia?
 2026-05-04,Clinicas Altamirao,40000,EXTRAS_SOL,salud
 2026-05-04,Arca VEP,8296,IMPUESTOS_AFIP,ARCA VEP
@@ -455,7 +455,7 @@
 2026-05-06,Fideicomiso Ava Palpa,5644624,AVA,Ava Palpa
 2026-05-06,Créditos Mercado Pago,819946,EXCLUIR,cuota 8/24
 2026-05-07,Ebanx S.A.,7442,TRANSPORTE,Uber
-2026-05-07,Tuenti,16650,CELULAR,Tuenti
+2026-05-07,Tuenti,16650,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-05-07,Dean & Dennys,6870,ALMACEN_SOL,comida
 2026-05-07,Ebanx S.A.,6706,TRANSPORTE,Uber
 2026-05-07,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
@@ -471,7 +471,7 @@
 2026-05-09,Susana Carmen Ortiz,3000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-09,Mercado Libre,38637,PENDIENTE,ML
 2026-05-09,Coto,47361,ALMACEN_SOL,SUPERMERCADO · Coto
-2026-05-09,Tuenti,16650,CELULAR,Tuenti
+2026-05-09,Tuenti,16650,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-05-10,Ramira,117000,EXTRAS_SOL,salida/evento
 2026-05-10,Agip Abl Gcba,25512,ABL,ABL
 2026-05-10,Agip Abl Gcba,24745,ABL,ABL
@@ -581,7 +581,7 @@
 2026-06-07,Coto,348208,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-06-07,ACA,711,AUTO,ACA
 2026-06-08,Créditos Mercado Pago,819946,EXCLUIR,cuota 9/24
-2026-06-08,Tuenti,17400,CELULAR,Tuenti
+2026-06-08,Tuenti,17400,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-06-10,Casa Godoy,806000,PENDIENTE,¿obra/casa?
 2026-06-10,Cons De Prop E Bonorino 82,219145,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
 2026-06-10,Karina Venturo,8293,PENDIENTE,transferencia
@@ -679,7 +679,7 @@
 2026-07-06,Fideicomiso Ava Palpa,6005392,AVA,Ava Palpa
 2026-07-06,Arca VEP,51720,IMPUESTOS_AFIP,ARCA VEP
 2026-07-08,Mara Sikorski,159000,EXTRAS_SOL,personal
-2026-07-08,Tuenti,18000,CELULAR,Tuenti
+2026-07-08,Tuenti,18000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-07-09,Carlos Farinella,80000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-07-09,Valenti Sa,26400,ALMACEN_SOL,COMIDA · VALENTI SA
 2026-07-09,Consorcio De Copropi,829490,PENDIENTE,Pago de Expensas · ¿propiedad? (Consorcio De Copropi)

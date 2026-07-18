@@ -67,7 +67,8 @@ alwaysApply: true
 
 ## Otras
 - Metrogas → GAS | AGIP ABL → ABL | Telecentro → TV CABLE (CIUDAD)
-- Tuenti → celular (CIUDAD); **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
+- **Tuenti** → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
+- **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
 - Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
 - ACA → auto (Extras) salvo que digas Combustible
 - Apple / Vercel / mascotas / donaciones → Extras Sol
