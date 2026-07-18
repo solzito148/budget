@@ -50,6 +50,7 @@ alwaysApply: true
 - **Noelia Soledad Caballero Britez** / Noelia Caballero (transferencia enviada) → siempre `COMIDA · VERDULERÍA` (ALMACEN SOL)
 - **Nemuri Sushi** (compra) → siempre `COMIDA · SUSHI` (ALMACEN SOL)
 - **Valenti SA** (compra) → siempre `COMIDA · VALENTI SA` (ALMACEN SOL)
+- **Havanna** → siempre `COMIDA · HAVANNA` (ALMACEN SOL)
 
 ## PedidosYa — siempre comentar SUPERMERCADO o COMIDA
 - **PedidosYa Market** → `PEDIDOS YA · SUPERMERCADO` (almacén)
