@@ -41,9 +41,9 @@
 2026-01-07,Consorcio De Propiet,35260,EXPENSAS_CIUDAD,parte expensas ene (total 273500 ya en hoja)
 2026-01-07,Consorcio De Propiet,238240,EXPENSAS_CIUDAD,parte expensas ene (total 273500 ya en hoja)
 2026-01-08,Sanes Maria Sole,255061,EXCLUIR,propia
-2026-01-08,Maria Soledad Martinez,46300,INGRESO,ingreso recibido · hoja Ingresos (no gasto)
-2026-01-08,Florencia Ivana Risi,46300,INGRESO,ingreso recibido · hoja Ingresos (no gasto)
-2026-01-08,Gabriela Reggio,46300,INGRESO,ingreso recibido · hoja Ingresos (no gasto)
+2026-01-08,Maria Soledad Martinez,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
+2026-01-08,Florencia Ivana Risi,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
+2026-01-08,Gabriela Reggio,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-08,Sanes Maria Sole,156000,EXCLUIR,propia
 2026-01-08,Sanes Maria Sole,US$165,EXCLUIR,propia USD
 2026-01-08,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
@@ -56,8 +56,8 @@
 2026-01-09,Tarjeta de crédito,164709,EXCLUIR,pago resumen TC
 2026-01-09,Sanes Maria Sole,2000000,EXCLUIR,propia
 2026-01-09,Consorcio De Copropi,376564,PENDIENTE,¿qué propiedad?
-2026-01-09,Antonela Beatriz Guidobono,46300,INGRESO,ingreso recibido · hoja Ingresos (no gasto)
-2026-01-09,Maria Lujan Paz,46300,INGRESO,ingreso recibido · hoja Ingresos (no gasto)
+2026-01-09,Antonela Beatriz Guidobono,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
+2026-01-09,Maria Lujan Paz,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Pedidosya Plus,5490,EXTRAS_SOL,PEDIDOS YA · suscripción Plus (no almacén)
 2026-01-09,Tuenti,14700,CELULAR,Tuenti
 2026-01-10,Pedidosya Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
@@ -393,7 +393,7 @@
 2026-04-18,Susana Carmen Ortiz,94416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-18,Susana Carmen Ortiz,16200,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-18,Ebanx S.A.,18208,TRANSPORTE,Uber
-2026-04-18,ingresos varios,117000,INGRESO,recibidas 39k x3 · hoja Ingresos (no gasto)
+2026-04-18,ingresos varios,117000,TRANSFERENCIA_RECIBIDA,recibidas 39k x3 · hoja Transferencias recibidas (no gasto)
 2026-04-18,Cosi Mi Piace propina,21276,EXTRAS_SOL,evento
 2026-04-18,Cosi Mi Piace,177300,EXTRAS_SOL,evento
 2026-04-19,Negri Telma,50000,PENDIENTE,transferencia
@@ -428,7 +428,7 @@
 2026-04-27,Ebanx S.A.,5763,EXCLUIR,Uber refund neto 0
 2026-04-27,Didi,5100,TRANSPORTE,transporte
 2026-04-27,Ebanx S.A.,6321,TRANSPORTE,Uber
-2026-04-28,ingresos varios,35070,INGRESO,recibidas ~34k x6 · hoja Ingresos (no gasto)
+2026-04-28,ingresos varios,35070,TRANSFERENCIA_RECIBIDA,recibidas ~34k x6 · hoja Transferencias recibidas (no gasto)
 2026-04-28,Cosi Mi Piace propina,33283,EXTRAS_SOL,evento
 2026-04-28,Cosi Mi Piace,277360,EXTRAS_SOL,evento
 2026-04-29,Didi,4520,TRANSPORTE,transporte
@@ -440,7 +440,7 @@
 2026-04-30,Todo Tartas,30500,ALMACEN_SOL,panadería
 2026-05-01,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-05-02,ACA,751,AUTO,ACA
-2026-05-02,Tamara Ginesin,3000,INGRESO,recibida · hoja Ingresos (no gasto)
+2026-05-02,Tamara Ginesin,3000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-05-02,Cosi Mi Piace,30133,EXTRAS_SOL,restaurante
 2026-05-02,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-02,Tuenti,4200,CELULAR,Tuenti
@@ -465,7 +465,7 @@
 2026-05-08,Metrogas,4935,GAS,Metrogas
 2026-05-08,Didi,1500,TRANSPORTE,transporte
 2026-05-08,Didi,7400,EXCLUIR,cancelado neto 0
-2026-05-08,Ana Magariños,5000,INGRESO,recibida · hoja Ingresos (no gasto)
+2026-05-08,Ana Magariños,5000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-05-08,Florencia Risi,60900,PENDIENTE,transferencia
 2026-05-09,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-09,Susana Carmen Ortiz,3000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -481,7 +481,7 @@
 2026-05-11,Andres Di Pasqua,24852,PENDIENTE,compra
 2026-05-11,Ebanx S.A.,7151,EXCLUIR,Uber refund neto 0
 2026-05-11,Valeria Mele,65700,PENDIENTE,transferencia
-2026-05-11,Mercado Libre,4699990,INGRESO,reintegro ML · hoja Ingresos (no gasto)
+2026-05-11,Mercado Libre,4699990,TRANSFERENCIA_RECIBIDA,reintegro ML · hoja Transferencias recibidas (no gasto)
 2026-05-11,Didi,3912,TRANSPORTE,transporte
 2026-05-11,Didi,6810,TRANSPORTE,transporte
 2026-05-11,Arca,37572,IMPUESTOS_AFIP,ARCA
@@ -646,7 +646,7 @@
 2026-06-27,Confitería Dos Escudos,40600,ALMACEN_SOL,confitería
 2026-06-27,Florencia De La Torre,20000,PENDIENTE,transferencia
 2026-06-27,Belisario Roldán,206700,EXTRAS_SOL,salida/evento
-2026-06-27,Carlos Farinella,110000,INGRESO,recibida · hoja Ingresos (no gasto)
+2026-06-27,Carlos Farinella,110000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-06-28,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-06-29,Directv,12900,TV_CABLE,Directv
 2026-06-30,ACA,330,AUTO,ACA
@@ -682,7 +682,7 @@
 2026-07-08,Pandora Jewelry,1787341,EXTRAS_SOL,personal
 2026-07-08,Mara Sikorski,159000,EXTRAS_SOL,personal
 2026-07-08,Tuenti,18000,CELULAR,Tuenti
-2026-07-09,Carlos Farinella,80000,INGRESO,recibida · hoja Ingresos (no gasto)
+2026-07-09,Carlos Farinella,80000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-07-09,Valenti Sa,26400,ALMACEN_SOL,Valenti
 2026-07-09,Consorcio De Copropi,829490,PENDIENTE,posible AVA/otra
 2026-07-09,Cons De Prop E Bonorino 82,209393,EXPENSAS_BONORINO,Bonorino
