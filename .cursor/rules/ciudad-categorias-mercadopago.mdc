@@ -1,0 +1,53 @@
+---
+description: Categorías Mercado Pago para gastos CIUDAD 1132
+alwaysApply: true
+---
+
+# CIUDAD 1132 — reglas de categorización Mercado Pago
+
+## Excluir siempre (no cargar)
+- Didi, Uber, Ebanx S.A. (Uber)
+- Transferencias propias: Sanes Maria Sole / Maria Soledad Sanes
+- Pago de resumen de tarjeta de crédito
+- Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago
+- Movimientos cancelados o devueltos (usar neto)
+- Ingresos / transferencias recibidas
+
+## Propiedades (carpetas separadas)
+- Consorcio De Propietarios / Consorcio De Propiet → Expensas **CIUDAD**
+- Cons De Prop E Bonorino 82 → Expensas **BONORINO**
+- Consorcio De Copropi → confirmar (posible AVA / otra)
+- Fideicomiso Ava Palpa → **AVA**
+
+## ALMACEN SOL (cargar en hoja Almacen Detalle)
+Incluye supermercado, verdulería, carnicería, panadería, huevos, dietética, catering chico, delivery comida (PedidosYa + propina):
+- Coto, Carrefour, Día, Súper Pollo, Huevos Point, Carnes Tito
+- Todo Tartas, Vitalcer, Nicky Cheese, Copetin Catering, Le Pain Quotidien
+- Open 25, Confitería Dos Escudos, Green Eat, Tienda De Café, Valenti
+- PedidosYa y PedidosYa Propina
+- Dean & Dennys (comida)
+
+## No Almacén — otras filas CIUDAD
+- Metrogas → GAS
+- AGIP ABL / Agip Abl Gcba → ABL
+- Telecentro → TV CABLE
+- Personal / Tuenti → celular (Extras Sol o nota; no Telecentro)
+- Directv → Streaming / TV
+- Susana Carmen Ortiz → LIMPIEZA (Limpieza Susana); no duplicar si el mes ya tiene total cargado
+- Agustina Vissani → AGUS/PSA (confirmar)
+- Shell / ACA → auto (Extras Sol)
+- Apple / Vercel / Madmuscles → Extras Sol
+- Farmacia / Farmacity / Clínicas / Veterinaria / Paws / Leocan → Extras Sol (salud/mascotas)
+- Pandora / Bimba Y Lola / Zilver / Ruth Calvetti → Extras Sol (personal)
+- Fundación Soplo De Vida → Extras Sol (donación)
+- Arca / ARCA VEP → impuestos AFIP (fuera de matriz o Extras; no ABL)
+- SUBE → transporte (Extras)
+- Correo Argentino → envíos (Extras)
+- Mercado Libre → confirmar producto; default pendiente hasta catalogar
+- Cosi Mi Piace / Ramira / Magic Dragon / Belisario Roldán → Extras Sol (salida/evento) salvo que digas Almacén
+
+## Formato al cargar
+- Montos enteros, siempre redondeo hacia arriba
+- Forma de pago: Mercado Pago (+ tarjeta si figura)
+- Comentario: op. / comercio original
+- Solo editar el archivo canónico de la propiedad correspondiente

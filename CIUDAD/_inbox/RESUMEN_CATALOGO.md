@@ -1,0 +1,86 @@
+# Catálogo Mercado Pago — resumen
+
+## Conteos por categoría
+
+- **EXCLUIR**: 117
+- **PENDIENTE**: 63
+- **ALMACEN_SOL**: 50
+- **EXTRAS_SOL**: 39
+- **LIMPIEZA**: 25
+- **IMPUESTOS_AFIP**: 14
+- **CELULAR**: 9
+- **AUTO**: 8
+- **ABL**: 8
+- **INGRESO**: 7
+- **AVA**: 3
+- **GAS**: 3
+- **EXPENSAS_BONORINO**: 3
+- **AGUS_PSA**: 2
+- **EXPENSAS_CIUDAD**: 2
+- **TV_CABLE**: 2
+
+## Pendientes de confirmar
+
+- 2026-04-13 · Mercado Libre · $13989 · ML
+- 2026-04-14 · Mercado Libre · $119000 · ML
+- 2026-04-19 · Negri Telma · $50000 · transferencia
+- 2026-04-20 · Mercado Libre · $156237 · ML
+- 2026-04-20 · Mercado Libre · $185340 · ML
+- 2026-04-21 · Negri Telma · $200000 · transferencia
+- 2026-04-22 · Martina Chippano · $153480 · compra
+- 2026-04-26 · Mauro Ascunce · $2100 · transferencia
+- 2026-04-29 · Compraenkalbb · $86747 · compra online
+- 2026-05-05 · Eva Zarate · $95000 · transferencia
+- 2026-05-08 · Ruth Calvetti · $266443 · compra
+- 2026-05-08 · Florencia Risi · $60900 · transferencia
+- 2026-05-09 · Mercado Libre · $38637 · ML
+- 2026-05-11 · Andres Di Pasqua · $24852 · compra
+- 2026-05-11 · Valeria Mele · $65700 · transferencia
+- 2026-05-13 · Mercado Libre · $132299 · ML
+- 2026-05-13 · Daniela Lopez · $3100 · transferencia
+- 2026-05-13 · Valeria Mele · $21600 · transferencia
+- 2026-05-15 · General Collect · $2496700 · cobranza
+- 2026-05-16 · Valeria Mele · $90000 · transferencia
+- 2026-05-18 · Edesur · $1441 · luz ¿propiedad?
+- 2026-05-21 · Federico Cabral · $755800 · transferencia
+- 2026-05-23 · Mercado Libre · $35544 · ML
+- 2026-05-23 · Christian Ventura · $300000 · transferencia
+- 2026-05-23 · Valeria Mele · $112500 · transferencia
+- 2026-05-29 · Servicios De Pagos Virtuales · $630000 · ¿qué es?
+- 2026-06-02 · Andres Di Pasqua · $32046 · compra
+- 2026-06-06 · Guillermo Galarraga · $14500 · transferencia
+- 2026-06-10 · Casa Godoy · $806000 · ¿obra/casa?
+- 2026-06-10 · Karina Venturo · $8293 · transferencia
+- 2026-06-10 · Consorcio De Copropi · $666347 · posible AVA/otra
+- 2026-06-13 · Saphirus · $79900 · ¿hogar?
+- 2026-06-16 · Damaris Oliveira · $2542970 · compra grande
+- 2026-06-18 · Mercado Libre · $67000 · ML
+- 2026-06-19 · Edesur · $2198 · luz ¿propiedad?
+- 2026-06-20 · Christian Ventura · $20000 · transferencia
+- 2026-06-23 · Omar Pastran · $7000 · transferencia
+- 2026-06-23 · Christian Ventura · $150000 · transferencia
+- 2026-06-23 · Mazzeo Jose · $6400 · transferencia
+- 2026-06-23 · Karina Venturo · $6030 · transferencia
+- 2026-06-24 · Mercado Libre · $175000 · ML
+- 2026-06-24 · Aylen Difeo · $350000 · transferencia
+- 2026-06-26 · Valeria Mele · $48600 · transferencia
+- 2026-06-27 · Florencia De La Torre · $20000 · transferencia
+- 2026-07-05 · Analia Veronica Roay · $49000 · transferencia
+- 2026-07-05 · Antonela Guidobono · $38700 · transferencia
+- 2026-07-06 · Jose Cristian Montaño · $2500 · transferencia
+- 2026-07-06 · Analia Veronica Roay · $8002 · transferencia
+- 2026-07-06 · Federico Martinez Escariz · $572005 · transferencia
+- 2026-07-09 · Consorcio De Copropi · $829490 · posible AVA/otra
+- 2026-07-10 · Sikorski Mara · $5000 · transferencia
+- 2026-07-11 · Franco Yonatan Britez · $1500 · transferencia
+- 2026-07-11 · Comercio · $18300 · tienda física
+- 2026-07-12 · Mercado Libre · $24499 · ML
+- 2026-07-12 · Klash Pro · $27000 · compra
+- 2026-07-14 · Noelia Caballero · $8977 · transferencia
+- 2026-07-14 · Carenzo Santiago P · $398240 · transferencia
+- 2026-07-15 · Mercado Libre · $30318 · ML
+- 2026-07-15 · Mercado Libre · $18525 · ML
+- 2026-07-16 · Mercado Libre · $62900 · ML
+- 2026-07-17 · Mercado Libre · $11747 · ML
+- 2026-07-17 · Mercado Libre · $26311 · ML
+- 2026-07-17 · Florencia Londero · $8000 · transferencia
