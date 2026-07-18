@@ -49,7 +49,7 @@
 2026-01-08,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-01-08,Ceferina,395000,PENDIENTE,pago TC
 2026-01-08,Promarine Erisea,350000,PENDIENTE,compra TC
-2026-01-08,Selma Salvatori,29546,PENDIENTE,compra
+2026-01-08,Selma Salvatori,29546,FARMACIA,FARMACIA · Farmacia Selma
 2026-01-08,Andres Javier Di Pasqua,12426,PENDIENTE,compra
 2026-01-08,Copetin Catering,3585,ALMACEN_SOL,catering
 2026-01-09,Catore Srl,44000,PENDIENTE,transferencia
@@ -65,7 +65,7 @@
 2026-01-10,Pedidosya,2748,EXCLUIR,PEDIDOS YA · COMIDA · devolución parcial
 2026-01-10,Personal,34921,CELULAR,Personal
 2026-01-10,Compraenkalbb,77748,PENDIENTE,pago online
-2026-01-10,Farmacia Maure,116500,EXTRAS_SOL,farmacia
+2026-01-10,Farmacia Maure,116500,FARMACIA,FARMACIA · Farmacia Maure
 2026-01-11,Havanna,22100,ALMACEN_SOL,Havanna
 2026-01-11,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-11,Susana Carmen Ortiz,16800,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -197,7 +197,7 @@
 2026-02-19,Marcelo Fabian Ronzano,6500,PENDIENTE,transferencia
 2026-02-20,Havanna,9600,ALMACEN_SOL,Havanna
 2026-02-20,Lourdes Elizabeth Tadeo Salvador,18500,PENDIENTE,transferencia
-2026-02-20,Farmacia Maure,124100,EXTRAS_SOL,farmacia
+2026-02-20,Farmacia Maure,124100,FARMACIA,FARMACIA · Farmacia Maure
 2026-02-20,Arca,67246,IMPUESTOS_AFIP,ARCA
 2026-02-21,Susana Carmen Ortiz,58986,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-21,Susana Carmen Ortiz,3240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -342,7 +342,7 @@
 2026-04-05,Wordpress,,EXTRAS_SOL,US$228
 2026-04-06,Metrogas,4850,GAS,Metrogas
 2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,supermercado
-2026-04-06,Farmacia Maure,191500,EXTRAS_SOL,farmacia
+2026-04-06,Farmacia Maure,191500,FARMACIA,FARMACIA · Farmacia Maure
 2026-04-06,Ebanx S.A.,6793,TRANSPORTE,Uber/Ebanx
 2026-04-06,Copetin Catering,12650,ALMACEN_SOL,catering
 2026-04-06,Fideicomiso Ava Palpa,5553706,AVA,Ava Palpa
@@ -553,7 +553,7 @@
 2026-05-28,Zilver Sa,25971,EXTRAS_SOL,personal
 2026-05-28,Tienda De Café,18900,ALMACEN_SOL,café
 2026-05-28,Maria Soledad Sanes,102000,EXCLUIR,propia
-2026-05-29,Farmacity,85034,EXTRAS_SOL,farmacia
+2026-05-29,Farmacity,85034,FARMACIA,FARMACIA · Farmacity
 2026-05-29,Servicios De Pagos Virtuales,630000,PENDIENTE,¿qué es?
 2026-05-29,Ebanx S.A.,5478,TRANSPORTE,Uber
 2026-05-29,Ebanx S.A.,5194,TRANSPORTE,Uber
@@ -703,7 +703,7 @@
 2026-07-13,Ebanx S.A.,6809,TRANSPORTE,Uber
 2026-07-13,Arca,38957,IMPUESTOS_AFIP,ARCA
 2026-07-14,Personal,56200,CELULAR,Personal
-2026-07-14,Farmacia Maure,218500,EXTRAS_SOL,farmacia
+2026-07-14,Farmacia Maure,218500,FARMACIA,FARMACIA · Farmacia Maure
 2026-07-14,Noelia Caballero,8977,PENDIENTE,transferencia
 2026-07-14,Sanes Maria Sole,,EXCLUIR,propia US$200
 2026-07-14,Sanes Maria Sole,300000,EXCLUIR,propia

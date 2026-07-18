@@ -45,12 +45,17 @@ alwaysApply: true
 - **PedidosYa Plus** → Extras Sol (suscripción, no almacén)
 - En catálogo y en comentario de `Almacen Detalle` (columna Comentario)
 
+## FARMACIA (categoría principal)
+- Farmacity, Farmacia Selma (Selma Salvatori), Farmacia Maure — siempre `FARMACIA`
+- Comentario obligatorio: `FARMACIA · <nombre de farmacia>` (ej. `FARMACIA · Farmacity`)
+- Fila hoja `2026`: `CASA / FARMACIA / Farmacia` — no van a Extras Sol ni a almacén
+
 ## Otras
 - Metrogas → GAS | AGIP ABL → ABL | Telecentro → TV CABLE
 - Personal / Tuenti → celular
 - Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
 - ACA → auto (Extras) salvo que digas Combustible
-- Apple / Vercel / farmacia / mascotas / donaciones → Extras Sol
+- Apple / Vercel / mascotas / donaciones → Extras Sol
 - Arca / ARCA VEP → impuestos AFIP
 - Mercado Libre → pendiente
 
