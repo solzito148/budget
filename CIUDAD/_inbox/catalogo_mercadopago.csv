@@ -1,28 +1,28 @@
 ﻿fecha,comercio,monto,categoria,comentario
 2026-04-10,Paws Pet Market,71400,EXTRAS_SOL,mascotas
-2026-04-11,Ebanx S.A.,356,EXCLUIR,Uber
-2026-04-11,Ebanx S.A.,9962,EXCLUIR,Uber
-2026-04-11,Didi,7200,EXCLUIR,transporte
+2026-04-11,Ebanx S.A.,356,TRANSPORTE,Uber
+2026-04-11,Ebanx S.A.,9962,TRANSPORTE,Uber
+2026-04-11,Didi,7200,TRANSPORTE,transporte
 2026-04-11,Vitalcer,34830,ALMACEN_SOL,dietética
 2026-04-12,Apple,14520,EXTRAS_SOL,Apple
 2026-04-12,Susana Carmen Ortiz,96567,LIMPIEZA,Limpieza Susana
 2026-04-12,Nicky Cheese propina,1920,ALMACEN_SOL,quesos propina
 2026-04-12,Nicky Cheese,19200,ALMACEN_SOL,quesos
-2026-04-13,Didi,6620,EXCLUIR,transporte
-2026-04-13,Didi,8590,EXCLUIR,transporte
+2026-04-13,Didi,6620,TRANSPORTE,transporte
+2026-04-13,Didi,8590,TRANSPORTE,transporte
 2026-04-13,Mercado Libre,13989,PENDIENTE,ML
 2026-04-14,Mercado Libre,119000,PENDIENTE,ML
-2026-04-15,Didi,5550,EXCLUIR,transporte
+2026-04-15,Didi,5550,TRANSPORTE,transporte
 2026-04-15,Fundacion Soplo De Vida,100000,EXTRAS_SOL,donación
-2026-04-15,Didi,4955,EXCLUIR,transporte
-2026-04-15,Ebanx S.A.,20,EXCLUIR,Uber
-2026-04-15,Ebanx S.A.,4919,EXCLUIR,Uber
-2026-04-15,Ebanx S.A.,5910,EXCLUIR,Uber
-2026-04-16,Ebanx S.A.,8578,EXCLUIR,Uber
+2026-04-15,Didi,4955,TRANSPORTE,transporte
+2026-04-15,Ebanx S.A.,20,TRANSPORTE,Uber
+2026-04-15,Ebanx S.A.,4919,TRANSPORTE,Uber
+2026-04-15,Ebanx S.A.,5910,TRANSPORTE,Uber
+2026-04-16,Ebanx S.A.,8578,TRANSPORTE,Uber
 2026-04-18,Sanes Maria Sole,,EXCLUIR,propia US$100
 2026-04-18,Susana Carmen Ortiz,94416,LIMPIEZA,Limpieza Susana
 2026-04-18,Susana Carmen Ortiz,16200,LIMPIEZA,Limpieza Susana
-2026-04-18,Ebanx S.A.,18208,EXCLUIR,Uber
+2026-04-18,Ebanx S.A.,18208,TRANSPORTE,Uber
 2026-04-18,ingresos varios,117000,INGRESO,recibidas 39k x3
 2026-04-18,Cosi Mi Piace propina,21276,EXTRAS_SOL,evento
 2026-04-18,Cosi Mi Piace,177300,EXTRAS_SOL,evento
@@ -31,11 +31,11 @@
 2026-04-20,Mercado Libre,156237,PENDIENTE,ML
 2026-04-20,Mercado Libre,185340,PENDIENTE,ML
 2026-04-20,Arca,67246,IMPUESTOS_AFIP,ARCA
-2026-04-20,Didi,5330,EXCLUIR,transporte
+2026-04-20,Didi,5330,TRANSPORTE,transporte
 2026-04-20,Copetin Catering,12650,ALMACEN_SOL,catering
 2026-04-20,Ebanx S.A.,7974,EXCLUIR,Uber refund neto 0
 2026-04-20,Ebanx S.A.,6882,EXCLUIR,Uber refund neto 0
-2026-04-20,Didi,5992,EXCLUIR,transporte
+2026-04-20,Didi,5992,TRANSPORTE,transporte
 2026-04-20,Didi,6080,EXCLUIR,cancelado neto 0
 2026-04-20,Didi,6410,EXCLUIR,cancelado neto 0
 2026-04-20,Maria Soledad Sanes,10000,EXCLUIR,propia
@@ -43,10 +43,10 @@
 2026-04-21,Huevos Point,14500,ALMACEN_SOL,huevos
 2026-04-21,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-04-22,Martina Chippano,153480,PENDIENTE,compra
-2026-04-22,Didi,7610,EXCLUIR,transporte
+2026-04-22,Didi,7610,TRANSPORTE,transporte
 2026-04-22,Green Eat,25000,ALMACEN_SOL,comida
-2026-04-22,Ebanx S.A.,6397,EXCLUIR,Uber
-2026-04-24,Didi,5420,EXCLUIR,transporte
+2026-04-22,Ebanx S.A.,6397,TRANSPORTE,Uber
+2026-04-24,Didi,5420,TRANSPORTE,transporte
 2026-04-24,Súper Pollo,16140,ALMACEN_SOL,pollo
 2026-04-24,Fundacion Soplo De Vida,40000,EXTRAS_SOL,donación
 2026-04-25,Susana Carmen Ortiz,91416,LIMPIEZA,Limpieza Susana
@@ -56,15 +56,15 @@
 2026-04-25,Tuenti,4200,CELULAR,Tuenti
 2026-04-26,Mauro Ascunce,2100,PENDIENTE,transferencia
 2026-04-27,Ebanx S.A.,5763,EXCLUIR,Uber refund neto 0
-2026-04-27,Didi,5100,EXCLUIR,transporte
-2026-04-27,Ebanx S.A.,6321,EXCLUIR,Uber
+2026-04-27,Didi,5100,TRANSPORTE,transporte
+2026-04-27,Ebanx S.A.,6321,TRANSPORTE,Uber
 2026-04-28,ingresos varios,35070,INGRESO,recibidas ~34k x6
 2026-04-28,Cosi Mi Piace propina,33283,EXTRAS_SOL,evento
 2026-04-28,Cosi Mi Piace,277360,EXTRAS_SOL,evento
-2026-04-29,Didi,4520,EXCLUIR,transporte
-2026-04-29,Didi,3904,EXCLUIR,transporte
+2026-04-29,Didi,4520,TRANSPORTE,transporte
+2026-04-29,Didi,3904,TRANSPORTE,transporte
 2026-04-29,Compraenkalbb,86747,PENDIENTE,compra online
-2026-04-29,Didi,4670,EXCLUIR,transporte
+2026-04-29,Didi,4670,TRANSPORTE,transporte
 2026-04-30,Shell,27579,AUTO,nafta
 2026-04-30,Shell,1307,AUTO,nafta
 2026-04-30,Todo Tartas,30500,ALMACEN_SOL,panadería
@@ -78,22 +78,22 @@
 2026-05-04,Clinicas Altamirao,40000,EXTRAS_SOL,salud
 2026-05-04,Arca VEP,8296,IMPUESTOS_AFIP,ARCA VEP
 2026-05-05,Eva Zarate,95000,PENDIENTE,transferencia
-2026-05-05,Didi,6050,EXCLUIR,transporte
-2026-05-05,Ebanx S.A.,4890,EXCLUIR,Uber
-2026-05-06,Ebanx S.A.,5747,EXCLUIR,Uber
-2026-05-06,Ebanx S.A.,255,EXCLUIR,Uber
+2026-05-05,Didi,6050,TRANSPORTE,transporte
+2026-05-05,Ebanx S.A.,4890,TRANSPORTE,Uber
+2026-05-06,Ebanx S.A.,5747,TRANSPORTE,Uber
+2026-05-06,Ebanx S.A.,255,TRANSPORTE,Uber
 2026-05-06,Fideicomiso Ava Palpa,5644624,AVA,Ava Palpa
 2026-05-06,Créditos Mercado Pago,819946,EXCLUIR,cuota 8/24
-2026-05-07,Ebanx S.A.,7442,EXCLUIR,Uber
+2026-05-07,Ebanx S.A.,7442,TRANSPORTE,Uber
 2026-05-07,Tuenti,16650,CELULAR,Tuenti
 2026-05-07,Dean & Dennys,6870,ALMACEN_SOL,comida
-2026-05-07,Ebanx S.A.,6706,EXCLUIR,Uber
+2026-05-07,Ebanx S.A.,6706,TRANSPORTE,Uber
 2026-05-07,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
 2026-05-08,Ruth Calvetti,266443,PENDIENTE,compra
 2026-05-08,Mercado Libre,4699990,EXCLUIR,devuelto - neto 0
 2026-05-08,Arca VEP,17372,IMPUESTOS_AFIP,ARCA VEP
 2026-05-08,Metrogas,4935,GAS,Metrogas
-2026-05-08,Didi,1500,EXCLUIR,transporte
+2026-05-08,Didi,1500,TRANSPORTE,transporte
 2026-05-08,Didi,7400,EXCLUIR,cancelado neto 0
 2026-05-08,Ana Magariños,5000,INGRESO,recibida
 2026-05-08,Florencia Risi,60900,PENDIENTE,transferencia
@@ -112,15 +112,15 @@
 2026-05-11,Ebanx S.A.,7151,EXCLUIR,Uber refund neto 0
 2026-05-11,Valeria Mele,65700,PENDIENTE,transferencia
 2026-05-11,Mercado Libre,4699990,INGRESO,reintegro ML
-2026-05-11,Didi,3912,EXCLUIR,transporte
-2026-05-11,Didi,6810,EXCLUIR,transporte
+2026-05-11,Didi,3912,TRANSPORTE,transporte
+2026-05-11,Didi,6810,TRANSPORTE,transporte
 2026-05-11,Arca,37572,IMPUESTOS_AFIP,ARCA
 2026-05-11,Didi,6230,EXCLUIR,cancelado neto 0
 2026-05-12,Personal,53245,CELULAR,Personal
-2026-05-12,Didi,3912,EXCLUIR,transporte
+2026-05-12,Didi,3912,TRANSPORTE,transporte
 2026-05-12,Apple,18353,EXTRAS_SOL,Apple
-2026-05-12,Didi,200,EXCLUIR,transporte
-2026-05-12,Didi,6180,EXCLUIR,transporte
+2026-05-12,Didi,200,TRANSPORTE,transporte
+2026-05-12,Didi,6180,TRANSPORTE,transporte
 2026-05-12,Cons De Prop E Bonorino 82,200340,EXPENSAS_BONORINO,ya cargado BONORINO mayo 200340
 2026-05-13,Mercado Libre,132299,PENDIENTE,ML
 2026-05-13,Daniela Lopez,3100,PENDIENTE,transferencia
@@ -143,18 +143,18 @@
 2026-05-16,Valeria Mele,90000,PENDIENTE,transferencia
 2026-05-18,Edesur,1441,PENDIENTE,luz ¿propiedad?
 2026-05-18,Leocan,79924,EXTRAS_SOL,mascotas
-2026-05-18,Didi,6030,EXCLUIR,transporte
-2026-05-18,Didi,6880,EXCLUIR,transporte
+2026-05-18,Didi,6030,TRANSPORTE,transporte
+2026-05-18,Didi,6880,TRANSPORTE,transporte
 2026-05-19,Sanes Maria Sole,75000,EXCLUIR,propia
-2026-05-19,Didi,4157,EXCLUIR,transporte
+2026-05-19,Didi,4157,TRANSPORTE,transporte
 2026-05-20,Todo Tartas,3480,ALMACEN_SOL,panadería
 2026-05-20,Sanes Maria Sole,,EXCLUIR,propia US$100
 2026-05-20,Sanes Maria Sole,400000,EXCLUIR,propia
 2026-05-20,Arca,67246,IMPUESTOS_AFIP,ARCA
 2026-05-21,Federico Cabral,755800,PENDIENTE,transferencia
 2026-05-22,Didi,10910,EXCLUIR,cancelado neto 0
-2026-05-22,Didi,5700,EXCLUIR,transporte
-2026-05-22,Ebanx S.A.,6782,EXCLUIR,Uber
+2026-05-22,Didi,5700,TRANSPORTE,transporte
+2026-05-22,Ebanx S.A.,6782,TRANSPORTE,Uber
 2026-05-23,Bimba Y Lola,748000,EXTRAS_SOL,ropa
 2026-05-23,Susana Carmen Ortiz,91416,LIMPIEZA,Limpieza Susana
 2026-05-23,Susana Carmen Ortiz,10000,LIMPIEZA,Limpieza Susana
@@ -163,30 +163,30 @@
 2026-05-23,Arredondo,10290,ALMACEN_SOL,tienda física
 2026-05-23,Valeria Mele,112500,PENDIENTE,transferencia
 2026-05-24,Ebanx S.A.,5722,EXCLUIR,Uber refund neto 0
-2026-05-24,Didi,87,EXCLUIR,transporte
-2026-05-24,Didi,6820,EXCLUIR,transporte
+2026-05-24,Didi,87,TRANSPORTE,transporte
+2026-05-24,Didi,6820,TRANSPORTE,transporte
 2026-05-24,PedidosYa Propina,1100,ALMACEN_SOL,delivery propina
 2026-05-24,PedidosYa,21618,ALMACEN_SOL,delivery
 2026-05-24,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-05-26,Didi,6990,EXCLUIR,transporte
+2026-05-26,Didi,6990,TRANSPORTE,transporte
 2026-05-26,Movistar Arena,19000,EXTRAS_SOL,evento
-2026-05-26,Didi,4880,EXCLUIR,transporte
+2026-05-26,Didi,4880,TRANSPORTE,transporte
 2026-05-26,Todo Tartas,8730,ALMACEN_SOL,panadería
 2026-05-27,Paws Pet Market,11100,EXTRAS_SOL,mascotas
-2026-05-27,Ebanx S.A.,35,EXCLUIR,Uber
+2026-05-27,Ebanx S.A.,35,TRANSPORTE,Uber
 2026-05-27,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-05-27,Ebanx S.A.,2890,EXCLUIR,Uber
+2026-05-27,Ebanx S.A.,2890,TRANSPORTE,Uber
 2026-05-27,Didi,6530,EXCLUIR,cancelado neto 0
 2026-05-27,Magic Dragon,5790,EXTRAS_SOL,comida/salida
-2026-05-27,Didi,6640,EXCLUIR,transporte
+2026-05-27,Didi,6640,TRANSPORTE,transporte
 2026-05-27,Ebanx S.A.,7142,EXCLUIR,Uber refund neto 0
 2026-05-28,Zilver Sa,25971,EXTRAS_SOL,personal
 2026-05-28,Tienda De Café,18900,ALMACEN_SOL,café
 2026-05-28,Maria Soledad Sanes,102000,EXCLUIR,propia
 2026-05-29,Farmacity,85034,EXTRAS_SOL,farmacia
 2026-05-29,Servicios De Pagos Virtuales,630000,PENDIENTE,¿qué es?
-2026-05-29,Ebanx S.A.,5478,EXCLUIR,Uber
-2026-05-29,Ebanx S.A.,5194,EXCLUIR,Uber
+2026-05-29,Ebanx S.A.,5478,TRANSPORTE,Uber
+2026-05-29,Ebanx S.A.,5194,TRANSPORTE,Uber
 2026-05-30,Carrefour,24333,ALMACEN_SOL,supermercado
 2026-05-30,Shell,18314,AUTO,nafta
 2026-05-30,Shell,1415,AUTO,nafta
@@ -240,7 +240,7 @@
 2026-06-16,Dermacycle,150000,EXTRAS_SOL,estética
 2026-06-17,Telecentro Sa,48420,TV_CABLE,Telecentro
 2026-06-17,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-06-17,Didi,4950,EXCLUIR,transporte
+2026-06-17,Didi,4950,TRANSPORTE,transporte
 2026-06-17,Tarjeta de crédito,1501833,EXCLUIR,pago resumen
 2026-06-18,Mercado Libre,67000,PENDIENTE,ML
 2026-06-18,Tienda De Café,18700,ALMACEN_SOL,café
@@ -257,8 +257,8 @@
 2026-06-22,Arca,67246,IMPUESTOS_AFIP,ARCA
 2026-06-23,Omar Pastran,7000,PENDIENTE,transferencia
 2026-06-23,Christian Ventura,150000,PENDIENTE,transferencia
-2026-06-23,Didi,4955,EXCLUIR,transporte
-2026-06-23,Didi,6480,EXCLUIR,transporte
+2026-06-23,Didi,4955,TRANSPORTE,transporte
+2026-06-23,Didi,6480,TRANSPORTE,transporte
 2026-06-23,Mazzeo Jose,6400,PENDIENTE,transferencia
 2026-06-23,Karina Venturo,6030,PENDIENTE,transferencia
 2026-06-24,Mercado Libre,175000,PENDIENTE,ML
@@ -268,8 +268,8 @@
 2026-06-25,Fundacion Soplo De Vida,243000,EXTRAS_SOL,donación
 2026-06-26,Valeria Mele,48600,PENDIENTE,transferencia
 2026-06-26,Todo Tartas,23700,ALMACEN_SOL,panadería
-2026-06-26,Didi,5300,EXCLUIR,transporte
-2026-06-26,Didi,6500,EXCLUIR,transporte
+2026-06-26,Didi,5300,TRANSPORTE,transporte
+2026-06-26,Didi,6500,TRANSPORTE,transporte
 2026-06-27,Susana Carmen Ortiz,552827,LIMPIEZA,Limpieza Susana
 2026-06-27,Susana Carmen Ortiz,5000,LIMPIEZA,Limpieza Susana
 2026-06-27,Open 25,17000,ALMACEN_SOL,tienda
@@ -282,20 +282,20 @@
 2026-06-30,ACA,330,AUTO,ACA
 2026-06-30,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-06-30,Sanes Maria Sole,60000,EXCLUIR,propia
-2026-06-30,Didi,5490,EXCLUIR,transporte
-2026-06-30,Didi,5120,EXCLUIR,transporte
+2026-06-30,Didi,5490,TRANSPORTE,transporte
+2026-06-30,Didi,5120,TRANSPORTE,transporte
 2026-06-30,Agip Abl Gcba,100779,ABL,ABL
 2026-07-02,Carrefour Ecommerce,75417,ALMACEN_SOL,devuelto neto 0 - no cargar
 2026-07-02,Veterinaria,107000,EXTRAS_SOL,veterinaria
 2026-07-03,Todo Tartas,9690,ALMACEN_SOL,panadería
-2026-07-03,Ebanx S.A.,6346,EXCLUIR,Uber
+2026-07-03,Ebanx S.A.,6346,TRANSPORTE,Uber
 2026-07-03,Arca VEP,41824,IMPUESTOS_AFIP,ARCA VEP
 2026-07-03,Ebanx S.A.,6951,EXCLUIR,Uber refund neto 0
-2026-07-03,Didi,6560,EXCLUIR,transporte
+2026-07-03,Didi,6560,TRANSPORTE,transporte
 2026-07-04,PedidosYa Propina,1200,ALMACEN_SOL,delivery propina
 2026-07-04,PedidosYa,31799,ALMACEN_SOL,delivery
 2026-07-05,Analia Veronica Roay,49000,PENDIENTE,transferencia
-2026-07-05,Didi,6280,EXCLUIR,transporte
+2026-07-05,Didi,6280,TRANSPORTE,transporte
 2026-07-05,Antonela Guidobono,38700,PENDIENTE,transferencia
 2026-07-05,Susana Carmen Ortiz,123240,LIMPIEZA,Limpieza Susana
 2026-07-05,Susana Carmen Ortiz,9500,LIMPIEZA,Limpieza Susana
@@ -304,7 +304,7 @@
 2026-07-06,Copetin Catering,765,ALMACEN_SOL,catering
 2026-07-06,Le Pain Quotidien,3295,ALMACEN_SOL,panadería
 2026-07-06,Federico Martinez Escariz,572005,PENDIENTE,transferencia
-2026-07-06,Ebanx S.A.,6911,EXCLUIR,Uber
+2026-07-06,Ebanx S.A.,6911,TRANSPORTE,Uber
 2026-07-06,Préstamo Personal,819946,EXCLUIR,cuota préstamo
 2026-07-06,Sanes Maria Sole,,EXCLUIR,propia US$3000
 2026-07-06,Fideicomiso Ava Palpa,6005392,AVA,Ava Palpa
@@ -330,7 +330,7 @@
 2026-07-12,Apple,19481,EXTRAS_SOL,Apple
 2026-07-12,Susana Carmen Ortiz,120240,LIMPIEZA,Limpieza Susana
 2026-07-13,Carnes Tito,8160,ALMACEN_SOL,carnicería
-2026-07-13,Ebanx S.A.,6809,EXCLUIR,Uber
+2026-07-13,Ebanx S.A.,6809,TRANSPORTE,Uber
 2026-07-13,Arca,38957,IMPUESTOS_AFIP,ARCA
 2026-07-14,Personal,56200,CELULAR,Personal
 2026-07-14,Farmacia Maure,218500,EXTRAS_SOL,farmacia
@@ -344,13 +344,13 @@
 2026-07-15,Mercado Libre,30318,PENDIENTE,ML
 2026-07-15,Mercado Libre,18525,PENDIENTE,ML
 2026-07-15,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-07-15,Didi,5100,EXCLUIR,transporte
-2026-07-15,Ebanx S.A.,384,EXCLUIR,Uber
-2026-07-15,Ebanx S.A.,6866,EXCLUIR,Uber
+2026-07-15,Didi,5100,TRANSPORTE,transporte
+2026-07-15,Ebanx S.A.,384,TRANSPORTE,Uber
+2026-07-15,Ebanx S.A.,6866,TRANSPORTE,Uber
 2026-07-16,Mercado Libre,62900,PENDIENTE,ML
 2026-07-17,Mercado Libre,11747,PENDIENTE,ML
 2026-07-17,Mercado Libre,26311,PENDIENTE,ML
 2026-07-17,PedidosYa,73345,ALMACEN_SOL,delivery
 2026-07-17,Florencia Londero,8000,PENDIENTE,transferencia
-2026-07-17,Didi,5800,EXCLUIR,transporte
-2026-07-17,Ebanx S.A.,4390,EXCLUIR,Uber
+2026-07-17,Didi,5800,TRANSPORTE,transporte
+2026-07-17,Ebanx S.A.,4390,TRANSPORTE,Uber

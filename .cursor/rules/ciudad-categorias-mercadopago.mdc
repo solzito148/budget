@@ -5,8 +5,15 @@ alwaysApply: true
 
 # CIUDAD 1132 — reglas de categorización Mercado Pago
 
+## TRANSPORTE (cargar, no descartar)
+- Cabify
+- Uber
+- Didi
+- Ebanx S.A. (= Uber)
+- Fila en matriz 2026: `SERVICIOS / TRANSPORTE / Cabify/Uber/Didi`
+- Ignorar movimientos cancelados / devueltos (neto 0)
+
 ## Excluir siempre (no cargar)
-- Didi, Uber, Ebanx S.A. (Uber)
 - Transferencias propias: Sanes Maria Sole / Maria Soledad Sanes
 - Pago de resumen de tarjeta de crédito
 - Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago
@@ -41,7 +48,7 @@ Incluye supermercado, verdulería, carnicería, panadería, huevos, dietética, 
 - Pandora / Bimba Y Lola / Zilver / Ruth Calvetti → Extras Sol (personal)
 - Fundación Soplo De Vida → Extras Sol (donación)
 - Arca / ARCA VEP → impuestos AFIP (fuera de matriz o Extras; no ABL)
-- SUBE → transporte (Extras)
+- SUBE → puede ir a TRANSPORTE o Extras (confirmar)
 - Correo Argentino → envíos (Extras)
 - Mercado Libre → confirmar producto; default pendiente hasta catalogar
 - Cosi Mi Piace / Ramira / Magic Dragon / Belisario Roldán → Extras Sol (salida/evento) salvo que digas Almacén
