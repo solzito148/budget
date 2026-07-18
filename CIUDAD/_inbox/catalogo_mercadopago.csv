@@ -1,4 +1,27 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-01-12,Tarjeta de crédito,200000,EXCLUIR,pago resumen TC
+2026-01-13,Valeria Laura Mele,44100,PENDIENTE,transferencia
+2026-01-13,Tarjeta de crédito,1282375,EXCLUIR,pago resumen TC
+2026-01-13,Copetin Catering,2940,ALMACEN_SOL,catering
+2026-01-15,Marcelo Alejandro Kattan,11000,PENDIENTE,transferencia
+2026-01-15,Mercado Libre,95930,PENDIENTE,ML
+2026-01-17,Veronica Alejandra Mendez,22000,PENDIENTE,transferencia
+2026-01-17,Dia Online,13465,EXCLUIR,devuelto neto 0
+2026-01-18,Arca,107075,IMPUESTOS_AFIP,ARCA
+2026-01-18,Carrefour,4089,ALMACEN_SOL,Carrefour
+2026-01-18,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
+2026-01-18,Susana Carmen Ortiz,15400,LIMPIEZA,Limpieza Susana
+2026-01-19,Sanes Maria Sole,800000,EXCLUIR,propia
+2026-01-19,Didi,5227,TRANSPORTE,Didi
+2026-01-19,Didi,83,TRANSPORTE,Didi
+2026-01-19,Didi,4123,TRANSPORTE,Didi
+2026-01-19,Copetin Catering,3585,ALMACEN_SOL,catering
+2026-01-20,Yenny Paola Calisaya Cquispe,6605,PENDIENTE,transferencia
+2026-01-20,Sanes Maria Sole,US$106.75,EXCLUIR,propia USD
+2026-01-20,Sanes Maria Sole,80000,EXCLUIR,propia
+2026-01-20,Didi,5170,TRANSPORTE,Didi
+2026-01-20,Copetin Catering,3585,ALMACEN_SOL,catering
+2026-01-20,Didi,3633,TRANSPORTE,Didi
 2026-01-22,Mercurio Furchi,17000,PENDIENTE,transferencia
 2026-01-22,Open 25,2100,ALMACEN_SOL,Open 25
 2026-01-22,Didi,4820,TRANSPORTE,Didi
