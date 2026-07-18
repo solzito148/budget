@@ -24,7 +24,7 @@
 2026-01-03,Supermercados Dia,3624,ALMACEN_SOL,Día
 2026-01-04,Tiempo Latino S.A,382500,PENDIENTE,compra TC
 2026-01-04,Ceferina,530000,PENDIENTE,compra TC
-2026-01-04,Noelia Soledad Caballero Britez,8180,PENDIENTE,transferencia
+2026-01-04,Noelia Soledad Caballero Britez,8180,ALMACEN_SOL,COMIDA · VERDULERÍA
 2026-01-04,Gusmar Hnos Srl,4850,PENDIENTE,tienda física
 2026-01-04,Susana Carmen Ortiz,18600,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-04,Susana Carmen Ortiz,43572,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -704,7 +704,7 @@
 2026-07-13,Arca,38957,IMPUESTOS_AFIP,ARCA
 2026-07-14,Personal,56200,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
 2026-07-14,Farmacia Maure,218500,FARMACIA,FARMACIA · Farmacia Maure
-2026-07-14,Noelia Caballero,8977,PENDIENTE,transferencia
+2026-07-14,Noelia Caballero,8977,ALMACEN_SOL,COMIDA · VERDULERÍA
 2026-07-14,Sanes Maria Sole,,EXCLUIR,propia US$200
 2026-07-14,Sanes Maria Sole,300000,EXCLUIR,propia
 2026-07-14,Carenzo Santiago P,398240,PENDIENTE,transferencia
