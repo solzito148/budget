@@ -1,5 +1,28 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-04-06,Metrogas,4850,GAS,Metrogas
+2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,supermercado
+2026-04-07,Gabriel Fradkin,110000,PENDIENTE,transferencia
+2026-04-07,Smartcell Lacroze,16500,CELULAR,celular tienda
+2026-04-07,Mercado Libre,29725,PENDIENTE,ML
+2026-04-07,Ana Silvia Castillo,79000,PENDIENTE,transferencia
+2026-04-08,Susana Carmen Ortiz,100000,LIMPIEZA,Limpieza Susana
+2026-04-08,Yenny Paola Calisaya,15120,PENDIENTE,transferencia
+2026-04-08,Didi,4450,TRANSPORTE,Didi
+2026-04-08,Copetin Catering,17050,ALMACEN_SOL,catering
+2026-04-08,Didi,6180,EXCLUIR,cancelado neto 0
+2026-04-08,Ebanx S.A.,6351,TRANSPORTE,Uber/Ebanx
+2026-04-09,Sanes Maria Sole,1500000,EXCLUIR,propia
+2026-04-09,Arca,37450,IMPUESTOS_AFIP,ARCA
+2026-04-09,Sanes Maria Sole,,EXCLUIR,propia US$800
+2026-04-09,Arca VEP,85300,IMPUESTOS_AFIP,ARCA VEP
+2026-04-09,Tuenti,16650,CELULAR,Tuenti
 2026-04-10,Paws Pet Market,71400,EXTRAS_SOL,mascotas
+2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,delivery propina
+2026-04-10,PedidosYa,2599,ALMACEN_SOL,delivery
+2026-04-10,Apple,359951,EXTRAS_SOL,Apple
+2026-04-10,Mercado Libre,17041,PENDIENTE,ML
+2026-04-10,Mercado Libre,126540,PENDIENTE,ML
+2026-04-10,Mercado Libre,129200,PENDIENTE,ML
 2026-04-11,Ebanx S.A.,356,TRANSPORTE,Uber
 2026-04-11,Ebanx S.A.,9962,TRANSPORTE,Uber
 2026-04-11,Didi,7200,TRANSPORTE,transporte
