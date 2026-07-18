@@ -1,4 +1,28 @@
 ﻿fecha,comercio,monto,categoria,comentario
+2026-01-29,Ebanx S.A.,7260,TRANSPORTE,Uber/Ebanx
+2026-01-30,Didi,2745,TRANSPORTE,Didi
+2026-01-30,Didi,2565,TRANSPORTE,Didi
+2026-01-30,Sanes Maria Sole,4200000,EXCLUIR,propia
+2026-01-30,Gabriela Reggio,4600,PENDIENTE,transferencia
+2026-01-30,Mercedes Srl,47740,AUTO,Mercedes
+2026-01-31,Shell,985,ALMACEN_SOL,Combustible — Shell
+2026-01-31,Shell,831,ALMACEN_SOL,Combustible — Shell
+2026-02-01,Didi,3570,TRANSPORTE,Didi
+2026-02-01,Didi,4421,TRANSPORTE,Didi
+2026-02-01,Sanes Maria Sole,100000,EXCLUIR,propia
+2026-02-01,Pedidosya Propina,750,ALMACEN_SOL,propina
+2026-02-01,Pedidosya,1499,ALMACEN_SOL,PedidosYa
+2026-02-01,Pedidosya Market,118132,ALMACEN_SOL,PedidosYa Market
+2026-02-01,Susana Carmen Ortiz,149502,LIMPIEZA,Limpieza Susana
+2026-02-01,Susana Carmen Ortiz,17300,LIMPIEZA,Limpieza Susana
+2026-02-01,Apple,45711,EXTRAS_SOL,Apple
+2026-02-02,Cabify,4971,TRANSPORTE,Cabify
+2026-02-02,Cabify,4447,TRANSPORTE,Cabify
+2026-02-02,Mercado Libre,19652,PENDIENTE,ML
+2026-02-02,Apple,5553,EXTRAS_SOL,Apple
+2026-02-03,Feed,645,ALMACEN_SOL,comida
+2026-02-03,Copetin Catering,3585,ALMACEN_SOL,catering
+2026-02-03,Didi,4760,TRANSPORTE,Didi
 2026-02-05,Feed,645,ALMACEN_SOL,comida
 2026-02-05,Copetin Catering,2940,ALMACEN_SOL,catering
 2026-02-05,Didi,4600,TRANSPORTE,Didi
