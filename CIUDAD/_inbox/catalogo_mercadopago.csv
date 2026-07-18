@@ -14,14 +14,14 @@
 2025-12-30,Sanes Maria Sole,US$169.88,EXCLUIR,propia USD 2025
 2025-12-31,Apple,1861,EXTRAS_SOL,2025 — fuera planilla 2026
 2025-12-31,Apple,18779,EXTRAS_SOL,2025 — fuera planilla 2026
-2026-01-02,Supermercados Dia,17603,ALMACEN_SOL,Día
+2026-01-02,Supermercados Dia,17603,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-02,Maria Sanes,1152000,EXCLUIR,propia
 2026-01-02,Mercado Libre,232640,PENDIENTE,ML
 2026-01-02,Mercado Libre,50523,PENDIENTE,ML
-2026-01-02,Carrefour,8037,ALMACEN_SOL,Carrefour
-2026-01-02,Supermercados Dia,4005,ALMACEN_SOL,Día
+2026-01-02,Carrefour,8037,ALMACEN_SOL,SUPERMERCADO · Carrefour
+2026-01-02,Supermercados Dia,4005,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-02,Apple,5621,EXTRAS_SOL,Apple
-2026-01-03,Supermercados Dia,3624,ALMACEN_SOL,Día
+2026-01-03,Supermercados Dia,3624,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-04,Tiempo Latino S.A,382500,PENDIENTE,compra TC
 2026-01-04,Ceferina,530000,PENDIENTE,compra TC
 2026-01-04,Noelia Soledad Caballero Britez,8180,ALMACEN_SOL,COMIDA · VERDULERÍA
@@ -32,7 +32,7 @@
 2026-01-04,Susana Carmen Ortiz,7100,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-05,Shell,197,ALMACEN_SOL,Combustible — Shell
 2026-01-05,Shell,46,ALMACEN_SOL,Combustible — Shell
-2026-01-05,Dia Online,15092,ALMACEN_SOL,Día Online
+2026-01-05,Dia Online,15092,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-05,Fideicomiso Ava Palpa,5291593,AVA,AVA — otra carpeta
 2026-01-06,Copetin Catering,645,ALMACEN_SOL,catering
 2026-01-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
@@ -76,9 +76,9 @@
 2026-01-15,Marcelo Alejandro Kattan,11000,PENDIENTE,transferencia
 2026-01-15,Mercado Libre,95930,PENDIENTE,ML
 2026-01-17,Veronica Alejandra Mendez,22000,PENDIENTE,transferencia
-2026-01-17,Dia Online,13465,EXCLUIR,devuelto neto 0
+2026-01-17,Dia Online,13465,EXCLUIR,SUPERMERCADO · Día · devuelto neto 0
 2026-01-18,Arca,107075,IMPUESTOS_AFIP,ARCA
-2026-01-18,Carrefour,4089,ALMACEN_SOL,Carrefour
+2026-01-18,Carrefour,4089,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-01-18,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-18,Susana Carmen Ortiz,15400,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-19,Sanes Maria Sole,800000,EXCLUIR,propia
@@ -149,7 +149,7 @@
 2026-02-06,Sanes Maria Sole,US$650,EXCLUIR,propia USD
 2026-02-06,Sanes Maria Sole,US$700,EXCLUIR,propia USD
 2026-02-06,Sanes Maria Sole,US$2000,EXCLUIR,propia USD
-2026-02-06,Carrefour Ecommerce,22768,ALMACEN_SOL,Carrefour
+2026-02-06,Carrefour Ecommerce,22768,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-02-06,Andres Javier Di Pasqua,24852,PENDIENTE,compra
 2026-02-06,Sanes Maria Sole,900000,EXCLUIR,propia
 2026-02-06,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Expensas CIUDAD — ya en hoja
@@ -159,7 +159,7 @@
 2026-02-07,Cabify,4950,TRANSPORTE,Cabify
 2026-02-07,Open 25,1170,ALMACEN_SOL,Open 25
 2026-02-08,Cabify,5992,TRANSPORTE,Cabify
-2026-02-08,Carrefour Ecommerce,21990,ALMACEN_SOL,Carrefour
+2026-02-08,Carrefour Ecommerce,21990,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-02-08,Tuenti,14700,CELULAR,Tuenti
 2026-02-08,Carlos Leonardo Farinella,70000,PENDIENTE,transferencia
 2026-02-09,Didi,4320,TRANSPORTE,Didi
@@ -186,10 +186,10 @@
 2026-02-14,Veronica Alejandra Mendez,9500,PENDIENTE,transferencia
 2026-02-14,Mercado Libre,10391,EXCLUIR,devuelto neto 0
 2026-02-14,Tu Papelera,43100,EXTRAS_SOL,librería/papelera
-2026-02-14,Supermercados Dia,5622,ALMACEN_SOL,Día
+2026-02-14,Supermercados Dia,5622,ALMACEN_SOL,SUPERMERCADO · Día
 2026-02-15,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-17,Alberto Roque Sachetti,30000,PENDIENTE,transferencia
-2026-02-18,Supermercados Dia,37335,ALMACEN_SOL,Día
+2026-02-18,Supermercados Dia,37335,ALMACEN_SOL,SUPERMERCADO · Día
 2026-02-18,Copetin Catering,2703,ALMACEN_SOL,catering
 2026-02-18,Didi,6090,TRANSPORTE,Didi
 2026-02-18,Ebanx S.A.,2590,TRANSPORTE,Uber/Ebanx
@@ -235,7 +235,7 @@
 2026-03-04,Jardin Del Pilar Sa-Norte,4000000,PENDIENTE,transferencia grande
 2026-03-05,Paws Pet Market,9000,EXTRAS_SOL,mascotas
 2026-03-05,Huevos Point,14500,ALMACEN_SOL,huevos
-2026-03-06,Coto,114263,ALMACEN_SOL,super
+2026-03-06,Coto,114263,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-03-06,Tuenti,4000,CELULAR,Tuenti
 2026-03-06,Susana Carmen Ortiz,91841,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-06,Susana Carmen Ortiz,20000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -302,7 +302,7 @@
 2026-03-22,Adidas,137998,EXTRAS_SOL,ropa
 2026-03-22,Open 25,50000,ALMACEN_SOL,tienda
 2026-03-22,Apple,29810,EXTRAS_SOL,Apple
-2026-03-23,Supermercados Dia,47664,ALMACEN_SOL,supermercado
+2026-03-23,Supermercados Dia,47664,ALMACEN_SOL,SUPERMERCADO · Día
 2026-03-23,Claude.ai Subscription,,EXTRAS_SOL,US$200
 2026-03-23,Awada,604001,EXTRAS_SOL,ropa
 2026-03-23,Carcasa,9900,EXTRAS_SOL,accesorio
@@ -328,9 +328,9 @@
 2026-04-02,Compraenkalbb,82746,PENDIENTE,compra online
 2026-04-02,Pedidosya Empanada,36519,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-04-02,Apple,5448,EXTRAS_SOL,Apple
-2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,supermercado
+2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-03,ACA,881,AUTO,ACA
-2026-04-03,Coto,149320,ALMACEN_SOL,supermercado
+2026-04-03,Coto,149320,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-04-03,Metrogas,37316,GAS,Metrogas
 2026-04-04,Ebanx S.A.,4207,TRANSPORTE,Uber/Ebanx
 2026-04-04,Ebanx S.A.,4691,TRANSPORTE,Uber/Ebanx
@@ -341,7 +341,7 @@
 2026-04-05,Ema Maldonado,7000,PENDIENTE,transferencia
 2026-04-05,Wordpress,,EXTRAS_SOL,US$228
 2026-04-06,Metrogas,4850,GAS,Metrogas
-2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,supermercado
+2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-06,Farmacia Maure,191500,FARMACIA,FARMACIA · Farmacia Maure
 2026-04-06,Ebanx S.A.,6793,TRANSPORTE,Uber/Ebanx
 2026-04-06,Copetin Catering,12650,ALMACEN_SOL,catering
@@ -470,7 +470,7 @@
 2026-05-09,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-09,Susana Carmen Ortiz,3000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-09,Mercado Libre,38637,PENDIENTE,ML
-2026-05-09,Coto,47361,ALMACEN_SOL,supermercado
+2026-05-09,Coto,47361,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-05-09,Tuenti,16650,CELULAR,Tuenti
 2026-05-10,Ramira,117000,EXTRAS_SOL,salida/evento
 2026-05-10,Agip Abl Gcba,25512,ABL,ABL
@@ -557,7 +557,7 @@
 2026-05-29,Servicios De Pagos Virtuales,630000,PENDIENTE,¿qué es?
 2026-05-29,Ebanx S.A.,5478,TRANSPORTE,Uber
 2026-05-29,Ebanx S.A.,5194,TRANSPORTE,Uber
-2026-05-30,Carrefour,24333,ALMACEN_SOL,supermercado
+2026-05-30,Carrefour,24333,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-05-30,Shell,18314,ALMACEN_SOL,nafta · combustible
 2026-05-30,Shell,1415,ALMACEN_SOL,nafta · combustible
 2026-05-30,Sanes Maria Sole,,EXCLUIR,propia US$500
@@ -571,7 +571,7 @@
 2026-06-03,Vercel Domains,,EXTRAS_SOL,US$11.25
 2026-06-03,Metrogas,4984,GAS,Metrogas
 2026-06-03,Pandora Jewelry,1708760,EXTRAS_SOL,personal
-2026-06-03,Carrefour Ecommerce,23943,ALMACEN_SOL,supermercado
+2026-06-03,Carrefour Ecommerce,23943,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-06-04,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-06-05,Sanes Maria Sole,,EXCLUIR,cancelado US$500
 2026-06-05,Fideicomiso Ava Palpa,5850639,AVA,Ava Palpa
@@ -579,7 +579,7 @@
 2026-06-06,Susana Carmen Ortiz,104718,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-06,Susana Carmen Ortiz,6000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-06,Guillermo Galarraga,14500,PENDIENTE,transferencia
-2026-06-07,Coto,348208,ALMACEN_SOL,supermercado
+2026-06-07,Coto,348208,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-06-07,ACA,711,AUTO,ACA
 2026-06-08,Créditos Mercado Pago,819946,EXCLUIR,cuota 9/24
 2026-06-08,Tuenti,17400,CELULAR,Tuenti
@@ -655,7 +655,7 @@
 2026-06-30,Didi,5490,TRANSPORTE,transporte
 2026-06-30,Didi,5120,TRANSPORTE,transporte
 2026-06-30,Agip Abl Gcba,100779,ABL,ABL
-2026-07-02,Carrefour Ecommerce,75417,ALMACEN_SOL,devuelto neto 0 - no cargar
+2026-07-02,Carrefour Ecommerce,75417,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-07-02,Veterinaria,107000,EXTRAS_SOL,veterinaria
 2026-07-03,Todo Tartas,9690,ALMACEN_SOL,panadería
 2026-07-03,Ebanx S.A.,6346,TRANSPORTE,Uber
