@@ -1,0 +1,5 @@
+propiedad,partida_abl,archivo,regla_monto,notas
+CIUDAD,397789,CIUDAD/Gastos_CIUDAD_1132_2026.xlsx,<=80000,ABL AGIP
+OHIGGINS,3016365,OHIGGINS/Gastos_OHIGGINS_2026.xlsx,>80000,ABL AGIP
+AVA,,,pendiente,
+BONORINO,,,pendiente,

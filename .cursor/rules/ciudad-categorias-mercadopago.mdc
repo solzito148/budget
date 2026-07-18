@@ -17,14 +17,19 @@ alwaysApply: true
 - Cargar en hoja `Almacen Detalle` (Importe Sol) con detalle tipo `Combustible — Shell/YPF`
 - No van a Extras ni a categoría AUTO
 
-## Excluir siempre (no cargar)
-- Transferencias propias: Sanes Maria Sole / Maria Soledad Sanes
-- Pago de resumen de tarjeta de crédito
-- Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago
+## Separación ALMACEN SOL vs personal Sol
+- **ALMACEN SOL** = solo comida / súper / verdulería / delivery comida / combustible → hoja `Almacen Detalle`
+- **Todo lo demás personal de Sol** (ropa, ML, transferencias a terceros, mascotas, donaciones, Apple, Tuenti, suscripciones, ACA, etc.) → hoja `Gasto Personal Sol` (no suma al total de la hoja `2026`)
+- PedidosYa Plus → `Gasto Personal Sol` (no almacén)
+
+## Excluir / hojas aparte (no suman a matriz `2026`)
+- Transferencias propias: Sanes Maria Sole / Maria Soledad Sanes → EXCLUIR
+- **Pago de resumen de tarjeta de crédito** → hoja `Pago de Tarjetas` (no es gasto nuevo)
+- Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago → EXCLUIR
 - Movimientos cancelados o devueltos (usar neto)
-- **Reserva automática** (y cualquier concepto “Reserva automática” de Mercado Pago): eliminar / no catalogar / no cargar
-- **Dinero retirado**: no es gasto de CIUDAD — cargar solo en hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario). No suma al total de la hoja `2026`
-- **Transferencia recibida** / Ingreso de dinero: no es gasto — cargar solo en hoja `Transferencias recibidas` (Fecha | Mes | Origen | Monto | Medio | Comentario). No suma al total de la hoja `2026`
+- **Reserva automática** → eliminar / no catalogar / no cargar
+- **Dinero retirado** → hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario)
+- **Transferencia recibida** / Ingreso de dinero → hoja `Transferencias recibidas` (Fecha | Mes | Origen | Monto | Medio | Comentario)
 
 ## Inversión (hoja separada)
 - Bonos, plazos fijos, fondos y otros movimientos de inversión → hoja `Inversión`
@@ -36,9 +41,16 @@ alwaysApply: true
 - Identificación bancaria CIUDAD: Entidad **Patagonia** / Banco Patagonia · CBU `0340116900116010765007` · CUIL `30714962473` → siempre **Expensas CIUDAD** (aunque el nombre del consorcio varíe)
 - Cons De Prop E Bonorino 82 → **Pago de Expensas · BONORINO**
 - Consorcio De Copropi → **Pago de Expensas · A CONFIRMAR** (propiedad pendiente)
-- Fideicomiso Ava Palpa → **AVA**
-- Todos estos movimientos → hoja `Expensas Consorcios` (Fecha | Mes | Consorcio | Propiedad | Monto | Medio | Comentario). **Nunca ALMACEN SOL**
+- Fideicomiso Ava Palpa → **AVA** (`AVA/Gastos_AVA_2026.xlsx`). Nunca CIUDAD ni ALMACEN SOL
+- Expensas de consorcios (CIUDAD / BONORINO / A CONFIRMAR) → hoja `Expensas Consorcios`. **Nunca ALMACEN SOL**
 - **Personal / Personal Pago directo** → **OHIGGINS** · `TV CABLE-INTERNET` / `Personal — Pago directo`. Nunca CIUDAD. Archivo: `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
+
+## ABL (AGIP) — partidas por propiedad
+El settlement de Mercado Pago **no trae la partida**; mapear a mano.
+- **CIUDAD 1132** → partida **397789** → montos **≤ $80.000** → fila ABL CIUDAD
+- **OHIGGINS** → partida **3016365** → montos **> $80.000** → `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` (nunca CIUDAD)
+- AVA / BONORINO → partidas pendientes
+- Referencia: `CIUDAD/_inbox/abl_partidas.csv`
 
 ## ALMACEN SOL (comida / supermercado)
 - **Coto / Carrefour / Día** (tienda física, online o ecommerce) → siempre `SUPERMERCADO · Coto|Carrefour|Día` (ALMACEN SOL)
@@ -57,7 +69,7 @@ alwaysApply: true
 - **PedidosYa Market** → `PEDIDOS YA · SUPERMERCADO` (almacén)
 - **PedidosYa** / **Pedidosya Empanada** (y delivery resto) → `PEDIDOS YA · COMIDA`
 - **PedidosYa Propina** → misma etiqueta del pedido del día (`· propina`); si solo hay Market ese día → SUPERMERCADO; si hay PedidosYa comida → COMIDA; default COMIDA
-- **PedidosYa Plus** → Extras Sol (suscripción, no almacén)
+- **PedidosYa Plus** → `Gasto Personal Sol` (suscripción, no almacén)
 - En catálogo y en comentario de `Almacen Detalle` (columna Comentario)
 
 ## FARMACIA (categoría principal)
@@ -73,12 +85,12 @@ alwaysApply: true
 - **Ceferina** → hoja `Gasto Personal Sol` · categoría `ROPA` (no suma al total CIUDAD)
 - **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
 - Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
-- ACA → auto (Extras) salvo que digas Combustible
-- Vercel / mascotas / donaciones → Extras Sol
+- ACA → `Gasto Personal Sol` (AUTO) salvo que digas Combustible
+- Vercel / mascotas / donaciones / ropa / ML → `Gasto Personal Sol`
 - **Pandora Jewelry** (compra): eliminar / no catalogar / no cargar
 - **Copetin Catering**: no cargar en ALMACEN SOL (quitar / excluir del almacén)
-- Arca / ARCA VEP → impuestos AFIP
-- Mercado Libre → pendiente
+- Arca / ARCA VEP → impuestos AFIP (catálogo; no almacén)
+- Mercado Libre → `Gasto Personal Sol` (revisar ítem; no almacén)
 
 ## Formato
 - Montos enteros, ceil hacia arriba
