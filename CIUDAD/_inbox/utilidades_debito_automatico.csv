@@ -1,0 +1,12 @@
+servicio,propiedad,n_cliente,debito_automatico,medio,evidencia,aparece_en_mp,nota_resumen_bbva
+Metrogas,CIUDAD,30010996459,SI,BBVA Visa Signature (débito automático),Resumen Visa 17-Jun-26 METROGAS SA DEB 030010996459 $30.642,06; boletas email = Sí,A veces,Etiqueta DEB en el resumen = adhesión a TC
+Edenor,CIUDAD,8917502309 / 008917502309,SI,BBVA Visa Signature,Resumen Visa 16-Jun-26 EDENOR SA 000008917502309 $106.211,68; facturas decían Visa 3200,NO,Coincide monto jun en planilla CIUDAD
+Edenor,OHIGGINS,9267222037,SI,BBVA Visa Signature,Resumen Visa 10-Jun-26 EDENOR SA 000009267222037 $10.577,07,NO,Confirma Chagas/OHIGGINS; coincide may $10578
+Telecentro,CIUDAD,3491192,SI,BBVA Visa Signature,Resumen Visa 30-Jun-26 TELECENTRO SA 000000003491192 $31.999,00,RARO (1 pago MP jun),Antes dudoso; ahora confirmado en TC
+Metrogas,OHIGGINS,10139236800,NO,Mercado Pago,No figura en Visa ni Master BBVA,SI,
+Personal,OHIGGINS,,NO,Pago directo MP,No figura en Visa ni Master BBVA,SI,
+Edesur,BONORINO,3932799,NO,Mercado Pago,No figura en Visa ni Master BBVA,SI,
+ABL AGIP,CIUDAD/OHIGGINS,397789 / 3016365,NO,Mercado Pago,No figura en Visa ni Master BBVA,SI,
+Expensas,CIUDAD/OHIGGINS/BONORINO,,NO,Transferencia,No figura en TC,SI / banco,
+Tuenti,Personal Sol,,NO,MP recargas,No figura como servicio en TC,SI,
+Spotify / OpenAI / Vercel / Cursor,Personal/suscripciones,varios,SI (suscripciones),BBVA Visa (USD),Aparecen en Visa Signature,NO,No son utilidades de propiedad

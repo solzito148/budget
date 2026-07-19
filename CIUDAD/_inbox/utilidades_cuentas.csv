@@ -1,0 +1,9 @@
+servicio,propiedad,titular,n_cliente,n_medidor,utility_id_mp,debito_automatico,medio_pago,notas
+Telecentro,CIUDAD,Maria Soledad Sanes,3491192,,,SI,BBVA Visa Signature,TV CABLE CIUDAD · confirmado resumen Visa 30-Jun-26 $31999
+Edenor,CIUDAD,Maria Soledad Sanes,008917502309 / 8917502309,,,SI,BBVA Visa Signature,LUZ CIUDAD · resumen Visa 16-Jun-26 $106211.68
+Edenor,OHIGGINS,Marta Chagas (Sanes M.i.chagas),9267222037,,,SI,BBVA Visa Signature,LUZ OHIGGINS O'Higgins 2225 8 · resumen Visa 10-Jun-26 $10577.07
+Metrogas,CIUDAD,Maria Soledad Sanes,30010996459,40049923,2679880112,SI,BBVA Visa Signature (METROGAS SA DEB),GAS CIUDAD · resumen Visa 17-Jun-26 $30642.06
+Metrogas,OHIGGINS,INVALMAR SRL (Ivilmar),10139236800,8683287,2685438703,NO,Mercado Pago,GAS OHIGGINS O'Higgins 2225 8 · no en TC BBVA
+Edesur,BONORINO,,3932799,,,NO,Mercado Pago,LUZ BONORINO · no en TC BBVA
+ABL,CIUDAD,,,397789,,NO,Mercado Pago,partida AGIP <=80000
+ABL,OHIGGINS,,,3016365,,NO,Mercado Pago,partida AGIP >80000

@@ -55,7 +55,7 @@ fecha,comercio,monto,categoria,comentario
 2026-01-09,Catore Srl,44000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-09,Tarjeta de crédito,164709,PAGO_TARJETA,pago resumen TC · hoja Pago de Tarjetas
 2026-01-09,Sanes Maria Sole,2000000,EXCLUIR,propia
-2026-01-09,Consorcio De Copropi,376564,EXPENSAS_A_CONFIRMAR,Pago de Expensas · A CONFIRMAR (Consorcio De Copropi)
+2026-01-09,Consorcio De Copropi,376564,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período enero 2026 (Gmail Sent / Estudio Kalmus)
 2026-01-09,Antonela Beatriz Guidobono,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Maria Lujan Paz,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Pedidosya Plus,5490,GASTO_PERSONAL_SOL,PEDIDOS YA · suscripción Plus (no almacén) · gasto personal Sol
@@ -153,7 +153,7 @@ fecha,comercio,monto,categoria,comentario
 2026-02-06,Andres Javier Di Pasqua,24852,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-02-06,Sanes Maria Sole,900000,EXCLUIR,propia
 2026-02-06,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
-2026-02-06,Consorcio De Copropi,395551,EXPENSAS_A_CONFIRMAR,Pago de Expensas · A CONFIRMAR (Consorcio De Copropi)
+2026-02-06,Consorcio De Copropi,395551,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período febrero 2026 (Gmail Sent / Estudio Kalmus)
 2026-02-06,Arca,37096,IMPUESTOS_AFIP,ARCA
 2026-02-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
 2026-02-07,Cabify,4950,TRANSPORTE,Cabify
@@ -252,7 +252,7 @@ fecha,comercio,monto,categoria,comentario
 2026-03-09,Didi,5980,TRANSPORTE,Didi
 2026-03-10,Sanes Maria Sole,600000,EXCLUIR,propia
 2026-03-10,Arca,37096,IMPUESTOS_AFIP,ARCA
-2026-03-10,Consorcio De Copropi,402934,EXPENSAS_A_CONFIRMAR,Pago de Expensas · A CONFIRMAR (Consorcio De Copropi)
+2026-03-10,Consorcio De Copropi,402934,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período marzo 2026 (Gmail Sent / Estudio Kalmus)
 2026-03-10,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-03-10,Tuenti,16000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-11,Didi,3941,TRANSPORTE,Didi
@@ -331,7 +331,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-03,ACA,881,GASTO_PERSONAL_SOL,ACA · AUTO/ACA · gasto personal Sol
 2026-04-03,Coto,149320,ALMACEN_SOL,SUPERMERCADO · Coto
-2026-04-03,Metrogas,37316,GAS,Metrogas
+2026-04-03,Metrogas,37316,GAS,Metrogas · Metrogas (revisar propiedad por cliente)
 2026-04-04,Ebanx S.A.,4207,TRANSPORTE,Uber/Ebanx
 2026-04-04,Ebanx S.A.,4691,TRANSPORTE,Uber/Ebanx
 2026-04-04,Sofía Entivero,519441,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
@@ -340,7 +340,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-04,Susana Carmen Ortiz,82416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-05,Ema Maldonado,7000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-04-05,Wordpress,,GASTO_PERSONAL_SOL,US$228 · gasto personal Sol
-2026-04-06,Metrogas,4850,GAS,Metrogas
+2026-04-06,Metrogas,4850,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
 2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-06,Farmacia Maure,191500,FARMACIA,FARMACIA · Farmacia Maure
 2026-04-06,Ebanx S.A.,6793,TRANSPORTE,Uber/Ebanx
@@ -462,7 +462,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-08,Ruth Calvetti,266443,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-05-08,Mercado Libre,4699990,EXCLUIR,devuelto - neto 0
 2026-05-08,Arca VEP,17372,IMPUESTOS_AFIP,ARCA VEP
-2026-05-08,Metrogas,4935,GAS,Metrogas
+2026-05-08,Metrogas,4935,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
 2026-05-08,Didi,1500,TRANSPORTE,transporte
 2026-05-08,Didi,7400,EXCLUIR,cancelado neto 0
 2026-05-08,Ana Magariños,5000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
@@ -511,7 +511,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-16,PedidosYa Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-05-16,PedidosYa,17519,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-05-16,Valeria Mele,90000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-05-18,Edesur,1441,GASTO_PERSONAL_SOL,luz ¿propiedad? · gasto personal Sol (ex-PENDIENTE)
+2026-05-18,Edesur,1441,EDESUR_BONORINO,Edesur · LUZ BONORINO
 2026-05-18,Leocan,79924,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
 2026-05-18,Didi,6030,TRANSPORTE,transporte
 2026-05-18,Didi,6880,TRANSPORTE,transporte
@@ -569,7 +569,7 @@ fecha,comercio,monto,categoria,comentario
 2026-06-02,Andres Di Pasqua,32046,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-06-02,Correo Argentino,22500,GASTO_PERSONAL_SOL,envíos · gasto personal Sol
 2026-06-03,Vercel Domains,,GASTO_PERSONAL_SOL,US$11.25 · gasto personal Sol
-2026-06-03,Metrogas,4984,GAS,Metrogas
+2026-06-03,Metrogas,4984,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
 2026-06-03,Carrefour Ecommerce,23943,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-06-04,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-06-05,Sanes Maria Sole,,EXCLUIR,cancelado US$500
@@ -586,7 +586,7 @@ fecha,comercio,monto,categoria,comentario
 2026-06-10,Cons De Prop E Bonorino 82,219145,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
 2026-06-10,Karina Venturo,8293,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-06-10,Arca,37572,IMPUESTOS_AFIP,ARCA
-2026-06-10,Consorcio De Copropi,666347,EXPENSAS_A_CONFIRMAR,Pago de Expensas · A CONFIRMAR (Consorcio De Copropi)
+2026-06-10,Consorcio De Copropi,666347,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período mayo 2026 (Gmail Sent / Estudio Kalmus)
 2026-06-10,Consorcio De Propiet,246150,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-06-11,PedidosYa Propina,1200,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-11,PedidosYa,28384,ALMACEN_SOL,PEDIDOS YA · COMIDA
@@ -607,14 +607,14 @@ fecha,comercio,monto,categoria,comentario
 2026-06-16,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-06-16,PedidosYa,68899,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-16,Dermacycle,150000,GASTO_PERSONAL_SOL,estética · gasto personal Sol
-2026-06-17,Telecentro Sa,48420,TV_CABLE,Telecentro
+2026-06-17,Telecentro Sa,48420,TELECENTRO_CIUDAD,Telecentro · TV CABLE CIUDAD
 2026-06-17,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-06-17,Didi,4950,TRANSPORTE,transporte
 2026-06-17,Tarjeta de crédito,1501833,PAGO_TARJETA,pago resumen · hoja Pago de Tarjetas
 2026-06-18,Mercado Libre,67000,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-06-18,Tienda De Café,18700,ALMACEN_SOL,café
 2026-06-19,Todo Tartas,28000,ALMACEN_SOL,panadería
-2026-06-19,Edesur,2198,GASTO_PERSONAL_SOL,luz ¿propiedad? · gasto personal Sol (ex-PENDIENTE)
+2026-06-19,Edesur,2198,EDESUR_BONORINO,Edesur · LUZ BONORINO
 2026-06-20,PedidosYa Propina,1500,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-20,PedidosYa,47299,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
 2026-06-20,Susana Carmen Ortiz,112020,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -682,7 +682,7 @@ fecha,comercio,monto,categoria,comentario
 2026-07-08,Tuenti,18000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-07-09,Carlos Farinella,80000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-07-09,Valenti Sa,26400,ALMACEN_SOL,COMIDA · VALENTI SA
-2026-07-09,Consorcio De Copropi,829490,EXPENSAS_A_CONFIRMAR,Pago de Expensas · A CONFIRMAR (Consorcio De Copropi)
+2026-07-09,Consorcio De Copropi,829490,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período junio 2026 (Gmail Sent / Estudio Kalmus)
 2026-07-09,Cons De Prop E Bonorino 82,209393,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
 2026-07-09,Consorcio De Propiet,273500,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-07-09,Sanes Maria Sole,1500000,EXCLUIR,propia
@@ -708,7 +708,7 @@ fecha,comercio,monto,categoria,comentario
 2026-07-14,Carenzo Santiago P,398240,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-07-14,Agip Abl Gcba,88891,ABL_OHIGGINS,ABL OHIGGINS partida 3016365 · $88.891 (>80.000)
 2026-07-14,Agip Abl Gcba,26175,ABL_CIUDAD,ABL CIUDAD partida 397789 · $26.175
-2026-07-14,Metrogas,5208,GAS,Metrogas pago MP
+2026-07-14,Metrogas,5208,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
 2026-07-15,Mercado Libre,30318,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-07-15,Mercado Libre,18525,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-07-15,Sanes Maria Sole,,EXCLUIR,propia US$500

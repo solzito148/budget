@@ -40,9 +40,10 @@ alwaysApply: true
 - **Consorcio De Propiet** / Consorcio De Propietarios (transferencia enviada) → siempre **Pago de Expensas · CIUDAD 1132**
 - Identificación bancaria CIUDAD: Entidad **Patagonia** / Banco Patagonia · CBU `0340116900116010765007` · CUIL `30714962473` → siempre **Expensas CIUDAD** (aunque el nombre del consorcio varíe)
 - Cons De Prop E Bonorino 82 → **Pago de Expensas · BONORINO**
-- Consorcio De Copropi → **Pago de Expensas · A CONFIRMAR** (propiedad pendiente)
+- Consorcio De Copropi (CUIT `30-58711816-5`) → **Pago de Expensas · OHIGGINS** · O’Higgins 2219 piso 8 · Estudio Kalmus. Archivo: `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`. Nunca A CONFIRMAR ni ALMACEN SOL
 - Fideicomiso Ava Palpa → **AVA** (`AVA/Gastos_AVA_2026.xlsx`). Nunca CIUDAD ni ALMACEN SOL
-- Expensas de consorcios (CIUDAD / BONORINO / A CONFIRMAR) → hoja `Expensas Consorcios`. **Nunca ALMACEN SOL**
+- Expensas de consorcios (CIUDAD / BONORINO / OHIGGINS) → hoja `Expensas Consorcios` (en CIUDAD) y/o matriz de cada propiedad. **Nunca ALMACEN SOL**
+- Período vs fecha de pago (Gmail Sent): a veces el comprobante de mayo/junio se envía el mes siguiente (ej. pago 10-jun = mayo; pago 9-jul = junio). Usar el período del mail/adjunto, no solo la fecha MP.
 - **Personal / Personal Pago directo** → **OHIGGINS** · `TV CABLE-INTERNET` / `Personal — Pago directo`. Nunca CIUDAD. Archivo: `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
 
 ## ABL (AGIP) — partidas por propiedad
@@ -77,8 +78,21 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **Selma Salvatori** / Farmacia Selma → **ALMACEN SOL** con comentario `FARMACIA · Farmacia Selma` (no Extras)
 - Comentario obligatorio con nombre de farmacia
 
+## Servicios / utilidades por propiedad
+- **Telecentro** → siempre **CIUDAD** · TV CABLE (`Telecentro`). Nunca otra propiedad
+- **Edesur** → siempre **BONORINO** · LUZ (cliente `3932799`). Nunca CIUDAD ni personal
+- **Metrogas** por N° cliente:
+  - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes
+  - **OHIGGINS**: cliente `10139236800` · medidor `8683287` · titular **INVALMAR SRL** (Ivilmar) · O'Higgins 2225 8
+- **Edenor (LUZ)** según titular / cuenta:
+  - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
+  - **Marta Chagas** / Sanes M.i.chagas → **OHIGGINS** (cuenta `9267222037` · O'Higgins 2225 8)
+  - **INVALMAR / Ivilmar** → **OHIGGINS**
+- **ABL AGIP**: CIUDAD partida `397789` (≤$80.000) · OHIGGINS partida `3016365` (>$80.000)
+- Referencia: `CIUDAD/_inbox/utilidades_cuentas.csv`
+
+
 ## Otras
-- Metrogas → GAS | AGIP ABL → ABL | Telecentro → TV CABLE (CIUDAD)
 - **Tuenti** → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
 - **Promarine** / Promarine Erisea → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
 - **Apple** → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
