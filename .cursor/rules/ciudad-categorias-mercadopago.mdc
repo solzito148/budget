@@ -31,12 +31,13 @@ alwaysApply: true
 - **Dinero retirado** → hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario)
 - **Transferencia recibida** / Ingreso de dinero → hoja `Transferencias recibidas` (Fecha | Mes | Origen | Monto | Medio | Comentario)
 - **Ingreso bruto Sol (sueldo)** → hoja `Ingresos Sol` (no suma al total de la hoja `2026`)
-  - Vigente desde **01/07/2026** (período / devengado): bruto mensual **ARS 11.305.702**
+  - Básico confirmado en recibos MELI de marzo a junio 2026: **ARS 11.305.702**
+  - Incremento del **12%** desde **01/07/2026** (período / devengado): nuevo bruto mensual **ARS 12.662.387** (ceil)
   - Cobro: día **1 del mes siguiente** (julio se cobra **01/08**)
-  - Incluye **incremento del 12%**
   - Registrar período, fecha de cobro, monto bruto, % incremento y comentario
 - **MELI** → hoja `MELI`: simulador editable vinculado a `Ingresos Sol`
   - Separar aportes del empleado, Ganancias estimada y cargas patronales
+  - Cargar recibos reales 2026 de sueldo, bonos y SAC en la misma hoja, con resumen conciliado y detalle de conceptos
   - No suma al total de gastos de la hoja `2026`
   - Ganancias es orientativa: dejar explícitos los supuestos y parámetros fiscales
 
