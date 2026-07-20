@@ -35,6 +35,10 @@ alwaysApply: true
   - Cobro: día **1 del mes siguiente** (julio se cobra **01/08**)
   - Incluye **incremento del 12%**
   - Registrar período, fecha de cobro, monto bruto, % incremento y comentario
+- **MELI** → hoja `MELI`: simulador editable vinculado a `Ingresos Sol`
+  - Separar aportes del empleado, Ganancias estimada y cargas patronales
+  - No suma al total de gastos de la hoja `2026`
+  - Ganancias es orientativa: dejar explícitos los supuestos y parámetros fiscales
 
 ## Inversión (hoja separada)
 - Bonos, plazos fijos, fondos y otros movimientos de inversión → hoja `Inversión`
