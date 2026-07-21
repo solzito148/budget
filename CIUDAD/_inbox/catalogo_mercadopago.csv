@@ -310,7 +310,7 @@ fecha,comercio,monto,categoria,comentario
 2026-03-24,Mercado Libre,377337,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-03-24,Mercado Libre,101899,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-03-25,Paws Pet Market,35700,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
-2026-03-26,Agustina Vissani,75000,AGUS_PSA,confirmar AGUS/PSA
+2026-03-26,Agustina Vissani,75000,GASTO_PERSONAL_SOL,PELUQUERÍA · Agustina Vissani · gasto personal Sol
 2026-03-27,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-30,Generacion 20 Combustibles,88999,ALMACEN_SOL,combustible
@@ -502,7 +502,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-14,Arca VEP,17344,IMPUESTOS_AFIP,ARCA VEP
 2026-05-15,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-05-15,Sanes Maria Sole,400000,EXCLUIR,propia
-2026-05-15,Agustina Vissani,125000,AGUS_PSA,confirmar AGUS/PSA
+2026-05-15,Agustina Vissani,125000,GASTO_PERSONAL_SOL,PELUQUERÍA · Agustina Vissani · gasto personal Sol
 2026-05-15,General Collect,2496700,GASTO_PERSONAL_SOL,cobranza · gasto personal Sol (ex-PENDIENTE)
 2026-05-16,Susana Carmen Ortiz,96567,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-16,Susana Carmen Ortiz,8000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -596,7 +596,7 @@ fecha,comercio,monto,categoria,comentario
 2026-06-12,Correo Argentino,48000,GASTO_PERSONAL_SOL,envíos · gasto personal Sol
 2026-06-12,PedidosYa Propina,900,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-12,PedidosYa,17189,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-06-12,Agustina Vissani,135000,AGUS_PSA,confirmar AGUS/PSA
+2026-06-12,Agustina Vissani,135000,GASTO_PERSONAL_SOL,PELUQUERÍA · Agustina Vissani · gasto personal Sol
 2026-06-13,Saphirus,79900,GASTO_PERSONAL_SOL,¿hogar? · gasto personal Sol (ex-PENDIENTE)
 2026-06-13,Todo Tartas,11700,ALMACEN_SOL,panadería
 2026-06-13,Apple,18558,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
