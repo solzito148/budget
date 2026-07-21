@@ -38,6 +38,8 @@ alwaysApply: true
 - **MELI** → hoja `MELI`: simulador editable vinculado a `Ingresos Sol`
   - Separar aportes del empleado, Ganancias estimada y cargas patronales
   - Cargar recibos reales 2026 de sueldo, bonos y SAC en la misma hoja, con resumen conciliado y detalle de conceptos
+  - **Car allowance**: ARS 312.000 hasta junio 2026; también aumenta **12%** desde 01/07 → **ARS 349.440**
+  - Bruto total desde julio: básico ARS 12.662.387 + car allowance ARS 349.440 = **ARS 13.011.827**
   - No suma al total de gastos de la hoja `2026`
   - Ganancias es orientativa: dejar explícitos los supuestos y parámetros fiscales
 
