@@ -200,7 +200,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Belisario Roldán** / Restaurant Roldan → siempre `ENTRETENIMIENTO · Social` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Enerfit** / MERPAGO*ENERFIT (barritas proteicas) → siempre `COMIDA · Barritas proteicas` en `Almacen Detalle` (ALMACEN SOL). Nunca GPS ni SALUD
 - **UADE** / Universidad Argentina de la Empresa / ARGENTINA DE LA EMPRESA U A D E → hoja `Gasto Personal Sol` · categoría `EDUCACIÓN` (comentario `EDUCACIÓN · UADE`). Nunca Almacén
-- **Agustina Vissani** (transferencia) → **CIUDAD** · fila `CASA / AGUS/PSA` de la matriz `2026` (no Gasto Personal Sol)
+- **Agustina Vissani** / AGUS/PSA (transferencia) → hoja `Gasto Personal Sol` · categoría `PELUQUERÍA` (no suma al total CIUDAD). **No** es CASA ni matriz `2026`
 - **Buenos Muchachos Resto**, **Restaurant Soraya** → `ALMACEN SOL` · COMIDA
 - **Feed** → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (no suma al total CIUDAD). Nunca Almacen Detalle
 - **Ticorri / Casareggia / Catore / Recaudacion Gestion y Pagos / Burtextil / Dodoche / Enzo Cabildo / Joaquin Vazco / Serenelli / David Rosental** (pagos QR o transferencias sin regla fija) → `Gasto Personal Sol` (revisar ítem)

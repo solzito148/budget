@@ -710,7 +710,7 @@ def build():
         "PERCEPCIONES USD": ("RG 5617, IVA RG 4240 e IIBB por consumos en USD", "GASTO PERSONAL"),
         "AVA FIDEICOMISO": ("50% de Sol de cuotas AVA", "GASTO PERSONAL"),
         "EVENTOS DEPORTIVOS - RIVER": ("Cuota social CARP / Tu Lugar en el Monumental", "GASTO PERSONAL"),
-        "PELUQUERÍA": ("Newplamier y peluquería", "GASTO PERSONAL"),
+        "PELUQUERÍA": ("Newplamier, Agustina Vissani (AGUS/PSA) y peluquería", "GASTO PERSONAL"),
         "VESTIMENTA": ("Longchamp, Ceferina, Bokenvoreno, Levis, Jackie Smith, Itsclassic, Analia Roay, Jazmin Chebar, Aylen Difeo", "GASTO PERSONAL"),
         "FUNERAL": ("Jardin Del Pilar", "GASTO PERSONAL"),
         "ROPA": ("Indumentaria, calzado, joyería y Tienda River", "GASTO PERSONAL"),

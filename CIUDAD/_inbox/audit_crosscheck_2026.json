@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T06:59:00",
+  "generated": "2026-07-21T07:38:05",
   "sources": {
     "excel": "/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/CIUDAD/Gastos_CIUDAD_1132_2026.xlsx",
     "bbva_catalog": "/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/CIUDAD/_inbox/tarjetas_bbva/catalogo_bbva_2026.csv",
@@ -20,15 +20,128 @@
   "mp_cuenta": {
     "mov_rows_total": 2005,
     "egresos_2026_actionable": 720,
-    "matched_excel": 568,
+    "matched_excel": 554,
     "uncatalogued": 0,
-    "catalogued_missing_excel": 0,
-    "covered_agg_notes": 60,
+    "catalogued_missing_excel": 14,
+    "covered_agg_notes": 52,
     "skipped_no_gasto": 1023,
     "uncatalogued_sample": [],
     "uncatalogued_sum": 0,
-    "missing_excel_sample": [],
-    "missing_excel_sum": 0,
+    "missing_excel_sample": [
+      {
+        "fecha": "2026-07-05",
+        "monto": 123240,
+        "descripcion": "Transferencia enviada Susana Carmen Ortiz",
+        "categoria": "LIMPIEZA",
+        "comentario": "LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)",
+        "comercio_cat": "Susana Carmen Ortiz"
+      },
+      {
+        "fecha": "2026-07-12",
+        "monto": 120240,
+        "descripcion": "Transferencia enviada Susana Carmen Ortiz",
+        "categoria": "LIMPIEZA",
+        "comentario": "LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)",
+        "comercio_cat": "Susana Carmen Ortiz"
+      },
+      {
+        "fecha": "2026-05-10",
+        "monto": 27739,
+        "descripcion": "Pago de servicio AGIP ABL GCBA",
+        "categoria": "ABL_CIUDAD",
+        "comentario": "ABL CIUDAD partida 397789 · $27.739",
+        "comercio_cat": "Agip Abl Gcba"
+      },
+      {
+        "fecha": "2026-05-10",
+        "monto": 27439,
+        "descripcion": "Pago de servicio AGIP ABL GCBA Pago de servicio AGIP ABL",
+        "categoria": "ABL_CIUDAD",
+        "comentario": "ABL CIUDAD partida 397789 · $27.439",
+        "comercio_cat": "Agip Abl Gcba"
+      },
+      {
+        "fecha": "2026-05-10",
+        "monto": 27164,
+        "descripcion": "GCBA Pago de servicio AGIP ABL GCBA Pago de servicio AGIP ABL",
+        "categoria": "ABL_CIUDAD",
+        "comentario": "ABL CIUDAD partida 397789 · $27.164",
+        "comercio_cat": "Agip Abl Gcba"
+      },
+      {
+        "fecha": "2026-05-10",
+        "monto": 25512,
+        "descripcion": "GCBA Pago de servicio AGIP ABL GCBA",
+        "categoria": "ABL_CIUDAD",
+        "comentario": "ABL CIUDAD partida 397789 · $25.512",
+        "comercio_cat": "Agip Abl Gcba"
+      },
+      {
+        "fecha": "2026-05-10",
+        "monto": 24745,
+        "descripcion": "GCBA Pago de servicio AGIP ABL GCBA Pago de servicio AGIP ABL",
+        "categoria": "ABL_CIUDAD",
+        "comentario": "ABL CIUDAD partida 397789 · $24.745",
+        "comercio_cat": "Agip Abl Gcba"
+      },
+      {
+        "fecha": "2026-01-09",
+        "monto": 14700,
+        "descripcion": "Pago Tuenti recargas dcp Reserva por gastos Juicio",
+        "categoria": "GASTO_PERSONAL_SOL",
+        "comentario": "Tuenti · gasto personal Sol · hoja Gasto Personal Sol",
+        "comercio_cat": "Tuenti"
+      },
+      {
+        "fecha": "2026-01-15",
+        "monto": 11000,
+        "descripcion": "Transferencia enviada Marcelo Alejandro Kattan Reserva por gastos Juicio",
+        "categoria": "GASTO_PERSONAL_SOL",
+        "comentario": "transferencia · gasto personal Sol (ex-PENDIENTE)",
+        "comercio_cat": "Marcelo Alejandro Kattan"
+      },
+      {
+        "fecha": "2026-01-24",
+        "monto": 10500,
+        "descripcion": "Pago BEE Coffee Reserva por gastos Juicio",
+        "categoria": "ALMACEN_SOL",
+        "comentario": "café",
+        "comercio_cat": "Bee Coffee"
+      },
+      {
+        "fecha": "2026-07-05",
+        "monto": 9500,
+        "descripcion": "Transferencia enviada Susana Carmen Ortiz",
+        "categoria": "LIMPIEZA",
+        "comentario": "LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)",
+        "comercio_cat": "Susana Carmen Ortiz"
+      },
+      {
+        "fecha": "2026-02-09",
+        "monto": 5990,
+        "descripcion": "Pago PedidosYa Plus Reserva por gastos Juicio",
+        "categoria": "SUSCRIPCIONES_CIUDAD",
+        "comentario": "PedidosYa Plus · CIUDAD SUSCRIPCIONES · matriz 2026",
+        "comercio_cat": "Pedidosya Plus"
+      },
+      {
+        "fecha": "2026-01-09",
+        "monto": 5490,
+        "descripcion": "Pago PedidosYa Plus Reserva por gastos Juicio",
+        "categoria": "SUSCRIPCIONES_CIUDAD",
+        "comentario": "PedidosYa Plus · CIUDAD SUSCRIPCIONES · matriz 2026",
+        "comercio_cat": "Pedidosya Plus"
+      },
+      {
+        "fecha": "2026-01-22",
+        "monto": 2100,
+        "descripcion": "Pago Open 25 Reserva por gastos Juicio",
+        "categoria": "ALMACEN_SOL",
+        "comentario": "Open 25",
+        "comercio_cat": "Open 25"
+      }
+    ],
+    "missing_excel_sum": 435359,
     "covered_agg_sample": [
       {
         "fecha": "2026-01-04",
@@ -136,5 +249,106 @@
     "mp_revisar_or_empty": 0,
     "mp_revisar_sample": []
   },
-  "top_missing": []
+  "top_missing": [
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-07-05",
+      "monto": 123240,
+      "descripcion": "Transferencia enviada Susana Carmen Ortiz",
+      "categoria": "LIMPIEZA",
+      "comentario": "LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)",
+      "comercio_cat": "Susana Carmen Ortiz",
+      "label": "Susana Carmen Ortiz"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-07-12",
+      "monto": 120240,
+      "descripcion": "Transferencia enviada Susana Carmen Ortiz",
+      "categoria": "LIMPIEZA",
+      "comentario": "LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)",
+      "comercio_cat": "Susana Carmen Ortiz",
+      "label": "Susana Carmen Ortiz"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-05-10",
+      "monto": 27739,
+      "descripcion": "Pago de servicio AGIP ABL GCBA",
+      "categoria": "ABL_CIUDAD",
+      "comentario": "ABL CIUDAD partida 397789 · $27.739",
+      "comercio_cat": "Agip Abl Gcba",
+      "label": "Agip Abl Gcba"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-05-10",
+      "monto": 27439,
+      "descripcion": "Pago de servicio AGIP ABL GCBA Pago de servicio AGIP ABL",
+      "categoria": "ABL_CIUDAD",
+      "comentario": "ABL CIUDAD partida 397789 · $27.439",
+      "comercio_cat": "Agip Abl Gcba",
+      "label": "Agip Abl Gcba"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-05-10",
+      "monto": 27164,
+      "descripcion": "GCBA Pago de servicio AGIP ABL GCBA Pago de servicio AGIP ABL",
+      "categoria": "ABL_CIUDAD",
+      "comentario": "ABL CIUDAD partida 397789 · $27.164",
+      "comercio_cat": "Agip Abl Gcba",
+      "label": "Agip Abl Gcba"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-05-10",
+      "monto": 25512,
+      "descripcion": "GCBA Pago de servicio AGIP ABL GCBA",
+      "categoria": "ABL_CIUDAD",
+      "comentario": "ABL CIUDAD partida 397789 · $25.512",
+      "comercio_cat": "Agip Abl Gcba",
+      "label": "Agip Abl Gcba"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-05-10",
+      "monto": 24745,
+      "descripcion": "GCBA Pago de servicio AGIP ABL GCBA Pago de servicio AGIP ABL",
+      "categoria": "ABL_CIUDAD",
+      "comentario": "ABL CIUDAD partida 397789 · $24.745",
+      "comercio_cat": "Agip Abl Gcba",
+      "label": "Agip Abl Gcba"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-01-09",
+      "monto": 14700,
+      "descripcion": "Pago Tuenti recargas dcp Reserva por gastos Juicio",
+      "categoria": "GASTO_PERSONAL_SOL",
+      "comentario": "Tuenti · gasto personal Sol · hoja Gasto Personal Sol",
+      "comercio_cat": "Tuenti",
+      "label": "Tuenti"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-01-15",
+      "monto": 11000,
+      "descripcion": "Transferencia enviada Marcelo Alejandro Kattan Reserva por gastos Juicio",
+      "categoria": "GASTO_PERSONAL_SOL",
+      "comentario": "transferencia · gasto personal Sol (ex-PENDIENTE)",
+      "comercio_cat": "Marcelo Alejandro Kattan",
+      "label": "Marcelo Alejandro Kattan"
+    },
+    {
+      "fuente": "MP catálogo→Excel",
+      "fecha": "2026-01-24",
+      "monto": 10500,
+      "descripcion": "Pago BEE Coffee Reserva por gastos Juicio",
+      "categoria": "ALMACEN_SOL",
+      "comentario": "café",
+      "comercio_cat": "Bee Coffee",
+      "label": "Bee Coffee"
+    }
+  ]
 }
