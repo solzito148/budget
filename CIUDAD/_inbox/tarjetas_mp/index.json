@@ -1,0 +1,37 @@
+[
+  {
+    "archivo": "statement 7.pdf",
+    "periodo": "Enero 2026",
+    "cierre": "2026-01-12"
+  },
+  {
+    "archivo": "statement 6.pdf",
+    "periodo": "Febrero 2026",
+    "cierre": "2026-02-12"
+  },
+  {
+    "archivo": "statement 5.pdf",
+    "periodo": "Marzo 2026",
+    "cierre": "2026-03-12"
+  },
+  {
+    "archivo": "statement 4.pdf",
+    "periodo": "Abril 2026",
+    "cierre": "2026-04-12"
+  },
+  {
+    "archivo": "statement 3.pdf",
+    "periodo": "Mayo 2026",
+    "cierre": "2026-05-12"
+  },
+  {
+    "archivo": "statement 2.pdf",
+    "periodo": "Junio 2026",
+    "cierre": "2026-06-12"
+  },
+  {
+    "archivo": "statement.pdf",
+    "periodo": "Julio 2026",
+    "cierre": "2026-07-12"
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "file": "file.pdf",
+    "card": "VISA",
+    "cierre": "02-Jul-26",
+    "vencimiento": "13-Jul-26",
+    "saldo_ars": "2.888.221,37",
+    "saldo_usd": "460,38",
+    "cuenta": "0744358210",
+    "chars": 14946,
+    "pages": 8
+  },
+  {
+    "file": "file 2.pdf",
+    "card": "MASTERCARD",
+    "cierre": "02-Jul-26",
+    "vencimiento": "13-Jul-26",
+    "saldo_ars": "2.682.699,86",
+    "saldo_usd": "3.837,01",
+    "cuenta": "1258432096",
+    "chars": 13468,
+    "pages": 6
+  },
+  {
+    "file": "file 3.pdf",
+    "card": "VISA",
+    "cierre": "28-May-26",
+    "vencimiento": "05-Jun-26",
+    "saldo_ars": "3.153.389,83",
+    "saldo_usd": "158,44",
+    "cuenta": "0744358210",
+    "chars": 19314,
+    "pages": 10
+  },
+  {
+    "file": "file 4.pdf",
+    "card": "VISA",
+    "cierre": "30-Abr-26",
+    "vencimiento": "08-May-26",
+    "saldo_ars": "770.229,73",
+    "saldo_usd": "228,36",
+    "cuenta": "0744358210",
+    "chars": 11014,
+    "pages": 4
+  },
+  {
+    "file": "file 5.pdf",
+    "card": "VISA",
+    "cierre": "26-Mar-26",
+    "vencimiento": "09-Abr-26",
+    "saldo_ars": "8.769.702,55",
+    "saldo_usd": "3,15",
+    "cuenta": "0744358210",
+    "chars": 10810,
+    "pages": 4
+  },
+  {
+    "file": "file 6.pdf",
+    "card": "VISA",
+    "cierre": "26-Feb-26",
+    "vencimiento": "06-Mar-26",
+    "saldo_ars": "8.890.505,87",
+    "saldo_usd": "0,00",
+    "cuenta": "0744358210",
+    "chars": 11483,
+    "pages": 4
+  },
+  {
+    "file": "file 7.pdf",
+    "card": "VISA",
+    "cierre": "29-Ene-26",
+    "vencimiento": "06-Feb-26",
+    "saldo_ars": "10.872.214,82",
+    "saldo_usd": "23,08",
+    "cuenta": "0744358210",
+    "chars": 11276,
+    "pages": 4
+  },
+  {
+    "file": "file 8.pdf",
+    "card": "MASTERCARD",
+    "cierre": "28-May-26",
+    "vencimiento": "05-Jun-26",
+    "saldo_ars": "1.398.370,85",
+    "saldo_usd": "50,00",
+    "cuenta": "1258432096",
+    "chars": 17888,
+    "pages": 8
+  },
+  {
+    "file": "file 9.pdf",
+    "card": "MASTERCARD",
+    "cierre": "30-Abr-26",
+    "vencimiento": "08-May-26",
+    "saldo_ars": "763.402,75",
+    "saldo_usd": "66,82",
+    "cuenta": "1258432096",
+    "chars": 11157,
+    "pages": 4
+  },
+  {
+    "file": "file 10.pdf",
+    "card": "MASTERCARD",
+    "cierre": "26-Mar-26",
+    "vencimiento": "09-Abr-26",
+    "saldo_ars": "9.049.223,53",
+    "saldo_usd": "39,99",
+    "cuenta": "1258432096",
+    "chars": 11492,
+    "pages": 4
+  },
+  {
+    "file": "file 11.pdf",
+    "card": "MASTERCARD",
+    "cierre": "26-Mar-26",
+    "vencimiento": "09-Abr-26",
+    "saldo_ars": "9.049.223,53",
+    "saldo_usd": "39,99",
+    "cuenta": "1258432096",
+    "chars": 11492,
+    "pages": 4
+  },
+  {
+    "file": "file 12.pdf",
+    "card": "MASTERCARD",
+    "cierre": "26-Feb-26",
+    "vencimiento": "06-Mar-26",
+    "saldo_ars": "9.454.861,87",
+    "saldo_usd": "39,99",
+    "cuenta": "1258432096",
+    "chars": 12651,
+    "pages": 6
+  },
+  {
+    "file": "file 13.pdf",
+    "card": "MASTERCARD",
+    "cierre": "29-Ene-26",
+    "vencimiento": "06-Feb-26",
+    "saldo_ars": "9.439.553,83",
+    "saldo_usd": "24,98",
+    "cuenta": "1258432096",
+    "chars": 12517,
+    "pages": 6
+  }
+]

@@ -1,0 +1,9 @@
+mes,estado,detalle_total,catalogo_mp,diff,notas
+Enero,OK,333959,333959,0,23 ítems · match 100%
+Febrero,OK,262609,262609,0,18 ítems · match 100% · PedidosYa Market 118132 OK
+Marzo,OK,538273,538273,0,18 ítems · Open 25 50000 = QR MP (SALE_DETAIL vacío)
+Abril,OK,642418,642418,0,19 ítems · match 100%
+Mayo,OK,180930,180930,0,13 ítems · Arredondo 10290 = QR tienda OK
+Junio,OK,754963,754963,0,20 ítems · Coto 348208 = Orden de Venta MP OK
+Julio,REVISAR,830001,377601,452400,11 ítems MP OK + 4 manuales sin fecha (452400). Sifón 20000 movido a Gasto Personal Sol
+Agosto-Dic,VACIO,0,0,0,

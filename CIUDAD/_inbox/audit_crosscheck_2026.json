@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-21T06:59:00",
+  "sources": {
+    "excel": "/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/CIUDAD/Gastos_CIUDAD_1132_2026.xlsx",
+    "bbva_catalog": "/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/CIUDAD/_inbox/tarjetas_bbva/catalogo_bbva_2026.csv",
+    "mp_movimientos": "/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/CIUDAD/_inbox/tarjetas_mp_debito/movimientos_cuenta_mp_2026.csv",
+    "mp_catalog": "/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/CIUDAD/_inbox/catalogo_mercadopago.csv",
+    "tc_mp_catalog": "/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/CIUDAD/_inbox/tarjetas_mp/catalogo_tc_mp_2026.csv"
+  },
+  "bbva": {
+    "catalog_rows": 309,
+    "rows_2026ish": 277,
+    "matched_excel": 241,
+    "matched_soft_utility": 26,
+    "missing_excel": 0,
+    "skipped": 68,
+    "missing_sample": [],
+    "missing_sum": 0
+  },
+  "mp_cuenta": {
+    "mov_rows_total": 2005,
+    "egresos_2026_actionable": 720,
+    "matched_excel": 568,
+    "uncatalogued": 0,
+    "catalogued_missing_excel": 0,
+    "covered_agg_notes": 60,
+    "skipped_no_gasto": 1023,
+    "uncatalogued_sample": [],
+    "uncatalogued_sum": 0,
+    "missing_excel_sample": [],
+    "missing_excel_sum": 0,
+    "covered_agg_sample": [
+      {
+        "fecha": "2026-01-04",
+        "monto": 7100,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-04",
+        "monto": 84051,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-04",
+        "monto": 43572,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-04",
+        "monto": 18600,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-11",
+        "monto": 16800,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-11",
+        "monto": 149502,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-18",
+        "monto": 15400,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-18",
+        "monto": 149502,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-25",
+        "monto": 6700,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-01-25",
+        "monto": 158895,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 1"
+      },
+      {
+        "fecha": "2026-02-01",
+        "monto": 17300,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 2"
+      },
+      {
+        "fecha": "2026-02-01",
+        "monto": 149502,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 2"
+      },
+      {
+        "fecha": "2026-02-06",
+        "monto": 3000,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 2"
+      },
+      {
+        "fecha": "2026-02-06",
+        "monto": 123020,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 2"
+      },
+      {
+        "fecha": "2026-02-15",
+        "monto": 11000,
+        "comercio": "Susana Carmen Ortiz",
+        "note": "cubierto por Detalle LIMPIEZA mes 2"
+      }
+    ]
+  },
+  "tc_mp": {
+    "catalog_rows": 119,
+    "matched_excel": 114,
+    "missing_excel": 0,
+    "skipped": 5,
+    "missing_sample": [],
+    "missing_sum": 0
+  },
+  "catalog_gaps": {
+    "bbva_revisar_or_empty": 0,
+    "bbva_revisar_sample": [],
+    "mp_revisar_or_empty": 0,
+    "mp_revisar_sample": []
+  },
+  "top_missing": []
+}

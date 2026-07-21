@@ -1,26 +1,25 @@
 fecha,comercio,monto,categoria,comentario
 2025-12-23,Sanes Maria Sole,US$996,EXCLUIR,propia USD 2025
 2025-12-24,Huevos Point,23500,ALMACEN_SOL,2025
-2025-12-25,Mercado Libre,41790,PENDIENTE,ML 2025
-2025-12-26,Apple,9434,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2025-12-25,Mercado Libre,41790,EXCLUIR,compra 2025 · fuera de alcance libros 2026
+2025-12-26,Apple,9434,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2025-12-26,Melt Helado Natural,31250,ALMACEN_SOL,2025
 2025-12-26,Mercado Libre,68400,EXCLUIR,reintegro + 2025
 2025-12-28,Sube Viajes,660,EXTRAS_SOL,SUBE 2025
 2025-12-28,Susana Carmen Ortiz,114300,LIMPIEZA,2025 — fuera planilla 2026 · ya en LIMPIEZA CASA (no almacén)
 2025-12-28,Susana Carmen Ortiz,18000,LIMPIEZA,2025 — fuera planilla 2026 · ya en LIMPIEZA CASA (no almacén)
 2025-12-29,Libreria Marin,8300,EXTRAS_SOL,2025
-2025-12-30,Compraenkalbb,29766,ALMACEN_SOL,COMIDA · RAMON
+2025-12-30,Compraenkalbb,29766,ALMACEN_SOL,RAMON · Comida · Kalbby · ALMACEN SOL
 2025-12-30,Longchamp,382500,EXCLUIR,rechazado
 2025-12-30,Sanes Maria Sole,US$169.88,EXCLUIR,propia USD 2025
-2025-12-31,Apple,1861,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2025-12-31,Apple,18779,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2025-12-31,Apple,1861,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
+2025-12-31,Apple,18779,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-01-02,Supermercados Dia,17603,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-02,Maria Sanes,1152000,EXCLUIR,propia
-2026-01-02,Mercado Libre,232640,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-01-02,Mercado Libre,50523,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-01-02,Mercado Libre,50523,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-01-02,Carrefour,8037,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-01-02,Supermercados Dia,4005,ALMACEN_SOL,SUPERMERCADO · Día
-2026-01-02,Apple,5621,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-01-02,Apple,5621,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-01-03,Supermercados Dia,3624,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-04,Tiempo Latino S.A,382500,GASTO_PERSONAL_SOL,compra TC · gasto personal Sol (ex-PENDIENTE)
 2026-01-04,Ceferina,530000,GASTO_PERSONAL_SOL,ROPA · Ceferina · hoja Gasto Personal Sol
@@ -34,9 +33,9 @@ fecha,comercio,monto,categoria,comentario
 2026-01-05,Shell,46,ALMACEN_SOL,Combustible — Shell
 2026-01-05,Dia Online,15092,ALMACEN_SOL,SUPERMERCADO · Día
 2026-01-05,Fideicomiso Ava Palpa,5291593,AVA,AVA — otra carpeta
-2026-01-06,Copetin Catering,645,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-01-06,Copetin Catering,645,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-01-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
-2026-01-06,Mercado Libre,43389,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-01-06,Mercado Libre,43389,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-01-07,Agip,12435,ABL_CIUDAD,ABL CIUDAD partida 397789 · $12.435
 2026-01-07,Consorcio De Propiet,35260,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-01-07,Consorcio De Propiet,238240,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
@@ -48,33 +47,33 @@ fecha,comercio,monto,categoria,comentario
 2026-01-08,Sanes Maria Sole,US$165,EXCLUIR,propia USD
 2026-01-08,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-01-08,Ceferina,395000,GASTO_PERSONAL_SOL,ROPA · Ceferina · hoja Gasto Personal Sol
-2026-01-08,Promarine Erisea,350000,GASTO_PERSONAL_SOL,Promarine · gasto personal Sol · hoja Gasto Personal Sol
-2026-01-08,Selma Salvatori,29546,ALMACEN_SOL,FARMACIA · Farmacia Selma
+2026-01-08,Promarine Erisea,350000,GASTO_PERSONAL_SOL,SALUD · Vitaminas · Promarine · gasto personal Sol
+2026-01-08,Selma Salvatori,29546,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Selma
 2026-01-08,Andres Javier Di Pasqua,12426,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
-2026-01-08,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-01-08,Copetin Catering,3585,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-01-09,Catore Srl,44000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-09,Tarjeta de crédito,164709,PAGO_TARJETA,pago resumen TC · hoja Pago de Tarjetas
 2026-01-09,Sanes Maria Sole,2000000,EXCLUIR,propia
 2026-01-09,Consorcio De Copropi,376564,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período enero 2026 (Gmail Sent / Estudio Kalmus)
 2026-01-09,Antonela Beatriz Guidobono,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
 2026-01-09,Maria Lujan Paz,46300,TRANSFERENCIA_RECIBIDA,ingreso recibido · hoja Transferencias recibidas (no gasto)
-2026-01-09,Pedidosya Plus,5490,GASTO_PERSONAL_SOL,PEDIDOS YA · suscripción Plus (no almacén) · gasto personal Sol
+2026-01-09,Pedidosya Plus,5490,SUSCRIPCIONES_CIUDAD,PedidosYa Plus · CIUDAD SUSCRIPCIONES · matriz 2026
 2026-01-09,Tuenti,14700,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-01-10,Pedidosya Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-01-10,Pedidosya,51455,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
 2026-01-10,Pedidosya,2748,EXCLUIR,PEDIDOS YA · COMIDA · devolución parcial
 2026-01-10,Personal,34921,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
-2026-01-10,Compraenkalbb,77748,ALMACEN_SOL,COMIDA · RAMON
-2026-01-10,Farmacia Maure,116500,FARMACIA,FARMACIA · Farmacia Maure
+2026-01-10,Compraenkalbb,77748,ALMACEN_SOL,RAMON · Comida · Kalbby · ALMACEN SOL
+2026-01-10,Farmacia Maure,116500,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Maure
 2026-01-11,Havanna,22100,ALMACEN_SOL,COMIDA · HAVANNA
 2026-01-11,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-11,Susana Carmen Ortiz,16800,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-12,Tarjeta de crédito,200000,PAGO_TARJETA,pago resumen TC · hoja Pago de Tarjetas
-2026-01-13,Valeria Laura Mele,44100,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-01-13,Valeria Laura Mele,44100,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-01-13,Tarjeta de crédito,1282375,PAGO_TARJETA,pago resumen TC · hoja Pago de Tarjetas
-2026-01-13,Copetin Catering,2940,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-01-13,Copetin Catering,2940,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-01-15,Marcelo Alejandro Kattan,11000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-01-15,Mercado Libre,95930,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-01-15,Mercado Libre,95930,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-01-17,Veronica Alejandra Mendez,22000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-17,Dia Online,13465,EXCLUIR,SUPERMERCADO · Día · devuelto neto 0
 2026-01-18,Arca,107075,IMPUESTOS_AFIP,ARCA
@@ -82,68 +81,68 @@ fecha,comercio,monto,categoria,comentario
 2026-01-18,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-18,Susana Carmen Ortiz,15400,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-19,Sanes Maria Sole,800000,EXCLUIR,propia
-2026-01-19,Didi,5227,TRANSPORTE,Didi
-2026-01-19,Didi,83,TRANSPORTE,Didi
-2026-01-19,Didi,4123,TRANSPORTE,Didi
-2026-01-19,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-01-19,Didi,5227,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-01-19,Didi,83,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-01-19,Didi,4123,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-01-19,Copetin Catering,3585,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-01-20,Yenny Paola Calisaya Cquispe,6605,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-20,Sanes Maria Sole,US$106.75,EXCLUIR,propia USD
 2026-01-20,Sanes Maria Sole,80000,EXCLUIR,propia
-2026-01-20,Didi,5170,TRANSPORTE,Didi
-2026-01-20,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-01-20,Didi,3633,TRANSPORTE,Didi
+2026-01-20,Didi,5170,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-01-20,Copetin Catering,3585,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-01-20,Didi,3633,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-01-22,Mercurio Furchi,17000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-22,Open 25,2100,ALMACEN_SOL,Open 25
-2026-01-22,Didi,4820,TRANSPORTE,Didi
-2026-01-22,Copetin Catering,11950,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-01-24,Oporto Almacen,37767,ALMACEN_SOL,almacén
+2026-01-22,Didi,4820,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-01-22,Copetin Catering,11950,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-01-24,Oporto Almacen,37767,GASTO_PERSONAL_SOL,ENTRETENIMIENTO · Comidas · Oporto Almacen · gasto personal Sol
 2026-01-24,Gabriel Anibal Fradkin,58000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-24,Bee Coffee,10500,ALMACEN_SOL,café
-2026-01-24,Valeria Laura Mele,16200,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-01-24,Mercado Libre,243997,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-01-25,Mercado Libre,63647,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-01-25,Mercado Libre,43300,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-01-25,Mercado Libre,113472,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-01-25,Mercado Libre,24562,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-01-24,Valeria Laura Mele,16200,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
+2026-01-24,Mercado Libre,243997,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-01-25,Mercado Libre,63647,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-01-25,Mercado Libre,43300,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-01-25,Mercado Libre,113472,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-01-25,Mercado Libre,24562,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-01-25,Susana Carmen Ortiz,158895,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-25,Susana Carmen Ortiz,6700,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-01-27,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO · propina
-2026-01-27,Pedidosya Market,35404,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
-2026-01-27,Copetin Catering,19550,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-01-27,Didi,3892,TRANSPORTE,Didi
+2026-01-27,Pedidosya Market,35404,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO · PedidosYa Market
+2026-01-27,Copetin Catering,19550,EXCLUIR,Copetin · no es pago de catering / neto 0 / no GPS
+2026-01-27,Didi,3892,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-01-28,Luna Maria Laur,45000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-01-28,Valeria Laura Mele,145400,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-01-29,Ebanx S.A.,7260,TRANSPORTE,Uber/Ebanx
-2026-01-29,Feed,2150,ALMACEN_SOL,comida
-2026-01-29,Copetin Catering,9800,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-01-29,Didi,6282,TRANSPORTE,Didi
-2026-01-30,Didi,2745,TRANSPORTE,Didi
-2026-01-30,Didi,2565,TRANSPORTE,Didi
+2026-01-28,Valeria Laura Mele,145400,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
+2026-01-29,Uber (Ebanx),7260,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-01-29,Feed,2150,GASTO_PERSONAL_SOL,COMIDA · Oficina · Feed · gasto personal Sol
+2026-01-29,Copetin Catering,9800,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-01-29,Didi,6282,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-01-30,Didi,2745,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-01-30,Didi,2565,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-01-30,Sanes Maria Sole,4200000,EXCLUIR,propia
 2026-01-30,Gabriela Reggio,4600,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-30,Mercedes Srl,47740,GASTO_PERSONAL_SOL,Mercedes · AUTO/ACA · gasto personal Sol
 2026-01-31,Shell,985,ALMACEN_SOL,Combustible — Shell
 2026-01-31,Shell,831,ALMACEN_SOL,Combustible — Shell
-2026-02-01,Didi,3570,TRANSPORTE,Didi
-2026-02-01,Didi,4421,TRANSPORTE,Didi
+2026-02-01,Didi,3570,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-01,Didi,4421,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-02-01,Sanes Maria Sole,100000,EXCLUIR,propia
 2026-02-01,Pedidosya Propina,750,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-02-01,Pedidosya,1499,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-02-01,Pedidosya Market,118132,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO
+2026-02-01,Pedidosya Market,118132,ALMACEN_SOL,PEDIDOS YA · SUPERMERCADO · PedidosYa Market
 2026-02-01,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-01,Susana Carmen Ortiz,17300,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
-2026-02-01,Apple,45711,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2026-02-02,Cabify,4971,TRANSPORTE,Cabify
-2026-02-02,Cabify,4447,TRANSPORTE,Cabify
-2026-02-02,Mercado Libre,19652,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-02-02,Apple,5553,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2026-02-03,Feed,645,ALMACEN_SOL,comida
-2026-02-03,Copetin Catering,3585,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-02-03,Didi,4760,TRANSPORTE,Didi
-2026-02-05,Feed,645,ALMACEN_SOL,comida
-2026-02-05,Copetin Catering,2940,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-02-05,Didi,4600,TRANSPORTE,Didi
-2026-02-06,Cabify,6466,TRANSPORTE,Cabify
+2026-02-01,Apple,45711,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
+2026-02-02,Cabify,4971,GASTO_PERSONAL_SOL,Cabify
+2026-02-02,Cabify,4447,GASTO_PERSONAL_SOL,Cabify
+2026-02-02,Mercado Libre,19652,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-02-02,Apple,5553,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
+2026-02-03,Feed,645,GASTO_PERSONAL_SOL,COMIDA · Oficina · Feed · gasto personal Sol
+2026-02-03,Copetin Catering,3585,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-02-03,Didi,4760,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-05,Feed,645,GASTO_PERSONAL_SOL,COMIDA · Oficina · Feed · gasto personal Sol
+2026-02-05,Copetin Catering,2940,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-02-05,Didi,4600,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-06,Cabify,6466,GASTO_PERSONAL_SOL,Cabify
 2026-02-06,Susana Carmen Ortiz,123020,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-06,Susana Carmen Ortiz,3000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-06,Sanes Maria Sole,US$650,EXCLUIR,propia USD
@@ -156,32 +155,32 @@ fecha,comercio,monto,categoria,comentario
 2026-02-06,Consorcio De Copropi,395551,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período febrero 2026 (Gmail Sent / Estudio Kalmus)
 2026-02-06,Arca,37096,IMPUESTOS_AFIP,ARCA
 2026-02-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
-2026-02-07,Cabify,4950,TRANSPORTE,Cabify
+2026-02-07,Cabify,4950,GASTO_PERSONAL_SOL,Cabify
 2026-02-07,Open 25,1170,ALMACEN_SOL,Open 25
-2026-02-08,Cabify,5992,TRANSPORTE,Cabify
+2026-02-08,Cabify,5992,GASTO_PERSONAL_SOL,Cabify
 2026-02-08,Carrefour Ecommerce,21990,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-02-08,Tuenti,14700,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-02-08,Carlos Leonardo Farinella,70000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-02-09,Didi,4320,TRANSPORTE,Didi
-2026-02-09,Cabify,4955,TRANSPORTE,Cabify
-2026-02-09,Didi,4710,TRANSPORTE,Didi
-2026-02-09,Pedidosya Plus,5990,GASTO_PERSONAL_SOL,PEDIDOS YA · suscripción Plus (no almacén) · gasto personal Sol
+2026-02-09,Didi,4320,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-09,Cabify,4955,GASTO_PERSONAL_SOL,Cabify
+2026-02-09,Didi,4710,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-09,Pedidosya Plus,5990,SUSCRIPCIONES_CIUDAD,PedidosYa Plus · CIUDAD SUSCRIPCIONES · matriz 2026
 2026-02-10,Sanes Maria Sole,2000000,EXCLUIR,propia
-2026-02-10,Feed,645,ALMACEN_SOL,comida
-2026-02-10,Copetin Catering,2940,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-02-10,Copetin Catering,7500,EXCLUIR,devuelto
-2026-02-10,Copetin Catering,1770,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-02-10,Didi,3976,TRANSPORTE,Didi
-2026-02-11,Didi,5830,TRANSPORTE,Didi
-2026-02-11,Didi,4590,TRANSPORTE,Didi
-2026-02-12,Paws Pet Market,27200,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
-2026-02-12,Sodastream,53037,SODASTREAM,repuestos
-2026-02-12,Compraenkalbb,30336,ALMACEN_SOL,COMIDA · RAMON
-2026-02-13,Cabify,5479,TRANSPORTE,Cabify
+2026-02-10,Feed,645,GASTO_PERSONAL_SOL,COMIDA · Oficina · Feed · gasto personal Sol
+2026-02-10,Copetin Catering,2940,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-02-10,Copetin Catering,7500,EXCLUIR,Copetin · cancelado/reintegro · neto 0
+2026-02-10,Copetin Catering,1770,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-02-10,Didi,3976,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-11,Didi,5830,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-11,Didi,4590,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-12,Paws Pet Market,27200,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · ALMACEN SOL
+2026-02-12,Sodastream,53037,ALMACEN_SOL,REPUESTOS · Sodastream · Almacen Detalle
+2026-02-12,Compraenkalbb,30336,ALMACEN_SOL,RAMON · Comida · Kalbby · ALMACEN SOL
+2026-02-13,Cabify,5479,GASTO_PERSONAL_SOL,Cabify
 2026-02-13,Pablo Ezequiel Alderetes,60000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-02-13,Agip Abl Gcba,83757,ABL_OHIGGINS,ABL OHIGGINS partida 3016365 · $83.757 (>80.000)
-2026-02-14,Ebanx S.A.,6335,EXCLUIR,devuelto neto 0
-2026-02-14,Didi,6780,TRANSPORTE,Didi
+2026-02-14,Uber (Ebanx),6335,EXCLUIR,devuelto neto 0
+2026-02-14,Didi,6780,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-02-14,Veronica Alejandra Mendez,3500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-02-14,Veronica Alejandra Mendez,9500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-02-14,Mercado Libre,10391,EXCLUIR,devuelto neto 0
@@ -190,31 +189,31 @@ fecha,comercio,monto,categoria,comentario
 2026-02-15,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-17,Alberto Roque Sachetti,30000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-02-18,Supermercados Dia,37335,ALMACEN_SOL,SUPERMERCADO · Día
-2026-02-18,Copetin Catering,2703,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-02-18,Didi,6090,TRANSPORTE,Didi
-2026-02-18,Ebanx S.A.,2590,TRANSPORTE,Uber/Ebanx
+2026-02-18,Copetin Catering,2703,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-02-18,Didi,6090,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-18,Uber (Ebanx),2590,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-02-19,Quiche Sibulka Marcelo Gaston,30000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-02-19,Marcelo Fabian Ronzano,6500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-02-20,Havanna,9600,ALMACEN_SOL,COMIDA · HAVANNA
 2026-02-20,Lourdes Elizabeth Tadeo Salvador,18500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-02-20,Farmacia Maure,124100,FARMACIA,FARMACIA · Farmacia Maure
+2026-02-20,Farmacia Maure,124100,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Maure
 2026-02-20,Arca,67246,IMPUESTOS_AFIP,ARCA
 2026-02-21,Susana Carmen Ortiz,58986,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-21,Susana Carmen Ortiz,3240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-02-21,Sanes Maria Sole,60000,EXCLUIR,propia
 2026-02-21,Clinicas Altamirao,40000,GASTO_PERSONAL_SOL,salud · gasto personal Sol
 2026-02-22,Havanna,9600,ALMACEN_SOL,COMIDA · HAVANNA
-2026-02-23,Apple,17631,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2026-02-23,Valeria Laura Mele,72000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-02-23,Apple,17631,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
+2026-02-23,Valeria Laura Mele,72000,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-02-24,Sanes Maria Sole,400000,EXCLUIR,propia
-2026-02-24,Copetin Catering,13500,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-02-24,Didi,4564,TRANSPORTE,Didi
+2026-02-24,Copetin Catering,13500,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-02-24,Didi,4564,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-02-24,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
-2026-02-24,Ebanx S.A.,3092,TRANSPORTE,Uber/Ebanx
-2026-02-24,Ebanx S.A.,4690,TRANSPORTE,Uber/Ebanx
-2026-02-26,Didi,4870,TRANSPORTE,Didi
-2026-02-26,Didi,5080,TRANSPORTE,Didi
-2026-02-26,Ebanx S.A.,9295,EXCLUIR,devuelto neto 0
+2026-02-24,Uber (Ebanx),3092,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-02-24,Uber (Ebanx),4690,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-02-26,Didi,4870,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-26,Didi,5080,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-26,Uber (Ebanx),9295,EXCLUIR,devuelto neto 0
 2026-02-26,Didi,7137,EXCLUIR,cancelado neto 0
 2026-02-26,Didi,6730,EXCLUIR,cancelado neto 0
 2026-02-27,Cesar David Ledesma,310000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
@@ -229,11 +228,11 @@ fecha,comercio,monto,categoria,comentario
 2026-03-01,Susana Carmen Ortiz,149502,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-01,Maria Soledad Sanes,36000,EXCLUIR,propia
 2026-03-02,Lourdes Elizabeth Tadeo Salvador,400,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-03-02,Apple,5453,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-03-02,Apple,5453,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-03-03,Le Pain Quotidien,1344,ALMACEN_SOL,panadería
 2026-03-03,Agip Abl Gcba,88141,ABL_OHIGGINS,ABL OHIGGINS partida 3016365 · $88.141 (>80.000)
-2026-03-04,Jardin Del Pilar Sa-Norte,4000000,GASTO_PERSONAL_SOL,transferencia grande · gasto personal Sol (ex-PENDIENTE)
-2026-03-05,Paws Pet Market,9000,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
+2026-03-04,Jardin Del Pilar Sa-Norte,4000000,GASTO_PERSONAL_SOL,FUNERAL · Jardin Del Pilar · gasto personal Sol
+2026-03-05,Paws Pet Market,9000,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · ALMACEN SOL
 2026-03-05,Huevos Point,14500,ALMACEN_SOL,huevos
 2026-03-06,Coto,114263,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-03-06,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
@@ -241,36 +240,36 @@ fecha,comercio,monto,categoria,comentario
 2026-03-06,Susana Carmen Ortiz,20000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-06,Créditos de Mercado Pago,819946,EXCLUIR,cuota préstamo
 2026-03-06,Fideicomiso Ava Palpa,5484067,AVA,expensas/cuota AVA — otra carpeta
-2026-03-09,Compraenkalbb,56250,ALMACEN_SOL,COMIDA · RAMON
+2026-03-09,Compraenkalbb,56250,ALMACEN_SOL,RAMON · Comida · Kalbby · ALMACEN SOL
 2026-03-09,Todo Tartas,11000,ALMACEN_SOL,tartas
 2026-03-09,Didi,6530,EXCLUIR,cancelado neto 0
 2026-03-09,Movistar Arena,33000,GASTO_PERSONAL_SOL,evento · gasto personal Sol
 2026-03-09,Movistar Arena,220000,GASTO_PERSONAL_SOL,evento · gasto personal Sol
 2026-03-09,Kiosko Duendes,1930,ALMACEN_SOL,propina
 2026-03-09,El Patio De Los Duendes,17049,ALMACEN_SOL,comida
-2026-03-09,Copetin Catering,7500,EXCLUIR,reintegro +
-2026-03-09,Didi,5980,TRANSPORTE,Didi
+2026-03-09,Copetin Catering,7500,EXCLUIR,Copetin · cancelado/reintegro · neto 0
+2026-03-09,Didi,5980,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-03-10,Sanes Maria Sole,600000,EXCLUIR,propia
 2026-03-10,Arca,37096,IMPUESTOS_AFIP,ARCA
 2026-03-10,Consorcio De Copropi,402934,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período marzo 2026 (Gmail Sent / Estudio Kalmus)
 2026-03-10,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-03-10,Tuenti,16000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
-2026-03-11,Didi,3941,TRANSPORTE,Didi
-2026-03-11,Didi,3312,TRANSPORTE,Didi
+2026-03-11,Didi,3941,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-11,Didi,3312,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-03-11,Bee Coffee,6100,ALMACEN_SOL,café
-2026-03-12,Súper Pollo,33619,ALMACEN_SOL,pollo
+2026-03-12,Súper Pollo,33619,ALMACEN_SOL,COMIDA · pollo
 2026-03-13,Maria Soledad Martinez,27500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-03-13,Fernando Paredes Aguilar,40000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-03-13,Didi,8410,TRANSPORTE,Didi
+2026-03-13,Didi,8410,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-03-13,Ronda.,14000,GASTO_PERSONAL_SOL,tienda física ¿qué es? · gasto personal Sol (ex-PENDIENTE)
-2026-03-13,Ebanx S.A.,5757,TRANSPORTE,Uber/Ebanx
+2026-03-13,Uber (Ebanx),5757,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-03-14,Susana Carmen Ortiz,9000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-14,Susana Carmen Ortiz,77568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-14,Galletotas,19500,ALMACEN_SOL,galletitas
-2026-03-14,Didi,4590,TRANSPORTE,Didi
-2026-03-14,Oporto Almacen,51920,ALMACEN_SOL,almacén
-2026-03-14,Didi,4450,TRANSPORTE,Didi
-2026-03-14,Ebanx S.A.,5203,EXCLUIR,devuelto neto 0
+2026-03-14,Didi,4590,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-14,Oporto Almacen,51920,GASTO_PERSONAL_SOL,ENTRETENIMIENTO · Comidas · Oporto Almacen · gasto personal Sol
+2026-03-14,Didi,4450,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-14,Uber (Ebanx),5203,EXCLUIR,devuelto neto 0
 2026-03-15,Jorge Celso Doben,100000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-03-15,Madmuscles,26489,GASTO_PERSONAL_SOL,fitness · gasto personal Sol
 2026-03-15,Madmuscles,26489,EXCLUIR,rechazado
@@ -280,60 +279,60 @@ fecha,comercio,monto,categoria,comentario
 2026-03-16,Telepase,8700,GASTO_PERSONAL_SOL,peaje · AUTO/ACA · gasto personal Sol
 2026-03-16,Locky Plantas,40000,GASTO_PERSONAL_SOL,plantas · gasto personal Sol
 2026-03-17,Bin Chen,8900,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-03-17,Didi,5084,TRANSPORTE,Didi
-2026-03-17,Ebanx S.A.,10551,EXCLUIR,devuelto neto 0
+2026-03-17,Didi,5084,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-17,Uber (Ebanx),10551,EXCLUIR,devuelto neto 0
 2026-03-18,Sofía Entivero,528698,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-03-18,Cecilia Pons,89261,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-03-19,Didi,6070,TRANSPORTE,Didi
-2026-03-19,Didi,4122,TRANSPORTE,Didi
-2026-03-19,Didi,5160,TRANSPORTE,Didi
-2026-03-19,Ebanx S.A.,8328,EXCLUIR,devuelto neto 0
-2026-03-20,Ebanx S.A.,5745,TRANSPORTE,Uber/Ebanx
-2026-03-20,Didi,5680,TRANSPORTE,Didi
-2026-03-20,Didi,4960,TRANSPORTE,Didi
-2026-03-20,Ebanx S.A.,6415,EXCLUIR,devuelto neto 0
+2026-03-19,Didi,6070,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-19,Didi,4122,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-19,Didi,5160,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-19,Uber (Ebanx),8328,EXCLUIR,devuelto neto 0
+2026-03-20,Uber (Ebanx),5745,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-03-20,Didi,5680,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-20,Didi,4960,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-20,Uber (Ebanx),6415,EXCLUIR,devuelto neto 0
 2026-03-20,Burger King,22100,ALMACEN_SOL,comida
-2026-03-20,Didi,5800,TRANSPORTE,Didi
-2026-03-20,Ebanx S.A.,6161,EXCLUIR,devuelto neto 0
-2026-03-20,Didi,6420,TRANSPORTE,Didi
+2026-03-20,Didi,5800,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-03-20,Uber (Ebanx),6161,EXCLUIR,devuelto neto 0
+2026-03-20,Didi,6420,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-03-20,Arca,67246,IMPUESTOS_AFIP,ARCA
-2026-03-20,Ebanx S.A.,6403,EXCLUIR,devuelto neto 0
-2026-03-21,Didi,4230,TRANSPORTE,Didi
+2026-03-20,Uber (Ebanx),6403,EXCLUIR,devuelto neto 0
+2026-03-21,Didi,4230,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-03-22,Adidas,137998,GASTO_PERSONAL_SOL,ropa · gasto personal Sol
 2026-03-22,Open 25,50000,ALMACEN_SOL,tienda
-2026-03-22,Apple,29810,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-03-22,Apple,29810,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-03-23,Supermercados Dia,47664,ALMACEN_SOL,SUPERMERCADO · Día
-2026-03-23,Claude.ai Subscription,,GASTO_PERSONAL_SOL,US$200 · gasto personal Sol
+2026-03-23,Claude.ai Subscription,286822,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol
 2026-03-23,Awada,604001,GASTO_PERSONAL_SOL,ropa · gasto personal Sol
 2026-03-23,Carcasa,9900,GASTO_PERSONAL_SOL,accesorio · gasto personal Sol
-2026-03-24,Mercado Libre,60193,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-03-24,Mercado Libre,377337,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-03-24,Mercado Libre,101899,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-03-25,Paws Pet Market,35700,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
+2026-03-24,Mercado Libre,60193,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-03-24,Mercado Libre,377337,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-03-24,Mercado Libre,101899,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-03-25,Paws Pet Market,35700,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · ALMACEN SOL
 2026-03-26,Agustina Vissani,75000,AGUS_PSA,confirmar AGUS/PSA
 2026-03-27,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-30,Generacion 20 Combustibles,88999,ALMACEN_SOL,combustible
-2026-03-30,Mercado Libre,248070,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-03-30,Cuota Social Carp,30560,GASTO_PERSONAL_SOL,cuota social · gasto personal Sol
+2026-03-30,Mercado Libre,248070,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-03-30,Cuota Social Carp,30560,GASTO_PERSONAL_SOL,Eventos deportivos - River
 2026-03-31,Shell,264,ALMACEN_SOL,combustible
 2026-03-31,Shell,1118,ALMACEN_SOL,combustible
 2026-03-31,Shell,653,ALMACEN_SOL,combustible
-2026-03-31,Ebanx S.A.,10839,TRANSPORTE,Uber/Ebanx
-2026-03-31,Copetin Catering,13500,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-03-31,Didi,6540,TRANSPORTE,Didi
+2026-03-31,Uber (Ebanx),10839,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-03-31,Copetin Catering,13500,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-03-31,Didi,6540,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-04-01,Libreria Marin,1500,GASTO_PERSONAL_SOL,librería · gasto personal Sol
-2026-04-01,Mercado Libre,427718,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-04-01,Mercado Libre,427718,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-04-02,PedidosYa Propina,2000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
-2026-04-02,Compraenkalbb,82746,ALMACEN_SOL,COMIDA · RAMON
+2026-04-02,Compraenkalbb,82746,ALMACEN_SOL,RAMON · Comida · Kalbby · ALMACEN SOL
 2026-04-02,Pedidosya Empanada,36519,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-04-02,Apple,5448,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-04-02,Apple,5448,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-03,ACA,881,GASTO_PERSONAL_SOL,ACA · AUTO/ACA · gasto personal Sol
 2026-04-03,Coto,149320,ALMACEN_SOL,SUPERMERCADO · Coto
-2026-04-03,Metrogas,37316,GAS,Metrogas · Metrogas (revisar propiedad por cliente)
-2026-04-04,Ebanx S.A.,4207,TRANSPORTE,Uber/Ebanx
-2026-04-04,Ebanx S.A.,4691,TRANSPORTE,Uber/Ebanx
+2026-04-03,Metrogas,37316,METROGAS_CIUDAD,Metrogas · Metrogas
+2026-04-04,Uber (Ebanx),4207,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-04,Uber (Ebanx),4691,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-04-04,Sofía Entivero,519441,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-04-04,Susana Carmen Ortiz,11000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-04,Susana Carmen Ortiz,9000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -342,70 +341,70 @@ fecha,comercio,monto,categoria,comentario
 2026-04-05,Wordpress,,GASTO_PERSONAL_SOL,US$228 · gasto personal Sol
 2026-04-06,Metrogas,4850,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
 2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,SUPERMERCADO · Día
-2026-04-06,Farmacia Maure,191500,FARMACIA,FARMACIA · Farmacia Maure
-2026-04-06,Ebanx S.A.,6793,TRANSPORTE,Uber/Ebanx
-2026-04-06,Copetin Catering,12650,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-04-06,Farmacia Maure,191500,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Maure
+2026-04-06,Uber (Ebanx),6793,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-06,Copetin Catering,12650,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-04-06,Fideicomiso Ava Palpa,5553706,AVA,Ava Palpa
 2026-04-06,Créditos Mercado Pago,819946,EXCLUIR,cuota 7/24
-2026-04-06,Didi,9800,TRANSPORTE,Didi
+2026-04-06,Didi,9800,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-04-07,Gabriel Fradkin,110000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-04-07,Smartcell Lacroze,16500,GASTO_PERSONAL_SOL,celular tienda · celular · gasto personal Sol
-2026-04-07,Mercado Libre,29725,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-04-07,Mercado Libre,29725,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-04-07,Ana Silvia Castillo,79000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-04-08,Susana Carmen Ortiz,100000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-08,Yenny Paola Calisaya,15120,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-04-08,Didi,4450,TRANSPORTE,Didi
-2026-04-08,Copetin Catering,17050,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-04-08,Didi,4450,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-04-08,Copetin Catering,17050,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-04-08,Didi,6180,EXCLUIR,cancelado neto 0
-2026-04-08,Ebanx S.A.,6351,TRANSPORTE,Uber/Ebanx
+2026-04-08,Uber (Ebanx),6351,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-04-09,Sanes Maria Sole,1500000,EXCLUIR,propia
 2026-04-09,Arca,37450,IMPUESTOS_AFIP,ARCA
 2026-04-09,Sanes Maria Sole,,EXCLUIR,propia US$800
 2026-04-09,Arca VEP,85300,IMPUESTOS_AFIP,ARCA VEP
 2026-04-09,Tuenti,16650,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
-2026-04-10,Paws Pet Market,71400,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
+2026-04-10,Paws Pet Market,71400,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · ALMACEN SOL
 2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-10,PedidosYa,2599,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-04-10,Apple,359951,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2026-04-10,Mercado Libre,17041,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-10,Mercado Libre,126540,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-10,Mercado Libre,129200,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-11,Ebanx S.A.,356,TRANSPORTE,Uber
-2026-04-11,Ebanx S.A.,9962,TRANSPORTE,Uber
-2026-04-11,Didi,7200,TRANSPORTE,transporte
+2026-04-10,Apple,359951,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
+2026-04-10,Mercado Libre,17041,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-04-10,Mercado Libre,126540,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-04-10,Mercado Libre,129200,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-04-11,Uber (Ebanx),356,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-11,Uber (Ebanx),9962,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-11,Didi,7200,GASTO_PERSONAL_SOL,transporte
 2026-04-11,Vitalcer,34830,ALMACEN_SOL,dietética
-2026-04-12,Apple,14520,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-04-12,Apple,14520,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-04-12,Susana Carmen Ortiz,96567,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-12,Nicky Cheese propina,1920,ALMACEN_SOL,quesos propina
 2026-04-12,Nicky Cheese,19200,ALMACEN_SOL,quesos
-2026-04-13,Didi,6620,TRANSPORTE,transporte
-2026-04-13,Didi,8590,TRANSPORTE,transporte
-2026-04-13,Mercado Libre,13989,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-14,Mercado Libre,119000,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-15,Didi,5550,TRANSPORTE,transporte
+2026-04-13,Didi,6620,GASTO_PERSONAL_SOL,transporte
+2026-04-13,Didi,8590,GASTO_PERSONAL_SOL,transporte
+2026-04-13,Mercado Libre,13989,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-04-14,Mercado Libre,119000,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-04-15,Didi,5550,GASTO_PERSONAL_SOL,transporte
 2026-04-15,Fundacion Soplo De Vida,100000,GASTO_PERSONAL_SOL,donación · gasto personal Sol
-2026-04-15,Didi,4955,TRANSPORTE,transporte
-2026-04-15,Ebanx S.A.,20,TRANSPORTE,Uber
-2026-04-15,Ebanx S.A.,4919,TRANSPORTE,Uber
-2026-04-15,Ebanx S.A.,5910,TRANSPORTE,Uber
-2026-04-16,Ebanx S.A.,8578,TRANSPORTE,Uber
+2026-04-15,Didi,4955,GASTO_PERSONAL_SOL,transporte
+2026-04-15,Uber (Ebanx),20,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-15,Uber (Ebanx),4919,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-15,Uber (Ebanx),5910,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-16,Uber (Ebanx),8578,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-04-18,Sanes Maria Sole,,EXCLUIR,propia US$100
 2026-04-18,Susana Carmen Ortiz,94416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-18,Susana Carmen Ortiz,16200,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
-2026-04-18,Ebanx S.A.,18208,TRANSPORTE,Uber
+2026-04-18,Uber (Ebanx),18208,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-04-18,ingresos varios,117000,TRANSFERENCIA_RECIBIDA,recibidas 39k x3 · hoja Transferencias recibidas (no gasto)
-2026-04-18,Cosi Mi Piace propina,21276,GASTO_PERSONAL_SOL,evento · gasto personal Sol
-2026-04-18,Cosi Mi Piace,177300,GASTO_PERSONAL_SOL,evento · gasto personal Sol
+2026-04-18,Cosi Mi Piace propina,21276,ALMACEN_SOL,ENTRETENIMIENTO · Cenas · Cosi Mi Piace · ALMACEN SOL
+2026-04-18,Cosi Mi Piace,177300,ALMACEN_SOL,ENTRETENIMIENTO · Cenas · Cosi Mi Piace · ALMACEN SOL
 2026-04-19,Negri Telma,50000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-04-19,SUBE,795,GASTO_PERSONAL_SOL,transporte SUBE · gasto personal Sol
-2026-04-20,Mercado Libre,156237,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-20,Mercado Libre,185340,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-04-20,Mercado Libre,156237,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-04-20,Mercado Libre,185340,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-04-20,Arca,67246,IMPUESTOS_AFIP,ARCA
-2026-04-20,Didi,5330,TRANSPORTE,transporte
-2026-04-20,Copetin Catering,12650,EXCLUIR,Copetin — sacado de ALMACEN SOL
-2026-04-20,Ebanx S.A.,7974,EXCLUIR,Uber refund neto 0
-2026-04-20,Ebanx S.A.,6882,EXCLUIR,Uber refund neto 0
-2026-04-20,Didi,5992,TRANSPORTE,transporte
+2026-04-20,Didi,5330,GASTO_PERSONAL_SOL,transporte
+2026-04-20,Copetin Catering,12650,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-04-20,Uber (Ebanx),7974,EXCLUIR,Uber refund neto 0
+2026-04-20,Uber (Ebanx),6882,EXCLUIR,Uber refund neto 0
+2026-04-20,Didi,5992,GASTO_PERSONAL_SOL,transporte
 2026-04-20,Didi,6080,EXCLUIR,cancelado neto 0
 2026-04-20,Didi,6410,EXCLUIR,cancelado neto 0
 2026-04-20,Maria Soledad Sanes,10000,EXCLUIR,propia
@@ -413,11 +412,11 @@ fecha,comercio,monto,categoria,comentario
 2026-04-21,Huevos Point,14500,ALMACEN_SOL,huevos
 2026-04-21,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-04-22,Martina Chippano,153480,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
-2026-04-22,Didi,7610,TRANSPORTE,transporte
+2026-04-22,Didi,7610,GASTO_PERSONAL_SOL,transporte
 2026-04-22,Green Eat,25000,ALMACEN_SOL,comida
-2026-04-22,Ebanx S.A.,6397,TRANSPORTE,Uber
-2026-04-24,Didi,5420,TRANSPORTE,transporte
-2026-04-24,Súper Pollo,16140,ALMACEN_SOL,pollo
+2026-04-22,Uber (Ebanx),6397,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-24,Didi,5420,GASTO_PERSONAL_SOL,transporte
+2026-04-24,Súper Pollo,16140,ALMACEN_SOL,COMIDA · pollo
 2026-04-24,Fundacion Soplo De Vida,40000,GASTO_PERSONAL_SOL,donación · gasto personal Sol
 2026-04-25,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-25,Todo Tartas,11400,ALMACEN_SOL,panadería
@@ -425,51 +424,51 @@ fecha,comercio,monto,categoria,comentario
 2026-04-25,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-04-25,Tuenti,4200,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-04-26,Mauro Ascunce,2100,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-04-27,Ebanx S.A.,5763,EXCLUIR,Uber refund neto 0
-2026-04-27,Didi,5100,TRANSPORTE,transporte
-2026-04-27,Ebanx S.A.,6321,TRANSPORTE,Uber
+2026-04-27,Uber (Ebanx),5763,EXCLUIR,Uber refund neto 0
+2026-04-27,Didi,5100,GASTO_PERSONAL_SOL,transporte
+2026-04-27,Uber (Ebanx),6321,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-04-28,ingresos varios,35070,TRANSFERENCIA_RECIBIDA,recibidas ~34k x6 · hoja Transferencias recibidas (no gasto)
-2026-04-28,Cosi Mi Piace propina,33283,GASTO_PERSONAL_SOL,evento · gasto personal Sol
-2026-04-28,Cosi Mi Piace,277360,GASTO_PERSONAL_SOL,evento · gasto personal Sol
-2026-04-29,Didi,4520,TRANSPORTE,transporte
-2026-04-29,Didi,3904,TRANSPORTE,transporte
-2026-04-29,Compraenkalbb,86747,ALMACEN_SOL,COMIDA · RAMON
-2026-04-29,Didi,4670,TRANSPORTE,transporte
+2026-04-28,Cosi Mi Piace propina,33283,ALMACEN_SOL,ENTRETENIMIENTO · Cenas · Cosi Mi Piace · ALMACEN SOL
+2026-04-28,Cosi Mi Piace,277360,ALMACEN_SOL,ENTRETENIMIENTO · Cenas · Cosi Mi Piace · ALMACEN SOL
+2026-04-29,Didi,4520,GASTO_PERSONAL_SOL,transporte
+2026-04-29,Didi,3904,GASTO_PERSONAL_SOL,transporte
+2026-04-29,Compraenkalbb,86747,ALMACEN_SOL,RAMON · Comida · Kalbby · ALMACEN SOL
+2026-04-29,Didi,4670,GASTO_PERSONAL_SOL,transporte
 2026-04-30,Shell,27579,ALMACEN_SOL,nafta · combustible
 2026-04-30,Shell,1307,ALMACEN_SOL,nafta · combustible
 2026-04-30,Todo Tartas,30500,ALMACEN_SOL,panadería
 2026-05-01,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-05-02,ACA,751,GASTO_PERSONAL_SOL,ACA · AUTO/ACA · gasto personal Sol
 2026-05-02,Tamara Ginesin,3000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
-2026-05-02,Cosi Mi Piace,30133,GASTO_PERSONAL_SOL,restaurante · gasto personal Sol
+2026-05-02,Cosi Mi Piace,30133,ALMACEN_SOL,ENTRETENIMIENTO · Cenas · Cosi Mi Piace · ALMACEN SOL
 2026-05-02,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-02,Tuenti,4200,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-05-02,Profesional Belgrano,72249,GASTO_PERSONAL_SOL,¿farmacia? · gasto personal Sol
 2026-05-04,Clinicas Altamirao,40000,GASTO_PERSONAL_SOL,salud · gasto personal Sol
 2026-05-04,Arca VEP,8296,IMPUESTOS_AFIP,ARCA VEP
 2026-05-05,Eva Zarate,95000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-05-05,Didi,6050,TRANSPORTE,transporte
-2026-05-05,Ebanx S.A.,4890,TRANSPORTE,Uber
-2026-05-06,Ebanx S.A.,5747,TRANSPORTE,Uber
-2026-05-06,Ebanx S.A.,255,TRANSPORTE,Uber
+2026-05-05,Didi,6050,GASTO_PERSONAL_SOL,transporte
+2026-05-05,Uber (Ebanx),4890,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-05-06,Uber (Ebanx),5747,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-05-06,Uber (Ebanx),255,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-06,Fideicomiso Ava Palpa,5644624,AVA,Ava Palpa
 2026-05-06,Créditos Mercado Pago,819946,EXCLUIR,cuota 8/24
-2026-05-07,Ebanx S.A.,7442,TRANSPORTE,Uber
+2026-05-07,Uber (Ebanx),7442,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-07,Tuenti,16650,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-05-07,Dean & Dennys,6870,ALMACEN_SOL,comida
-2026-05-07,Ebanx S.A.,6706,TRANSPORTE,Uber
+2026-05-07,Uber (Ebanx),6706,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-07,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
 2026-05-08,Ruth Calvetti,266443,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-05-08,Mercado Libre,4699990,EXCLUIR,devuelto - neto 0
 2026-05-08,Arca VEP,17372,IMPUESTOS_AFIP,ARCA VEP
 2026-05-08,Metrogas,4935,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
-2026-05-08,Didi,1500,TRANSPORTE,transporte
+2026-05-08,Didi,1500,GASTO_PERSONAL_SOL,transporte
 2026-05-08,Didi,7400,EXCLUIR,cancelado neto 0
 2026-05-08,Ana Magariños,5000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-05-08,Florencia Risi,60900,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-05-09,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-09,Susana Carmen Ortiz,3000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
-2026-05-09,Mercado Libre,38637,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-05-09,Mercado Libre,38637,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-05-09,Coto,47361,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-05-09,Tuenti,16650,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-05-10,Ramira,117000,GASTO_PERSONAL_SOL,salida/evento · gasto personal Sol
@@ -479,26 +478,26 @@ fecha,comercio,monto,categoria,comentario
 2026-05-10,Agip Abl Gcba,27439,ABL_CIUDAD,ABL CIUDAD partida 397789 · $27.439
 2026-05-10,Agip Abl Gcba,27739,ABL_CIUDAD,ABL CIUDAD partida 397789 · $27.739
 2026-05-11,Andres Di Pasqua,24852,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
-2026-05-11,Ebanx S.A.,7151,EXCLUIR,Uber refund neto 0
-2026-05-11,Valeria Mele,65700,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-05-11,Uber (Ebanx),7151,EXCLUIR,Uber refund neto 0
+2026-05-11,Valeria Mele,65700,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-05-11,Mercado Libre,4699990,TRANSFERENCIA_RECIBIDA,reintegro ML · hoja Transferencias recibidas (no gasto)
-2026-05-11,Didi,3912,TRANSPORTE,transporte
-2026-05-11,Didi,6810,TRANSPORTE,transporte
+2026-05-11,Didi,3912,GASTO_PERSONAL_SOL,transporte
+2026-05-11,Didi,6810,GASTO_PERSONAL_SOL,transporte
 2026-05-11,Arca,37572,IMPUESTOS_AFIP,ARCA
 2026-05-11,Didi,6230,EXCLUIR,cancelado neto 0
 2026-05-12,Personal,53245,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
-2026-05-12,Didi,3912,TRANSPORTE,transporte
-2026-05-12,Apple,18353,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2026-05-12,Didi,200,TRANSPORTE,transporte
-2026-05-12,Didi,6180,TRANSPORTE,transporte
+2026-05-12,Didi,3912,GASTO_PERSONAL_SOL,transporte
+2026-05-12,Apple,18353,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
+2026-05-12,Didi,200,GASTO_PERSONAL_SOL,transporte
+2026-05-12,Didi,6180,GASTO_PERSONAL_SOL,transporte
 2026-05-12,Cons De Prop E Bonorino 82,200340,EXPENSAS_BONORINO,Pago de Expensas · BONORINO
-2026-05-13,Mercado Libre,132299,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-05-13,Mercado Libre,132299,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-05-13,Daniela Lopez,3100,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-05-13,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
 2026-05-13,Susana Carmen Ortiz,20000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-13,Susana Carmen Ortiz,35000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-13,Arca VEP,7600,IMPUESTOS_AFIP,ARCA VEP
-2026-05-13,Valeria Mele,21600,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-05-13,Valeria Mele,21600,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-05-14,Arca VEP,17344,IMPUESTOS_AFIP,ARCA VEP
 2026-05-15,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-05-15,Sanes Maria Sole,400000,EXCLUIR,propia
@@ -510,65 +509,65 @@ fecha,comercio,monto,categoria,comentario
 2026-05-16,Sanes Maria Sole,,EXCLUIR,propia US$300
 2026-05-16,PedidosYa Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-05-16,PedidosYa,17519,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-05-16,Valeria Mele,90000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-05-16,Valeria Mele,90000,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-05-18,Edesur,1441,EDESUR_BONORINO,Edesur · LUZ BONORINO
-2026-05-18,Leocan,79924,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
-2026-05-18,Didi,6030,TRANSPORTE,transporte
-2026-05-18,Didi,6880,TRANSPORTE,transporte
+2026-05-18,Leocan,79924,ALMACEN_SOL,RAMON · Veterinario · Leocan · ALMACEN SOL
+2026-05-18,Didi,6030,GASTO_PERSONAL_SOL,transporte
+2026-05-18,Didi,6880,GASTO_PERSONAL_SOL,transporte
 2026-05-19,Sanes Maria Sole,75000,EXCLUIR,propia
-2026-05-19,Didi,4157,TRANSPORTE,transporte
+2026-05-19,Didi,4157,GASTO_PERSONAL_SOL,transporte
 2026-05-20,Todo Tartas,3480,ALMACEN_SOL,panadería
 2026-05-20,Sanes Maria Sole,,EXCLUIR,propia US$100
 2026-05-20,Sanes Maria Sole,400000,EXCLUIR,propia
 2026-05-20,Arca,67246,IMPUESTOS_AFIP,ARCA
 2026-05-21,Federico Cabral,755800,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-05-22,Didi,10910,EXCLUIR,cancelado neto 0
-2026-05-22,Didi,5700,TRANSPORTE,transporte
-2026-05-22,Ebanx S.A.,6782,TRANSPORTE,Uber
+2026-05-22,Didi,5700,GASTO_PERSONAL_SOL,transporte
+2026-05-22,Uber (Ebanx),6782,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-23,Bimba Y Lola,748000,GASTO_PERSONAL_SOL,ropa · gasto personal Sol
 2026-05-23,Susana Carmen Ortiz,91416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-23,Susana Carmen Ortiz,10000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
-2026-05-23,Mercado Libre,35544,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-05-23,Mercado Libre,35544,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-05-23,Christian Ventura,300000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-05-23,Arredondo,10290,ALMACEN_SOL,tienda física
-2026-05-23,Valeria Mele,112500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-05-24,Ebanx S.A.,5722,EXCLUIR,Uber refund neto 0
-2026-05-24,Didi,87,TRANSPORTE,transporte
-2026-05-24,Didi,6820,TRANSPORTE,transporte
+2026-05-23,Valeria Mele,112500,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
+2026-05-24,Uber (Ebanx),5722,EXCLUIR,Uber refund neto 0
+2026-05-24,Didi,87,GASTO_PERSONAL_SOL,transporte
+2026-05-24,Didi,6820,GASTO_PERSONAL_SOL,transporte
 2026-05-24,PedidosYa Propina,1100,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-05-24,PedidosYa,21618,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-05-24,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-05-26,Didi,6990,TRANSPORTE,transporte
+2026-05-26,Didi,6990,GASTO_PERSONAL_SOL,transporte
 2026-05-26,Movistar Arena,19000,GASTO_PERSONAL_SOL,evento · gasto personal Sol
-2026-05-26,Didi,4880,TRANSPORTE,transporte
+2026-05-26,Didi,4880,GASTO_PERSONAL_SOL,transporte
 2026-05-26,Todo Tartas,8730,ALMACEN_SOL,panadería
-2026-05-27,Paws Pet Market,11100,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
-2026-05-27,Ebanx S.A.,35,TRANSPORTE,Uber
+2026-05-27,Paws Pet Market,11100,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · ALMACEN SOL
+2026-05-27,Uber (Ebanx),35,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-27,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-05-27,Ebanx S.A.,2890,TRANSPORTE,Uber
+2026-05-27,Uber (Ebanx),2890,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-27,Didi,6530,EXCLUIR,cancelado neto 0
 2026-05-27,Magic Dragon,5790,GASTO_PERSONAL_SOL,comida/salida · gasto personal Sol
-2026-05-27,Didi,6640,TRANSPORTE,transporte
-2026-05-27,Ebanx S.A.,7142,EXCLUIR,Uber refund neto 0
+2026-05-27,Didi,6640,GASTO_PERSONAL_SOL,transporte
+2026-05-27,Uber (Ebanx),7142,EXCLUIR,Uber refund neto 0
 2026-05-28,Zilver Sa,25971,GASTO_PERSONAL_SOL,personal · gasto personal Sol
 2026-05-28,Tienda De Café,18900,ALMACEN_SOL,café
 2026-05-28,Maria Soledad Sanes,102000,EXCLUIR,propia
-2026-05-29,Farmacity,85034,FARMACIA,FARMACIA · Farmacity
-2026-05-29,Servicios De Pagos Virtuales,630000,GASTO_PERSONAL_SOL,¿qué es? · gasto personal Sol (ex-PENDIENTE)
-2026-05-29,Ebanx S.A.,5478,TRANSPORTE,Uber
-2026-05-29,Ebanx S.A.,5194,TRANSPORTE,Uber
+2026-05-29,Farmacity,85034,ALMACEN_SOL,FARMACIA · Farmacity · Almacen Detalle
+2026-05-29,Servicios De Pagos Virtuales,630000,GASTO_PERSONAL_SOL,TRAÍDO DE MIAMI · Servicios de Pagos Virtuales SA · importadora · gasto personal Sol
+2026-05-29,Uber (Ebanx),5478,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-05-29,Uber (Ebanx),5194,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-30,Carrefour,24333,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-05-30,Shell,18314,ALMACEN_SOL,nafta · combustible
 2026-05-30,Shell,1415,ALMACEN_SOL,nafta · combustible
 2026-05-30,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-05-30,Susana Carmen Ortiz,101718,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
-2026-05-31,Vercel Domains,,GASTO_PERSONAL_SOL,US$11.25 · gasto personal Sol
+2026-05-31,Vercel Domains,,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol
 2026-06-01,Sanes Maria Sole,,EXCLUIR,propia US$300
 2026-06-01,Huevos Point,7500,ALMACEN_SOL,huevos
-2026-06-01,Copetin Catering,2700,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-06-01,Copetin Catering,2700,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-06-02,Andres Di Pasqua,32046,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-06-02,Correo Argentino,22500,GASTO_PERSONAL_SOL,envíos · gasto personal Sol
-2026-06-03,Vercel Domains,,GASTO_PERSONAL_SOL,US$11.25 · gasto personal Sol
+2026-06-03,Vercel Domains,,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol
 2026-06-03,Metrogas,4984,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
 2026-06-03,Carrefour Ecommerce,23943,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-06-04,Sanes Maria Sole,,EXCLUIR,propia US$500
@@ -592,14 +591,14 @@ fecha,comercio,monto,categoria,comentario
 2026-06-11,PedidosYa,28384,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-11,Huevos Point,10500,ALMACEN_SOL,huevos
 2026-06-11,Personal,55106,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
-2026-06-11,Apple,331291,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-06-11,Apple,331291,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-06-12,Correo Argentino,48000,GASTO_PERSONAL_SOL,envíos · gasto personal Sol
 2026-06-12,PedidosYa Propina,900,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-12,PedidosYa,17189,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-06-12,Agustina Vissani,135000,AGUS_PSA,confirmar AGUS/PSA
 2026-06-13,Saphirus,79900,GASTO_PERSONAL_SOL,¿hogar? · gasto personal Sol (ex-PENDIENTE)
 2026-06-13,Todo Tartas,11700,ALMACEN_SOL,panadería
-2026-06-13,Apple,18558,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-06-13,Apple,18558,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-06-14,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-14,Susana Carmen Ortiz,2000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-15,Madmuscles,99727,GASTO_PERSONAL_SOL,fitness · gasto personal Sol
@@ -609,9 +608,9 @@ fecha,comercio,monto,categoria,comentario
 2026-06-16,Dermacycle,150000,GASTO_PERSONAL_SOL,estética · gasto personal Sol
 2026-06-17,Telecentro Sa,48420,TELECENTRO_CIUDAD,Telecentro · TV CABLE CIUDAD
 2026-06-17,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-06-17,Didi,4950,TRANSPORTE,transporte
+2026-06-17,Didi,4950,GASTO_PERSONAL_SOL,transporte
 2026-06-17,Tarjeta de crédito,1501833,PAGO_TARJETA,pago resumen · hoja Pago de Tarjetas
-2026-06-18,Mercado Libre,67000,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-06-18,Mercado Libre,67000,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-06-18,Tienda De Café,18700,ALMACEN_SOL,café
 2026-06-19,Todo Tartas,28000,ALMACEN_SOL,panadería
 2026-06-19,Edesur,2198,EDESUR_BONORINO,Edesur · LUZ BONORINO
@@ -622,23 +621,23 @@ fecha,comercio,monto,categoria,comentario
 2026-06-20,Christian Ventura,20000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-06-21,Shell,1648,ALMACEN_SOL,nafta · combustible
 2026-06-21,Sanes Maria Sole,,EXCLUIR,propia US$400
-2026-06-22,Súper Pollo,40939,ALMACEN_SOL,pollo
+2026-06-22,Súper Pollo,40939,ALMACEN_SOL,COMIDA · pollo
 2026-06-22,Arca,67246,IMPUESTOS_AFIP,ARCA
 2026-06-23,Omar Pastran,7000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-06-23,Christian Ventura,150000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-06-23,Didi,4955,TRANSPORTE,transporte
-2026-06-23,Didi,6480,TRANSPORTE,transporte
+2026-06-23,Didi,4955,GASTO_PERSONAL_SOL,transporte
+2026-06-23,Didi,6480,GASTO_PERSONAL_SOL,transporte
 2026-06-23,Mazzeo Jose,6400,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-06-23,Karina Venturo,6030,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-06-24,Mercado Libre,175000,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-06-24,Súper Pollo,17154,ALMACEN_SOL,pollo
-2026-06-24,Aylen Difeo,350000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-06-24,Mercado Libre,175000,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-06-24,Súper Pollo,17154,ALMACEN_SOL,COMIDA · pollo
+2026-06-24,Aylen Difeo,350000,GASTO_PERSONAL_SOL,VESTIMENTA · Aylen Difeo · gasto personal Sol
 2026-06-25,Maria Soledad Sanes,171100,EXCLUIR,propia
 2026-06-25,Fundacion Soplo De Vida,243000,GASTO_PERSONAL_SOL,donación · gasto personal Sol
-2026-06-26,Valeria Mele,48600,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-06-26,Valeria Mele,48600,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-06-26,Todo Tartas,23700,ALMACEN_SOL,panadería
-2026-06-26,Didi,5300,TRANSPORTE,transporte
-2026-06-26,Didi,6500,TRANSPORTE,transporte
+2026-06-26,Didi,5300,GASTO_PERSONAL_SOL,transporte
+2026-06-26,Didi,6500,GASTO_PERSONAL_SOL,transporte
 2026-06-27,Susana Carmen Ortiz,552827,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-27,Susana Carmen Ortiz,5000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-06-27,Open 25,17000,ALMACEN_SOL,tienda
@@ -647,33 +646,33 @@ fecha,comercio,monto,categoria,comentario
 2026-06-27,Belisario Roldán,206700,GASTO_PERSONAL_SOL,salida/evento · gasto personal Sol
 2026-06-27,Carlos Farinella,110000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
 2026-06-28,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-06-29,Directv,12900,TV_CABLE,Directv
+2026-06-29,Directv,12900,ALMACEN_SOL,STREAMING TV · Directv streaming · ALMACEN SOL
 2026-06-30,ACA,330,GASTO_PERSONAL_SOL,ACA · AUTO/ACA · gasto personal Sol
 2026-06-30,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-06-30,Sanes Maria Sole,60000,EXCLUIR,propia
-2026-06-30,Didi,5490,TRANSPORTE,transporte
-2026-06-30,Didi,5120,TRANSPORTE,transporte
+2026-06-30,Didi,5490,GASTO_PERSONAL_SOL,transporte
+2026-06-30,Didi,5120,GASTO_PERSONAL_SOL,transporte
 2026-06-30,Agip Abl Gcba,100779,ABL_OHIGGINS,ABL OHIGGINS partida 3016365 · $100.779 (>80.000)
 2026-07-02,Carrefour Ecommerce,75417,EXCLUIR,SUPERMERCADO · Carrefour · devuelto neto 0 — no almacén
-2026-07-02,Veterinaria,107000,GASTO_PERSONAL_SOL,veterinaria · gasto personal Sol
+2026-07-02,El Perro Verde Veterinaria,106650,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-07-03,Todo Tartas,9690,ALMACEN_SOL,panadería
-2026-07-03,Ebanx S.A.,6346,TRANSPORTE,Uber
+2026-07-03,Uber (Ebanx),6346,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-07-03,Arca VEP,41824,IMPUESTOS_AFIP,ARCA VEP
-2026-07-03,Ebanx S.A.,6951,EXCLUIR,Uber refund neto 0
-2026-07-03,Didi,6560,TRANSPORTE,transporte
+2026-07-03,Uber (Ebanx),6951,EXCLUIR,Uber refund neto 0
+2026-07-03,Didi,6560,GASTO_PERSONAL_SOL,transporte
 2026-07-04,PedidosYa Propina,1200,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-07-04,PedidosYa,31799,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-07-05,Analia Veronica Roay,49000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-07-05,Didi,6280,TRANSPORTE,transporte
+2026-07-05,Analia Veronica Roay,49000,GASTO_PERSONAL_SOL,VESTIMENTA · Analia Roay · gasto personal Sol
+2026-07-05,Didi,6280,GASTO_PERSONAL_SOL,transporte
 2026-07-05,Antonela Guidobono,38700,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-07-05,Susana Carmen Ortiz,123240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-07-05,Susana Carmen Ortiz,9500,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-07-06,Jose Cristian Montaño,2500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-07-06,Analia Veronica Roay,8002,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-07-06,Copetin Catering,765,EXCLUIR,Copetin — sacado de ALMACEN SOL
+2026-07-06,Analia Veronica Roay,8002,GASTO_PERSONAL_SOL,VESTIMENTA · Analia Roay · gasto personal Sol
+2026-07-06,Copetin Catering,765,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-07-06,Le Pain Quotidien,3295,ALMACEN_SOL,panadería
-2026-07-06,Federico Martinez Escariz,572005,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
-2026-07-06,Ebanx S.A.,6911,TRANSPORTE,Uber
+2026-07-06,Federico Martinez Escariz,572005,GASTO_PERSONAL_SOL,USA BOX · Federico Martinez Escariz · importadora · gasto personal Sol
+2026-07-06,Uber (Ebanx),6911,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-07-06,Préstamo Personal,819946,EXCLUIR,cuota préstamo
 2026-07-06,Sanes Maria Sole,,EXCLUIR,propia US$3000
 2026-07-06,Fideicomiso Ava Palpa,6005392,AVA,Ava Palpa
@@ -691,35 +690,208 @@ fecha,comercio,monto,categoria,comentario
 2026-07-11,Comercio,18300,GASTO_PERSONAL_SOL,tienda física · gasto personal Sol (ex-PENDIENTE)
 2026-07-11,Nemuri Sushi,195360,ALMACEN_SOL,COMIDA · SUSHI
 2026-07-11,Valenti,11375,ALMACEN_SOL,COMIDA · VALENTI SA
-2026-07-12,Mercado Libre,24499,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-07-12,Mercado Libre,24499,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-07-12,Klash Pro,27000,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-07-12,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-07-12,Sanes Maria Sole,100000,EXCLUIR,propia
-2026-07-12,Apple,19481,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
+2026-07-12,Apple,19481,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-07-12,Susana Carmen Ortiz,120240,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-07-13,Carnes Tito,8160,ALMACEN_SOL,carnicería
-2026-07-13,Ebanx S.A.,6809,TRANSPORTE,Uber
+2026-07-13,Uber (Ebanx),6809,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-07-13,Arca,38957,IMPUESTOS_AFIP,ARCA
 2026-07-14,Personal,56200,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
-2026-07-14,Farmacia Maure,218500,FARMACIA,FARMACIA · Farmacia Maure
+2026-07-14,Farmacia Maure,218500,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Maure
 2026-07-14,Noelia Caballero,8977,ALMACEN_SOL,COMIDA · VERDULERÍA
 2026-07-14,Sanes Maria Sole,,EXCLUIR,propia US$200
 2026-07-14,Sanes Maria Sole,300000,EXCLUIR,propia
-2026-07-14,Carenzo Santiago P,398240,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
+2026-07-14,Carenzo Santiago P,398240,GASTO_PERSONAL_SOL,USA BOX · Carenzo Santiago P · importadora · gasto personal Sol
 2026-07-14,Agip Abl Gcba,88891,ABL_OHIGGINS,ABL OHIGGINS partida 3016365 · $88.891 (>80.000)
 2026-07-14,Agip Abl Gcba,26175,ABL_CIUDAD,ABL CIUDAD partida 397789 · $26.175
 2026-07-14,Metrogas,5208,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
-2026-07-15,Mercado Libre,30318,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-07-15,Mercado Libre,18525,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-07-15,Mercado Libre,30318,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-07-15,Mercado Libre,18525,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-07-15,Sanes Maria Sole,,EXCLUIR,propia US$500
-2026-07-15,Didi,5100,TRANSPORTE,transporte
-2026-07-15,Ebanx S.A.,384,TRANSPORTE,Uber
-2026-07-15,Ebanx S.A.,6866,TRANSPORTE,Uber
-2026-07-16,Mercado Libre,62900,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-07-17,Mercado Libre,11747,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-07-17,Mercado Libre,26311,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-07-15,Didi,5100,GASTO_PERSONAL_SOL,transporte
+2026-07-15,Uber (Ebanx),384,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-07-15,Uber (Ebanx),6866,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-07-16,Mercado Libre,62900,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-07-17,Mercado Libre,11747,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-07-17,Mercado Libre,26311,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-07-17,PedidosYa,73345,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-07-17,Florencia Londero,8000,ALMACEN_SOL,COMIDA · Chocolates CHIAZZA (Florencia Londero)
-2026-07-17,Didi,5800,TRANSPORTE,transporte
-2026-07-17,Ebanx S.A.,4390,TRANSPORTE,Uber
+2026-07-17,Didi,5800,GASTO_PERSONAL_SOL,transporte
+2026-07-17,Uber (Ebanx),4390,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-04-10,Personal,101114,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · OHIGGINS (desde settlement)
+2026-06-13,DR BARF,65000,ALMACEN_SOL,RAMON · Comida · DR BARF · ALMACEN SOL
+2026-07-19,Susi,15000,DINERO_RETIRADO,Dinero retirado · hoja MP No Gasto / Dinero Retirado
+2026-07-18,Palermo,593000,DINERO_RETIRADO,Dinero retirado · hoja MP No Gasto
+2026-07-18,Venta de dólares,1261633,INVERSION,Venta USD · hoja Inversión / MP No Gasto
+2026-07-18,Gastos,845,DINERO_RETIRADO,Dinero retirado USD ceil · MP No Gasto
+2026-07-18,Susi,5654,RESERVA,Dinero reservado · MP No Gasto · NUNCA almacén
+2026-07-18,AVA,500,RESERVA,Reserva automática · MP No Gasto · NUNCA almacén
+2026-07-18,Susi,3000,RESERVA,Reserva automática · MP No Gasto · NUNCA almacén
+2026-07-18,Susi,120000,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-18,AVA,36813,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-18,Susi,1,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-18,Mercado Pago,147660,PAGO_DEUDA_MP,Pago de deuda · MP No Gasto · NUNCA almacén
+2026-07-18,Susi,147660,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-18,Mercado Pago,60000,PAGO_DEUDA_MP,Pago de deuda · MP No Gasto
+2026-07-18,Susi,60000,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-18,Mercado Pago,966,PAGO_DEUDA_MP,Pago de deuda · MP No Gasto
+2026-07-17,AVA,500,RESERVA,Reserva automática · MP No Gasto
+2026-07-19,Matias Leonel Aranda,15000,GASTO_PERSONAL_SOL,transferencia · personal
+2026-07-18,Analia Veronica Roay,593000,GASTO_PERSONAL_SOL,VESTIMENTA · Analia Roay · gasto personal Sol
+2026-07-18,Susana Carmen Ortiz,147660,LIMPIEZA,LIMPIEZA CASA · julio
+2026-07-18,Súper Pollo,34293,ALMACEN_SOL,COMIDA · pollo
+2026-07-15,Dodochesa007,21600,GASTO_PERSONAL_SOL,personal
+2026-07-15,Sanes Maria Sole,500,EXCLUIR,propia USD · no gasto
+2026-07-15,Tarjeta de crédito,576242,PAGO_TARJETA,pago resumen · MP No Gasto
+2026-07-15,Bonos plazos fijos,1000000,INVERSION,MP No Gasto
+2026-07-16,Susi,488004,RESERVA,Dinero reservado · MP No Gasto
+2026-07-17,Susi,30000,DINERO_RETIRADO,MP No Gasto
+2026-01-29,Cabify,6144,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-29-6144)
+2026-01-15,Cabify,4237,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-15-4237)
+2026-01-24,Cabify,3335,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-24-3335)
+2026-06-18,Cabify,9669,GASTO_PERSONAL_SOL,Cabify · BBVA VISA (BBVA-VISA-2026-06-18-9669)
+2026-05-16,Cabify,5198,GASTO_PERSONAL_SOL,Cabify · BBVA VISA (BBVA-VISA-2026-05-16-5198)
+2026-05-22,Cabify,16195,GASTO_PERSONAL_SOL,Cabify · BBVA VISA (BBVA-VISA-2026-05-22-16195)
+2026-04-20,Cabify,6641,GASTO_PERSONAL_SOL,Cabify · BBVA VISA (BBVA-VISA-2026-04-20-6641)
+2026-05-28,Subte,1490,GASTO_PERSONAL_SOL,Subte · BBVA MASTERCARD (BBVA-MASTERCARD-2026-05-28-1490)
+2026-02-27,Cabify,6003,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-27-6003)
+2026-02-28,Cabify,4955,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-28-4955)
+2026-03-03,Cabify,6170,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-03-03-6170)
+2026-03-03,Cabify,7046,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-03-03-7046)
+2026-03-04,Cabify,4440,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-03-04-4440)
+2026-03-09,Cabify,8821,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-03-09-8821)
+2026-03-16,Cabify,6427,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-03-16-6427)
+2026-03-17,Cabify,9209,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-03-17-9209)
+2026-01-30,Cabify,6569,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-30-6569)
+2026-01-30,Cabify,5463,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-30-5463)
+2026-02-17,Cabify,4447,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-17-4447)
+2026-02-18,Cabify,4445,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-18-4445)
+2026-02-18,Cabify,5694,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-18-5694)
+2026-02-19,Cabify,3905,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-19-3905)
+2026-02-20,Cabify,5489,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-20-5489)
+2026-02-22,Cabify,4960,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-22-4960)
+2026-02-24,Cabify,3899,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-02-24-3899)
+2026-01-14,Cabify,4966,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-14-4966)
+2026-01-16,Cabify,4959,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-16-4959)
+2026-01-18,Cabify,5529,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-18-5529)
+2026-01-21,Cabify,4447,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-21-4447)
+2026-01-23,Cabify,5484,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-23-5484)
+2026-01-25,Cabify,4317,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-25-4317)
+2026-01-25,Cabify,4799,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-25-4799)
+2026-01-28,Cabify,4454,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-28-4454)
+2026-05-28,Emova,1490,GASTO_PERSONAL_SOL,Subte · BBVA MASTERCARD (BBVA-MASTERCARD-2026-05-28-1490)
+2026-02-04,Fideicomiso Ava Palpa,5360265,AVA,Ava Palpa · cuota 4 febrero · 50% Sol en GPS
+2026-06-01,Pandora,73600,GASTO_PERSONAL_SOL,ROPA / joyas · BBVA Mastercard · gasto personal Sol
+2026-06-03,Pandora,284794,GASTO_PERSONAL_SOL,ROPA / joyas · BBVA Visa MERPAGO · gasto personal Sol
+2026-01-29,Feed,2350,GASTO_PERSONAL_SOL,COMIDA · Oficina · Feed · gasto personal Sol
+2026-02-16,Restaurant Soraya,33100,ALMACEN_SOL,COMIDA · Soraya · MP cuenta
+2026-03-31,Shell,4789,ALMACEN_SOL,Combustible — Shell · MP cuenta
+2026-04-20,Feed,2400,GASTO_PERSONAL_SOL,COMIDA · Oficina · Feed · gasto personal Sol
+2026-06-16,PedidosYa Propina,1200,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
+2026-06-20,PedidosYa,52902,ALMACEN_SOL,PEDIDOS YA · COMIDA · corregido desde MP cuenta
+2026-06-23,Buenos Muchachos,64750,ALMACEN_SOL,COMIDA · resto · MP cuenta
+2026-02-07,Lenac,7000,GASTO_PERSONAL_SOL,MP cuenta
+2026-03-21,Joaquin Vazco,37000,GASTO_PERSONAL_SOL,MP cuenta
+2026-03-25,Enzo Cabildo,49999,GASTO_PERSONAL_SOL,MP cuenta
+2026-04-10,Burtextil SRL,560000,GASTO_PERSONAL_SOL,MP cuenta
+2026-04-18,UADE,151214,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
+2026-04-18,UADE,269460,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
+2026-04-18,UADE,226820,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
+2026-04-26,Zucra SA,21600,GASTO_PERSONAL_SOL,MP cuenta
+2026-05-11,Libreria Marin,16200,GASTO_PERSONAL_SOL,MP cuenta
+2026-05-13,Lenac,6000,GASTO_PERSONAL_SOL,MP cuenta
+2026-06-20,UADE,5000,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
+2026-06-20,UADE,44048,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
+2026-06-30,Dodochesa007,61500,GASTO_PERSONAL_SOL,Dodochesa007 · gasto personal Sol
+2026-07-07,Serenelli Joaquin,27900,GASTO_PERSONAL_SOL,MP cuenta
+2026-07-09,David Rosental e Hijos SA,164000,GASTO_PERSONAL_SOL,MP cuenta
+2026-07-01,Susana Carmen Ortiz,400640,LIMPIEZA,Julio total MP cuenta (corrige 147660 parcial)
+2026-04-17,Agustina Vissani,155000,AGUS_PSA,AGUS/PSA · CIUDAD · resumen MP
+2026-01-08,PedidosYa,55011,ALMACEN_SOL,PEDIDOS YA · COMIDA
+2026-01-10,PedidosYa,54202,EXCLUIR,PEDIDOS YA · COMIDA · bruto; neto 51455 en Almacén (devolución 2748)
+2026-04-02,PedidosYa,500,ALMACEN_SOL,PEDIDOS YA · COMIDA
+2026-07-13,Copetin Catering,16150,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
+2026-01-22,Didi,3876,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-02-24,Uber (Ebanx),6167,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-06,Uber (Ebanx),136,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-16,Uber (Ebanx),67,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-04-28,Uber (Ebanx),5273,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-05-19,Didi,5720,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-06-24,Didi,3860,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-07-06,Didi,8350,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-07-06,Didi,150,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
+2026-07-13,Uber (Ebanx),15,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
+2026-01-02,Mercado Libre,232640,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
+2026-01-03,Recaudacion Gestion y Pagos SA,21500,GASTO_PERSONAL_SOL,pago QR · gasto personal Sol
+2026-01-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-07,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-09,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-11,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-17,Victoria Estefania Ibanez,4100,GASTO_PERSONAL_SOL,pago QR Victoria Estefania Ibanez · gasto personal Sol
+2026-01-17,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-20,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-22,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-24,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-28,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-30,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-01,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-08,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-10,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-15,Susana Carmen Ortiz,11000,LIMPIEZA_CIUDAD,LIMPIEZA CASA · consolidado en total mensual Detalle (no volver a sumar)
+2026-02-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-19,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-21,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-27,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-01,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-09,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-17,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-18,Catore SRL,48334,GASTO_PERSONAL_SOL,pago QR CATORE · gasto personal Sol
+2026-03-21,Susana Carmen Ortiz,90000,LIMPIEZA_CIUDAD,LIMPIEZA CASA · consolidado en total mensual Detalle (no volver a sumar)
+2026-03-25,BDM Proyects Arg SA,84400,GASTO_PERSONAL_SOL,pago QR BDM PROYECTS · gasto personal Sol
+2026-03-26,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-28,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-30,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-02,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-04,Ticorri Cosa,115500,GASTO_PERSONAL_SOL,pago QR TICORRICOSA · gasto personal Sol
+2026-04-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-08,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-12,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-15,Uber (Ebanx),4911,EXCLUIR,Uber (Ebanx) · devuelto 2026-04-15 · neto 0
+2026-04-15,Uber (Ebanx),4608,EXCLUIR,Uber (Ebanx) · devuelto 2026-04-15 · neto 0
+2026-04-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-17,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-19,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-21,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-24,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-28,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-02,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-08,Casareggia SRL,63000,GASTO_PERSONAL_SOL,pago QR CASAREGGIA · gasto personal Sol
+2026-05-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-21,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-23,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-25,Guillermo Gaston Galarraga,16990,GASTO_PERSONAL_SOL,transferencia Guillermo Galarraga · gasto personal Sol
+2026-05-25,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-29,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-30,Shell,25,ALMACEN_SOL,Combustible — Shell · pago QR
+2026-06-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-06-10,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-06-14,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-06-20,UADE,151214,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
+2026-06-20,UADE,81656,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
+2026-06-23,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-06-25,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-07-02,Fabricio Bollonine,5990,GASTO_PERSONAL_SOL,pago QR Fabricio Bollonine · gasto personal Sol

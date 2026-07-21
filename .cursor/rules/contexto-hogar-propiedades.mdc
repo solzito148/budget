@@ -1,0 +1,32 @@
+---
+description: Contexto esencial — hogar CIUDAD vs propiedades BONORINO/OHIGGINS
+alwaysApply: true
+---
+
+# Contexto esencial del presupuesto familiar
+
+## CIUDAD 1132 — hogar (donde vive Sol)
+- Dirección operativa: **Ciudad de la Paz 1132** (carpeta / Excel `CIUDAD/`).
+- Es la **casa donde vive Sol**. Ahí viven también:
+  - **Ramón** — mascota (perro). Todos sus gastos van al **Almacén CIUDAD** (`RAMON · Comida|Veterinario|Otros`), nunca a Gasto Personal Sol.
+  - **Christian** — marido. Los gastos de la casa se registran en el sistema de CIUDAD (matriz `2026`, `Detalle`, servicios, limpieza, etc.).
+- Objetivo de CIUDAD: registrar **todos los gastos de la casa + almacén** mes a mes para entender **todo lo que se consume** en el hogar (supermercado, comida, Ramón, utilidades, limpieza, TV Telecentro, etc.).
+- `Almacen Detalle` + filas de consumo de la matriz `2026` son el corazón del análisis de consumo hogareño.
+- `Gasto Personal Sol` en el Excel CIUDAD es el bolsillo personal de Sol (no es “gasto de la casa”); no suma al total de la hoja `2026`, pero alimenta el maestro `SOL/Gastos_SOL_2026.xlsx`.
+
+## BONORINO y OHIGGINS — propiedades (no hogar)
+- Sol tiene **dos propiedades adicionales** además de la casa donde vive:
+  - **BONORINO** → `BONORINO/Gastos_BONORINO_2026.xlsx` (ej. Edesur / expensas Bonorino).
+  - **OHIGGINS** → `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` (expensas, Personal TV, Edenor Chagas, Metrogas INVALMAR, ABL, etc.).
+- En estas propiedades se registran **gastos de la propiedad** (servicios, expensas, impuestos, TV de esa unidad), **no** el consumo diario del hogar ni el almacén de Sol/Ramón.
+- Nunca mezclar: almacén / Ramón / comida hogareña → **CIUDAD**; gastos de cada depto de renta/inversión → **BONORINO** u **OHIGGINS** según corresponda.
+
+## AVA (aparte)
+- **AVA / Fideicomiso Ava Palpa** es otro vehículo (`AVA/`). No es CIUDAD ni almacén. El 50% de Sol de las cuotas va a Gasto Personal Sol / maestro SOL.
+
+## Cómo pensar al categorizar
+1. ¿Es consumo de la casa donde vivo (comida, súper, Ramón, casa)? → **CIUDAD** (Almacén o matriz/Detalle).
+2. ¿Es gasto de la propiedad Bonorino u O’Higgins? → carpeta de esa propiedad.
+3. ¿Es bolsillo personal de Sol (ropa, suscripciones, transporte personal, etc.)? → **Gasto Personal Sol** (maestro SOL), sin sumar al total CIUDAD `2026`.
+4. ¿Es gasto del fideicomiso AVA? → **AVA** (50% Sol a Gasto Personal Sol / maestro SOL).
+5. ¿Es retiro de dinero, pago de deuda/resumen o inversión (venta/compra USD, bonos, PF, fondos)? → **MP No Gasto** (nunca Almacén ni total casa). Espejo en el maestro SOL, hoja `MP No Gasto`.

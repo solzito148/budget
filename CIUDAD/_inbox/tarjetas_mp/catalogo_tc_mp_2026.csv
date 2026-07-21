@@ -1,0 +1,120 @@
+fecha_compra,fecha_cobro_resumen,periodo_resumen,descripcion,cuota,operacion,monto_ars,monto_usd,destino,categoria,comentario,archivo,section
+2025-11-13,2026-01-12,Enero 2026,MERPAGO*TEXTILHOGAR,2 de 3,875378,47500,,PERSONAL,Textilhogar · C.02/03,MERPAGO*TEXTILHOGAR · TC Mercado Pago · cuota 2 de 3,statement 7.pdf,consumo
+2025-11-26,2026-01-12,Enero 2026,MERPAGO*ENERFIT,2 de 12,533750,66527,,PERSONAL,SALUD · Enerfit · C.02/12,SALUD · MERPAGO*ENERFIT · TC Mercado Pago · cuota 2 de 12,statement 7.pdf,consumo
+2025-11-26,2026-01-12,Enero 2026,MERPAGO*MERCADOLIBRE,2 de 3,256086,72964,,PERSONAL,Mercado Libre · C.02/03,Mercado Libre · TC Mercado Pago · cuota 2 de 3,statement 7.pdf,consumo
+2025-11-28,2026-01-12,Enero 2026,MERPAGO*MOPHIE,2 de 3,220899,140650,,PERSONAL,Mophie · C.02/03,MERPAGO*MOPHIE · TC Mercado Pago · cuota 2 de 3,statement 7.pdf,consumo
+2025-11-29,2026-01-12,Enero 2026,MERPAGO*MERCADOLIBRE,2 de 3,717431,32941,,PERSONAL,Mercado Libre · C.02/03,Mercado Libre · TC Mercado Pago · cuota 2 de 3,statement 7.pdf,consumo
+2025-12-13,2026-01-12,Enero 2026,MERPAGO*PALLARS,1 de 3,946832,50000,,PERSONAL,Pallars · C.01/03,MERPAGO*PALLARS · TC Mercado Pago · cuota 1 de 3,statement 7.pdf,consumo
+2025-12-22,2026-01-12,Enero 2026,AMAZON RETA* M21NF8LX3,,512341,0,1060.42,PERSONAL,Amazon,Amazon · TC Mercado Pago · USD,statement 7.pdf,consumo
+2025-12-22,2026-01-12,Enero 2026,WWW.COTODIGITAL.COM.AR,,865514,337644,,ALMACEN,SUPERMERCADO · Coto,SUPERMERCADO · Coto · TC Mercado Pago,statement 7.pdf,consumo
+2025-12-23,2026-01-12,Enero 2026,Reembolso de WWW.COTODIGITAL.COM.AR,,934010,-49597,,ALMACEN,SUPERMERCADO · Coto,REEMBOLSO · SUPERMERCADO · Coto · TC Mercado Pago,statement 7.pdf,reembolso
+2026-01-04,2026-01-12,Enero 2026,MERPAGO*CEFERINA,,769206,530000,,PERSONAL,ROPA · Ceferina,ROPA · Ceferina · TC Mercado Pago,statement 7.pdf,consumo
+2026-01-04,2026-01-12,Enero 2026,MERPAGO*LONGCHAMP,1 de 6,340821,63750,,GPS,VESTIMENTA,VESTIMENTA · Longchamp · TC Mercado Pago · cuota 1 de 6,statement 7.pdf,consumo
+2026-01-08,2026-01-12,Enero 2026,CEFERINA,,376024,395000,,PERSONAL,ROPA · Ceferina,ROPA · Ceferina · TC Mercado Pago,statement 7.pdf,consumo
+2026-01-08,2026-01-12,Enero 2026,MERPAGO*PROMARINE,1 de 6,182877,58334,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 1 de 6,statement 7.pdf,consumo
+2026-01-12,2026-01-12,Enero 2026,Percepción ganancias RG 5617,,,466850,,PERSONAL,PERCEPCIÓN USD · DB RG 5617 · TC Mercado Pago,PERCEPCIÓN USD · DB RG 5617 · TC Mercado Pago · cierre 2026-01-12,statement 7.pdf,impuesto
+2025-11-13,2026-02-12,Febrero 2026,MERPAGO*TEXTILHOGAR,3 de 3,824254,47500,,PERSONAL,Textilhogar · C.03/03,MERPAGO*TEXTILHOGAR · TC Mercado Pago · cuota 3 de 3,statement 6.pdf,consumo
+2025-11-26,2026-02-12,Febrero 2026,MERPAGO*ENERFIT,3 de 12,793298,66527,,PERSONAL,SALUD · Enerfit · C.03/12,SALUD · MERPAGO*ENERFIT · TC Mercado Pago · cuota 3 de 12,statement 6.pdf,consumo
+2025-11-26,2026-02-12,Febrero 2026,MERPAGO*MERCADOLIBRE,3 de 3,481143,72964,,PERSONAL,Mercado Libre · C.03/03,Mercado Libre · TC Mercado Pago · cuota 3 de 3,statement 6.pdf,consumo
+2025-11-28,2026-02-12,Febrero 2026,MERPAGO*MOPHIE,3 de 3,452477,140650,,PERSONAL,Mophie · C.03/03,MERPAGO*MOPHIE · TC Mercado Pago · cuota 3 de 3,statement 6.pdf,consumo
+2025-11-29,2026-02-12,Febrero 2026,MERPAGO*MERCADOLIBRE,3 de 3,880220,32941,,PERSONAL,Mercado Libre · C.03/03,Mercado Libre · TC Mercado Pago · cuota 3 de 3,statement 6.pdf,consumo
+2025-12-13,2026-02-12,Febrero 2026,MERPAGO*PALLARS,2 de 3,179351,50000,,PERSONAL,Pallars · C.02/03,MERPAGO*PALLARS · TC Mercado Pago · cuota 2 de 3,statement 6.pdf,consumo
+2026-01-04,2026-02-12,Febrero 2026,MERPAGO*LONGCHAMP,2 de 6,274653,63750,,GPS,VESTIMENTA,VESTIMENTA · Longchamp · TC Mercado Pago · cuota 2 de 6,statement 6.pdf,consumo
+2026-01-08,2026-02-12,Febrero 2026,MERPAGO*PROMARINE,2 de 6,799029,58334,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 2 de 6,statement 6.pdf,consumo
+2026-01-15,2026-02-12,Febrero 2026,MERPAGO*MERCADOLIBRE,1 de 2,637509,47965,,PERSONAL,Mercado Libre · C.01/02,Mercado Libre · TC Mercado Pago · cuota 1 de 2,statement 6.pdf,consumo
+2026-01-24,2026-02-12,Febrero 2026,MERPAGO*TODOVISION,1 de 3,263819,81333,,PERSONAL,Todovision · C.01/03,MERPAGO*TODOVISION · TC Mercado Pago · cuota 1 de 3,statement 6.pdf,consumo
+2026-01-25,2026-02-12,Febrero 2026,MERPAGO*MERCADOLIBRE,,426606,113472,,PERSONAL,Mercado Libre,Mercado Libre · TC Mercado Pago,statement 6.pdf,consumo
+2026-01-25,2026-02-12,Febrero 2026,MERPAGO*MERCADOLIBRE,,782025,43300,,PERSONAL,Mercado Libre,Mercado Libre · TC Mercado Pago,statement 6.pdf,consumo
+2026-01-25,2026-02-12,Febrero 2026,MERPAGO*ZAVAGLIA,,649515,24562,,PERSONAL,Zavaglia,MERPAGO*ZAVAGLIA · TC Mercado Pago,statement 6.pdf,consumo
+2026-01-26,2026-02-12,Febrero 2026,MERPAGO*SELLERPRO,,606680,63647,,PERSONAL,Sellerpro,MERPAGO*SELLERPRO · TC Mercado Pago,statement 6.pdf,consumo
+2026-01-27,2026-02-12,Febrero 2026,MERPAGO*POLO,,189436,19550,,PERSONAL,ROPA · Polo,ROPA · MERPAGO*POLO · TC Mercado Pago,statement 6.pdf,consumo
+2025-11-26,2026-03-12,Marzo 2026,MERPAGO*ENERFIT,4 de 12,326808,66527,,PERSONAL,SALUD · Enerfit · C.04/12,SALUD · MERPAGO*ENERFIT · TC Mercado Pago · cuota 4 de 12,statement 5.pdf,consumo
+2025-12-13,2026-03-12,Marzo 2026,MERPAGO*PALLARS,3 de 3,893825,50000,,PERSONAL,Pallars · C.03/03,MERPAGO*PALLARS · TC Mercado Pago · cuota 3 de 3,statement 5.pdf,consumo
+2026-01-04,2026-03-12,Marzo 2026,MERPAGO*LONGCHAMP,3 de 6,115375,63750,,GPS,VESTIMENTA,VESTIMENTA · Longchamp · TC Mercado Pago · cuota 3 de 6,statement 5.pdf,consumo
+2026-01-08,2026-03-12,Marzo 2026,MERPAGO*PROMARINE,3 de 6,444578,58334,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 3 de 6,statement 5.pdf,consumo
+2026-01-15,2026-03-12,Marzo 2026,MERPAGO*MERCADOLIBRE,2 de 2,501043,47965,,PERSONAL,Mercado Libre · C.02/02,Mercado Libre · TC Mercado Pago · cuota 2 de 2,statement 5.pdf,consumo
+2026-01-24,2026-03-12,Marzo 2026,MERPAGO*TODOVISION,2 de 3,750488,81333,,PERSONAL,Todovision · C.02/03,MERPAGO*TODOVISION · TC Mercado Pago · cuota 2 de 3,statement 5.pdf,consumo
+2026-03-09,2026-03-12,Marzo 2026,582121*MOVISTAR AR,,884997,220000,,PERSONAL,Telecom · 582121*Movistar Ar,582121*MOVISTAR AR · TC Mercado Pago,statement 5.pdf,consumo
+2026-03-09,2026-03-12,Marzo 2026,MOVISTAR ARENA,,280050,33000,,PERSONAL,Telecom · Movistar Arena,MOVISTAR ARENA · TC Mercado Pago,statement 5.pdf,consumo
+2025-11-26,2026-04-12,Abril 2026,MERPAGO*ENERFIT,5 de 12,748705,66527,,PERSONAL,SALUD · Enerfit · C.05/12,SALUD · MERPAGO*ENERFIT · TC Mercado Pago · cuota 5 de 12,statement 4.pdf,consumo
+2026-01-04,2026-04-12,Abril 2026,MERPAGO*LONGCHAMP,4 de 6,294443,63750,,GPS,VESTIMENTA,VESTIMENTA · Longchamp · TC Mercado Pago · cuota 4 de 6,statement 4.pdf,consumo
+2026-01-08,2026-04-12,Abril 2026,MERPAGO*PROMARINE,4 de 6,292145,58334,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 4 de 6,statement 4.pdf,consumo
+2026-01-24,2026-04-12,Abril 2026,MERPAGO*TODOVISION,3 de 3,688611,81333,,PERSONAL,Todovision · C.03/03,MERPAGO*TODOVISION · TC Mercado Pago · cuota 3 de 3,statement 4.pdf,consumo
+2026-03-14,2026-04-12,Abril 2026,MERPAGO*COVERCELL,1 de 3,856937,30000,,GPS,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol,statement 4.pdf,consumo
+2026-03-14,2026-04-12,Abril 2026,MERPAGO*COVERCELL,,326462,45000,,GPS,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol,statement 4.pdf,consumo
+2026-03-15,2026-04-12,Abril 2026,DLO*MADMUSCLES,,441955,26489,,PERSONAL,SALUD · Madmuscles,SALUD · DLO*MADMUSCLES · TC Mercado Pago,statement 4.pdf,consumo
+2026-03-19,2026-04-12,Abril 2026,MERPAGO*CAMBIODEAIRES,,111902,528698,,PERSONAL,ROPA · Cambiodeaires,ROPA · MERPAGO*CAMBIODEAIRES · TC Mercado Pago,statement 4.pdf,consumo
+2026-03-20,2026-04-12,Abril 2026,MERPAGO*LOCCITANE,1 de 6,413952,41715,,PERSONAL,ROPA · Loccitane · C.01/06,ROPA · MERPAGO*LOCCITANE · TC Mercado Pago · cuota 1 de 6,statement 4.pdf,consumo
+2026-03-21,2026-04-12,Abril 2026,MERPAGO*MARTINA19,,108543,75000,,PERSONAL,Martina19,MERPAGO*MARTINA19 · TC Mercado Pago,statement 4.pdf,consumo
+2026-03-23,2026-04-12,Abril 2026,CLAUDE.AI SUBSCRIPTION,,201638,0,200.0,GPS,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol,statement 4.pdf,consumo
+2026-03-23,2026-04-12,Abril 2026,MERPAGO*AWADA,1 de 9,718161,67112,,PERSONAL,ROPA · Awada · C.01/09,ROPA · MERPAGO*AWADA · TC Mercado Pago · cuota 1 de 9,statement 4.pdf,consumo
+2026-03-23,2026-04-12,Abril 2026,PAYU*AR*ADIDAS,1 de 6,564568,23000,,PERSONAL,ROPA · Adidas · C.01/06,ROPA · Adidas · TC Mercado Pago · cuota 1 de 6,statement 4.pdf,consumo
+2026-03-24,2026-04-12,Abril 2026,MERPAGO*GASTROHOGAR,1 de 2,284043,30097,,PERSONAL,Gastrohogar · C.01/02,MERPAGO*GASTROHOGAR · TC Mercado Pago · cuota 1 de 2,statement 4.pdf,consumo
+2026-03-24,2026-04-12,Abril 2026,MERPAGO*MERCADOLIBRE,1 de 2,887788,50950,,PERSONAL,Mercado Libre · C.01/02,Mercado Libre · TC Mercado Pago · cuota 1 de 2,statement 4.pdf,consumo
+2026-03-24,2026-04-12,Abril 2026,MERPAGO*MERCADOLIBRE,1 de 3,816904,125779,,PERSONAL,Mercado Libre · C.01/03,Mercado Libre · TC Mercado Pago · cuota 1 de 3,statement 4.pdf,consumo
+2026-03-25,2026-04-12,Abril 2026,MERPAGO*PAWSPETMARKET,,590470,35700,,PERSONAL,Mascotas · Paws Pet Market,mascotas · Paws Pet Market · TC Mercado Pago,statement 4.pdf,consumo
+2026-03-30,2026-04-12,Abril 2026,MERPAGO*LAPARFUMERIE,1 de 6,489204,41345,,PERSONAL,ROPA · Laparfumerie · C.01/06,ROPA · MERPAGO*LAPARFUMERIE · TC Mercado Pago · cuota 1 de 6,statement 4.pdf,consumo
+2026-04-01,2026-04-12,Abril 2026,MERPAGO*MRPERFUMERIAS,1 de 3,489153,142573,,PERSONAL,ROPA · Mrperfumerias · C.01/03,ROPA · MERPAGO*MRPERFUMERIAS · TC Mercado Pago · cuota 1 de 3,statement 4.pdf,consumo
+2026-04-04,2026-04-12,Abril 2026,MERPAGO*CAMBIODEAIRES,1 de 3,228625,173147,,PERSONAL,ROPA · Cambiodeaires · C.01/03,ROPA · MERPAGO*CAMBIODEAIRES · TC Mercado Pago · cuota 1 de 3,statement 4.pdf,consumo
+2026-04-04,2026-04-12,Abril 2026,MERPAGO*PROMARINE,1 de 6,990259,87900,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 1 de 6,statement 4.pdf,consumo
+2026-04-05,2026-04-12,Abril 2026,WP*WORDPRESS AEHD9ZEP3,,105382,0,228.0,PERSONAL,WordPress,WordPress · TC Mercado Pago · USD,statement 4.pdf,consumo
+2026-04-12,2026-04-12,Abril 2026,IIBB servicios digitales,,,6248,,PERSONAL,PERCEPCIÓN USD · IIBB · TC Mercado Pago,PERCEPCIÓN USD · IIBB · TC Mercado Pago · cierre 2026-04-12,statement 4.pdf,impuesto
+2026-04-12,2026-04-12,Abril 2026,IVA servicios digitales RG 4240,,,65596,,PERSONAL,PERCEPCIÓN USD · IVA RG 4240 · TC Mercado Pago,PERCEPCIÓN USD · IVA RG 4240 · TC Mercado Pago · cierre 2026-04-12,statement 4.pdf,impuesto
+2026-04-12,2026-04-12,Abril 2026,Percepción ganancias RG 5617,,,175908,,PERSONAL,PERCEPCIÓN USD · DB RG 5617 · TC Mercado Pago,PERCEPCIÓN USD · DB RG 5617 · TC Mercado Pago · cierre 2026-04-12,statement 4.pdf,impuesto
+2025-11-26,2026-05-12,Mayo 2026,MERPAGO*ENERFIT,6 de 12,338198,66527,,PERSONAL,SALUD · Enerfit · C.06/12,SALUD · MERPAGO*ENERFIT · TC Mercado Pago · cuota 6 de 12,statement 3.pdf,consumo
+2026-01-04,2026-05-12,Mayo 2026,MERPAGO*LONGCHAMP,5 de 6,389683,63750,,GPS,VESTIMENTA,VESTIMENTA · Longchamp · TC Mercado Pago · cuota 5 de 6,statement 3.pdf,consumo
+2026-01-08,2026-05-12,Mayo 2026,MERPAGO*PROMARINE,5 de 6,645336,58334,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 5 de 6,statement 3.pdf,consumo
+2026-03-14,2026-05-12,Mayo 2026,MERPAGO*COVERCELL,2 de 3,948673,30000,,GPS,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol,statement 3.pdf,consumo
+2026-03-20,2026-05-12,Mayo 2026,MERPAGO*LOCCITANE,2 de 6,542784,41715,,PERSONAL,ROPA · Loccitane · C.02/06,ROPA · MERPAGO*LOCCITANE · TC Mercado Pago · cuota 2 de 6,statement 3.pdf,consumo
+2026-03-23,2026-05-12,Mayo 2026,MERPAGO*AWADA,2 de 9,262124,67112,,PERSONAL,ROPA · Awada · C.02/09,ROPA · MERPAGO*AWADA · TC Mercado Pago · cuota 2 de 9,statement 3.pdf,consumo
+2026-03-23,2026-05-12,Mayo 2026,PAYU*AR*ADIDAS,2 de 6,159257,23000,,PERSONAL,ROPA · Adidas · C.02/06,ROPA · Adidas · TC Mercado Pago · cuota 2 de 6,statement 3.pdf,consumo
+2026-03-24,2026-05-12,Mayo 2026,MERPAGO*GASTROHOGAR,2 de 2,560369,30097,,PERSONAL,Gastrohogar · C.02/02,MERPAGO*GASTROHOGAR · TC Mercado Pago · cuota 2 de 2,statement 3.pdf,consumo
+2026-03-24,2026-05-12,Mayo 2026,MERPAGO*MERCADOLIBRE,2 de 2,805244,50950,,PERSONAL,Mercado Libre · C.02/02,Mercado Libre · TC Mercado Pago · cuota 2 de 2,statement 3.pdf,consumo
+2026-03-24,2026-05-12,Mayo 2026,MERPAGO*MERCADOLIBRE,2 de 3,307162,125779,,PERSONAL,Mercado Libre · C.02/03,Mercado Libre · TC Mercado Pago · cuota 2 de 3,statement 3.pdf,consumo
+2026-03-30,2026-05-12,Mayo 2026,MERPAGO*LAPARFUMERIE,2 de 6,164054,41345,,PERSONAL,ROPA · Laparfumerie · C.02/06,ROPA · MERPAGO*LAPARFUMERIE · TC Mercado Pago · cuota 2 de 6,statement 3.pdf,consumo
+2026-04-01,2026-05-12,Mayo 2026,MERPAGO*MRPERFUMERIAS,2 de 3,297140,142573,,PERSONAL,ROPA · Mrperfumerias · C.02/03,ROPA · MERPAGO*MRPERFUMERIAS · TC Mercado Pago · cuota 2 de 3,statement 3.pdf,consumo
+2026-04-04,2026-05-12,Mayo 2026,MERPAGO*CAMBIODEAIRES,2 de 3,929359,173147,,PERSONAL,ROPA · Cambiodeaires · C.02/03,ROPA · MERPAGO*CAMBIODEAIRES · TC Mercado Pago · cuota 2 de 3,statement 3.pdf,consumo
+2026-04-04,2026-05-12,Mayo 2026,MERPAGO*PROMARINE,2 de 6,480117,87900,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 2 de 6,statement 3.pdf,consumo
+2026-04-20,2026-05-12,Mayo 2026,MERPAGO*SUPLEMENTOSCO,1 de 3,408938,52079,,PERSONAL,SALUD · Suplementosco · C.01/03,SALUD · MERPAGO*SUPLEMENTOSCO · TC Mercado Pago · cuota 1 de 3,statement 3.pdf,consumo
+2026-04-30,2026-05-12,Mayo 2026,Reembolso de MERPAGO*PROMARINE,,564436,-527400,,GPS,SALUD · Vitaminas,REEMBOLSO · SALUD · Vitaminas · Promarine · TC Mercado Pago,statement 3.pdf,reembolso
+2026-05-09,2026-05-12,Mayo 2026,MERPAGO*MERCADOLIBRE,2 de 2,757878,2349995,,PERSONAL,Mercado Libre · C.02/02,Mercado Libre · TC Mercado Pago · cuota 2 de 2,statement 3.pdf,consumo
+2026-05-09,2026-05-12,Mayo 2026,MERPAGO*MERCADOLIBRE,1 de 2,914894,2349995,,PERSONAL,Mercado Libre · C.01/02,Mercado Libre · TC Mercado Pago · cuota 1 de 2,statement 3.pdf,consumo
+2026-05-09,2026-05-12,Mayo 2026,MERPAGO*TILGORITA,1 de 3,393228,88815,,PERSONAL,Tilgorita · C.01/03,MERPAGO*TILGORITA · TC Mercado Pago · cuota 1 de 3,statement 3.pdf,consumo
+2026-05-11,2026-05-12,Mayo 2026,Reembolso de MERPAGO*MERCADOLIBRE,,394889,-4699990,,PERSONAL,Mercado Libre,REEMBOLSO · Mercado Libre · TC Mercado Pago,statement 3.pdf,reembolso
+2025-11-26,2026-06-12,Junio 2026,MERPAGO*ENERFIT,7 de 12,962085,66527,,PERSONAL,SALUD · Enerfit · C.07/12,SALUD · MERPAGO*ENERFIT · TC Mercado Pago · cuota 7 de 12,statement 2.pdf,consumo
+2026-01-04,2026-06-12,Junio 2026,MERPAGO*LONGCHAMP,6 de 6,962348,63750,,GPS,VESTIMENTA,VESTIMENTA · Longchamp · TC Mercado Pago · cuota 6 de 6,statement 2.pdf,consumo
+2026-01-08,2026-06-12,Junio 2026,MERPAGO*PROMARINE,6 de 6,651327,58334,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 6 de 6,statement 2.pdf,consumo
+2026-03-14,2026-06-12,Junio 2026,MERPAGO*COVERCELL,3 de 3,292441,30000,,GPS,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol,statement 2.pdf,consumo
+2026-03-20,2026-06-12,Junio 2026,MERPAGO*LOCCITANE,3 de 6,163182,41715,,PERSONAL,ROPA · Loccitane · C.03/06,ROPA · MERPAGO*LOCCITANE · TC Mercado Pago · cuota 3 de 6,statement 2.pdf,consumo
+2026-03-23,2026-06-12,Junio 2026,MERPAGO*AWADA,3 de 9,177854,67112,,PERSONAL,ROPA · Awada · C.03/09,ROPA · MERPAGO*AWADA · TC Mercado Pago · cuota 3 de 9,statement 2.pdf,consumo
+2026-03-23,2026-06-12,Junio 2026,PAYU*AR*ADIDAS,3 de 6,108875,23000,,PERSONAL,ROPA · Adidas · C.03/06,ROPA · Adidas · TC Mercado Pago · cuota 3 de 6,statement 2.pdf,consumo
+2026-03-24,2026-06-12,Junio 2026,MERPAGO*MERCADOLIBRE,3 de 3,248486,125779,,PERSONAL,Mercado Libre · C.03/03,Mercado Libre · TC Mercado Pago · cuota 3 de 3,statement 2.pdf,consumo
+2026-03-30,2026-06-12,Junio 2026,MERPAGO*LAPARFUMERIE,3 de 6,392080,41345,,PERSONAL,ROPA · Laparfumerie · C.03/06,ROPA · MERPAGO*LAPARFUMERIE · TC Mercado Pago · cuota 3 de 6,statement 2.pdf,consumo
+2026-04-01,2026-06-12,Junio 2026,MERPAGO*MRPERFUMERIAS,3 de 3,105938,142573,,PERSONAL,ROPA · Mrperfumerias · C.03/03,ROPA · MERPAGO*MRPERFUMERIAS · TC Mercado Pago · cuota 3 de 3,statement 2.pdf,consumo
+2026-04-04,2026-06-12,Junio 2026,MERPAGO*CAMBIODEAIRES,3 de 3,124681,173147,,PERSONAL,ROPA · Cambiodeaires · C.03/03,ROPA · MERPAGO*CAMBIODEAIRES · TC Mercado Pago · cuota 3 de 3,statement 2.pdf,consumo
+2026-04-04,2026-06-12,Junio 2026,MERPAGO*PROMARINE,3 de 6,421571,87900,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 3 de 6,statement 2.pdf,consumo
+2026-04-20,2026-06-12,Junio 2026,MERPAGO*SUPLEMENTOSCO,2 de 3,989202,52079,,PERSONAL,SALUD · Suplementosco · C.02/03,SALUD · MERPAGO*SUPLEMENTOSCO · TC Mercado Pago · cuota 2 de 3,statement 2.pdf,consumo
+2026-05-09,2026-06-12,Junio 2026,MERPAGO*TILGORITA,2 de 3,141696,88815,,PERSONAL,Tilgorita · C.02/03,MERPAGO*TILGORITA · TC Mercado Pago · cuota 2 de 3,statement 2.pdf,consumo
+2026-05-14,2026-06-12,Junio 2026,MERPAGO*BIDCOM,1 de 3,772686,44100,,PERSONAL,Bidcom · C.01/03,MERPAGO*BIDCOM · TC Mercado Pago · cuota 1 de 3,statement 2.pdf,consumo
+2026-05-29,2026-06-12,Junio 2026,MERPAGO*FARMACITY,,510411,85034,,CIUDAD,FARMACIA · Farmacity,FARMACIA · Farmacity · Almacen Detalle · TC Mercado Pago,statement 2.pdf,consumo
+2026-06-01,2026-06-12,Junio 2026,VERCEL DOMAINS,,655799,0,11.25,GPS,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol,statement 2.pdf,consumo
+2026-06-04,2026-06-12,Junio 2026,VERCEL DOMAINS,,236797,0,11.25,GPS,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol,statement 2.pdf,consumo
+2026-06-11,2026-06-12,Junio 2026,MERPAGO*CASAGODOY,1 de 3,398568,268667,,PERSONAL,Casagodoy · C.01/03,MERPAGO*CASAGODOY · TC Mercado Pago · cuota 1 de 3,statement 2.pdf,consumo
+2026-06-12,2026-06-12,Junio 2026,Percepción ganancias RG 5617,,,9639,,PERSONAL,PERCEPCIÓN USD · DB RG 5617 · TC Mercado Pago,PERCEPCIÓN USD · DB RG 5617 · TC Mercado Pago · cierre 2026-06-12,statement 2.pdf,impuesto
+2025-11-26,2026-07-12,Julio 2026,MERPAGO*ENERFIT,8 de 12,843003,66527,,PERSONAL,SALUD · Enerfit · C.08/12,SALUD · MERPAGO*ENERFIT · TC Mercado Pago · cuota 8 de 12,statement.pdf,consumo
+2026-03-20,2026-07-12,Julio 2026,MERPAGO*LOCCITANE,4 de 6,765604,41715,,PERSONAL,ROPA · Loccitane · C.04/06,ROPA · MERPAGO*LOCCITANE · TC Mercado Pago · cuota 4 de 6,statement.pdf,consumo
+2026-03-23,2026-07-12,Julio 2026,MERPAGO*AWADA,4 de 9,244904,67112,,PERSONAL,ROPA · Awada · C.04/09,ROPA · MERPAGO*AWADA · TC Mercado Pago · cuota 4 de 9,statement.pdf,consumo
+2026-03-23,2026-07-12,Julio 2026,PAYU*AR*ADIDAS,4 de 6,893708,23000,,PERSONAL,ROPA · Adidas · C.04/06,ROPA · Adidas · TC Mercado Pago · cuota 4 de 6,statement.pdf,consumo
+2026-03-30,2026-07-12,Julio 2026,MERPAGO*LAPARFUMERIE,4 de 6,112798,41345,,PERSONAL,ROPA · Laparfumerie · C.04/06,ROPA · MERPAGO*LAPARFUMERIE · TC Mercado Pago · cuota 4 de 6,statement.pdf,consumo
+2026-04-04,2026-07-12,Julio 2026,MERPAGO*PROMARINE,4 de 6,562825,87900,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · cuota 4 de 6,statement.pdf,consumo
+2026-04-20,2026-07-12,Julio 2026,MERPAGO*SUPLEMENTOSCO,3 de 3,250435,52079,,PERSONAL,SALUD · Suplementosco · C.03/03,SALUD · MERPAGO*SUPLEMENTOSCO · TC Mercado Pago · cuota 3 de 3,statement.pdf,consumo
+2026-05-09,2026-07-12,Julio 2026,MERPAGO*TILGORITA,3 de 3,902344,88815,,PERSONAL,Tilgorita · C.03/03,MERPAGO*TILGORITA · TC Mercado Pago · cuota 3 de 3,statement.pdf,consumo
+2026-05-14,2026-07-12,Julio 2026,MERPAGO*BIDCOM,2 de 3,771749,44100,,PERSONAL,Bidcom · C.02/03,MERPAGO*BIDCOM · TC Mercado Pago · cuota 2 de 3,statement.pdf,consumo
+2026-06-11,2026-07-12,Julio 2026,MERPAGO*CASAGODOY,2 de 3,546291,268667,,PERSONAL,Casagodoy · C.02/03,MERPAGO*CASAGODOY · TC Mercado Pago · cuota 2 de 3,statement.pdf,consumo
+2026-06-13,2026-07-12,Julio 2026,MERPAGO*MONPOULET,,546618,53000,,PERSONAL,Monpoulet,MERPAGO*MONPOULET · TC Mercado Pago,statement.pdf,consumo
+2026-06-15,2026-07-12,Julio 2026,DLO*MADMUSCLES,,487761,99727,,PERSONAL,SALUD · Madmuscles,SALUD · DLO*MADMUSCLES · TC Mercado Pago,statement.pdf,consumo
+2026-06-16,2026-07-12,Julio 2026,MERPAGO*ITSCLASSIC,,606335,2542970,,GPS,GASTO_PERSONAL_SOL,VESTIMENTA · Itsclassic · gasto personal Sol,statement.pdf,consumo
+2026-06-19,2026-07-12,Julio 2026,MERPAGO*REGALOSDALILA,1 de 2,933928,33500,,PERSONAL,Regalosdalila · C.01/02,MERPAGO*REGALOSDALILA · TC Mercado Pago · cuota 1 de 2,statement.pdf,consumo
+2026-06-23,2026-07-12,Julio 2026,MERPAGO*LABORATORIOBE,1 de 9,402984,55707,,PERSONAL,SALUD · Laboratoriobe · C.01/09,SALUD · MERPAGO*LABORATORIOBE · TC Mercado Pago · cuota 1 de 9,statement.pdf,consumo
+2026-06-25,2026-07-12,Julio 2026,MERPAGO*BIODEPOT,1 de 3,293868,58334,,PERSONAL,SALUD · Biodepot · C.01/03,SALUD · MERPAGO*BIODEPOT · TC Mercado Pago · cuota 1 de 3,statement.pdf,consumo
+2026-07-09,2026-07-12,Julio 2026,MERPAGO*PANDORA,1 de 6,617879,297891,,PERSONAL,ROPA · Pandora · C.01/06,ROPA · Pandora · TC Mercado Pago · cuota 1 de 6,statement.pdf,consumo

@@ -5,9 +5,15 @@ alwaysApply: true
 
 # CIUDAD 1132 — reglas de categorización Mercado Pago
 
-## TRANSPORTE (cargar, no descartar)
-- Cabify, Uber, Didi, Ebanx S.A. (= Uber)
-- Fila: `SERVICIOS / TRANSPORTE / Cabify/Uber/Didi`
+## Jerarquía de fuentes (obligatoria)
+- **Resúmenes oficiales** (PDF/CSV de cuenta MP, tarjeta débito/crédito MP, BBVA, extractos bancarios, liquidaciones) tienen **mayor jerarquía y validez** que lo que se pase por texto en el chat.
+- Si hay conflicto entre un resumen y un mensaje de texto (monto, fecha, comercio, neto, cancelación/devolución, mes), **siempre prevalece el resumen**.
+- El texto del chat sirve para contexto, reglas de categorización y aclaraciones; no para sobrescribir datos del resumen salvo instrucción explícita de Sol de corregir un error del extracto.
+
+## TRANSPORTE — gasto personal Sol
+- Solo hoja `Gasto Personal Sol`. **No** hay fila PERSONAL SOL/TRANSPORTE en la matriz `2026` de CIUDAD (no suma al total casa).
+- Cabify, Uber, Didi, **Ebanx S.A. (= siempre Uber)** y Emova → GPS `TRANSPORTE · {Cabify|Uber|Didi|Emova}`. **Ebanx** se nombra siempre **Uber** (nunca dejar “Ebanx” como categoría/comercio visible)
+- Cargar en `Gasto Personal Sol`; no sumar a la matriz `2026` de CIUDAD
 - Ignorar cancelados / devueltos (neto 0)
 
 ## ALMACEN SOL — COMBUSTIBLE
@@ -18,23 +24,37 @@ alwaysApply: true
 - No van a Extras ni a categoría AUTO
 
 ## Separación ALMACEN SOL vs personal Sol
-- **ALMACEN SOL** = solo comida / súper / verdulería / delivery comida / combustible → hoja `Almacen Detalle`
-- **Todo lo demás personal de Sol** (ropa, ML, transferencias a terceros, mascotas, donaciones, Apple, Tuenti, suscripciones, ACA, etc.) → hoja `Gasto Personal Sol` (no suma al total de la hoja `2026`)
-- PedidosYa Plus → `Gasto Personal Sol` (no almacén)
+- **Archivo maestro único de Sol:** `SOL/Gastos_SOL_2026.xlsx`. Debe consolidar `Gasto Personal Sol`, la columna `Importe Sol` de `Almacen Detalle`, percepciones USD, categorías, cashflow de cuotas BBVA y `Cashflow Compromisos` (BBVA + AVA). Regenerar con `SOL/build_gastos_sol.py` después de actualizar las fuentes.
+- **No inventar movimientos:** solo cargar lo que figura en un resumen oficial. **Toda fila debe tener fecha del gasto.** No dejar filas manuales sin fecha; si un ítem no está en ningún settlement/extracto, eliminarlo.
+- Las hojas de CIUDAD siguen siendo fuentes operativas para alimentar sus matrices, pero todo gasto de Sol debe quedar reflejado también en el archivo maestro.
+- **ALMACEN SOL** = `SUPERMERCADO` (Coto/Carrefour/Día/PedidosYa Market) + `COMIDA` (resto/café/verdulería/PedidosYa comida/barritas proteicas Enerfit; no Feed) + combustible + Ramón (`RAMON · Comida|Veterinario|Otros`) + entretenimiento (`ENTRETENIMIENTO · Recitales` · Movistar Arena / `ENTRETENIMIENTO · Teatro` · Plateanet / `ENTRETENIMIENTO · Cine` · Hoyts / Cenas / Social / Salidas comida · Hotel Madero) + STREAMING TV → hoja `Almacen Detalle`
+- **Todo lo demás personal de Sol** (ropa, ML, transferencias a terceros, mascotas excepto Ramón (comida/vet/otros), donaciones, Apple, Tuenti, suscripciones, ACA, etc.) → hoja `Gasto Personal Sol` (no suma al total de la hoja `2026`)
+- **NUNCA van a `Gasto Personal Sol`:** SUPERMERCADO (Coto/Carrefour/Día/PedidosYa) → Almacén · COMIDA (resto/café/delivery) → Almacén (únicas excepciones: Feed = `COMIDA · Oficina` GPS, Oporto = `ENTRETENIMIENTO · Comidas` GPS) · **Ramón** (comida/vet/otros) → Almacén · **Expensas** (todos los consorcios) → hoja de la propiedad · **TV** (Telecentro → CIUDAD; Personal → OHIGGINS; Directv → Almacén STREAMING TV)
+- **PedidosYa Plus / suscripciones de PedidosYa** → siempre **CIUDAD** · categoría `SUSCRIPCIONES`, en todos los meses en que la suscripción haya estado activa. Cargar en `Detalle` y en la fila correspondiente de la matriz `2026`; nunca en `Gasto Personal Sol` ni en `Almacen Detalle`
 
-## Excluir / hojas aparte (no suman a matriz `2026`)
+## Excluir / hojas aparte (no suman a matriz `2026`) — NUNCA ALMACÉN
+Al analizar extractos MP, estos conceptos **nunca** van a `Almacen Detalle` ni como gasto nuevo de `2026`. Ir a la solapa **`MP No Gasto`** (y espejo en la hoja específica):
+
+| Concepto MP | Destino |
+|-------------|---------|
+| **Dinero retirado** | `MP No Gasto` + `Dinero Retirado` |
+| **Reserva automática** | `MP No Gasto` |
+| **Dinero reservado** | `MP No Gasto` |
+| **Pago de deuda** (Mercado Pago) | `MP No Gasto` |
+| **Pago de resumen** de tarjeta | `MP No Gasto` + `Pago de Tarjetas` |
+| **Inversión** (venta/compra USD, bonos, PF, fondos) | `MP No Gasto` + `Inversión` |
+
+Otras exclusiones:
 - Transferencias propias: Sanes Maria Sole / Maria Soledad Sanes → EXCLUIR
-- **Pago de resumen de tarjeta de crédito** → hoja `Pago de Tarjetas` (no es gasto nuevo)
 - Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago → EXCLUIR
 - Movimientos cancelados o devueltos (usar neto)
-- **Reserva automática** → eliminar / no catalogar / no cargar
-- **Dinero retirado** → hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario)
-- **Transferencia recibida** / Ingreso de dinero → hoja `Transferencias recibidas` (Fecha | Mes | Origen | Monto | Medio | Comentario)
+- **Transferencia recibida** / Ingreso de dinero → hoja `Transferencias recibidas`
 
-## Inversión (hoja separada)
-- Bonos, plazos fijos, fondos y otros movimientos de inversión → hoja `Inversión`
-- Registrar tipo, movimiento (`Inversión`, `Rescate` o `Rendimiento`), instrumento, monto, entidad, vencimiento, tasa y comentario
-- No cargar como gasto ni sumar al TOTAL de la hoja `2026`
+## Inversión (detalle)
+- Bonos, plazos fijos, fondos, **venta/compra de dólares** → `Inversión` (+ fila en `MP No Gasto`)
+- Movimiento: `Inversión` / `Rescate` / `Rendimiento`
+- No cargar como gasto ni sumar al total de la hoja `2026`
+- Norma escrita: `CIUDAD/_inbox/NORMA_MP_NO_GASTO.md`
 
 ## Propiedades (carpetas separadas)
 - **Consorcio De Propiet** / Consorcio De Propietarios (transferencia enviada) → siempre **Pago de Expensas · CIUDAD 1132**
@@ -42,6 +62,10 @@ alwaysApply: true
 - Cons De Prop E Bonorino 82 → **Pago de Expensas · BONORINO**
 - Consorcio De Copropi (CUIT `30-58711816-5`) → **Pago de Expensas · OHIGGINS** · O’Higgins 2219 piso 8 · Estudio Kalmus. Archivo: `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`. Nunca A CONFIRMAR ni ALMACEN SOL
 - Fideicomiso Ava Palpa → **AVA** (`AVA/Gastos_AVA_2026.xlsx`). Nunca CIUDAD ni ALMACEN SOL
+- **Cuotas AVA Fideicomiso:** 50% Sol / 50% Chris. El 50% de Sol va a hoja `Gasto Personal Sol` (CIUDAD) con comentario `AVA Fideicomiso · cuota N`. Tracker: hoja `Cuotas Fideicomiso` en el Excel AVA.
+- **TC MEP AVA (obligatorio):** al cargar o actualizar cada cuota, buscar en la web el **dólar MEP tipo vendedor (venta / bolsa)** de la **fecha de vencimiento** de esa cuota (si no hay rueda, último hábil anterior). `Valor USD = Monto ARS ÷ TC MEP venta`. Nunca reusar un TC fijo ni asumir USD constante. Fuente habitual: `api.argentinadatos.com` cotizaciones dólar bolsa.
+- **Análisis cuota vs IPC+CAC:** en la misma hoja (y `Análisis Cuota vs IPC+CAC`), calcular mes a mes el `% Δ` de la cuota vs la anterior y compararlo con **IPC INDEC** + **índice CAC/CAMARCO** (costo de construcción) del mes de referencia (mes calendario anterior al período de la cuota). Veredicto: si la cuota subió MÁS o MENOS que `IPC+CAC`.
+- **Cashflow Compromisos (CIUDAD + maestro Sol):** hoja que une **BBVA TC** (PAGADO/PENDIENTE de `Cashflow Cuotas BBVA`) + **AVA Fideicomiso** (cuotas PAGADO con 50% Sol y cuotas futuras PENDIENTE sin monto hasta factura). El 50% Sol PAGADO de AVA ya está en `Gasto Personal Sol`: no duplicarlo como gasto nuevo. Fuente AVA: `AVA/cuotas_fideicomiso_ava.csv`.
 - Expensas de consorcios (CIUDAD / BONORINO / OHIGGINS) → hoja `Expensas Consorcios` (en CIUDAD) y/o matriz de cada propiedad. **Nunca ALMACEN SOL**
 - Período vs fecha de pago (Gmail Sent): a veces el comprobante de mayo/junio se envía el mes siguiente (ej. pago 10-jun = mayo; pago 9-jul = junio). Usar el período del mail/adjunto, no solo la fecha MP.
 - **Personal / Personal Pago directo** → **OHIGGINS** · `TV CABLE-INTERNET` / `Personal — Pago directo`. Nunca CIUDAD. Archivo: `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
@@ -53,29 +77,67 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - AVA / BONORINO → partidas pendientes
 - Referencia: `CIUDAD/_inbox/abl_partidas.csv`
 
-## ALMACEN SOL (comida / supermercado)
-- **Coto / Carrefour / Día** (tienda física, online o ecommerce) → siempre `SUPERMERCADO · Coto|Carrefour|Día` (ALMACEN SOL)
-- Súper Pollo, Huevos Point, Carnes Tito
-- Todo Tartas, Vitalcer, Nicky Cheese, Le Pain Quotidien
-- Open 25, Confitería Dos Escudos, Green Eat, Tienda De Café
-- Dean & Dennys
-- **Florencia Londero** → COMIDA · Chocolates CHIAZZA (comentario: `COMIDA · Chocolates CHIAZZA`)
-- **Noelia Soledad Caballero Britez** / Noelia Caballero (transferencia enviada) → siempre `COMIDA · VERDULERÍA` (ALMACEN SOL)
-- **Nemuri Sushi** (compra) → siempre `COMIDA · SUSHI` (ALMACEN SOL)
-- **Valenti SA** (compra) → siempre `COMIDA · VALENTI SA` (ALMACEN SOL)
-- **Havanna** → siempre `COMIDA · HAVANNA` (ALMACEN SOL)
-- **Compraenkalbb** (= comercio **Kalbby**) → siempre `COMIDA · RAMON` (ALMACEN SOL; detalle: Kalbby / Ramón)
+## ALMACEN SOL — taxonomía fija (detalle)
 
-## PedidosYa — siempre comentar SUPERMERCADO o COMIDA
-- **PedidosYa Market** → `PEDIDOS YA · SUPERMERCADO` (almacén)
-- **PedidosYa** / **Pedidosya Empanada** (y delivery resto) → `PEDIDOS YA · COMIDA`
-- **PedidosYa Propina** → misma etiqueta del pedido del día (`· propina`); si solo hay Market ese día → SUPERMERCADO; si hay PedidosYa comida → COMIDA; default COMIDA
-- **PedidosYa Plus** → `Gasto Personal Sol` (suscripción, no almacén)
-- En catálogo y en comentario de `Almacen Detalle` (columna Comentario)
+Dos familias principales en `Almacen Detalle` (además de combustible / Ramón / entretenimiento / streaming):
 
-## FARMACIA (categoría principal)
-- Farmacity, Farmacia Maure — siempre `FARMACIA` (fila `2026` CASA / FARMACIA; comentario `FARMACIA · <nombre>`)
-- **Selma Salvatori** / Farmacia Selma → **ALMACEN SOL** con comentario `FARMACIA · Farmacia Selma` (no Extras)
+### SUPERMERCADO / almacén
+Etiquetas canónicas (normalizar variantes a estas):
+- `PEDIDOS YA · SUPERMERCADO` (+ `· propina`)
+- `SUPERMERCADO · Carrefour` | `SUPERMERCADO · Coto` | `SUPERMERCADO · Día`
+- **Coto** / Carrefour / Día / SUPERDIA / Día Online / Supermercados Día → siempre `SUPERMERCADO · …`
+- **PedidosYa Market** / `DLO*PEDIDOSYA MARKET` / `PEDIDOSYA*MARKET` (MP o BBVA TC, incl. propinas del mismo pedido) → **siempre** Almacén CIUDAD · `PEDIDOS YA · SUPERMERCADO` (+ `· propina`). Nunca GPS ni `PEDIDOS YA · COMIDA`
+
+### COMIDA (resto / café / verdulería / delivery comida)
+Etiqueta `COMIDA · {comercio}`. Incluye:
+- **Todo Tartas** · **Huevos Point** · **Open 25** · **Nemuri Sushi** (`COMIDA · SUSHI`) · **Valenti SA** · **Carnes Tito**
+- **Bee Coffee** · **Le Pain Quotidien** · **Tienda De Café** · verdulería (`COMIDA · VERDULERÍA` · Noelia Caballero)
+- Varios resto/café: Súper Pollo (`COMIDA · pollo`), Havanna, Buenos Muchachos, Soraya, Nicky Cheese, Vitalcer, Dean & Dennys, Green Eat, Confitería Dos Escudos, Burger King, Chocolates CHIAZZA (Florencia Londero), etc.
+- **PedidosYa** / Pedidosya Empanada (delivery resto MP) → `PEDIDOS YA · COMIDA` (+ `· propina` según el pedido del día)
+
+### Excepciones (NO Almacén COMIDA)
+- **Feed** → `Gasto Personal Sol` · `COMIDA · Oficina` (nunca Almacen Detalle)
+- **Oporto Almacen** → `Gasto Personal Sol` · `ENTRETENIMIENTO · Comidas`
+- **Kalbby** / **DR BARF** → no es COMIDA genérica: va a `RAMON · Comida`
+
+### Ramón — SIEMPRE Almacén CIUDAD, NUNCA Gasto Personal Sol
+Todo gasto de Ramón (perro) va a `Almacen Detalle` (ALMACEN SOL), sin excepción:
+- `RAMON · Comida` — Kalbby / Compraenkalbb / DR BARF
+- `RAMON · Veterinario` — Valeria Mele / El Perro Verde · **Leocan**
+- `RAMON · Otros` — **Paws** / Paws Pet Market y otros de Ramón que no sean comida ni veterinario
+- Otras mascotas (no Ramón) → `Gasto Personal Sol`
+
+### PedidosYa Plus
+- Suscripciones PedidosYa Plus → **CIUDAD** · `SUSCRIPCIONES` (no Almacén ni GPS)
+
+### Etiquetas fijas rápidas
+- **Súper Pollo** → `COMIDA · pollo`
+- **Havanna** → `COMIDA · HAVANNA`
+- **Carrefour** → `SUPERMERCADO · Carrefour`
+- **Coto** → `SUPERMERCADO · Coto`
+- **Día** / SUPERDIA / Día Online → `SUPERMERCADO · Día`
+
+## Suscripciones — siempre Gasto Personal Sol
+Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa Plus, que es CIUDAD · SUSCRIPCIONES).
+
+### `SUSCRIPCIONES · IA`
+- **Google One** / Gemini Advanced
+- **OpenAI** / **ChatGPT** / GPT
+- **Vercel**
+- **Cursor** / Cursor AI
+- **Claude** / Claude.ai / Anthropic (misma familia IA)
+- **metricscheck** / metricscheck.com
+- USD × TC MEP del mes cuando venga en moneda extranjera
+
+### `SUSCRIPCIONES · Apple` (suscripciones generales)
+- **Apple** / App Store / iCloud / Apple Services
+- Otras suscripciones generales de Apple van con esta categoría
+
+## FARMACIA
+- **Sodastream** → siempre `REPUESTOS · Sodastream` en `Almacen Detalle` (ALMACEN SOL). Nunca fila CASA/REPUESTOS aparte en la matriz ni Gasto Personal Sol
+- **Farmacity** → siempre `FARMACIA · Farmacity` en `Almacen Detalle` (ALMACEN SOL; suma al total vía fila ALMACEN de la matriz `2026`). Nunca Gasto Personal Sol ni fila CASA/FARMACIA aparte en la matriz
+- **Farmacia Maure** → hoja `Gasto Personal Sol` · categoría `FARMACIA SALUD` (comentario `FARMACIA SALUD · Farmacia Maure`). No va a ALMACEN SOL ni a la fila FARMACIA de la matriz `2026`
+- **Selma Salvatori** / Farmacia Selma → hoja `Gasto Personal Sol` · categoría `FARMACIA SALUD` (comentario `FARMACIA SALUD · Farmacia Selma`). No va a ALMACEN SOL ni a la fila FARMACIA de la matriz `2026`
 - Comentario obligatorio con nombre de farmacia
 
 ## Servicios / utilidades por propiedad
@@ -84,6 +146,7 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **Metrogas** por N° cliente:
   - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes
   - **OHIGGINS**: cliente `10139236800` · medidor `8683287` · titular **INVALMAR SRL** (Ivilmar) · O'Higgins 2225 8
+  - **Mes del gasto (GAS CIUDAD y utilidades con débito TC):** asignar al mes de la **fecha de cobro** (pago efectivo BBVA / vencimiento de la factura), **no** al período de consumo de la boleta.
 - **Edenor (LUZ)** según titular / cuenta:
   - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
   - **Marta Chagas** / Sanes M.i.chagas → **OHIGGINS** (cuenta `9267222037` · O'Higgins 2225 8)
@@ -93,19 +156,56 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 
 
 ## Otras
-- **Tuenti** → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
-- **Promarine** / Promarine Erisea → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
-- **Apple** → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
-- **Ceferina** → hoja `Gasto Personal Sol` · categoría `ROPA` (no suma al total CIUDAD)
+- **Percepciones por consumos en USD (BBVA y TC Mercado Pago):** cargar en `Gasto Personal Sol` con categoría `PERCEPCIÓN USD · …`:
+  - `DB RG 5617 30%` / Percepción ganancias RG 5617
+  - `IVA RG 4240 21%` / IVA servicios digitales
+  - `IIBB CABA 2%` / IIBB servicios digitales
+  - Extraer de la sección de impuestos de cada resumen. No incluir intereses de financiación ni IVA sobre intereses.
+  - Espejos: `CIUDAD/_inbox/tarjetas_bbva/percepciones_usd_bbva.csv` · `CIUDAD/_inbox/tarjetas_mp/catalogo_tc_mp_2026.csv`
+  - Resúmenes TC MP: carpeta `RESUMEN TC MP` / `CIUDAD/_inbox/tarjetas_mp/`
+- **Tuenti** y **Movistar** (línea de teléfono) → hoja `Gasto Personal Sol` · categoría `Servicio - Telefonía` (no suma al total CIUDAD). Ojo: **Movistar Arena** (recitales/entradas) no es telefonía → `Almacen Detalle` · `ENTRETENIMIENTO · Recitales`
+- **Promarine** / Promarine Erisea / MERPAGO*PROMARINE → siempre hoja `Gasto Personal Sol` · categoría `SALUD · Vitaminas` (no suma al total CIUDAD; nunca Almacén ni FARMACIA)
+- **Ceferina** y **Bokenvoreno** / MERPAGO*BOKENVORENO → hoja `Gasto Personal Sol` · categoría `VESTIMENTA` (no suma al total CIUDAD; nunca ROPA genérica)
+- **Importadoras / envíos internacionales (GPS, no Almacén):**
+  - `TRAÍDO DE MIAMI` → **Servicios de Pagos Virtuales SA** / Servicios De Pagos Virtuales (pagos y transferencias)
+  - `USA BOX` → **Carenzo Santiago** / Carenzo Santiago P y **Federico Martinez Escariz** (transferencias)
+  - `ENVÍOS` → **DHL** / DHL Express / MERPAGO*DHLEXPRESSARGE (envío internacional; misma familia que USA BOX / TRAÍDO DE MIAMI)
+  - No mezclar: cada empresa/servicio tiene su propia categoría.
+- **Spotify** → hoja `2026` CIUDAD · categoría `STREAMING` / `Streaming música — Spotify` (USD de BBVA Visa × TC MEP del mes). No va a Gasto Personal Sol
 - **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
-- Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
-- ACA → `Gasto Personal Sol` (AUTO) salvo que digas Combustible
-- Vercel / mascotas / donaciones / ropa / ML → `Gasto Personal Sol`
-- **Pandora Jewelry** (compra): eliminar / no catalogar / no cargar
-- **Copetin Catering**: no cargar en ALMACEN SOL (quitar / excluir del almacén)
+- **Susana Carmen Ortiz** → siempre **CIUDAD** · `LIMPIEZA CASA` (fila `LIMPIEZA CASA / Limpieza Susana` en Detalle + matriz `2026`). Nunca Gasto Personal Sol ni Almacén. Las transferencias MP del mes se consolidan en el total mensual de Limpieza; no volver a sumar si el mes ya está cargado
+- **ACA** → `Gasto Personal Sol` (AUTO) salvo que digas Combustible
+- **Tu Lugar en el Monumental** / **TLM CARP** / **Cuota Social CARP** / **Cuota Social CAR** (River) → hoja `Gasto Personal Sol` · categoría `Eventos deportivos - River`. Nunca ACA ni almacén
+- **Tienda River** / TIENDARIVER (compra merchandising) → `Gasto Personal Sol` · `ROPA` (distinto de la cuota social)
+- **Zurich** → hoja `Gasto Personal Sol` (seguro de retiro; no suma al total CIUDAD)
+- Mascotas (vet/accesorios de otras mascotas; no Ramón — Ramón = Almacén `RAMON · Comida|Veterinario|Otros`) / donaciones / ropa / ML → `Gasto Personal Sol`
+- **Pandora** / Pandora Jewelry (compra) → hoja `Gasto Personal Sol` (ropa/joyas; no suma al total CIUDAD)
+- **Zara**, **Gucci** y **Louis Vuitton** → hoja `Gasto Personal Sol` · categoría `ROPA` (no suma al total CIUDAD)
+- **Newplamier** → hoja `Gasto Personal Sol` · categoría `PELUQUERÍA` (no suma al total CIUDAD)
+- **Itsclassic**, **Analia Roay** / Analia Veronica Roay, **Jazmin Chebar** / JAZMINCHEBAR, **Aylen Difeo** → hoja `Gasto Personal Sol` · categoría `VESTIMENTA` (no suma al total CIUDAD)
+- **Levis** / MERPAGO*LEVIS y **Jackie Smith** / MERPAGO*JACKIESMITH → siempre GPS `VESTIMENTA` (nunca ROPA genérica ni COMPRAS)
+- **Longchamp** / MERPAGO*LONGCHAMP → siempre hoja `Gasto Personal Sol` · categoría `VESTIMENTA` (nunca ROPA genérica ni Almacén)
+- **Jardin Del Pilar** → hoja `Gasto Personal Sol` · categoría `FUNERAL` (no suma al total CIUDAD)
+
+- **Copetin Catering** / COPETIN CATERING → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (comentario `COMIDA · Oficina · Copetin Catering`). Nunca Almacén. Ignorar cancelados/devueltos y reservas MP
 - Arca / ARCA VEP → impuestos AFIP (catálogo; no almacén)
 - Mercado Libre → `Gasto Personal Sol` (revisar ítem; no almacén)
+- **Directv** / Directv streaming → siempre `STREAMING TV` en `Almacen Detalle` (ALMACEN SOL). No es Telecentro CIUDAD ni Gasto Personal Sol
+- **Hotel Madero** (si el extracto BBVA dice HOTEL MADERO; cena / propina) → siempre `ENTRETENIMIENTO · Salidas comida` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Oporto Almacen** / Oporto → hoja `Gasto Personal Sol` · categoría `ENTRETENIMIENTO · Comidas` (no suma al total CIUDAD). Nunca Almacen Detalle
+- **Cosi Mi Piace** (cena / propina) → siempre `ENTRETENIMIENTO · Cenas` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Movistar Arena** → siempre `ENTRETENIMIENTO · Recitales` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol ni telefonía
+- **Plateanet** → siempre `ENTRETENIMIENTO · Teatro` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Hoyts** / MOD*HOYTS → siempre `ENTRETENIMIENTO · Cine` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Belisario Roldán** / Restaurant Roldan → siempre `ENTRETENIMIENTO · Social` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Enerfit** / MERPAGO*ENERFIT (barritas proteicas) → siempre `COMIDA · Barritas proteicas` en `Almacen Detalle` (ALMACEN SOL). Nunca GPS ni SALUD
+- **UADE** / Universidad Argentina de la Empresa / ARGENTINA DE LA EMPRESA U A D E → hoja `Gasto Personal Sol` · categoría `EDUCACIÓN` (comentario `EDUCACIÓN · UADE`). Nunca Almacén
+- **Agustina Vissani** (transferencia) → **CIUDAD** · fila `CASA / AGUS/PSA` de la matriz `2026` (no Gasto Personal Sol)
+- **Buenos Muchachos Resto**, **Restaurant Soraya** → `ALMACEN SOL` · COMIDA
+- **Feed** → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (no suma al total CIUDAD). Nunca Almacen Detalle
+- **Ticorri / Casareggia / Catore / Recaudacion Gestion y Pagos / Burtextil / Dodoche / Enzo Cabildo / Joaquin Vazco / Serenelli / David Rosental** (pagos QR o transferencias sin regla fija) → `Gasto Personal Sol` (revisar ítem)
 
 ## Formato
+- **Fecha obligatoria:** todo registro cargado en cualquier Excel (GPS, Almacén, Detalle, MP No Gasto, Inversión, Dinero Retirado, Pago de Tarjetas, propiedades BONORINO/OHIGGINS/AVA, maestro SOL) **debe llevar siempre la fecha del gasto** (fecha del movimiento / cobro según el resumen oficial). **Nunca** crear ni dejar filas sin fecha; si no hay fecha en el extracto, no cargar hasta tenerla o marcar `REVISAR` solo con fecha tentativa del resumen y comentario explícito.
 - Montos enteros, ceil hacia arriba
 - Solo editar archivo canónico de la propiedad
