@@ -367,7 +367,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-10,PedidosYa,2599,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-04-10,Apple,359951,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2026-04-10,Mercado Libre,17041,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-04-10,Mercado Libre,17041,REPARACIONES_REPUESTOS_CIUDAD,REPARACIONES Y REPUESTOS · Rollo plástico con burbujas 1 × 25 m · CIUDAD
 2026-04-10,Mercado Libre,126540,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-04-10,Mercado Libre,129200,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-04-11,Ebanx S.A.,356,TRANSPORTE,Uber
@@ -380,8 +380,8 @@ fecha,comercio,monto,categoria,comentario
 2026-04-12,Nicky Cheese,19200,ALMACEN_SOL,quesos
 2026-04-13,Didi,6620,TRANSPORTE,transporte
 2026-04-13,Didi,8590,TRANSPORTE,transporte
-2026-04-13,Mercado Libre,13989,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-14,Mercado Libre,119000,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-04-13,Mercado Libre,13989,REPARACIONES_REPUESTOS_CIUDAD,REPARACIONES Y REPUESTOS · Control remoto Samsung Netflix/Prime Video · CIUDAD
+2026-04-14,Mercado Libre,119000,REPARACIONES_REPUESTOS_CIUDAD,REPARACIONES Y REPUESTOS · Control remoto Samsung original AU7000 · CIUDAD
 2026-04-15,Didi,5550,TRANSPORTE,transporte
 2026-04-15,Fundacion Soplo De Vida,100000,GASTO_PERSONAL_SOL,donación · gasto personal Sol
 2026-04-15,Didi,4955,TRANSPORTE,transporte

@@ -113,6 +113,10 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **Agustina Vissani** → hoja `Gasto Personal Sol` · categoría `PELUQUERÍA` (no es AGUS/PSA y no suma al total CIUDAD)
 - **Saphirus** → **CIUDAD** · `CASA / AROMATIZANTES` (no es gasto personal Sol)
 - **Ronda / Ronda.** → hoja `Gasto Personal Sol` · categoría `ALMUERZOS` (no suma al total CIUDAD)
+- Mercado Libre CIUDAD · `REPARACIONES Y REPUESTOS`:
+  - ARS 17.041 (10/04/2026) → Rollo plástico con burbujas 1 × 25 m
+  - ARS 13.989 (13/04/2026) → Control remoto Samsung con Netflix/Prime Video
+  - ARS 119.000 (14/04/2026) → Control remoto Samsung original AU7000
 - **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
 - Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
 - ACA → `Gasto Personal Sol` (AUTO) salvo que digas Combustible
