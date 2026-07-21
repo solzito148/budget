@@ -125,3 +125,7 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 ## Formato
 - Montos enteros, ceil hacia arriba
 - Solo editar archivo canónico de la propiedad
+- En `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`, hoja `2026`, mantener la matriz con **meses en columnas** y **conceptos/categorías en filas**
+- Cada gasto confirmado de CIUDAD debe cargarse en la fila de su concepto y en la columna del mes correspondiente
+- Si aparece una categoría nueva de CIUDAD, crear una fila propia antes de `TOTAL` y extender las fórmulas del total
+- No incluir en esta matriz gastos personales Sol ni movimientos de hojas separadas que no suman a CIUDAD
