@@ -110,6 +110,7 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **Apple** → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
 - **Ceferina** → hoja `Gasto Personal Sol` · categoría `ROPA` (no suma al total CIUDAD)
 - **Agustina Vissani** → hoja `Gasto Personal Sol` · categoría `PELUQUERÍA` (no es AGUS/PSA y no suma al total CIUDAD)
+- **Saphirus** → **CIUDAD** · `CASA / AROMATIZANTES` (no es gasto personal Sol)
 - **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
 - Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
 - ACA → `Gasto Personal Sol` (AUTO) salvo que digas Combustible
