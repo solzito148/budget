@@ -331,7 +331,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-03,ACA,881,GASTO_PERSONAL_SOL,ACA · AUTO/ACA · gasto personal Sol
 2026-04-03,Coto,149320,ALMACEN_SOL,SUPERMERCADO · Coto
-2026-04-03,Metrogas,37316,GAS,Metrogas · Metrogas (revisar propiedad por cliente)
+2026-04-03,Metrogas,37316,METROGAS_CIUDAD,Metrogas · CIUDAD · cliente 30010996459
 2026-04-04,Ebanx S.A.,4207,TRANSPORTE,Uber/Ebanx
 2026-04-04,Ebanx S.A.,4691,TRANSPORTE,Uber/Ebanx
 2026-04-04,Sofía Entivero,519441,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)

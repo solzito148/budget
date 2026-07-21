@@ -96,6 +96,7 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **Metrogas** por N° cliente:
   - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes
   - **OHIGGINS**: cliente `10139236800` · medidor `8683287` · titular **INVALMAR SRL** (Ivilmar) · O'Higgins 2225 8
+  - Movimiento confirmado **ARS 37.316** → **Metrogas CIUDAD** (cliente `30010996459`)
 - **Edenor (LUZ)** según titular / cuenta:
   - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
   - **Marta Chagas** / Sanes M.i.chagas → **OHIGGINS** (cuenta `9267222037` · O'Higgins 2225 8)
