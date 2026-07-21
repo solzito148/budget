@@ -262,7 +262,7 @@ fecha,comercio,monto,categoria,comentario
 2026-03-13,Maria Soledad Martinez,27500,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-03-13,Fernando Paredes Aguilar,40000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-03-13,Didi,8410,TRANSPORTE,Didi
-2026-03-13,Ronda.,14000,GASTO_PERSONAL_SOL,tienda física ¿qué es? · gasto personal Sol (ex-PENDIENTE)
+2026-03-13,Ronda.,14000,GASTO_PERSONAL_SOL,ALMUERZOS · Ronda · gasto personal Sol
 2026-03-13,Ebanx S.A.,5757,TRANSPORTE,Uber/Ebanx
 2026-03-14,Susana Carmen Ortiz,9000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-14,Susana Carmen Ortiz,77568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -310,7 +310,7 @@ fecha,comercio,monto,categoria,comentario
 2026-03-24,Mercado Libre,377337,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-03-24,Mercado Libre,101899,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-03-25,Paws Pet Market,35700,GASTO_PERSONAL_SOL,mascotas · gasto personal Sol
-2026-03-26,Agustina Vissani,75000,AGUS_PSA,confirmar AGUS/PSA
+2026-03-26,Agustina Vissani,75000,GASTO_PERSONAL_SOL,PELUQUERÍA · Agustina Vissani · gasto personal Sol
 2026-03-27,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-03-30,Generacion 20 Combustibles,88999,ALMACEN_SOL,combustible
@@ -331,7 +331,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-03,Supermercados Dia,27350,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-03,ACA,881,GASTO_PERSONAL_SOL,ACA · AUTO/ACA · gasto personal Sol
 2026-04-03,Coto,149320,ALMACEN_SOL,SUPERMERCADO · Coto
-2026-04-03,Metrogas,37316,GAS,Metrogas · Metrogas (revisar propiedad por cliente)
+2026-04-03,Metrogas,37316,METROGAS_CIUDAD,Metrogas · CIUDAD · cliente 30010996459
 2026-04-04,Ebanx S.A.,4207,TRANSPORTE,Uber/Ebanx
 2026-04-04,Ebanx S.A.,4691,TRANSPORTE,Uber/Ebanx
 2026-04-04,Sofía Entivero,519441,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
@@ -367,7 +367,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-10,PedidosYa,2599,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-04-10,Apple,359951,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
-2026-04-10,Mercado Libre,17041,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-04-10,Mercado Libre,17041,REPARACIONES_REPUESTOS_CIUDAD,REPARACIONES Y REPUESTOS · Rollo plástico con burbujas 1 × 25 m · CIUDAD
 2026-04-10,Mercado Libre,126540,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-04-10,Mercado Libre,129200,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
 2026-04-11,Ebanx S.A.,356,TRANSPORTE,Uber
@@ -380,8 +380,8 @@ fecha,comercio,monto,categoria,comentario
 2026-04-12,Nicky Cheese,19200,ALMACEN_SOL,quesos
 2026-04-13,Didi,6620,TRANSPORTE,transporte
 2026-04-13,Didi,8590,TRANSPORTE,transporte
-2026-04-13,Mercado Libre,13989,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
-2026-04-14,Mercado Libre,119000,GASTO_PERSONAL_SOL,ML · ML · gasto personal Sol (revisar)
+2026-04-13,Mercado Libre,13989,REPARACIONES_REPUESTOS_CIUDAD,REPARACIONES Y REPUESTOS · Control remoto Samsung Netflix/Prime Video · CIUDAD
+2026-04-14,Mercado Libre,119000,REPARACIONES_REPUESTOS_CIUDAD,REPARACIONES Y REPUESTOS · Control remoto Samsung original AU7000 · CIUDAD
 2026-04-15,Didi,5550,TRANSPORTE,transporte
 2026-04-15,Fundacion Soplo De Vida,100000,GASTO_PERSONAL_SOL,donación · gasto personal Sol
 2026-04-15,Didi,4955,TRANSPORTE,transporte
@@ -502,7 +502,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-14,Arca VEP,17344,IMPUESTOS_AFIP,ARCA VEP
 2026-05-15,Sanes Maria Sole,,EXCLUIR,propia US$400
 2026-05-15,Sanes Maria Sole,400000,EXCLUIR,propia
-2026-05-15,Agustina Vissani,125000,AGUS_PSA,confirmar AGUS/PSA
+2026-05-15,Agustina Vissani,125000,GASTO_PERSONAL_SOL,PELUQUERÍA · Agustina Vissani · gasto personal Sol
 2026-05-15,General Collect,2496700,GASTO_PERSONAL_SOL,cobranza · gasto personal Sol (ex-PENDIENTE)
 2026-05-16,Susana Carmen Ortiz,96567,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-05-16,Susana Carmen Ortiz,8000,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -596,8 +596,8 @@ fecha,comercio,monto,categoria,comentario
 2026-06-12,Correo Argentino,48000,GASTO_PERSONAL_SOL,envíos · gasto personal Sol
 2026-06-12,PedidosYa Propina,900,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-12,PedidosYa,17189,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-06-12,Agustina Vissani,135000,AGUS_PSA,confirmar AGUS/PSA
-2026-06-13,Saphirus,79900,GASTO_PERSONAL_SOL,¿hogar? · gasto personal Sol (ex-PENDIENTE)
+2026-06-12,Agustina Vissani,135000,GASTO_PERSONAL_SOL,PELUQUERÍA · Agustina Vissani · gasto personal Sol
+2026-06-13,Saphirus,79900,CASA_AROMATIZANTES,CASA · AROMATIZANTES · Saphirus · CIUDAD
 2026-06-13,Todo Tartas,11700,ALMACEN_SOL,panadería
 2026-06-13,Apple,18558,GASTO_PERSONAL_SOL,Apple · gasto personal Sol · hoja Gasto Personal Sol
 2026-06-14,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)

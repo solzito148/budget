@@ -30,6 +30,18 @@ alwaysApply: true
 - **Reserva automática** → eliminar / no catalogar / no cargar
 - **Dinero retirado** → hoja `Dinero Retirado` (Fecha | Mes | Concepto | Monto | Medio | Comentario)
 - **Transferencia recibida** / Ingreso de dinero → hoja `Transferencias recibidas` (Fecha | Mes | Origen | Monto | Medio | Comentario)
+- **Ingreso bruto Sol (sueldo)** → hoja `Ingresos Sol` (no suma al total de la hoja `2026`)
+  - Básico confirmado en recibos MELI de marzo a junio 2026: **ARS 11.305.702**
+  - Incremento del **12%** desde **01/07/2026** (período / devengado): nuevo bruto mensual **ARS 12.662.387** (ceil)
+  - Cobro: día **1 del mes siguiente** (julio se cobra **01/08**)
+  - Registrar período, fecha de cobro, monto bruto, % incremento y comentario
+- **MELI** → hoja `MELI`: simulador editable vinculado a `Ingresos Sol`
+  - Separar aportes del empleado, Ganancias estimada y cargas patronales
+  - Cargar recibos reales 2026 de sueldo, bonos y SAC en la misma hoja, con resumen conciliado y detalle de conceptos
+  - **Car allowance**: ARS 312.000 hasta junio 2026; también aumenta **12%** desde 01/07 → **ARS 349.440**
+  - Bruto total desde julio: básico ARS 12.662.387 + car allowance ARS 349.440 = **ARS 13.011.827**
+  - No suma al total de gastos de la hoja `2026`
+  - Ganancias es orientativa: dejar explícitos los supuestos y parámetros fiscales
 
 ## Inversión (hoja separada)
 - Bonos, plazos fijos, fondos y otros movimientos de inversión → hoja `Inversión`
@@ -84,6 +96,7 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **Metrogas** por N° cliente:
   - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes
   - **OHIGGINS**: cliente `10139236800` · medidor `8683287` · titular **INVALMAR SRL** (Ivilmar) · O'Higgins 2225 8
+  - Movimiento confirmado **ARS 37.316** → **Metrogas CIUDAD** (cliente `30010996459`)
 - **Edenor (LUZ)** según titular / cuenta:
   - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
   - **Marta Chagas** / Sanes M.i.chagas → **OHIGGINS** (cuenta `9267222037` · O'Higgins 2225 8)
@@ -97,6 +110,13 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **Promarine** / Promarine Erisea → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
 - **Apple** → hoja `Gasto Personal Sol` (gasto personal Sol; no suma al total CIUDAD)
 - **Ceferina** → hoja `Gasto Personal Sol` · categoría `ROPA` (no suma al total CIUDAD)
+- **Agustina Vissani** → hoja `Gasto Personal Sol` · categoría `PELUQUERÍA` (no es AGUS/PSA y no suma al total CIUDAD)
+- **Saphirus** → **CIUDAD** · `CASA / AROMATIZANTES` (no es gasto personal Sol)
+- **Ronda / Ronda.** → hoja `Gasto Personal Sol` · categoría `ALMUERZOS` (no suma al total CIUDAD)
+- Mercado Libre CIUDAD · `REPARACIONES Y REPUESTOS`:
+  - ARS 17.041 (10/04/2026) → Rollo plástico con burbujas 1 × 25 m
+  - ARS 13.989 (13/04/2026) → Control remoto Samsung con Netflix/Prime Video
+  - ARS 119.000 (14/04/2026) → Control remoto Samsung original AU7000
 - **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
 - Susana Carmen Ortiz → **LIMPIEZA CASA** (fila `LIMPIEZA CASA / Limpieza Susana`). Nunca almacén. No volver a sumar transferencias MP si el mes ya está en Detalle/hoja 2026
 - ACA → `Gasto Personal Sol` (AUTO) salvo que digas Combustible
@@ -109,3 +129,7 @@ El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 ## Formato
 - Montos enteros, ceil hacia arriba
 - Solo editar archivo canónico de la propiedad
+- En `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`, hoja `2026`, mantener la matriz con **meses en columnas** y **conceptos/categorías en filas**
+- Cada gasto confirmado de CIUDAD debe cargarse en la fila de su concepto y en la columna del mes correspondiente
+- Si aparece una categoría nueva de CIUDAD, crear una fila propia antes de `TOTAL` y extender las fórmulas del total
+- No incluir en esta matriz gastos personales Sol ni movimientos de hojas separadas que no suman a CIUDAD
