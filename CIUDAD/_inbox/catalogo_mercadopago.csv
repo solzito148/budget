@@ -1,4 +1,4 @@
-fecha,comercio,monto,categoria,comentario
+﻿fecha,comercio,monto,categoria,comentario
 2025-12-23,Sanes Maria Sole,US$996,EXCLUIR,propia USD 2025
 2025-12-24,Huevos Point,23500,ALMACEN_SOL,2025
 2025-12-25,Mercado Libre,41790,EXCLUIR,compra 2025 · fuera de alcance libros 2026
@@ -895,3 +895,11 @@ fecha,comercio,monto,categoria,comentario
 2026-06-23,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-06-25,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-07-02,Fabricio Bollonine,5990,GASTO_PERSONAL_SOL,pago QR Fabricio Bollonine · gasto personal Sol
+2026-07-20,Susi,3000,EXCLUIR,Reserva automática → MP No Gasto
+2026-07-20,AVA,500,EXCLUIR,Reserva automática → MP No Gasto
+2026-07-20,Didi,5500,GASTO_PERSONAL_SOL,transporte · Didi
+2026-07-20,Chris,300000,EXCLUIR,Dinero reservado → MP No Gasto
+2026-07-20,Palermo,593000,EXCLUIR,Dinero reservado → MP No Gasto
+2026-07-20,Uber (Ebanx),5883,GASTO_PERSONAL_SOL,transporte · Uber
+2026-07-20,Susi,171746,EXCLUIR,"Dinero retirado · ceil $171.745,60"
+2026-07-20,Arca,67246,IMPUESTOS_AFIP,"ARCA · ceil $67.245,13 · GPS"
