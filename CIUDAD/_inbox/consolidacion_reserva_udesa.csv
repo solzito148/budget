@@ -1,10 +1,13 @@
 tipo,fecha,mes_sol,opid,concepto,monto_ars,nota
-INGRESO,2026-05-15,Mayo,158620980755,Transferencia recibida PELESSON ALDO OSCAR,5000000,Facturado/cobrado monotributo LDO Pelesson
-INGRESO,2026-06-12,Junio,163006931853,Transferencia recibida PELESSON ALDO OSCAR,4750000,Facturado/cobrado monotributo LDO Pelesson
+FACTURA,2026-07-23,Junio,,Factura monotributo Sol · Aldo Pelesson CUIT 23-14614689-9,4900000,Servicio junio 2026 · estado PENDIENTE de cobro
+COBRO,2026-05-15,Mayo,158620980755,Transferencia recibida PELESSON ALDO OSCAR,5000000,Cobro MP histórico · sin factura asociada en registro
+COBRO,2026-06-12,Junio,163006931853,Transferencia recibida PELESSON ALDO OSCAR,4750000,Cobro MP histórico · sin factura asociada en registro
 RETIRO,2026-06-10,Junio,163418872656,Dinero retirado Chris,500000,Retiro indicado Junio
 RETIRO,2026-06-20,Julio,165013974648,Dinero retirado Chris,20000,Lista Sol dijo Julio; extracto = 20-jun
 RETIRO,2026-06-23,Julio,165530199038,Dinero retirado Chris,150000,Lista Sol dijo Julio; extracto = 23-jun
 RETIRO,2026-06-25,Julio,165824407784,Dinero retirado Chris,170100,Lista Sol 170000; extracto prevalece 170100
-TOTAL_INGRESOS,,,,"Total facturado/cobrado LDO Pelesson",9750000,
+TOTAL_FACTURADO,,,,"Total facturado monotributo (registro)",4900000,PENDIENTE de cobro
+TOTAL_COBRADO,,,,"Total cobrado LDO Pelesson (extracto)",9750000,
 TOTAL_RETIROS,,,,"Total retiros (extracto)",840100,
-SALDO,,,,"Saldo Reserva UDESA",8909900,9750000 - 840100
+SALDO_CAJA,,,,"Saldo Reserva UDESA (caja = cobrado - retiros)",8909900,9750000 - 840100
+PENDIENTE_COBRO,,,,"Facturas pendientes de cobro",4900000,Factura 23-jul servicio junio
