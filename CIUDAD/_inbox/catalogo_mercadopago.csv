@@ -895,3 +895,11 @@ fecha,comercio,monto,categoria,comentario
 2026-06-23,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-06-25,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-07-02,Fabricio Bollonine,5990,GASTO_PERSONAL_SOL,pago QR Fabricio Bollonine · gasto personal Sol
+2026-07-23,Pelesson Aldo Oscar,4900000,TRANSFERENCIA_RECIBIDA,ingreso · no gasto
+2026-07-23,Uber (Ebanx),5502,EXCLUIR,Uber refund/devuelto neto 0
+2026-07-23,Uber (Ebanx),54,GASTO_PERSONAL_SOL,transporte · Uber
+2026-07-23,Uber (Ebanx),6062,GASTO_PERSONAL_SOL,transporte · Uber
+2026-07-21,Zilver Sa,78167,GASTO_PERSONAL_SOL,"compras · ceil $78.166,50"
+2026-07-21,AVA,500,EXCLUIR,Reserva automática → MP No Gasto
+2026-07-21,Susi,3000,EXCLUIR,Reserva automática → MP No Gasto
+2026-07-21,Todo Tartas,57600,ALMACEN_SOL,COMIDA · Todo Tartas
