@@ -1,5 +1,5 @@
 tipo,fecha,mes_sol,opid,concepto,monto_ars,nota
-FACTURA,2026-07-23,Junio,,Factura monotributo Sol · Aldo Pelesson CUIT 23-14614689-9,4900000,Servicio junio 2026 · estado PENDIENTE de cobro
+FACTURA,2026-07-23,Junio,00001-00000027,Factura C monotributo Sol · PELESSON ALDO OSCAR CUIT 23-14614689-9,4900000,Período 01/06-30/06/2026 · CAE 86305115481677 · PENDIENTE · PDF 27290390791_011_00001_00000027.pdf
 COBRO,2026-05-15,Mayo,158620980755,Transferencia recibida PELESSON ALDO OSCAR,5000000,Cobro MP histórico · sin factura asociada en registro
 COBRO,2026-06-12,Junio,163006931853,Transferencia recibida PELESSON ALDO OSCAR,4750000,Cobro MP histórico · sin factura asociada en registro
 RETIRO,2026-06-10,Junio,163418872656,Dinero retirado Chris,500000,Retiro indicado Junio

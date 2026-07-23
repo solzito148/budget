@@ -15,11 +15,13 @@ No suma a la matriz `2026` ni a Almacén. Es bolsillo / reserva aparte (espejo o
 
 ## 0) Facturación monotributo Sol → LDO Pelesson
 
-| Fecha factura | Período servicio | Cliente | CUIT | Importe ARS | Estado |
-|---|---|---|---|---|---|
-| 2026-07-23 | Junio 2026 | Aldo Pelesson / LDO Pelesson | 23-14614689-9 | 4.900.000 | PENDIENTE |
-| | | | **Total facturado** | **4.900.000** | |
+| Fecha | Comp. | Período | Cliente | CUIT | Importe ARS | CAE | Estado |
+|---|---|---|---|---|---|---|---|
+| 2026-07-23 | Factura C **00001-00000027** | 01/06/2026–30/06/2026 | PELESSON ALDO OSCAR | 23-14614689-9 | 4.900.000 | 86305115481677 | PENDIENTE |
+| | | | | **Total facturado** | **4.900.000** | | |
 
+Concepto: honorarios profesionales · consultoría de sistemas (control interno / políticas y procedimientos).  
+PDF: `SOL/_inbox/facturas_monotributo/27290390791_011_00001_00000027.pdf`  
 Registro canónico: `SOL/Facturacion_Monotributo_SOL_2026.xlsx` · `SOL/facturacion_monotributo_sol_2026.csv`
 
 ## 1) Cobros MP — LDO Pelesson (aún sin factura asociada en el registro)
@@ -61,7 +63,7 @@ Ruteo a reserva MP Chris: 16-may **5.000.000**; 12-jun **4.500.000** (del cobro 
 
 ## 4) Lectura rápida
 
-- Factura nueva 23-jul · servicio junio · Aldo Pelesson CUIT 23-14614689-9: **$4.900.000** (PENDIENTE)
+- Factura C 00001-00000027 · 23-jul · período junio · PELESSON ALDO OSCAR CUIT 23-14614689-9: **$4.900.000** (PENDIENTE · CAE 86305115481677)
 - Cobros Pelesson en MP (históricos): **$9.750.000**
 - Retiros descontados: **$840.000**
 - Saldo reserva UDESA (caja): **$8.910.000**
