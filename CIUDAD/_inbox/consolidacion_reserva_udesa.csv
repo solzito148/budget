@@ -16,5 +16,5 @@ TOTAL_RESERVADO_CHRIS_PELESSON,,,,"Total ruteado a Reserva Chris (Pelesson/factu
 TOTAL_RETIROS,,,,"Total retiros Reserva Chris",840000,
 SALDO_CAJA,,,,"Saldo Reserva UDESA / Chris (cobrado - retiros)",13810000,14650000 - 840000
 SALDO_CHRIS_ACTUAL,,,,"Saldo actual Reserva Chris (MP)",10300000,Indicación Sol 23/07/2026
-A_REPONER_CHRIS,,,,"A devolver/reponer a Reserva Chris",3510000,13810000 - 10300000
+DEUDA_RESERVA_CHRIS,2026-07-23,Julio,,"Deuda con Reserva Chris / UDESA (le debo)",3510000,13810000 - 10300000 · pendiente de devolver a Dinero reservado Chris
 PENDIENTE_COBRO,,,,"Facturas pendientes de cobro",0,
