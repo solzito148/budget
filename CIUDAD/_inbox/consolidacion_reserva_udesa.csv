@@ -15,4 +15,6 @@ TOTAL_COBRADO,,,,"Total cobrado LDO Pelesson",14650000,9750000 históricos + 490
 TOTAL_RESERVADO_CHRIS_PELESSON,,,,"Total ruteado a Reserva Chris (Pelesson/factura)",14400000,5000000 + 4500000 + 4900000
 TOTAL_RETIROS,,,,"Total retiros Reserva Chris",840000,
 SALDO_CAJA,,,,"Saldo Reserva UDESA / Chris (cobrado - retiros)",13810000,14650000 - 840000
+SALDO_CHRIS_ACTUAL,,,,"Saldo actual Reserva Chris (MP)",10300000,Indicación Sol 23/07/2026
+A_REPONER_CHRIS,,,,"A devolver/reponer a Reserva Chris",3510000,13810000 - 10300000
 PENDIENTE_COBRO,,,,"Facturas pendientes de cobro",0,

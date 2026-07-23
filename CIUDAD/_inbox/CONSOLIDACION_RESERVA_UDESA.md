@@ -70,12 +70,28 @@ Cobro 23-jul: abona la factura C 00001-00000027 y **entra a Reserva Chris / UDES
 | de ese total, cobrado → Reserva Chris | 4.900.000 |
 | Pendiente de cobro | **0** |
 
-## 4) Lectura rápida
+## 4) Reposición a Reserva Chris (para igualar saldo caja UDESA)
+
+| Concepto | ARS |
+|---|---|
+| Saldo caja UDESA consolidado (cobrado − retiros) | **13.810.000** |
+| Saldo actual Reserva Chris (MP) | **10.300.000** |
+| **(=) A devolver / reponer a Reserva Chris** | **3.510.000** |
+
+```
+13.810.000  −  10.300.000  =  3.510.000
+```
+
+Para dejar la Reserva Chris alineada con el saldo UDESA, hay que **reservar / devolver $3.510.000** a `Dinero reservado Chris`.
+
+## 5) Lectura rápida
 
 - Factura C 00001-00000027 · **$4.900.000** · COBRADO hoy con MP → **Reserva Chris**
 - Cobros Pelesson totales: **$14.650.000**
 - Retiros Chris descontados: **$840.000**
-- Saldo reserva UDESA / Chris: **$13.810.000**
+- Saldo caja UDESA consolidado: **$13.810.000**
+- Reserva Chris actual: **$10.300.000**
+- **A reponer a Chris: $3.510.000**
 - Pendiente de cobro: **$0**
 
 Archivos espejo: `consolidacion_reserva_udesa.csv` · `Consolidacion_Reserva_UDESA.xlsx` · `SOL/Facturacion_Monotributo_SOL_2026.xlsx`
