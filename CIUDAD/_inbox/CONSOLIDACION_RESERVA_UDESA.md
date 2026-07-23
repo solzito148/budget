@@ -1,6 +1,6 @@
 # Consolidación — Reserva UDESA (monotributo LDO Pelesson)
 
-Fecha de armado: 2026-07-23 (act. factura 23-jul)  
+Fecha de armado: 2026-07-23 (act. factura 23-jul · retiro 170.000)  
 Fuente facturación: `SOL/Facturacion_Monotributo_SOL_2026.xlsx`  
 Fuente cobros: extracto MP cuenta (`movimientos_cuenta_mp_2026.csv`)  
 Fuente retiros: lista indicada por Sol, cruzada con `Dinero retirado Chris` del mismo extracto
@@ -35,24 +35,23 @@ Ruteo a reserva MP Chris: 16-may **5.000.000**; 12-jun **4.500.000** (del cobro 
 
 ## 2) Retiros a descontar
 
-| Mes (según Sol) | Fecha MP (extracto) | OpID | Concepto MP | Monto Sol | Monto extracto |
-|---|---|---|---|---|---|
-| Junio | 2026-06-10 | 163418872656 | Dinero retirado Chris | 500.000 | 500.000 |
-| Julio* | 2026-06-20 | 165013974648 | Dinero retirado Chris | 20.000 | 20.000 |
-| Julio* | 2026-06-23 | 165530199038 | Dinero retirado Chris | 150.000 | 150.000 |
-| Julio* | 2026-06-25 | 165824407784 | Dinero retirado Chris | 170.000 | **170.100** |
-| | | | **Total retiros (lista Sol)** | **840.000** | |
-| | | | **Total retiros (prevalece extracto)** | | **840.100** |
+| Mes (según Sol) | Fecha MP (extracto) | OpID | Concepto MP | Monto ARS |
+|---|---|---|---|---|
+| Junio | 2026-06-10 | 163418872656 | Dinero retirado Chris | 500.000 |
+| Julio* | 2026-06-20 | 165013974648 | Dinero retirado Chris | 20.000 |
+| Julio* | 2026-06-23 | 165530199038 | Dinero retirado Chris | 150.000 |
+| Julio* | 2026-06-25 | 165824407784 | Dinero retirado Chris | **170.000** |
+| | | | **Total retiros** | **840.000** |
 
-\* En el mensaje figuraban como “Julio”; en el extracto oficial caen a fines de **junio**. Prevalece el extracto.
+\* En el mensaje figuraban como “Julio”; en el extracto oficial caen a fines de **junio**. El retiro de 170.000 queda consolidado en ese monto por indicación de Sol.
 
 ## 3) Resultado consolidado (caja / cobrado)
 
 | Concepto | ARS |
 |---|---|
 | (+) Total cobrado LDO Pelesson (extracto) | 9.750.000 |
-| (−) Retiros (extracto) | 840.100 |
-| **(=) Saldo Reserva UDESA (caja)** | **8.909.900** |
+| (−) Retiros | 840.000 |
+| **(=) Saldo Reserva UDESA (caja)** | **8.910.000** |
 
 | Concepto facturación | ARS |
 |---|---|
@@ -64,8 +63,8 @@ Ruteo a reserva MP Chris: 16-may **5.000.000**; 12-jun **4.500.000** (del cobro 
 
 - Factura nueva 23-jul · servicio junio · Aldo Pelesson CUIT 23-14614689-9: **$4.900.000** (PENDIENTE)
 - Cobros Pelesson en MP (históricos): **$9.750.000**
-- Retiros descontados: **$840.100**
-- Saldo reserva UDESA (caja): **$8.909.900**
+- Retiros descontados: **$840.000**
+- Saldo reserva UDESA (caja): **$8.910.000**
 - A cobrar (factura julio): **$4.900.000**
 
 Archivos espejo: `consolidacion_reserva_udesa.csv` · `Consolidacion_Reserva_UDESA.xlsx` · `SOL/Facturacion_Monotributo_SOL_2026.xlsx`

@@ -5,9 +5,9 @@ COBRO,2026-06-12,Junio,163006931853,Transferencia recibida PELESSON ALDO OSCAR,4
 RETIRO,2026-06-10,Junio,163418872656,Dinero retirado Chris,500000,Retiro indicado Junio
 RETIRO,2026-06-20,Julio,165013974648,Dinero retirado Chris,20000,Lista Sol dijo Julio; extracto = 20-jun
 RETIRO,2026-06-23,Julio,165530199038,Dinero retirado Chris,150000,Lista Sol dijo Julio; extracto = 23-jun
-RETIRO,2026-06-25,Julio,165824407784,Dinero retirado Chris,170100,Lista Sol 170000; extracto prevalece 170100
+RETIRO,2026-06-25,Julio,165824407784,Dinero retirado Chris,170000,Retiro consolidado a 170000 (indicación Sol)
 TOTAL_FACTURADO,,,,"Total facturado monotributo (registro)",4900000,PENDIENTE de cobro
 TOTAL_COBRADO,,,,"Total cobrado LDO Pelesson (extracto)",9750000,
-TOTAL_RETIROS,,,,"Total retiros (extracto)",840100,
-SALDO_CAJA,,,,"Saldo Reserva UDESA (caja = cobrado - retiros)",8909900,9750000 - 840100
+TOTAL_RETIROS,,,,"Total retiros",840000,
+SALDO_CAJA,,,,"Saldo Reserva UDESA (caja = cobrado - retiros)",8910000,9750000 - 840000
 PENDIENTE_COBRO,,,,"Facturas pendientes de cobro",4900000,Factura 23-jul servicio junio
