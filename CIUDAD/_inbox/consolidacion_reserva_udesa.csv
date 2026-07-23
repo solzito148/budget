@@ -1,14 +1,18 @@
 tipo,fecha,mes_sol,opid,concepto,monto_ars,nota
-FACTURA,2026-07-23,Junio,00001-00000027,Factura C monotributo Sol · PELESSON ALDO OSCAR CUIT 23-14614689-9,4900000,Período 01/06-30/06/2026 · CAE 86305115481677 · COBRADO 23/07/2026 MP · PDF 27290390791_011_00001_00000027.pdf
+FACTURA,2026-07-23,Junio,00001-00000027,Factura C monotributo Sol · PELESSON ALDO OSCAR CUIT 23-14614689-9,4900000,Período 01/06-30/06/2026 · CAE 86305115481677 · COBRADO 23/07/2026 MP · destino Reserva Chris
 COBRO,2026-05-15,Mayo,158620980755,Transferencia recibida PELESSON ALDO OSCAR,5000000,Cobro MP histórico · sin factura asociada en registro
 COBRO,2026-06-12,Junio,163006931853,Transferencia recibida PELESSON ALDO OSCAR,4750000,Cobro MP histórico · sin factura asociada en registro
 COBRO,2026-07-23,Julio,,Cobro MP factura C 00001-00000027 · PELESSON ALDO OSCAR,4900000,Confirmación Sol · abonada hoy con MP · OpID pendiente próximo extracto
+RESERVA,2026-05-16,Mayo,158758469069,Dinero reservado Chris,5000000,Ruteo cobro Pelesson 15-may a Reserva Chris
+RESERVA,2026-06-12,Junio,163024353651,Dinero reservado Chris,4500000,Ruteo parcial cobro Pelesson 12-jun (4.750.000) a Reserva Chris
+RESERVA,2026-07-23,Julio,,Dinero reservado Chris,4900000,Confirmación Sol · cobro factura 00001-00000027 va a Reserva Chris · OpID pendiente extracto
 RETIRO,2026-06-10,Junio,163418872656,Dinero retirado Chris,500000,Retiro indicado Junio
 RETIRO,2026-06-20,Julio,165013974648,Dinero retirado Chris,20000,Lista Sol dijo Julio; extracto = 20-jun
 RETIRO,2026-06-23,Julio,165530199038,Dinero retirado Chris,150000,Lista Sol dijo Julio; extracto = 23-jun
 RETIRO,2026-06-25,Julio,165824407784,Dinero retirado Chris,170000,Retiro consolidado a 170000 (indicación Sol)
-TOTAL_FACTURADO,,,,"Total facturado monotributo (registro)",4900000,COBRADO
+TOTAL_FACTURADO,,,,"Total facturado monotributo (registro)",4900000,COBRADO · destino Reserva Chris
 TOTAL_COBRADO,,,,"Total cobrado LDO Pelesson",14650000,9750000 históricos + 4900000 factura 00001-00000027
-TOTAL_RETIROS,,,,"Total retiros",840000,
-SALDO_CAJA,,,,"Saldo Reserva UDESA (caja = cobrado - retiros)",13810000,14650000 - 840000
+TOTAL_RESERVADO_CHRIS_PELESSON,,,,"Total ruteado a Reserva Chris (Pelesson/factura)",14400000,5000000 + 4500000 + 4900000
+TOTAL_RETIROS,,,,"Total retiros Reserva Chris",840000,
+SALDO_CAJA,,,,"Saldo Reserva UDESA / Chris (cobrado - retiros)",13810000,14650000 - 840000
 PENDIENTE_COBRO,,,,"Facturas pendientes de cobro",0,
