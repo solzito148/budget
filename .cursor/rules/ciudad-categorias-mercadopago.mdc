@@ -37,12 +37,16 @@ Al analizar extractos MP, estos conceptos **nunca** van a `Almacen Detalle` ni c
 
 | Concepto MP | Destino |
 |-------------|---------|
-| **Dinero retirado** | `MP No Gasto` + `Dinero Retirado` |
-| **Reserva automática** | `MP No Gasto` |
-| **Dinero reservado** | `MP No Gasto` |
 | **Pago de deuda** (Mercado Pago) | `MP No Gasto` |
 | **Pago de resumen** de tarjeta | `MP No Gasto` + `Pago de Tarjetas` |
-| **Inversión** (venta/compra USD, bonos, PF, fondos) | `MP No Gasto` + `Inversión` |
+| **Inversión** (bonos, PF, fondos — no USD) | `MP No Gasto` + `Inversión` |
+
+### ELIMINAR siempre (no catalogar / no cargar en ninguna hoja)
+- **Dinero retirado** (Susi, Palermo, AVA, Gastos, etc.) — hoja `Dinero Retirado` deprecada
+- **Reserva automática** (AVA, Susi, Juicio, etc.)
+- **Dinero reservado**
+- **Venta de dólares** / compra de dólares
+- No van a `MP No Gasto`, ni a `Inversión`, ni a `Dinero Retirado`, ni a almacén, ni a GPS
 
 Otras exclusiones:
 - Transferencias propias: Sanes Maria Sole / Maria Soledad Sanes → EXCLUIR
@@ -51,7 +55,8 @@ Otras exclusiones:
 - **Transferencia recibida** / Ingreso de dinero → hoja `Transferencias recibidas`
 
 ## Inversión (detalle)
-- Bonos, plazos fijos, fondos, **venta/compra de dólares** → `Inversión` (+ fila en `MP No Gasto`)
+- Bonos, plazos fijos, fondos → `Inversión` (+ fila en `MP No Gasto`)
+- **Venta/compra de dólares → ELIMINAR** (no cargar)
 - Movimiento: `Inversión` / `Rescate` / `Rendimiento`
 - No cargar como gasto ni sumar al total de la hoja `2026`
 - Norma escrita: `CIUDAD/_inbox/NORMA_MP_NO_GASTO.md`
