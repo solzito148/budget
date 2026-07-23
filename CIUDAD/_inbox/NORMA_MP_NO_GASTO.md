@@ -1,27 +1,29 @@
 # Norma — movimientos Mercado Pago que NUNCA van a ALMACÉN
 
-Fecha de vigencia: 2026-07-19
+Fecha de vigencia: 2026-07-23
 
 ## Solapa canónica: `MP No Gasto`
 
 En `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`, hoja **MP No Gasto**.
 
 ### Incluir siempre (no son gasto de casa/comida)
-1. **Dinero retirado** (Susi, Palermo, AVA, Gastos, etc.)
+1. **Pago de deuda** (Mercado Pago)
+2. **Pago de resumen** de tarjeta de crédito
+3. **Inversión** (bonos, plazos fijos, fondos — **no** venta/compra USD)
+
+### ELIMINAR siempre (no catalogar / no cargar en ninguna hoja)
+1. **Dinero retirado** (Susi, Palermo, AVA, Gastos, etc.) — hoja `Dinero Retirado` deprecada / vacía
 2. **Reserva automática**
 3. **Dinero reservado**
-4. **Pago de deuda** (Mercado Pago)
-5. **Pago de resumen** de tarjeta de crédito
-6. **Inversión** (venta/compra de dólares, bonos, plazos fijos, fondos)
+4. **Venta de dólares** / compra de dólares
 
 ### Prohibido
-- Cargar cualquiera de los anteriores en `Almacen Detalle`
+- Cargar cualquiera de los eliminados en `Almacen Detalle`, `MP No Gasto`, `Inversión` o `Dinero Retirado`
 - Sumarlos a ALMACEN SOL / ALMACEN CHRIS / total de hoja `2026` como gasto nuevo
 
-### Espejos
-- Dinero retirado → también `Dinero Retirado`
+### Espejos (solo para lo que sí se carga)
 - Pago de resumen TC → también `Pago de Tarjetas`
-- Inversión / venta USD → también `Inversión`
+- Inversión (bonos/PF/fondos) → también `Inversión`
 
 ### Qué sí va a almacén (ejemplos del mismo extracto)
 - Súper Pollo, PedidosYa, Coto, verdulería, Kalbby/DR BARF, combustible → `Almacen Detalle`

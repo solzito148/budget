@@ -1,4 +1,4 @@
-fecha,comercio,monto,categoria,comentario
+﻿fecha,comercio,monto,categoria,comentario
 2025-12-23,Sanes Maria Sole,US$996,EXCLUIR,propia USD 2025
 2025-12-24,Huevos Point,23500,ALMACEN_SOL,2025
 2025-12-25,Mercado Libre,41790,EXCLUIR,compra 2025 · fuera de alcance libros 2026
@@ -723,22 +723,22 @@ fecha,comercio,monto,categoria,comentario
 2026-07-17,Uber (Ebanx),4390,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-04-10,Personal,101114,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · OHIGGINS (desde settlement)
 2026-06-13,DR BARF,65000,ALMACEN_SOL,RAMON · Comida · DR BARF · ALMACEN SOL
-2026-07-19,Susi,15000,DINERO_RETIRADO,Dinero retirado · hoja MP No Gasto / Dinero Retirado
-2026-07-18,Palermo,593000,DINERO_RETIRADO,Dinero retirado · hoja MP No Gasto
-2026-07-18,Venta de dólares,1261633,INVERSION,Venta USD · hoja Inversión / MP No Gasto
-2026-07-18,Gastos,845,DINERO_RETIRADO,Dinero retirado USD ceil · MP No Gasto
-2026-07-18,Susi,5654,RESERVA,Dinero reservado · MP No Gasto · NUNCA almacén
-2026-07-18,AVA,500,RESERVA,Reserva automática · MP No Gasto · NUNCA almacén
-2026-07-18,Susi,3000,RESERVA,Reserva automática · MP No Gasto · NUNCA almacén
-2026-07-18,Susi,120000,DINERO_RETIRADO,Dinero retirado · MP No Gasto
-2026-07-18,AVA,36813,DINERO_RETIRADO,Dinero retirado · MP No Gasto
-2026-07-18,Susi,1,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-19,Susi,15000,ELIMINAR,Dinero retirado · hoja MP No Gasto / Dinero Retirado · ELIMINAR siempre (no cargar)
+2026-07-18,Palermo,593000,ELIMINAR,Dinero retirado · hoja MP No Gasto · ELIMINAR siempre (no cargar)
+2026-07-18,Venta de dólares,1261633,ELIMINAR,Venta USD · hoja Inversión / MP No Gasto · ELIMINAR siempre (no cargar)
+2026-07-18,Gastos,845,ELIMINAR,Dinero retirado USD ceil · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-07-18,Susi,5654,ELIMINAR,Dinero reservado · MP No Gasto · NUNCA almacén · ELIMINAR siempre (no cargar)
+2026-07-18,AVA,500,ELIMINAR,Reserva automática · MP No Gasto · NUNCA almacén · ELIMINAR siempre (no cargar)
+2026-07-18,Susi,3000,ELIMINAR,Reserva automática · MP No Gasto · NUNCA almacén · ELIMINAR siempre (no cargar)
+2026-07-18,Susi,120000,ELIMINAR,Dinero retirado · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-07-18,AVA,36813,ELIMINAR,Dinero retirado · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-07-18,Susi,1,ELIMINAR,Dinero retirado · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-07-18,Mercado Pago,147660,PAGO_DEUDA_MP,Pago de deuda · MP No Gasto · NUNCA almacén
-2026-07-18,Susi,147660,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-18,Susi,147660,ELIMINAR,Dinero retirado · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-07-18,Mercado Pago,60000,PAGO_DEUDA_MP,Pago de deuda · MP No Gasto
-2026-07-18,Susi,60000,DINERO_RETIRADO,Dinero retirado · MP No Gasto
+2026-07-18,Susi,60000,ELIMINAR,Dinero retirado · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-07-18,Mercado Pago,966,PAGO_DEUDA_MP,Pago de deuda · MP No Gasto
-2026-07-17,AVA,500,RESERVA,Reserva automática · MP No Gasto
+2026-07-17,AVA,500,ELIMINAR,Reserva automática · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-07-19,Matias Leonel Aranda,15000,GASTO_PERSONAL_SOL,transferencia · personal
 2026-07-18,Analia Veronica Roay,593000,GASTO_PERSONAL_SOL,VESTIMENTA · Analia Roay · gasto personal Sol
 2026-07-18,Susana Carmen Ortiz,147660,LIMPIEZA,LIMPIEZA CASA · julio
@@ -747,7 +747,7 @@ fecha,comercio,monto,categoria,comentario
 2026-07-15,Sanes Maria Sole,500,EXCLUIR,propia USD · no gasto
 2026-07-15,Tarjeta de crédito,576242,PAGO_TARJETA,pago resumen · MP No Gasto
 2026-07-15,Bonos plazos fijos,1000000,INVERSION,MP No Gasto
-2026-07-16,Susi,488004,RESERVA,Dinero reservado · MP No Gasto
+2026-07-16,Susi,488004,ELIMINAR,Dinero reservado · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-07-17,Susi,30000,DINERO_RETIRADO,MP No Gasto
 2026-01-29,Cabify,6144,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-29-6144)
 2026-01-15,Cabify,4237,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-15-4237)
@@ -826,72 +826,72 @@ fecha,comercio,monto,categoria,comentario
 2026-07-13,Uber (Ebanx),15,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-01-02,Mercado Libre,232640,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-01-03,Recaudacion Gestion y Pagos SA,21500,GASTO_PERSONAL_SOL,pago QR · gasto personal Sol
-2026-01-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-07,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-09,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-11,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-04,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-07,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-09,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-11,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-13,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-15,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-01-17,Victoria Estefania Ibanez,4100,GASTO_PERSONAL_SOL,pago QR Victoria Estefania Ibanez · gasto personal Sol
-2026-01-17,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-20,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-22,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-24,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-28,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-01-30,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-01,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-08,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-10,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-01-17,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-20,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-22,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-24,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-28,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-01-30,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-01,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-04,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-06,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-08,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-10,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-13,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-02-15,Susana Carmen Ortiz,11000,LIMPIEZA_CIUDAD,LIMPIEZA CASA · consolidado en total mensual Detalle (no volver a sumar)
-2026-02-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-19,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-21,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-02-27,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-01,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-09,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-17,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-02-15,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-19,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-21,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-02-27,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-01,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-06,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-09,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-13,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-15,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-17,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-03-18,Catore SRL,48334,GASTO_PERSONAL_SOL,pago QR CATORE · gasto personal Sol
 2026-03-21,Susana Carmen Ortiz,90000,LIMPIEZA_CIUDAD,LIMPIEZA CASA · consolidado en total mensual Detalle (no volver a sumar)
 2026-03-25,BDM Proyects Arg SA,84400,GASTO_PERSONAL_SOL,pago QR BDM PROYECTS · gasto personal Sol
-2026-03-26,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-28,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-03-30,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-02,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-03-26,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-28,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-03-30,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-02,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-04,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-04-04,Ticorri Cosa,115500,GASTO_PERSONAL_SOL,pago QR TICORRICOSA · gasto personal Sol
-2026-04-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-08,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-12,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-06,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-08,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-12,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-04-15,Uber (Ebanx),4911,EXCLUIR,Uber (Ebanx) · devuelto 2026-04-15 · neto 0
 2026-04-15,Uber (Ebanx),4608,EXCLUIR,Uber (Ebanx) · devuelto 2026-04-15 · neto 0
-2026-04-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-17,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-19,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-21,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-24,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-04-28,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-05-02,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-05-04,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-04-15,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-17,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-19,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-21,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-24,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-04-28,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-05-02,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-05-04,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-05-08,Casareggia SRL,63000,GASTO_PERSONAL_SOL,pago QR CASAREGGIA · gasto personal Sol
-2026-05-13,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-05-15,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-05-21,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-05-23,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-13,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-05-15,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-05-21,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-05-23,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-05-25,Guillermo Gaston Galarraga,16990,GASTO_PERSONAL_SOL,transferencia Guillermo Galarraga · gasto personal Sol
-2026-05-25,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-05-29,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-05-25,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-05-29,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-05-30,Shell,25,ALMACEN_SOL,Combustible — Shell · pago QR
-2026-06-06,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-06-10,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-06-14,Reserva MP,5000,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-06-06,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-06-10,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-06-14,Reserva MP,5000,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-06-20,UADE,151214,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
 2026-06-20,UADE,81656,GASTO_PERSONAL_SOL,EDUCACIÓN · UADE · gasto personal Sol
-2026-06-23,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
-2026-06-25,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
+2026-06-23,Reserva MP,500,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
+2026-06-25,Reserva MP,500,ELIMINAR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto · ELIMINAR siempre (no cargar)
 2026-07-02,Fabricio Bollonine,5990,GASTO_PERSONAL_SOL,pago QR Fabricio Bollonine · gasto personal Sol
