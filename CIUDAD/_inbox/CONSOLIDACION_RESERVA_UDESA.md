@@ -70,25 +70,21 @@ Nota: OpID del cobro/reserva 23-jul pendiente hasta el próximo extracto MP (el 
 | de ese total, cobrado → Reserva Chris | 4.900.000 |
 | Pendiente de cobro | **0** |
 
-## 4) Deuda con la Reserva Chris / UDESA
+## 4) Deuda de Sol con la Reserva Chris / UDESA
 
 | Concepto | ARS |
 |---|---|
-| Saldo caja UDESA consolidado | **13.310.000** |
-| Saldo Reserva Chris al 23/07 | 10.300.000 |
-| (+) Pago a la reserva 25/07 | 2.000.000 |
-| (−) Retiro Chris 25/07 (bajar reserva) | **500.000** |
-| Saldo actual Reserva Chris | **11.800.000** |
-| **(=) Deuda restante (le debo)** | **1.510.000** |
+| Deuda original | **3.510.000** |
+| (−) Pago Sol a la reserva 25/07/2026 | **2.000.000** |
+| **(=) Saldo deuda a hoy** | **1.510.000** |
 
 ```
-Chris: 10.300.000 + 2.000.000 − 500.000 = 11.800.000
-Deuda: 13.310.000 − 11.800.000 = 1.510.000
+3.510.000  −  2.000.000  =  1.510.000
 ```
 
-**Estado:** 25/07 retiro Chris **$500.000** (baja reserva).  
-**Deuda restante:** **$1.510.000**.  
-OpIDs de movimientos 23/25-jul pendientes de próximo extracto MP.
+**Estado:** Sol le debe **$1.510.000** a Reserva Chris.  
+Caja reserva: 25/07 retiro Chris **$500.000** (baja reserva) → Chris actual **$11.800.000** (10.300.000 + 2.000.000 − 500.000).  
+OpIDs 23/25-jul pendientes de próximo extracto MP.
 
 ## 5) Lectura rápida
 
@@ -99,6 +95,6 @@ OpIDs de movimientos 23/25-jul pendientes de próximo extracto MP.
 - Pago a reserva 25/07: **$2.000.000**
 - Retiro Chris 25/07: **$500.000**
 - Reserva Chris actual: **$11.800.000**
-- **Deuda restante: $1.510.000**
+- **Deuda Sol → Chris a hoy: $1.510.000**
 
 Archivos espejo: `consolidacion_reserva_udesa.csv` · `Consolidacion_Reserva_UDESA.xlsx` · `SOL/Facturacion_Monotributo_SOL_2026.xlsx`
