@@ -19,7 +19,8 @@ SALDO_CAJA,,,,"Saldo Reserva UDESA / Chris (cobrado - retiros)",13310000,1465000
 SALDO_CHRIS_ANTES_PAGO,,,,"Saldo Reserva Chris al 23/07",10300000,Indicación Sol 23/07/2026
 DEUDA_INICIAL,2026-07-23,Julio,,"Deuda original Sol a Reserva Chris",3510000,Indicación Sol
 PAGO_A_RESERVA,2026-07-25,Julio,,"Pago Sol a la reserva",2000000,Confirmación Sol 25/07/2026
+PAGO_A_RESERVA,2026-07-27,Julio,,"Pago Sol a la reserva (saldo deuda)",1510000,Confirmación Sol 27/07/2026 · salda deuda
 RETIRO_RESERVA,2026-07-25,Julio,,"Retiro Chris / baja reserva",500000,Confirmación Sol 25/07/2026
-SALDO_CHRIS_ACTUAL,,,,"Saldo actual Reserva Chris (MP)",11800000,10300000 + 2000000 - 500000
-DEUDA_RESERVA_CHRIS,2026-07-25,Julio,,"Deuda restante Sol a Reserva Chris (le debo)",1510000,3510000 - 2000000
+SALDO_CHRIS_ACTUAL,,,,"Saldo actual Reserva Chris (MP)",13310000,10300000 + 2000000 - 500000 + 1510000
+DEUDA_RESERVA_CHRIS,2026-07-27,Julio,,"Deuda restante Sol a Reserva Chris (le debo)",0,3510000 - 2000000 - 1510000 · SALDADA
 PENDIENTE_COBRO,,,,"Facturas pendientes de cobro",0,
