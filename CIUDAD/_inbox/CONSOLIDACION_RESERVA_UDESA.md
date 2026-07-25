@@ -75,24 +75,31 @@ Cobro 23-jul: abona la factura C 00001-00000027 y **entra a Reserva Chris / UDES
 | Concepto | ARS |
 |---|---|
 | Saldo caja UDESA consolidado (cobrado − retiros) | **13.810.000** |
-| Saldo actual Reserva Chris (MP) | **10.300.000** |
-| **(=) Deuda con la reserva (le debo)** | **3.510.000** |
+| Saldo Reserva Chris al 23/07 | 10.300.000 |
+| Deuda inicial (le debía) | 3.510.000 |
+| (−) Pago a la reserva 25/07/2026 | **2.000.000** |
+| Saldo actual Reserva Chris | **12.300.000** |
+| **(=) Deuda restante (le debo)** | **1.510.000** |
 
 ```
-13.810.000  −  10.300.000  =  3.510.000
+Deuda inicial  3.510.000
+− Pago 25-jul  2.000.000
+= Resta        1.510.000
 ```
 
-**Estado:** Sol le debe **$3.510.000** a la Reserva Chris / UDESA.  
-Para saldar: mover / reservar ese monto a `Dinero reservado Chris`.
+**Estado:** Sol pagó **$2.000.000** a Reserva Chris el 25/07/2026.  
+**Deuda restante:** **$1.510.000** (pendiente de devolver a `Dinero reservado Chris`).  
+OpID del pago pendiente de próximo extracto MP.
 
 ## 5) Lectura rápida
 
-- Factura C 00001-00000027 · **$4.900.000** · COBRADO hoy con MP → **Reserva Chris**
+- Factura C 00001-00000027 · **$4.900.000** · COBRADO 23/07 con MP → **Reserva Chris**
 - Cobros Pelesson totales: **$14.650.000**
 - Retiros Chris descontados: **$840.000**
 - Saldo caja UDESA consolidado: **$13.810.000**
-- Reserva Chris actual: **$10.300.000**
-- **Deuda con la reserva: $3.510.000**
+- Pago a la reserva 25/07: **$2.000.000**
+- Reserva Chris actual: **$12.300.000**
+- **Deuda restante con la reserva: $1.510.000**
 - Pendiente de cobro: **$0**
 
 Archivos espejo: `consolidacion_reserva_udesa.csv` · `Consolidacion_Reserva_UDESA.xlsx` · `SOL/Facturacion_Monotributo_SOL_2026.xlsx`
