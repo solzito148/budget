@@ -552,7 +552,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-28,Zilver Sa,25971,GASTO_PERSONAL_SOL,personal · gasto personal Sol
 2026-05-28,Tienda De Café,18900,ALMACEN_SOL,café
 2026-05-28,Maria Soledad Sanes,102000,EXCLUIR,propia
-2026-05-29,Farmacity,85034,ALMACEN_SOL,FARMACIA · Farmacity · Almacen Detalle
+2026-05-29,Farmacity,85034,FARMACIA_CIUDAD,FARMACIA · Farmacity · CIUDAD · cobro junio
 2026-05-29,Servicios De Pagos Virtuales,630000,GASTO_PERSONAL_SOL,TRAÍDO DE MIAMI · Servicios de Pagos Virtuales SA · importadora · gasto personal Sol
 2026-05-29,Uber (Ebanx),5478,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-29,Uber (Ebanx),5194,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
@@ -595,8 +595,8 @@ fecha,comercio,monto,categoria,comentario
 2026-06-12,Correo Argentino,48000,GASTO_PERSONAL_SOL,envíos · gasto personal Sol
 2026-06-12,PedidosYa Propina,900,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-12,PedidosYa,17189,ALMACEN_SOL,PEDIDOS YA · COMIDA
-2026-06-12,Agustina Vissani,135000,AGUS_PSA,confirmar AGUS/PSA
-2026-06-13,Saphirus,79900,GASTO_PERSONAL_SOL,¿hogar? · gasto personal Sol (ex-PENDIENTE)
+2026-06-12,Agustina Vissani,135000,GASTO_PERSONAL_SOL,PELUQUERÍA · Agustina Vissani · gasto personal Sol
+2026-06-13,Saphirus,79900,CASA_AROMATIZANTES,CASA · AROMATIZANTES · Saphirus · CIUDAD
 2026-06-13,Todo Tartas,11700,ALMACEN_SOL,panadería
 2026-06-13,Apple,18558,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
 2026-06-14,Susana Carmen Ortiz,88416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -700,7 +700,7 @@ fecha,comercio,monto,categoria,comentario
 2026-07-13,Uber (Ebanx),6809,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-07-13,Arca,38957,IMPUESTOS_AFIP,ARCA
 2026-07-14,Personal,56200,OHIGGINS_TV_CABLE_INTERNET,Personal — Pago directo · TV CABLE-INTERNET OHIGGINS (no CIUDAD)
-2026-07-14,Farmacia Maure,218500,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Maure
+2026-07-14,Farmacia Maure,218500,FARMACIA_CIUDAD,FARMACIA · Farmacia Maure · CIUDAD
 2026-07-14,Noelia Caballero,8977,ALMACEN_SOL,COMIDA · VERDULERÍA
 2026-07-14,Sanes Maria Sole,,EXCLUIR,propia US$200
 2026-07-14,Sanes Maria Sole,300000,EXCLUIR,propia

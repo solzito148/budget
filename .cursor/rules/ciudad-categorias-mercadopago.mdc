@@ -135,9 +135,8 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 
 ## FARMACIA
 - **Sodastream** → siempre `REPUESTOS · Sodastream` en `Almacen Detalle` (ALMACEN SOL). Nunca fila CASA/REPUESTOS aparte en la matriz ni Gasto Personal Sol
-- **Farmacity** → siempre `FARMACIA · Farmacity` en `Almacen Detalle` (ALMACEN SOL; suma al total vía fila ALMACEN de la matriz `2026`). Nunca Gasto Personal Sol ni fila CASA/FARMACIA aparte en la matriz
-- **Farmacia Maure** → hoja `Gasto Personal Sol` · categoría `FARMACIA SALUD` (comentario `FARMACIA SALUD · Farmacia Maure`). No va a ALMACEN SOL ni a la fila FARMACIA de la matriz `2026`
-- **Selma Salvatori** / Farmacia Selma → hoja `Gasto Personal Sol` · categoría `FARMACIA SALUD` (comentario `FARMACIA SALUD · Farmacia Selma`). No va a ALMACEN SOL ni a la fila FARMACIA de la matriz `2026`
+- **Farmacity** / **Farmacia Maure** → siempre categoría principal `FARMACIA`, fila `CASA / FARMACIA` de la matriz `2026`; nunca ALMACEN SOL ni Gasto Personal Sol
+- **Selma Salvatori** / Farmacia Selma → `Almacen Detalle` (ALMACEN SOL) con comentario `FARMACIA · Farmacia Selma`
 - Comentario obligatorio con nombre de farmacia
 
 ## Servicios / utilidades por propiedad
@@ -199,6 +198,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Hoyts** / MOD*HOYTS → siempre `ENTRETENIMIENTO · Cine` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Belisario Roldán** / Restaurant Roldan → siempre `ENTRETENIMIENTO · Social` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Enerfit** / MERPAGO*ENERFIT (barritas proteicas) → siempre `COMIDA · Barritas proteicas` en `Almacen Detalle` (ALMACEN SOL). Nunca GPS ni SALUD
+- **Saphirus** → **CIUDAD** · `CASA / AROMATIZANTES`; nunca Gasto Personal Sol
 - **UADE** / Universidad Argentina de la Empresa / ARGENTINA DE LA EMPRESA U A D E → hoja `Gasto Personal Sol` · categoría `EDUCACIÓN` (comentario `EDUCACIÓN · UADE`). Nunca Almacén
 - **Agustina Vissani** / AGUS/PSA (transferencia) → hoja `Gasto Personal Sol` · categoría `PELUQUERÍA` (no suma al total CIUDAD). **No** es CASA ni matriz `2026`
 - **Buenos Muchachos Resto**, **Restaurant Soraya** → `ALMACEN SOL` · COMIDA
