@@ -12,16 +12,17 @@
 | 6 | abril 2026 | $5,553,706 | 2026-04-06 | 1430.60 | $3,882.08 | 1.27% | 3.4% | 1.60% | 5.00% | -3.73 | MENOS que IPC+CAC |
 | 7 | mayo 2026 | $5,644,624 | 2026-05-06 | 1448.50 | $3,896.88 | 1.64% | 2.6% | 3.70% | 6.30% | -4.66 | MENOS que IPC+CAC |
 | 8 | junio 2026 | $5,850,639 | 2026-06-05 | 1461.40 | $4,003.45 | 3.65% | 2.1% | 2.60% | 4.70% | -1.05 | MENOS que IPC+CAC |
-| 9 | julio 2026 | $6,005,392 | 2026-07-06 | 1525.10 | $3,937.70 | 2.65% | 1.9% |  |  |  | CAC pendiente |
+| 9 | julio 2026 | $6,005,392 | 2026-07-06 | 1525.10 | $3,937.70 | 2.65% | 1.9% | 2.88% | 4.78% | -2.13 | MENOS que IPC+CAC |
+| 10 | agosto 2026 | $6,178,522 | 2026-08-05 | 1522.10 | $4,059.21 | 2.88% |  |  |  |  | IPC/CAC julio pendiente |
 
-**Total pagado:** $49,449,457
-**Total USD (MEP venta):** $33,646.10
-**Total 50% Sol:** $24,724,731
+**Total pagado:** $55,627,979
+**Total USD (MEP venta):** $37,705.31
+**Total 50% Sol:** $27,813,992
 
 ### Cómo leer la comparación
 - `%Δ cuota` = suba de la cuota respecto del mes anterior.
 - `IPC` y `CAC` = del **mes calendario anterior** al período de la cuota.
 - Benchmark = **IPC + CAC**. Si Diff > 0 → la cuota aumentó más que inflación+CAC.
-- Julio 2026: CAC junio aún no publicado (corte 19-jul-2026).
+- Agosto 2026: IPC/CAC julio aún no publicados (corte 03-ago-2026). TC MEP provisional al 02-ago-2026 (último hábil; venc. 05/08).
 
-Cuotas 10–32: pendientes (sin monto aún).
+Cuotas 11–32: pendientes (sin monto aún).
