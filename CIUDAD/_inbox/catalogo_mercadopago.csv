@@ -746,7 +746,6 @@ fecha,comercio,monto,categoria,comentario
 2026-07-15,Dodochesa007,21600,GASTO_PERSONAL_SOL,personal
 2026-07-15,Sanes Maria Sole,500,EXCLUIR,propia USD · no gasto
 2026-07-15,Tarjeta de crédito,576242,PAGO_TARJETA,pago resumen · MP No Gasto
-2026-07-15,Bonos plazos fijos,1000000,INVERSION,MP No Gasto
 2026-07-16,Susi,488004,RESERVA,Dinero reservado · MP No Gasto
 2026-07-17,Susi,30000,DINERO_RETIRADO,MP No Gasto
 2026-01-29,Cabify,6144,GASTO_PERSONAL_SOL,Cabify · BBVA MASTERCARD (BBVA-MASTERCARD-2026-01-29-6144)
@@ -895,3 +894,5 @@ fecha,comercio,monto,categoria,comentario
 2026-06-23,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-06-25,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-07-02,Fabricio Bollonine,5990,GASTO_PERSONAL_SOL,pago QR Fabricio Bollonine · gasto personal Sol
+2026-07-29,Banco MP Christian,10000000,INVERSION,Único stock banco MP · Christian · 21% anual · hoja Inversión / MP No Gasto
+2026-07-29,Banco MP Sol,3000000,INVERSION,Único stock banco MP · Sol · 21% anual · hoja Inversión / MP No Gasto
