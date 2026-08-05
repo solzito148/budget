@@ -1,47 +1,50 @@
 #!/usr/bin/env bash
-# Copy this repo's budget files into the local iCloud budget folder (Mac only).
+# Siempre espejar workspace → local iCloud budget (Mac).
+# Uso: ./sync_to_icloud_budget.sh
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 DEST="${BUDGET_ICLOUD_DIR:-/Users/msanes/Library/Mobile Documents/com~apple~CloudDocs/Cloud/Cursor/budget}"
 
+if [[ "$ROOT" -ef "$DEST" ]]; then
+  echo "Workspace already is iCloud budget folder: $DEST"
+  echo "Nothing to mirror."
+  exit 0
+fi
+
 if [[ ! -d "$DEST" ]]; then
   echo "ERROR: iCloud budget folder not found:"
   echo "  $DEST"
-  echo "Run this on the Mac where that path exists, or set BUDGET_ICLOUD_DIR."
+  echo "Run on the Mac where that path exists, or set BUDGET_ICLOUD_DIR."
   exit 1
 fi
 
-# Mirror key trees into the iCloud clone/folder (no .git overwrite).
-rsync -a --delete \
-  --exclude '.git/' \
-  --exclude '.cursor/' \
-  --exclude '__pycache__/' \
-  --exclude '*.pyc' \
-  "$ROOT/AVA/" "$DEST/AVA/"
-rsync -a \
-  --exclude '.git/' \
-  --exclude '__pycache__/' \
-  "$ROOT/BONORINO/" "$DEST/BONORINO/" 2>/dev/null || true
-rsync -a \
-  --exclude '.git/' \
-  --exclude '__pycache__/' \
-  "$ROOT/CIUDAD/" "$DEST/CIUDAD/"
-rsync -a \
-  --exclude '.git/' \
-  --exclude '__pycache__/' \
-  "$ROOT/OHIGGINS/" "$DEST/OHIGGINS/" 2>/dev/null || true
-rsync -a \
-  --exclude '.git/' \
-  --exclude '__pycache__/' \
-  "$ROOT/SOL/" "$DEST/SOL/"
+mkdir -p "$DEST"
 
-if [[ -f "$ROOT/README.md" ]]; then
-  cp -a "$ROOT/README.md" "$DEST/README.md"
-fi
-if [[ -f "$ROOT/sync_to_icloud_budget.sh" ]]; then
-  cp -a "$ROOT/sync_to_icloud_budget.sh" "$DEST/sync_to_icloud_budget.sh"
-fi
+rsync_tree() {
+  local src="$1" dst="$2"
+  [[ -d "$src" ]] || return 0
+  mkdir -p "$dst"
+  rsync -a --delete \
+    --exclude '.git/' \
+    --exclude '__pycache__/' \
+    --exclude '*.pyc' \
+    --exclude '.DS_Store' \
+    "$src/" "$dst/"
+}
 
-echo "Synced to: $DEST"
-ls -la "$DEST/AVA/Gastos_AVA_2026.xlsx" "$DEST/CIUDAD/Gastos_CIUDAD_1132_2026.xlsx" "$DEST/SOL/Gastos_SOL_2026.xlsx"
+rsync_tree "$ROOT/AVA" "$DEST/AVA"
+rsync_tree "$ROOT/BONORINO" "$DEST/BONORINO"
+rsync_tree "$ROOT/CIUDAD" "$DEST/CIUDAD"
+rsync_tree "$ROOT/OHIGGINS" "$DEST/OHIGGINS"
+rsync_tree "$ROOT/SOL" "$DEST/SOL"
+rsync_tree "$ROOT/.cursor/rules" "$DEST/.cursor/rules"
+
+cp -a "$ROOT/sync_to_icloud_budget.sh" "$DEST/sync_to_icloud_budget.sh"
+[[ -f "$ROOT/README.md" ]] && cp -a "$ROOT/README.md" "$DEST/README.md"
+
+echo "Synced workspace → iCloud:"
+echo "  $DEST"
+ls -la "$DEST/AVA/Gastos_AVA_2026.xlsx" \
+       "$DEST/CIUDAD/Gastos_CIUDAD_1132_2026.xlsx" \
+       "$DEST/SOL/Gastos_SOL_2026.xlsx"
