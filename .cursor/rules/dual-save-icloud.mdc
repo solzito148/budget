@@ -1,0 +1,23 @@
+---
+description: Guardar siempre en repo y espejar a iCloud budget (Mac)
+alwaysApply: true
+---
+
+# Dual save — repo + iCloud
+
+Tras cualquier carga/actualización de Excel o CSV del presupuesto, persistir en **ambos lados**:
+
+1. **Repo / workspace** (canónico en git): carpetas `AVA/`, `CIUDAD/`, `BONORINO/`, `OHIGGINS/`, `SOL/` bajo la raíz del clone.
+2. **iCloud (Mac de Sol):**  
+   `/Users/msanes/Library/Mobile Documents/com~apple~CloudDocs/Cloud/Cursor/budget`
+
+## Cómo espejar
+- Si esa ruta de iCloud **existe** en el entorno (Cursor local en la Mac): copiar/actualizar los archivos tocados ahí (o correr `./sync_to_icloud_budget.sh`).
+- Si **no** existe (p. ej. cloud agent Linux): guardar y pushear en el repo; no inventar `/Users/msanes/...` en la VM. Dejar artifacts descargables si hace falta y recordar el sync local.
+
+## Archivos canónicos frecuentes
+- `AVA/Gastos_AVA_2026.xlsx`
+- `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`
+- `SOL/Gastos_SOL_2026.xlsx`
+- `BONORINO/Gastos_BONORINO_2026.xlsx`
+- `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
