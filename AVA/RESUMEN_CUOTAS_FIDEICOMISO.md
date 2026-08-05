@@ -13,16 +13,16 @@
 | 7 | mayo 2026 | $5,644,624 | 2026-05-06 | 1448.50 | $3,896.88 | 1.64% | 2.6% | 3.70% | 6.30% | -4.66 | MENOS que IPC+CAC |
 | 8 | junio 2026 | $5,850,639 | 2026-06-05 | 1461.40 | $4,003.45 | 3.65% | 2.1% | 2.60% | 4.70% | -1.05 | MENOS que IPC+CAC |
 | 9 | julio 2026 | $6,005,392 | 2026-07-06 | 1525.10 | $3,937.70 | 2.65% | 1.9% | 2.88% | 4.78% | -2.13 | MENOS que IPC+CAC |
-| 10 | agosto 2026 | $6,178,522 | 2026-08-05 | 1522.10 | $4,059.21 | 2.88% |  |  |  |  | IPC/CAC julio pendiente |
+| 10 | agosto 2026 | $6,178,522 | 2026-08-05 | 1524.50 | $4,052.82 | 2.88% |  |  |  |  | IPC/CAC julio pendiente |
 
 **Total pagado:** $55,627,979
-**Total USD (MEP venta):** $37,705.31
+**Total USD (MEP venta):** $37,698.92
 **Total 50% Sol:** $27,813,992
 
 ### Cómo leer la comparación
 - `%Δ cuota` = suba de la cuota respecto del mes anterior.
 - `IPC` y `CAC` = del **mes calendario anterior** al período de la cuota.
 - Benchmark = **IPC + CAC**. Si Diff > 0 → la cuota aumentó más que inflación+CAC.
-- Agosto 2026: IPC/CAC julio aún no publicados (corte 03-ago-2026). TC MEP provisional al 02-ago-2026 (último hábil; venc. 05/08).
+- Agosto 2026: abonada 2026-08-05. TC MEP venta cierre 2026-08-04 = 1524.50 (argentinadatos). IPC/CAC julio aún no publicados.
 
 Cuotas 11–32: pendientes (sin monto aún).
