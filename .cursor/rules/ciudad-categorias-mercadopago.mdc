@@ -144,9 +144,9 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Telecentro** → siempre **CIUDAD** · TV CABLE (`Telecentro`). Nunca otra propiedad
 - **Edesur** → siempre **BONORINO** · LUZ (cliente `3932799`). Nunca CIUDAD ni personal
 - **Metrogas** por N° cliente:
-  - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes
+  - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes · se paga con **tarjeta Visa BBVA terminación `3200`** (débito automático `METROGAS SA DEB AU`). Nunca MP como medio habitual
   - **OHIGGINS**: cliente `10139236800` · medidor `8683287` · titular **INVALMAR SRL** (Ivilmar) · O'Higgins 2225 8
-  - **Mes del gasto (GAS CIUDAD y utilidades con débito TC):** asignar al mes de la **fecha de cobro** (pago efectivo BBVA / vencimiento de la factura), **no** al período de consumo de la boleta.
+  - **Mes del gasto (GAS CIUDAD y utilidades con débito TC):** asignar al mes de la **fecha de cobro** (pago efectivo BBVA Visa `*3200` / vencimiento de la factura), **no** al período de consumo de la boleta.
 - **Edenor (LUZ)** según titular / cuenta:
   - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
   - **Marta Chagas** / Sanes M.i.chagas → **OHIGGINS** (cuenta `9267222037` · O'Higgins 2225 8)

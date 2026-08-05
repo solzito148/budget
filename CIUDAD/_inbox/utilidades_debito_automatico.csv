@@ -1,5 +1,5 @@
 servicio,propiedad,cuenta,debito_tc,tarjeta,evidencia,pago_mp,notas
-Metrogas,CIUDAD,30010996459,SI,BBVA Visa Signature (METROGAS SA DEB),Ene-Jun 2026 en resúmenes Visa,A veces,Débito automático TC
+Metrogas,CIUDAD,30010996459,SI,BBVA Visa *3200 (METROGAS SA DEB AU),Ene-Jun 2026 + 05-Aug-26 $73695,A veces,Débito automático TC Visa terminación 3200
 Edenor,CIUDAD,8917502309,SI,BBVA Visa Signature,Ene-Jun 2026 Visa,NO,Sanes
 Edenor,OHIGGINS,9267222037,SI,BBVA Visa Signature,Mar-Jun 2026 Visa,NO,Chagas
 Telecentro,CIUDAD,3491192,SI,BBVA Visa Signature,30-Jun-26 $31999 (único en estos resúmenes),RARO,Confirmado TC jun
