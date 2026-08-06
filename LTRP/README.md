@@ -17,6 +17,17 @@ Excel canónico: **`LTRP.xlsx`** (aparte de CIUDAD / SOL / propiedades).
 ene-2027 = 1/6·2026 + 1/6·2025 + 1/6·2024 + 1/6·2023 + 1/6·2022
 ```
 
+El plan de **70.000 otorgado en 2026** no se cobra de una vez: son **6 cobros** (ene-2027 … ene-2032).  
+**Recién en 2032** se cobra el último 1/6 y ahí se completa la totalidad de ese plan.
+
+| Cobro | Año | Aporte del plan 2026 (base 1/6 ≈ 11.667; con acción varía) |
+|-------|-----|----------------------------------------------------------|
+| 1/6 | 2027 | 10.749 |
+| 2/6 | 2028 | 11.142 |
+| 3/6 | 2029 | 11.567 |
+| 4/6 | 2030 | 12.026 |
+| 5/6 | 2031 | 12.521 |
+| **6/6 · plan completo** | **2032** | **13.056** |
 ## Fórmula (simulación)
 
 ```

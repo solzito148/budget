@@ -218,11 +218,20 @@ def build_simulacion(wb: Workbook) -> None:
     ws.cell(formula_row + 1, 2, (
         "Máximo 6 planes. Cada enero se suma el 1/6 de cada plan activo. "
         "Ej.: otorgado 70.000 en 2026 → ene-2027 = 1/6·2026 + 1/6·2025 + … + 1/6·2022, "
-        "cada tramo ajustado 50/50 por la acción."
+        "cada tramo ajustado 50/50 por la acción. "
+        "Recién en 2032 se cobra el 6/6 y se completa la totalidad del plan 2026."
     ))
     ws.merge_cells(start_row=formula_row + 1, start_column=2, end_row=formula_row + 1, end_column=9)
     ws.cell(formula_row + 1, 2).alignment = Alignment(wrap_text=True)
-    ws.row_dimensions[formula_row + 1].height = 36
+    ws.row_dimensions[formula_row + 1].height = 48
+
+    # Nota plan 2026 completo en 2032
+    note_2032 = formula_row + 3
+    ws.cell(note_2032, 1, "Plan LTRP 2026 (70.000)")
+    ws.cell(note_2032, 1).font = Font(bold=True)
+    ws.cell(note_2032, 2, "6 cobros ene-2027…ene-2032 · la totalidad del plan se completa recién en 2032 (último 1/6 = 13.056)")
+    ws.cell(note_2032, 2).fill = YELLOW
+    ws.merge_cells(start_row=note_2032, start_column=2, end_row=note_2032, end_column=9)
 
     _border_range(ws, 4, total_row, 3 + len(PAGO_ANIOS))
     for j in range(len(PAGO_ANIOS)):
@@ -445,6 +454,10 @@ def build_resumen(wb: Workbook) -> None:
             "Otorgado 70.000 en 2026 → ene-2027 = 1/6·2026 + 1/6·2025 + 1/6·2024 + 1/6·2023 + 1/6·2022",
         ),
         (
+            "Plan 2026 completo",
+            "Recién en 2032 se cobra el 6/6 y se completa la totalidad del plan otorgado en 2026",
+        ),
+        (
             "Fórmula con acción",
             "(N/6)×50% fijo + (N/6)×50% × (P_año / P_otorgamiento)",
         ),
@@ -474,11 +487,12 @@ def build_resumen(wb: Workbook) -> None:
     _style_header(ws)
     for campo, valor in rows:
         ws.append([campo, valor])
-    for row_idx in range(9, 16):
+    # Filas: header=1 · datos desde 2 · totales 2027–2032 = 11–16 · pendiente = 17
+    for row_idx in range(11, 18):
         ws.cell(row_idx, 2).number_format = MONEY_FORMAT
-    for row_idx in (17, 18, 19):
+    for row_idx in (19, 20, 21):
         ws.cell(row_idx, 2).number_format = MONEY_DEC
-    for addr in ("A5", "B5", "A6", "B6", "A9", "B9", "A15", "B15"):
+    for addr in ("A6", "B6", "A7", "B7", "A8", "B8", "A11", "B11", "A16", "B16", "A17", "B17"):
         ws[addr].fill = YELLOW
         ws[addr].font = Font(bold=True)
     ws["A1"].font = Font(bold=True, size=14, color="1F4E79")
