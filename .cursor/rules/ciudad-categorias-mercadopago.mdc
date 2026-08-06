@@ -49,6 +49,12 @@ Otras exclusiones:
 - Cuotas de préstamo Mercado Pago / Créditos de Mercado Pago → EXCLUIR
 - Movimientos cancelados o devueltos (usar neto)
 - **Transferencia recibida** / Ingreso de dinero → hoja `Transferencias recibidas`
+- **Sueldo / ingresos MELI de Sol** → `SOL/MELI/MELI_Conceptos_2026.xlsx` (no suma al total de la hoja `2026` ni a Almacén)
+  - Cobro: día **1 del mes siguiente** (período julio → cobro **01/08**)
+  - Básico mar–jun 2026: **ARS 11.305.702** · desde julio (recibo): **ARS 12.662.386**
+  - Beneficio Auto / car allowance desde julio (recibo): **ARS 360.000**
+  - Recibo julio: bruto **ARS 13.022.386** · descuentos **ARS 4.237.538,56** · neto **ARS 8.784.847,44** · cobrado 01/08/2026
+  - Registrar por mes de cobro en hoja `Ingresos`; conceptos y fuentes en el mismo workbook
 
 ## Inversión (detalle)
 - Bonos, plazos fijos, fondos, **venta/compra de dólares** → `Inversión` (+ fila en `MP No Gasto`)
