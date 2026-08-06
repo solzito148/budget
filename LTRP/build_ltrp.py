@@ -83,33 +83,37 @@ def build_resumen(wb: Workbook) -> None:
         ("Última actualización", "agosto 2026"),
         ("Moneda", "USD"),
         (
-            "Fórmula del cobro 31/01",
-            "SUMAR (Valor nominal ÷ 6) de cada plan vigente desde 2022",
+            "REGLA GENERAL",
+            "Se acumulan como máximo 6 planes; cada enero se suma el 1/6 de cada uno",
         ),
         (
-            "Ejemplo plan 2026",
-            "70.000 ÷ 6 = 11.666,67  +  1/6 de LTRP 2022…2025",
+            "Ejemplo — otorgado 70.000 en 2026",
+            "Ene 2027 = 1/6·2026 + 1/6·2025 + 1/6·2024 + 1/6·2023 + 1/6·2022",
         ),
-        ("Duración por plan", "6 cobros anuales (1/6 por año) en 31/01"),
+        (
+            "Ventana",
+            "Cuando entra un plan nuevo, el que ya cobró 6 veces sale de la suma",
+        ),
+        ("Fecha de cada cobro", "31/01"),
         ("Composición del pago", "50% fijo + 50% variable (acción MELI)"),
         ("", ""),
-        ("Pago base 31/01/2027 = suma de cinco 1/6", 32803.67),
-        ("  · LTRP 2022 ÷ 6", 5000),
-        ("  · LTRP 2023 ÷ 6", 5000),
-        ("  · LTRP 2024 ÷ 6", 5000),
-        ("  · LTRP 2025 ÷ 6", 6137),
-        ("  · LTRP 2026 ÷ 6", 11666.6666666667),
+        ("Pago base ene-2027 (suma de 1/6)", 32803.67),
+        ("  · 1/6 LTRP 2026 (70.000÷6)", 11666.6666666667),
+        ("  · 1/6 LTRP 2025 (36.822÷6)", 6137),
+        ("  · 1/6 LTRP 2024 (30.000÷6)", 5000),
+        ("  · 1/6 LTRP 2023 (30.000÷6)", 5000),
+        ("  · 1/6 LTRP 2022 (30.000÷6)", 5000),
         ("Estimación portal MELI 2027", 35332),
         ("Factor MELI implícito (solo variable)", 1.1542),
         ("", ""),
+        ("Planes vigentes hoy", 5),
+        ("Tope de planes por cobro", 6),
         ("Total valor nominal planes vigentes", 196822),
-        ("Planes vigentes", 5),
         ("", ""),
         (
             "Nota",
-            "El valor nominal (ej. 70.000) es el plan asignado ese año, "
-            "NO el cobro anual. El cobro = suma de los ÷6 activos. "
-            "El 50% variable mueve el total vs la base. "
+            "70.000 es el plan OTORGADO en 2026, no el cobro. "
+            "El cobro de enero = suma de hasta 6 tramos de Nominal÷6. "
             "Ingreso por bono; no es gasto CIUDAD/SOL.",
         ),
     ]
@@ -117,18 +121,17 @@ def build_resumen(wb: Workbook) -> None:
     _style_header(ws)
     for campo, valor in rows:
         ws.append([campo, valor])
-    for row_idx in (9, 10, 11, 12, 13, 14, 15, 18):
+    for row_idx in (10, 11, 12, 13, 14, 15, 16, 21):
         ws.cell(row_idx, 2).number_format = MONEY_FORMAT
     for row in ws.iter_rows(min_row=1, max_row=ws.max_row, max_col=2):
         for cell in row:
             cell.border = THIN
     ws["A1"].font = Font(bold=True, size=14, color="1F4E79")
-    # Destacar fila de suma 2027
-    ws["A9"].fill = PatternFill("solid", fgColor="FFF2CC")
-    ws["B9"].fill = PatternFill("solid", fgColor="FFF2CC")
-    ws["A9"].font = Font(bold=True)
-    ws["B9"].font = Font(bold=True)
-    _autosize(ws, min_width=28, max_width=80)
+    highlight = PatternFill("solid", fgColor="FFF2CC")
+    for addr in ("A4", "B4", "A5", "B5", "A10", "B10"):
+        ws[addr].fill = highlight
+        ws[addr].font = Font(bold=True)
+    _autosize(ws, min_width=28, max_width=90)
 
 
 def build_planes(wb: Workbook) -> None:
@@ -303,14 +306,15 @@ def build_simulacion(wb: Workbook) -> None:
 
 def build_detalle_2027(wb: Workbook) -> None:
     ws = wb.create_sheet("Detalle pago 2027")
-    ws.append(["Pago 31/01/2027 = suma de (Nominal ÷ 6) de cada plan desde 2022"])
+    ws.append(["Pago ene-2027 = 1/6·2026 + 1/6·2025 + 1/6·2024 + 1/6·2023 + 1/6·2022"])
     ws["A1"].font = Font(bold=True, size=13, color="1F4E79")
-    ws.append([])
+    ws.append(["Regla: máximo 6 planes acumulados; cada enero se suma el 1/6 de cada uno"])
+    ws["A2"].font = Font(italic=True, color="1F4E79")
     ws.append(
         [
             "Plan",
-            "Valor nominal USD",
-            "Nominal ÷ 6",
+            "Valor otorgado USD",
+            "1/6 en este pago",
             "Fijo 50% USD",
             "Variable base 50% USD",
             "Variable estimado*",
@@ -321,12 +325,13 @@ def build_detalle_2027(wb: Workbook) -> None:
 
     # Factor implícito desde estimado portal
     factor = 1.1542
+    # Orden: plan nuevo primero (como en el ejemplo de Sol)
     detalle = [
-        ("LTRP 2022", 30000.0),
-        ("LTRP 2023", 30000.0),
-        ("LTRP 2024", 30000.0),
-        ("LTRP 2025", 36822.0),
         ("LTRP 2026", 70000.0),
+        ("LTRP 2025", 36822.0),
+        ("LTRP 2024", 30000.0),
+        ("LTRP 2023", 30000.0),
+        ("LTRP 2022", 30000.0),
     ]
     start = 4
     for i, (plan, nominal) in enumerate(detalle):
@@ -343,7 +348,7 @@ def build_detalle_2027(wb: Workbook) -> None:
     end = start + len(detalle) - 1
     ws.append(
         [
-            "SUMA (pago base 31/01/2027)",
+            "SUMA (pago base ene-2027)",
             f"=SUM(B{start}:B{end})",
             f"=SUM(C{start}:C{end})",
             f"=SUM(D{start}:D{end})",
@@ -360,8 +365,13 @@ def build_detalle_2027(wb: Workbook) -> None:
             cell.number_format = MONEY_FORMAT
 
     ws.append([])
-    ws.append(["Fórmula", "Pago base = 30000/6 + 30000/6 + 30000/6 + 36822/6 + 70000/6"])
-    ws.append(["", "= 5.000 + 5.000 + 5.000 + 6.137 + 11.666,67 = 32.803,67"])
+    ws.append(
+        [
+            "Fórmula",
+            "1/6·70000 + 1/6·36822 + 1/6·30000 + 1/6·30000 + 1/6·30000",
+        ]
+    )
+    ws.append(["", "= 11.666,67 + 6.137 + 5.000 + 5.000 + 5.000 = 32.803,67"])
     ws.append(["Estimación portal MELI (agosto 2026)", 35332])
     ws["B" + str(ws.max_row)].number_format = MONEY_FORMAT
     ws.append(["Factor MELI usado en esta hoja (implícito)", factor])
@@ -373,8 +383,8 @@ def build_detalle_2027(wb: Workbook) -> None:
     )
     ws.append(
         [
-            "Pago final",
-            "(suma ÷6)×50% fijo + (suma ÷6)×50%×factor_MELI",
+            "Tope",
+            "Nunca más de 6 planes en un mismo enero; el más viejo sale al completar 6 cobros",
         ]
     )
     for row in ws.iter_rows(min_row=3, max_row=end + 1, max_col=7):
