@@ -83,9 +83,15 @@ Siempre **31/01**. El primer 1/6 de un plan otorgado en el año Y se cobra el **
 
 | Concepto | USD |
 |----------|----:|
-| Suma de 1/6 (base) | 32.803,67 |
+| Suma de 1/6 (base, sin efecto acción) | 32.803,67 |
 | Estimación portal MELI | **35.332** |
-| Factor MELI implícito (mitad variable) | ≈ 1,154 |
+| **Diferencia** | **+2.528,33** |
+
+Esa diferencia (**35.332 − 32.803,67**) se debe al **valor de la acción MELI** sobre el **50% variable**. El 50% fijo queda en 16.401,83; el 50% variable sube de 16.401,83 base a ≈ 18.930 por el precio de la acción (factor ≈ 1,154).
+
+```
+Pago estimado ≈  16.401,83 fijo  +  16.401,83 × factor_acción
+```
 
 ## Archivos
 

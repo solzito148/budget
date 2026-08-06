@@ -104,7 +104,12 @@ def build_resumen(wb: Workbook) -> None:
         ("  · 1/6 LTRP 2023 (30.000÷6)", 5000),
         ("  · 1/6 LTRP 2022 (30.000÷6)", 5000),
         ("Estimación portal MELI 2027", 35332),
-        ("Factor MELI implícito (solo variable)", 1.1542),
+        ("Diferencia (base → estimado)", 2528.33),
+        (
+            "Motivo de la diferencia",
+            "Valor de la acción MELI sobre el 50% variable (el 50% fijo no cambia)",
+        ),
+        ("Factor acción implícito (solo variable)", 1.1542),
         ("", ""),
         ("Planes vigentes hoy", 5),
         ("Tope de planes por cobro", 6),
@@ -113,22 +118,23 @@ def build_resumen(wb: Workbook) -> None:
         (
             "Nota",
             "70.000 es el plan OTORGADO en 2026, no el cobro. "
-            "El cobro de enero = suma de hasta 6 tramos de Nominal÷6. "
-            "Ingreso por bono; no es gasto CIUDAD/SOL.",
+            "Base 32.803,67 = suma de 1/6. "
+            "Estimado 35.332 = misma suma ajustada por el precio de la acción MELI "
+            "en la mitad variable. Ingreso por bono; no es gasto CIUDAD/SOL.",
         ),
     ]
     ws.append(["Campo", "Valor"])
     _style_header(ws)
     for campo, valor in rows:
         ws.append([campo, valor])
-    for row_idx in (10, 11, 12, 13, 14, 15, 16, 21):
+    for row_idx in (10, 11, 12, 13, 14, 15, 16, 17, 21):
         ws.cell(row_idx, 2).number_format = MONEY_FORMAT
     for row in ws.iter_rows(min_row=1, max_row=ws.max_row, max_col=2):
         for cell in row:
             cell.border = THIN
     ws["A1"].font = Font(bold=True, size=14, color="1F4E79")
     highlight = PatternFill("solid", fgColor="FFF2CC")
-    for addr in ("A4", "B4", "A5", "B5", "A10", "B10"):
+    for addr in ("A4", "B4", "A5", "B5", "A10", "B10", "A17", "B17", "A18", "B18"):
         ws[addr].fill = highlight
         ws[addr].font = Font(bold=True)
     _autosize(ws, min_width=28, max_width=90)
@@ -374,11 +380,19 @@ def build_detalle_2027(wb: Workbook) -> None:
     ws.append(["", "= 11.666,67 + 6.137 + 5.000 + 5.000 + 5.000 = 32.803,67"])
     ws.append(["Estimación portal MELI (agosto 2026)", 35332])
     ws["B" + str(ws.max_row)].number_format = MONEY_FORMAT
-    ws.append(["Factor MELI usado en esta hoja (implícito)", factor])
+    ws.append(["Diferencia vs base", 35332 - 32803.67])
+    ws["B" + str(ws.max_row)].number_format = MONEY_FORMAT
+    ws.append(
+        [
+            "Motivo diferencia",
+            "Valor de la acción MELI (ajusta solo el 50% variable; el fijo no cambia)",
+        ]
+    )
+    ws.append(["Factor acción implícito (solo variable)", factor])
     ws.append(
         [
             "*Variable estimado",
-            "Variable base × factor MELI implícito (35.332 vs base 32.803,67)",
+            "Variable base × factor de la acción (35.332 − 32.803,67 = efecto MELI)",
         ]
     )
     ws.append(
