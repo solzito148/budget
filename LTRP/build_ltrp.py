@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenera LTRP/LTRP_Sol.xlsx desde los CSV canónicos del programa."""
+"""Regenera LTRP/LTRP.xlsx — Excel canónico del Long Term Retention Program."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT / "LTRP_Sol.xlsx"
+OUT = ROOT / "LTRP.xlsx"
 
 PLANES_CSV = ROOT / "planes_vigentes.csv"
 VESTING_CSV = ROOT / "calendario_vesting.csv"

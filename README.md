@@ -10,7 +10,7 @@ gastos, fórmulas, clientes, medidores ni detalles entre propiedades.
 - `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
 - `BONORINO/Gastos_BONORINO_2026.xlsx`
 - `SOL/Gastos_SOL_2026.xlsx` — maestro de gasto personal Sol
-- `LTRP/` — Long Term Retention Program (bono USD MELI; no es gasto de propiedad)
+- `LTRP/LTRP.xlsx` — Long Term Retention Program (bono USD MELI; Excel a parte, no es gasto de propiedad)
 
 ## Reglas generales
 

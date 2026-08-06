@@ -105,8 +105,8 @@ En **31/01/2027** entran los cinco planes → suma de cinco 1/6 = **32.803,67** 
 | `planes_vigentes.csv` | Valor nominal asignado por año |
 | `calendario_vesting.csv` | Qué planes aportan en cada 31/01 |
 | `simulacion_pagos.csv` | Proyección de la **suma de 1/6** por año |
-| `build_ltrp.py` | Regenera el Excel |
-| `LTRP_Sol.xlsx` | Libro con planes, suma por cobro y detalle 2027 |
+| `build_ltrp.py` | Regenera el Excel canónico |
+| **`LTRP.xlsx`** | **Excel a parte** con todo el cálculo (planes, suma 1/6, calendario, simulación 2027) |
 
 ## Cómo regenerar
 
