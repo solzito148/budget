@@ -1,6 +1,6 @@
 plan,anio_grant,valor_nominal_usd,tramo_anual_usd,fijo_50_usd,variable_50_base_usd,estado,notas
-LTRP 2022,2022,30000,5000,2500,2500,vigente,Primer pago 31/01/2023 · último 31/01/2028
-LTRP 2023,2023,30000,5000,2500,2500,vigente,Primer pago 31/01/2024 · último 31/01/2029
-LTRP 2024,2024,30000,5000,2500,2500,vigente,Primer pago 31/01/2025 · último 31/01/2030
-LTRP 2025,2025,36822,6137,3068.5,3068.5,vigente,Primer pago 31/01/2026 · último 31/01/2031
-LTRP 2026,2026,70000,11666.6666666667,5833.3333333333,5833.3333333333,vigente,Primer pago 31/01/2027 · último 31/01/2032
+LTRP 2022,2022,30000,5000,2500,2500,vigente,Valor asignado 2022 · aporta 30000/6=5000 en cada 31/01 (2023-2028)
+LTRP 2023,2023,30000,5000,2500,2500,vigente,Valor asignado 2023 · aporta 30000/6=5000 en cada 31/01 (2024-2029)
+LTRP 2024,2024,30000,5000,2500,2500,vigente,Valor asignado 2024 · aporta 30000/6=5000 en cada 31/01 (2025-2030)
+LTRP 2025,2025,36822,6137,3068.5,3068.5,vigente,Valor asignado 2025 · aporta 36822/6=6137 en cada 31/01 (2026-2031)
+LTRP 2026,2026,70000,11666.6666666667,5833.3333333333,5833.3333333333,vigente,Valor asignado 2026 · aporta 70000/6=11666.67 en cada 31/01 (2027-2032) · sumar con 1/6 de 2022..2025

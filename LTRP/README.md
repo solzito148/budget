@@ -4,92 +4,109 @@ Carpeta especial para el cálculo, tracking y proyección de pagos del **Long Te
 
 **Última actualización:** agosto 2026
 
-## Qué es
+## Fórmula del pago (regla clave)
 
-El LTRP es una asignación en **dólares (USD)** que se acumula durante un período de **6 años**. Cada año se libera **1/6** del valor nominal del plan, y ese tramo se paga compuesto así:
+Cada plan tiene un **valor nominal** asignado ese año. Ese plan paga **Nominal ÷ 6** cada 31/01 durante 6 años.
+
+El cobro de un 31/01 **no es solo el plan nuevo**: hay que **sumar el 1/6 de todos los planes vigentes desde 2022** que todavía estén en su ventana de 6 años.
+
+```
+Pago base (31/01/AAAA)  =  Σ  (Valor_nominal_plan ÷ 6)
+                           para cada plan LTRP 2022…AAAA-1
+                           que aún no haya completado sus 6 tramos
+```
+
+Ejemplo — **pago 31/01/2027** (incluye el plan 2026 de 70.000):
+
+| Concepto | Valor nominal | ÷ 6 (aporte al pago) |
+|----------|--------------:|---------------------:|
+| LTRP 2022 | 30.000 | 5.000 |
+| LTRP 2023 | 30.000 | 5.000 |
+| LTRP 2024 | 30.000 | 5.000 |
+| LTRP 2025 | 36.822 | 6.137 |
+| LTRP 2026 | 70.000 | 11.666,67 |
+| **Suma = pago base** | **196.822** | **32.803,67** |
+
+```
+70.000 ÷ 6 = 11.666,67   ← solo el plan 2026
++ 5.000 + 5.000 + 5.000 + 6.137   ← 1/6 de 2022…2025
+= 32.803,67 USD base
+```
+
+## Composición 50% fijo / 50% variable
+
+Sobre ese total (o tramo a tramo), el pago se compone:
 
 | Componente | Peso | Descripción |
 |------------|-----:|-------------|
-| Fijo | 50% | Monto estable sobre el valor nominal del tramo |
-| Variable | 50% | Sujeto a la variación de la acción de **MELI** |
+| Fijo | 50% | Monto estable sobre el 1/6 nominal |
+| Variable | 50% | Sujeto a la variación de la acción **MELI** |
 
 ```
-Pago anual del plan = (Nominal ÷ 6) × 50%  +  (Nominal ÷ 6) × 50% × factor_MELI
+Pago final = (suma 1/6) × 50%  +  (suma 1/6) × 50% × factor_MELI
 ```
-
-donde `factor_MELI` refleja la variación de la acción respecto del referente del plan.
 
 ## Fecha de pago
 
-El bono se paga el **31/01** del año siguiente al período calculado.
+El bono se paga el **31/01** del año siguiente al período del plan.
 
-| Período calculado | Fecha de pago |
-|-------------------|---------------|
-| 2026 | **31/01/2027** |
-| 2027 | 31/01/2028 |
+| Plan / período | Primer 1/6 se cobra el |
+|----------------|------------------------|
+| LTRP 2026 (70.000) | **31/01/2027** |
+| LTRP 2025 | 31/01/2026 |
+| LTRP 2024 | 31/01/2025 |
 | … | … |
 
-## Planes vigentes
+## Planes vigentes (valor asignado por año)
 
-| Concepto | Valor nominal (USD) | 1/6 anual (USD) | Fijo 50% | Variable 50% (base) |
-|----------|--------------------:|----------------:|---------:|--------------------:|
-| LTRP 2022 | 30.000 | 5.000 | 2.500 | 2.500 |
-| LTRP 2023 | 30.000 | 5.000 | 2.500 | 2.500 |
-| LTRP 2024 | 30.000 | 5.000 | 2.500 | 2.500 |
-| LTRP 2025 | 36.822 | 6.137 | 3.068,50 | 3.068,50 |
-| LTRP 2026 | 70.000 | 11.666,67 | 5.833,33 | 5.833,33 |
-| **Total** | **196.822** | **32.803,67** | **16.401,83** | **16.401,83** |
+| Concepto | Valor nominal (USD) | 1/6 anual (USD) |
+|----------|--------------------:|----------------:|
+| LTRP 2022 | 30.000 | 5.000 |
+| LTRP 2023 | 30.000 | 5.000 |
+| LTRP 2024 | 30.000 | 5.000 |
+| LTRP 2025 | 36.822 | 6.137 |
+| LTRP 2026 | **70.000** | **11.666,67** |
+| **Suma (si todos aportan)** | **196.822** | **32.803,67** |
 
-Fuentes de datos: `planes_vigentes.csv`.
+Fuente: `planes_vigentes.csv`.
 
-## Calendario de vesting (1/6 por año)
+## Calendario: qué 1/6 entra en cada 31/01
 
-Cada plan paga durante **6 años consecutivos**, acumulándose con los demás planes vigentes.
+Cada plan aporta su **Nominal÷6** durante **6 cobros consecutivos**.
 
-| Plan | 2023 | 2024 | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 |
-|------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| LTRP 2022 | 1/6 | 2/6 | 3/6 | 4/6 | 5/6 | 6/6 | — | — | — | — |
-| LTRP 2023 | — | 1/6 | 2/6 | 3/6 | 4/6 | 5/6 | 6/6 | — | — | — |
-| LTRP 2024 | — | — | 1/6 | 2/6 | 3/6 | 4/6 | 5/6 | 6/6 | — | — |
-| LTRP 2025 | — | — | — | 1/6 | 2/6 | 3/6 | 4/6 | 5/6 | 6/6 | — |
-| LTRP 2026 | — | — | — | — | 1/6 | 2/6 | 3/6 | 4/6 | 5/6 | 6/6 |
+| Plan | 31/01/23 | 24 | 25 | 26 | **27** | 28 | 29 | 30 | 31 | 32 |
+|------|:--------:|:--:|:--:|:--:|:------:|:--:|:--:|:--:|:--:|:--:|
+| LTRP 2022 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | | | | |
+| LTRP 2023 | | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | | | |
+| LTRP 2024 | | | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | | |
+| LTRP 2025 | | | | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | |
+| LTRP 2026 | | | | | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **# planes** | 1 | 2 | 3 | 4 | **5** | 5 | 4 | 3 | 2 | 1 |
 
-La columna indica el **año de pago** (fecha efectiva **31/01** de ese año).
+En **31/01/2027** entran los cinco planes → suma de cinco 1/6 = **32.803,67** base.
 
-## Simulación de pagos
+## Simulación — estimación portal 2027
 
 **Última actualización:** agosto 2026
 
-### Estimación de pago para 2027 (31/01/2027)
-
 | Concepto | USD |
 |----------|----:|
-| Base fija (50% de todos los tramos 2027) | 16.401,83 |
-| Variable base (50%, factor MELI = 1,0) | 16.401,83 |
-| **Base total (factor 1,0)** | **32.803,67** |
+| Suma de 1/6 (base, factor MELI = 1,0) | 32.803,67 |
+| de lo cual fijo 50% | 16.401,83 |
+| de lo cual variable 50% base | 16.401,83 |
 | **Estimación portal MELI** | **35.332** |
-| Factor MELI implícito (solo sobre variable) | ≈ 1,154 |
-
-Planes que aportan al pago 2027:
-
-| Plan | Año de vesting | Tramo 1/6 | Fijo | Variable base |
-|------|---------------:|----------:|-----:|--------------:|
-| LTRP 2022 | 5/6 | 5.000 | 2.500 | 2.500 |
-| LTRP 2023 | 4/6 | 5.000 | 2.500 | 2.500 |
-| LTRP 2024 | 3/6 | 5.000 | 2.500 | 2.500 |
-| LTRP 2025 | 2/6 | 6.137 | 3.068,50 | 3.068,50 |
-| LTRP 2026 | 1/6 | 11.666,67 | 5.833,33 | 5.833,33 |
+| Factor MELI implícito (sobre la mitad variable) | ≈ 1,154 |
 
 ## Archivos
 
 | Archivo | Uso |
 |---------|-----|
-| `README.md` | Norma y explicación del programa |
-| `planes_vigentes.csv` | Valores nominales de cada LTRP |
-| `calendario_vesting.csv` | Matriz año × plan (fracción 1/6) |
-| `simulacion_pagos.csv` | Proyección de pagos por año (base + estimado) |
-| `build_ltrp.py` | Regenera el Excel canónico desde los CSV |
-| `LTRP_Sol.xlsx` | Libro Excel con planes, calendario y simulación |
+| `README.md` | Norma y fórmula |
+| `planes_vigentes.csv` | Valor nominal asignado por año |
+| `calendario_vesting.csv` | Qué planes aportan en cada 31/01 |
+| `simulacion_pagos.csv` | Proyección de la **suma de 1/6** por año |
+| `build_ltrp.py` | Regenera el Excel |
+| `LTRP_Sol.xlsx` | Libro con planes, suma por cobro y detalle 2027 |
 
 ## Cómo regenerar
 
@@ -99,6 +116,8 @@ python3 LTRP/build_ltrp.py
 
 ## Notas
 
-- Montos en **USD**. El factor variable depende de la acción MELI; la estimación del portal puede diferir de la base a factor 1,0.
-- Los planes se **acumulan**: en un mismo 31/01 pueden cobrar varios LTRP a la vez (hasta 6 tramos simultáneos cuando hay 6 planes activos).
-- Esta carpeta es **independiente** del presupuesto hogareño CIUDAD / propiedades / Gasto Personal Sol. Es tracking de ingreso por bono, no un gasto.
+- El valor de cada fila (30.000, 70.000, etc.) es el **plan asignado ese año**, no el cobro anual.
+- El cobro anual de un plan = ese valor ÷ 6.
+- El cobro del 31/01 = **suma** de esos ÷6 de todos los planes aún activos desde 2022.
+- El 50% variable mueve el total respecto de la base (ej. portal 35.332 vs base 32.803,67).
+- Carpeta **independiente** de CIUDAD / propiedades / Gasto Personal Sol (ingreso por bono, no gasto).

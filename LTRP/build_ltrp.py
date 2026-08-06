@@ -82,12 +82,24 @@ def build_resumen(wb: Workbook) -> None:
         ("Long Term Retention Program (LTRP)", ""),
         ("Última actualización", "agosto 2026"),
         ("Moneda", "USD"),
-        ("Duración por plan", "6 años (1/6 por año)"),
+        (
+            "Fórmula del cobro 31/01",
+            "SUMAR (Valor nominal ÷ 6) de cada plan vigente desde 2022",
+        ),
+        (
+            "Ejemplo plan 2026",
+            "70.000 ÷ 6 = 11.666,67  +  1/6 de LTRP 2022…2025",
+        ),
+        ("Duración por plan", "6 cobros anuales (1/6 por año) en 31/01"),
         ("Composición del pago", "50% fijo + 50% variable (acción MELI)"),
-        ("Fecha de pago", "31/01 del año siguiente al período calculado"),
         ("", ""),
-        ("Estimación de pago para 2027", 35332),
-        ("Base total 2027 (factor MELI = 1,0)", 32803.67),
+        ("Pago base 31/01/2027 = suma de cinco 1/6", 32803.67),
+        ("  · LTRP 2022 ÷ 6", 5000),
+        ("  · LTRP 2023 ÷ 6", 5000),
+        ("  · LTRP 2024 ÷ 6", 5000),
+        ("  · LTRP 2025 ÷ 6", 6137),
+        ("  · LTRP 2026 ÷ 6", 11666.6666666667),
+        ("Estimación portal MELI 2027", 35332),
         ("Factor MELI implícito (solo variable)", 1.1542),
         ("", ""),
         ("Total valor nominal planes vigentes", 196822),
@@ -95,22 +107,27 @@ def build_resumen(wb: Workbook) -> None:
         ("", ""),
         (
             "Nota",
-            "El 50% variable depende de la acción MELI. "
-            "La estimación del portal puede diferir de la base a factor 1,0. "
-            "Esta carpeta trackea ingreso por bono; no es gasto CIUDAD/SOL.",
+            "El valor nominal (ej. 70.000) es el plan asignado ese año, "
+            "NO el cobro anual. El cobro = suma de los ÷6 activos. "
+            "El 50% variable mueve el total vs la base. "
+            "Ingreso por bono; no es gasto CIUDAD/SOL.",
         ),
     ]
     ws.append(["Campo", "Valor"])
     _style_header(ws)
     for campo, valor in rows:
         ws.append([campo, valor])
-    ws["B8"].number_format = MONEY_FORMAT
-    ws["B9"].number_format = MONEY_FORMAT
-    ws["B12"].number_format = MONEY_FORMAT
+    for row_idx in (9, 10, 11, 12, 13, 14, 15, 18):
+        ws.cell(row_idx, 2).number_format = MONEY_FORMAT
     for row in ws.iter_rows(min_row=1, max_row=ws.max_row, max_col=2):
         for cell in row:
             cell.border = THIN
     ws["A1"].font = Font(bold=True, size=14, color="1F4E79")
+    # Destacar fila de suma 2027
+    ws["A9"].fill = PatternFill("solid", fgColor="FFF2CC")
+    ws["B9"].fill = PatternFill("solid", fgColor="FFF2CC")
+    ws["A9"].font = Font(bold=True)
+    ws["B9"].font = Font(bold=True)
     _autosize(ws, min_width=28, max_width=80)
 
 
@@ -286,14 +303,14 @@ def build_simulacion(wb: Workbook) -> None:
 
 def build_detalle_2027(wb: Workbook) -> None:
     ws = wb.create_sheet("Detalle pago 2027")
-    ws.append(["Detalle estimación pago 31/01/2027"])
+    ws.append(["Pago 31/01/2027 = suma de (Nominal ÷ 6) de cada plan desde 2022"])
     ws["A1"].font = Font(bold=True, size=13, color="1F4E79")
     ws.append([])
     ws.append(
         [
             "Plan",
-            "Año vesting",
-            "Tramo 1/6 USD",
+            "Valor nominal USD",
+            "Nominal ÷ 6",
             "Fijo 50% USD",
             "Variable base 50% USD",
             "Variable estimado*",
@@ -305,28 +322,29 @@ def build_detalle_2027(wb: Workbook) -> None:
     # Factor implícito desde estimado portal
     factor = 1.1542
     detalle = [
-        ("LTRP 2022", "5/6", 5000.0),
-        ("LTRP 2023", "4/6", 5000.0),
-        ("LTRP 2024", "3/6", 5000.0),
-        ("LTRP 2025", "2/6", 6137.0),
-        ("LTRP 2026", "1/6", 70000.0 / 6.0),
+        ("LTRP 2022", 30000.0),
+        ("LTRP 2023", 30000.0),
+        ("LTRP 2024", 30000.0),
+        ("LTRP 2025", 36822.0),
+        ("LTRP 2026", 70000.0),
     ]
     start = 4
-    for i, (plan, vesting, tramo) in enumerate(detalle):
+    for i, (plan, nominal) in enumerate(detalle):
+        tramo = nominal / 6.0
         fijo = tramo * 0.5
         var_base = tramo * 0.5
         var_est = var_base * factor
         total_est = fijo + var_est
-        ws.append([plan, vesting, tramo, fijo, var_base, var_est, total_est])
+        ws.append([plan, nominal, tramo, fijo, var_base, var_est, total_est])
         r = start + i
-        for col in range(3, 8):
+        for col in range(2, 8):
             ws.cell(r, col).number_format = MONEY_FORMAT
 
     end = start + len(detalle) - 1
     ws.append(
         [
-            "TOTAL",
-            "",
+            "SUMA (pago base 31/01/2027)",
+            f"=SUM(B{start}:B{end})",
             f"=SUM(C{start}:C{end})",
             f"=SUM(D{start}:D{end})",
             f"=SUM(E{start}:E{end})",
@@ -338,23 +356,25 @@ def build_detalle_2027(wb: Workbook) -> None:
         cell = ws.cell(end + 1, col)
         cell.font = Font(bold=True)
         cell.fill = SECTION_FILL
-        if col >= 3:
+        if col >= 2:
             cell.number_format = MONEY_FORMAT
 
     ws.append([])
+    ws.append(["Fórmula", "Pago base = 30000/6 + 30000/6 + 30000/6 + 36822/6 + 70000/6"])
+    ws.append(["", "= 5.000 + 5.000 + 5.000 + 6.137 + 11.666,67 = 32.803,67"])
     ws.append(["Estimación portal MELI (agosto 2026)", 35332])
     ws["B" + str(ws.max_row)].number_format = MONEY_FORMAT
     ws.append(["Factor MELI usado en esta hoja (implícito)", factor])
     ws.append(
         [
             "*Variable estimado",
-            "Variable base × factor MELI implícito derivado de 35.332 vs base 32.803,67",
+            "Variable base × factor MELI implícito (35.332 vs base 32.803,67)",
         ]
     )
     ws.append(
         [
-            "Fórmula",
-            "Pago = (Nominal/6)×50% + (Nominal/6)×50%×factor_MELI",
+            "Pago final",
+            "(suma ÷6)×50% fijo + (suma ÷6)×50%×factor_MELI",
         ]
     )
     for row in ws.iter_rows(min_row=3, max_row=end + 1, max_col=7):
