@@ -339,7 +339,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-04,Susana Carmen Ortiz,82416,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
 2026-04-05,Ema Maldonado,7000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-04-05,Wordpress,,GASTO_PERSONAL_SOL,US$228 · gasto personal Sol
-2026-04-06,Metrogas,4850,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
+2026-04-06,Metrogas,4850,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS · período marzo (pago 6-abr)
 2026-04-06,Supermercados Dia,71961,ALMACEN_SOL,SUPERMERCADO · Día
 2026-04-06,Farmacia Maure,191500,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Maure
 2026-04-06,Uber (Ebanx),6793,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
@@ -461,7 +461,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-08,Ruth Calvetti,266443,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-05-08,Mercado Libre,4699990,EXCLUIR,devuelto - neto 0
 2026-05-08,Arca VEP,17372,IMPUESTOS_AFIP,ARCA VEP
-2026-05-08,Metrogas,4935,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
+2026-05-08,Metrogas,4935,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS · período abril (pago 8-may)
 2026-05-08,Didi,1500,GASTO_PERSONAL_SOL,transporte
 2026-05-08,Didi,7400,EXCLUIR,cancelado neto 0
 2026-05-08,Ana Magariños,5000,TRANSFERENCIA_RECIBIDA,recibida · hoja Transferencias recibidas (no gasto)
@@ -568,7 +568,7 @@ fecha,comercio,monto,categoria,comentario
 2026-06-02,Andres Di Pasqua,32046,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
 2026-06-02,Correo Argentino,22500,GASTO_PERSONAL_SOL,envíos · gasto personal Sol
 2026-06-03,Vercel Domains,,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol
-2026-06-03,Metrogas,4984,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
+2026-06-03,Metrogas,4984,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS · período mayo (pago 3-jun)
 2026-06-03,Carrefour Ecommerce,23943,ALMACEN_SOL,SUPERMERCADO · Carrefour
 2026-06-04,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-06-05,Sanes Maria Sole,,EXCLUIR,cancelado US$500
@@ -707,7 +707,7 @@ fecha,comercio,monto,categoria,comentario
 2026-07-14,Carenzo Santiago P,398240,GASTO_PERSONAL_SOL,USA BOX · Carenzo Santiago P · importadora · gasto personal Sol
 2026-07-14,Agip Abl Gcba,88891,ABL_OHIGGINS,ABL OHIGGINS partida 3016365 · $88.891 (>80.000)
 2026-07-14,Agip Abl Gcba,26175,ABL_CIUDAD,ABL CIUDAD partida 397789 · $26.175
-2026-07-14,Metrogas,5208,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
+2026-07-14,Metrogas,5208,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS · período junio (pago 14-jul)
 2026-07-15,Mercado Libre,30318,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-07-15,Mercado Libre,18525,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-07-15,Sanes Maria Sole,,EXCLUIR,propia US$500
