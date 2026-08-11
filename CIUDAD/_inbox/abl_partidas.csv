@@ -1,5 +1,5 @@
-propiedad,partida_abl,archivo,regla_monto,notas
-CIUDAD,397789,CIUDAD/Gastos_CIUDAD_1132_2026.xlsx,<=80000,ABL AGIP
-OHIGGINS,3016365,OHIGGINS/Gastos_OHIGGINS_2026.xlsx,>80000,ABL AGIP
+propiedad,partida_abl,archivo,medio_pago,notas
+CIUDAD,3977389,CIUDAD/Gastos_CIUDAD_1132_2026.xlsx,Mercado Pago — Dinero disponible,ABL AGIP · paga Sol con dinero en cuenta MP
+OHIGGINS,3016365,OHIGGINS/Gastos_OHIGGINS_2026.xlsx,Mercado Pago,ABL AGIP
 AVA,,,pendiente,
 BONORINO,,,pendiente,
