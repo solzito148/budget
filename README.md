@@ -6,9 +6,22 @@ gastos, fórmulas, clientes, medidores ni detalles entre propiedades.
 ## Estructura
 
 - `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`
-- `AVA/Gastos_AVA_2026.xlsx`
-- `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
 - `BONORINO/Gastos_BONORINO_2026.xlsx`
+- `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
+- `SOL/Gastos_SOL_2026.xlsx` (maestro gastos personales Sol)
+- `AVA/Gastos_AVA_2026.xlsx`
+- `Gastos/` — espejo plano de los 4 Excel de trabajo (CIUDAD, BONORINO, OHIGGINS, SOL)
+
+## Carpeta canónica compartida (Google Drive)
+
+https://drive.google.com/drive/folders/1cWkY56sBG-k7ZmdzIdRImUr4EyHHSE7x
+
+Ahí viven juntos los gastos de CIUDAD, BONORINO, OHIGGINS y personales Sol.
+Tras editar, sincronizar con:
+
+```bash
+python3 scripts/sync_gastos_drive.py
+```
 
 ## Reglas generales
 
@@ -18,6 +31,4 @@ gastos, fórmulas, clientes, medidores ni detalles entre propiedades.
 - La hoja `Detalle` registra fecha, forma de pago, número de cliente y
   número de medidor cuando estén disponibles.
 - Cada archivo solo puede contener datos de su propia propiedad.
-
-La planilla de CIUDAD se mantiene sincronizada con su archivo canónico en
-Google Drive.
+- Trabajar siempre sobre la carpeta Drive / espejo `Gastos/` como set compartido de referencia.
