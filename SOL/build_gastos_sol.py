@@ -2,6 +2,7 @@ from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
 import re
+import shutil
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
@@ -839,6 +840,10 @@ def build():
 
     workbook.save(OUTPUT)
     print(f"Created: {OUTPUT}")
+    mirror = ROOT / "Gastos" / OUTPUT.name
+    mirror.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(OUTPUT, mirror)
+    print(f"Mirrored: {mirror}")
     print(f"Actual rows: {len(actual)} | Personal: {len(personal)} | Almacén: {len(warehouse)}")
     print(f"Projected: {len(projected)} | Cashflow BBVA: {len(cashflow)} | Compromisos: {len(compromisos)}")
     print(f"Actual 2026 ARS: {sum(item['ars'] or 0 for item in actual_2026):,.0f}")

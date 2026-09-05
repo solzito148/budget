@@ -1,0 +1,21 @@
+# Carpeta canónica de gastos (Google Drive)
+
+## Fuente compartida
+- Carpeta Drive: https://drive.google.com/drive/folders/1cWkY56sBG-k7ZmdzIdRImUr4EyHHSE7x
+- Folder ID: `1cWkY56sBG-k7ZmdzIdRImUr4EyHHSE7x`
+- Espejo local: `Gastos/` con exactamente estos 4 archivos:
+  - `Gastos_CIUDAD_1132_2026.xlsx`
+  - `Gastos_BONORINO_2026.xlsx`
+  - `Gastos_OHIGGINS_2026.xlsx`
+  - `Gastos_SOL_2026.xlsx` (gastos personales Sol / maestro)
+
+## Cómo trabajar
+1. Editar siempre el archivo de la propiedad (`CIUDAD/`, `BONORINO/`, `OHIGGINS/`) o regenerar `SOL/Gastos_SOL_2026.xlsx` con `python3 SOL/build_gastos_sol.py`.
+2. Tras cualquier cambio, correr `python3 scripts/sync_gastos_drive.py` para refrescar `Gastos/` y subir a Drive si hay credenciales.
+3. No crear planillas paralelas fuera de esa carpeta Drive / `Gastos/`.
+4. No mezclar propiedades: cada Excel sigue siendo independiente.
+5. Si no hay auth de Drive en el entorno, dejar los 4 archivos listos en `Gastos/` y avisar que falta login/credencial para subir.
+
+## Qué no va ahí
+- `AVA/` sigue aparte (fideicomiso).
+- Inbox / CSV / scripts no se suben a esa carpeta Drive salvo pedido explícito.
