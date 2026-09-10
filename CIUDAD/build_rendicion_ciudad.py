@@ -135,7 +135,9 @@ def load_almacen(wb) -> tuple[dict, dict, dict, dict]:
     alm = wb["Almacen Detalle"]
     sol = defaultdict(int)
     chris = defaultdict(int)
-    fam = {m: defaultdict(int) for m in MONTHS}
+    fam = {
+        m: defaultdict(lambda: {"sol": 0, "chris": 0, "total": 0}) for m in MONTHS
+    }
     items = {m: [] for m in MONTHS}
 
     for r in range(4, alm.max_row + 1):
@@ -155,7 +157,10 @@ def load_almacen(wb) -> tuple[dict, dict, dict, dict]:
             continue
         sol[mes] += s
         chris[mes] += c
-        fam[mes][family(detalle)] += s + c
+        fam_key = family(detalle)
+        fam[mes][fam_key]["sol"] += s
+        fam[mes][fam_key]["chris"] += c
+        fam[mes][fam_key]["total"] += s + c
         fecha = alm.cell(r, 2).value
         comentario = alm.cell(r, 7).value
         items[mes].append(
@@ -165,7 +170,7 @@ def load_almacen(wb) -> tuple[dict, dict, dict, dict]:
                 "sol": s,
                 "chris": c,
                 "total": s + c,
-                "familia": family(detalle),
+                "familia": fam_key,
                 "comentario": comentario or "",
             }
         )
@@ -379,9 +384,34 @@ def build_excel(rendicion, fam, items) -> None:
     for i, w in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(i)].width = w
 
-    # --- Almacén por familia ---
+    # --- Almacén Sol vs Chris (por mes) ---
+    wsc = wb.create_sheet("Almacén Sol vs Chris")
+    wsc["A1"] = "Almacén — Sol vs Chris por mes"
+    wsc["A1"].font = Font(size=14, bold=True, color=TEAL)
+    for c, h in enumerate(["Mes", "Almacén Sol", "Almacén Chris", "Total almacén"], 1):
+        style_header(wsc.cell(3, c, h), TEAL)
+    r = 4
+    sum_s = sum_c = 0
+    for mes in MONTHS:
+        d = rendicion[mes]
+        wsc.cell(r, 1, mes).border = THIN
+        write_money(wsc, r, 2, d["almacen_sol"])
+        write_money(wsc, r, 3, d["almacen_chris"])
+        write_money(wsc, r, 4, d["almacen_sol"] + d["almacen_chris"], bold=True)
+        sum_s += d["almacen_sol"]
+        sum_c += d["almacen_chris"]
+        r += 1
+    wsc.cell(r, 1, "TOTAL").font = Font(bold=True)
+    wsc.cell(r, 1).border = THIN
+    write_money(wsc, r, 2, sum_s, bold=True)
+    write_money(wsc, r, 3, sum_c, bold=True)
+    write_money(wsc, r, 4, sum_s + sum_c, bold=True)
+    for i, w in enumerate([14, 14, 14, 14], 1):
+        wsc.column_dimensions[get_column_letter(i)].width = w
+
+    # --- Almacén por familia (Sol | Chris | Total) ---
     wsf = wb.create_sheet("Almacén por familia")
-    wsf["A1"] = "Almacén — totales por familia y mes"
+    wsf["A1"] = "Almacén — por familia (Sol / Chris / Total)"
     wsf["A1"].font = Font(size=14, bold=True, color=TEAL)
     families = [
         "SUPERMERCADO",
@@ -394,30 +424,42 @@ def build_excel(rendicion, fam, items) -> None:
         "REPUESTOS",
         "OTROS",
     ]
+    # Header: Familia | then for each month Sol/Chris/Total — too wide.
+    # Instead: Familia | Total Sol | Total Chris | Total | then monthly total
     style_header(wsf.cell(3, 1, "Familia"), TEAL)
+    style_header(wsf.cell(3, 2, "Almacén Sol"), TEAL)
+    style_header(wsf.cell(3, 3, "Almacén Chris"), TEAL)
+    style_header(wsf.cell(3, 4, "Total"), TEAL)
     for i, mes in enumerate(MONTHS):
-        style_header(wsf.cell(3, i + 2, mes), TEAL)
-    style_header(wsf.cell(3, 14, "TOTAL"), TEAL)
+        style_header(wsf.cell(3, i + 5, mes), TEAL)
 
     r = 4
-    col_totals = [0] * 12
+    col_month_totals = [0] * 12
+    tot_sol = tot_chris = 0
     for fam_name in families:
         wsf.cell(r, 1, fam_name).border = THIN
-        row_tot = 0
+        row_sol = sum(fam[m].get(fam_name, {}).get("sol", 0) for m in MONTHS)
+        row_chris = sum(fam[m].get(fam_name, {}).get("chris", 0) for m in MONTHS)
+        row_tot = row_sol + row_chris
+        write_money(wsf, r, 2, row_sol)
+        write_money(wsf, r, 3, row_chris)
+        write_money(wsf, r, 4, row_tot, bold=True)
+        tot_sol += row_sol
+        tot_chris += row_chris
         for i, mes in enumerate(MONTHS):
-            v = fam[mes].get(fam_name, 0)
-            write_money(wsf, r, i + 2, v)
-            row_tot += v
-            col_totals[i] += v
-        write_money(wsf, r, 14, row_tot, bold=True)
+            v = fam[mes].get(fam_name, {}).get("total", 0)
+            write_money(wsf, r, i + 5, v)
+            col_month_totals[i] += v
         r += 1
     wsf.cell(r, 1, "TOTAL").font = Font(bold=True)
     wsf.cell(r, 1).border = THIN
-    for i, v in enumerate(col_totals):
-        write_money(wsf, r, i + 2, v, bold=True)
-    write_money(wsf, r, 14, sum(col_totals), bold=True)
+    write_money(wsf, r, 2, tot_sol, bold=True)
+    write_money(wsf, r, 3, tot_chris, bold=True)
+    write_money(wsf, r, 4, tot_sol + tot_chris, bold=True)
+    for i, v in enumerate(col_month_totals):
+        write_money(wsf, r, i + 5, v, bold=True)
     wsf.column_dimensions["A"].width = 18
-    for i in range(2, 15):
+    for i in range(2, 17):
         wsf.column_dimensions[get_column_letter(i)].width = 12
 
     # --- Una hoja por mes con datos ---
@@ -433,26 +475,32 @@ def build_excel(rendicion, fam, items) -> None:
             f"Pagó Sol {fmt_ars(d['pagado_sol'])} · Pagó Chris {fmt_ars(d['pagado_chris'])}"
         )
 
-        # Liquidación box
+        # Liquidación box — columnas Sol / Chris
         wsm["A4"] = "Liquidación Sol / Chris"
         wsm["A4"].font = Font(bold=True, color=NAVY)
-        for c, h in enumerate(["Concepto", "Monto"], 1):
+        for c, h in enumerate(["Concepto", "Sol", "Chris", "Total"], 1):
             style_header(wsm.cell(5, c, h))
-        liq = [
-            ("TOTAL casa + almacén", d["total"], False, "ceil"),
-            ("Cada uno (÷2)", d["cada_uno"], False, "settle"),
-            ("Pagó Sol (servicios + ALMACEN SOL)", d["pagado_sol"], False, "ceil"),
-            ("Pagó Chris (ALMACEN CHRIS)", d["pagado_chris"], False, "ceil"),
-            ("Pendiente Sol (+ paga a Chris / − a favor)", d["pendiente_sol"], True, "settle"),
-            ("Pendiente Chris (+ paga a Sol)", d["pendiente_chris"], True, "settle"),
+        servicios = d["total"] - d["almacen_sol"] - d["almacen_chris"]
+        # Filas con montos en Sol / Chris / Total
+        liq_rows = [
+            ("Servicios casa", servicios, 0, servicios, False),
+            ("Almacén", d["almacen_sol"], d["almacen_chris"], d["almacen_sol"] + d["almacen_chris"], False),
+            ("TOTAL casa + almacén", d["pagado_sol"], d["pagado_chris"], d["total"], True),
+            ("Cada uno (÷2)", d["cada_uno"], d["cada_uno"], d["total"], False),
+            ("Pendiente (+ debe / − a favor)", d["pendiente_sol"], d["pendiente_chris"], None, True),
         ]
         rr = 6
-        for label, val, highlight, mode in liq:
+        for label, sol_v, chris_v, tot_v, highlight in liq_rows:
             wsm.cell(rr, 1, label).border = THIN
-            write_money(wsm, rr, 2, val, bold=highlight, round_mode=mode)
+            write_money(wsm, rr, 2, sol_v, bold=highlight, round_mode="settle")
+            write_money(wsm, rr, 3, chris_v, bold=highlight, round_mode="settle")
+            if tot_v is None:
+                wsm.cell(rr, 4).border = THIN
+            else:
+                write_money(wsm, rr, 4, tot_v, bold=highlight, round_mode="settle")
             if highlight:
-                wsm.cell(rr, 1).fill = PatternFill("solid", fgColor=AMBER)
-                wsm.cell(rr, 2).fill = PatternFill("solid", fgColor=AMBER)
+                for c in range(1, 5):
+                    wsm.cell(rr, c).fill = PatternFill("solid", fgColor=AMBER)
             rr += 1
 
         if d["pendiente_chris"] > 0:
@@ -485,21 +533,27 @@ def build_excel(rendicion, fam, items) -> None:
         wsm.cell(rr, 3).border = THIN
         write_money(wsm, rr, 4, d["total"], bold=True)
 
-        # Almacén familia
+        # Almacén familia — columnas Sol / Chris
         rr += 2
         wsm.cell(rr, 1, "Almacén — por familia").font = Font(bold=True, color=TEAL)
         rr += 1
-        for c, h in enumerate(["Familia", "Total"], 1):
+        for c, h in enumerate(["Familia", "Almacén Sol", "Almacén Chris", "Total"], 1):
             style_header(wsm.cell(rr, c, h), TEAL)
         rr += 1
-        for fam_name, val in sorted(fam[mes].items(), key=lambda x: -x[1]):
+        for fam_name, vals in sorted(
+            fam[mes].items(), key=lambda x: -x[1].get("total", 0)
+        ):
             wsm.cell(rr, 1, fam_name).border = THIN
-            write_money(wsm, rr, 2, val)
+            write_money(wsm, rr, 2, vals.get("sol", 0))
+            write_money(wsm, rr, 3, vals.get("chris", 0))
+            write_money(wsm, rr, 4, vals.get("total", 0), bold=True)
             rr += 1
         if fam[mes]:
             wsm.cell(rr, 1, "TOTAL ALMACÉN").font = Font(bold=True)
             wsm.cell(rr, 1).border = THIN
-            write_money(wsm, rr, 2, d["almacen_sol"] + d["almacen_chris"], bold=True)
+            write_money(wsm, rr, 2, d["almacen_sol"], bold=True)
+            write_money(wsm, rr, 3, d["almacen_chris"], bold=True)
+            write_money(wsm, rr, 4, d["almacen_sol"] + d["almacen_chris"], bold=True)
             rr += 1
 
         # Detalle almacén
@@ -613,6 +667,7 @@ def build_markdown(rendicion, fam) -> None:
             "",
             f"- **TOTAL:** {fmt_ars(d['total'])}",
             f"- **Cada uno:** {fmt_ars(d['cada_uno'])}",
+            f"- **Almacén Sol:** {fmt_ars(d['almacen_sol'])} · **Almacén Chris:** {fmt_ars(d['almacen_chris'])}",
             f"- **Pagó Sol:** {fmt_ars(d['pagado_sol'])} · **Pagó Chris:** {fmt_ars(d['pagado_chris'])}",
             f"- **Pendiente Sol:** {fmt_ars(d['pendiente_sol'])} · **Pendiente Chris:** {fmt_ars(d['pendiente_chris'])}",
         ]
@@ -624,11 +679,21 @@ def build_markdown(rendicion, fam) -> None:
         for c in d["conceptos"]:
             lines.append(f"| {c['categoria']} | {c['descripcion']} | {fmt_ars(c['monto'])} |")
         if fam[mes]:
-            lines += ["", "#### Almacén por familia", "", "| Familia | Total |", "|---|---:|"]
-            for fam_name, val in sorted(fam[mes].items(), key=lambda x: -x[1]):
-                lines.append(f"| {fam_name} | {fmt_ars(val)} |")
+            lines += [
+                "",
+                "#### Almacén por familia",
+                "",
+                "| Familia | Almacén Sol | Almacén Chris | Total |",
+                "|---|---:|---:|---:|",
+            ]
+            for fam_name, vals in sorted(fam[mes].items(), key=lambda x: -x[1].get("total", 0)):
+                lines.append(
+                    f"| {fam_name} | {fmt_ars(vals.get('sol', 0))} | "
+                    f"{fmt_ars(vals.get('chris', 0))} | {fmt_ars(vals.get('total', 0))} |"
+                )
             lines.append(
-                f"| **TOTAL** | **{fmt_ars(d['almacen_sol'] + d['almacen_chris'])}** |"
+                f"| **TOTAL** | **{fmt_ars(d['almacen_sol'])}** | **{fmt_ars(d['almacen_chris'])}** | "
+                f"**{fmt_ars(d['almacen_sol'] + d['almacen_chris'])}** |"
             )
         lines.append("")
 

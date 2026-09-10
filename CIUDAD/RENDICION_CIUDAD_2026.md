@@ -32,6 +32,7 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 - **TOTAL:** $2.405.335
 - **Cada uno:** $1.202.668
+- **Almacén Sol:** $1.267.198 · **Almacén Chris:** $0
 - **Pagó Sol:** $2.405.335 · **Pagó Chris:** $0
 - **Pendiente Sol:** -$1.202.667 · **Pendiente Chris:** $1.202.668
 - **Veredicto:** Chris le debe a Sol **$1.202.668**
@@ -52,18 +53,19 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 #### Almacén por familia
 
-| Familia | Total |
-|---|---:|
-| SUPERMERCADO | $681.920 |
-| COMIDA | $299.771 |
-| RAMÓN | $283.448 |
-| COMBUSTIBLE | $2.059 |
-| **TOTAL** | **$1.267.198** |
+| Familia | Almacén Sol | Almacén Chris | Total |
+|---|---:|---:|---:|
+| SUPERMERCADO | $681.920 | $0 | $681.920 |
+| COMIDA | $299.771 | $0 | $299.771 |
+| RAMÓN | $283.448 | $0 | $283.448 |
+| COMBUSTIBLE | $2.059 | $0 | $2.059 |
+| **TOTAL** | **$1.267.198** | **$0** | **$1.267.198** |
 
 ### Febrero
 
 - **TOTAL:** $1.923.470
 - **Cada uno:** $961.735
+- **Almacén Sol:** $992.343 · **Almacén Chris:** $0
 - **Pagó Sol:** $1.923.470 · **Pagó Chris:** $0
 - **Pendiente Sol:** -$961.735 · **Pendiente Chris:** $961.735
 - **Veredicto:** Chris le debe a Sol **$961.735**
@@ -83,20 +85,21 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 #### Almacén por familia
 
-| Familia | Total |
-|---|---:|
-| SUPERMERCADO | $513.152 |
-| ENTRETENIMIENTO | $172.500 |
-| RAMÓN | $129.536 |
-| COMIDA | $122.246 |
-| REPUESTOS | $53.037 |
-| COMBUSTIBLE | $1.872 |
-| **TOTAL** | **$992.343** |
+| Familia | Almacén Sol | Almacén Chris | Total |
+|---|---:|---:|---:|
+| SUPERMERCADO | $513.152 | $0 | $513.152 |
+| ENTRETENIMIENTO | $172.500 | $0 | $172.500 |
+| RAMÓN | $129.536 | $0 | $129.536 |
+| COMIDA | $122.246 | $0 | $122.246 |
+| REPUESTOS | $53.037 | $0 | $53.037 |
+| COMBUSTIBLE | $1.872 | $0 | $1.872 |
+| **TOTAL** | **$992.343** | **$0** | **$992.343** |
 
 ### Marzo
 
 - **TOTAL:** $2.107.491
 - **Cada uno:** $1.053.746
+- **Almacén Sol:** $1.200.106 · **Almacén Chris:** $0
 - **Pagó Sol:** $2.107.491 · **Pagó Chris:** $0
 - **Pendiente Sol:** -$1.053.745 · **Pendiente Chris:** $1.053.746
 - **Veredicto:** Chris le debe a Sol **$1.053.746**
@@ -115,20 +118,21 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 #### Almacén por familia
 
-| Familia | Total |
-|---|---:|
-| SUPERMERCADO | $330.151 |
-| ENTRETENIMIENTO | $275.500 |
-| COMIDA | $243.669 |
-| FARMACIA | $154.013 |
-| RAMÓN | $100.950 |
-| COMBUSTIBLE | $95.823 |
-| **TOTAL** | **$1.200.106** |
+| Familia | Almacén Sol | Almacén Chris | Total |
+|---|---:|---:|---:|
+| SUPERMERCADO | $330.151 | $0 | $330.151 |
+| ENTRETENIMIENTO | $275.500 | $0 | $275.500 |
+| COMIDA | $243.669 | $0 | $243.669 |
+| FARMACIA | $154.013 | $0 | $154.013 |
+| RAMÓN | $100.950 | $0 | $100.950 |
+| COMBUSTIBLE | $95.823 | $0 | $95.823 |
+| **TOTAL** | **$1.200.106** | **$0** | **$1.200.106** |
 
 ### Abril
 
 - **TOTAL:** $2.259.701
 - **Cada uno:** $1.129.851
+- **Almacén Sol:** $1.374.704 · **Almacén Chris:** $0
 - **Pagó Sol:** $2.259.701 · **Pagó Chris:** $0
 - **Pendiente Sol:** -$1.129.850 · **Pendiente Chris:** $1.129.851
 - **Veredicto:** Chris le debe a Sol **$1.129.851**
@@ -147,19 +151,20 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 #### Almacén por familia
 
-| Familia | Total |
-|---|---:|
-| ENTRETENIMIENTO | $509.219 |
-| SUPERMERCADO | $308.085 |
-| COMIDA | $287.621 |
-| RAMÓN | $240.893 |
-| COMBUSTIBLE | $28.886 |
-| **TOTAL** | **$1.374.704** |
+| Familia | Almacén Sol | Almacén Chris | Total |
+|---|---:|---:|---:|
+| ENTRETENIMIENTO | $509.219 | $0 | $509.219 |
+| SUPERMERCADO | $308.085 | $0 | $308.085 |
+| COMIDA | $287.621 | $0 | $287.621 |
+| RAMÓN | $240.893 | $0 | $240.893 |
+| COMBUSTIBLE | $28.886 | $0 | $28.886 |
+| **TOTAL** | **$1.374.704** | **$0** | **$1.374.704** |
 
 ### Mayo
 
 - **TOTAL:** $2.567.469
 - **Cada uno:** $1.283.735
+- **Almacén Sol:** $1.500.657 · **Almacén Chris:** $0
 - **Pagó Sol:** $2.567.469 · **Pagó Chris:** $0
 - **Pendiente Sol:** -$1.283.734 · **Pendiente Chris:** $1.283.735
 - **Veredicto:** Chris le debe a Sol **$1.283.735**
@@ -179,19 +184,20 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 #### Almacén por familia
 
-| Familia | Total |
-|---|---:|
-| SUPERMERCADO | $472.802 |
-| ENTRETENIMIENTO | $471.243 |
-| RAMÓN | $380.824 |
-| COMIDA | $156.034 |
-| COMBUSTIBLE | $19.754 |
-| **TOTAL** | **$1.500.657** |
+| Familia | Almacén Sol | Almacén Chris | Total |
+|---|---:|---:|---:|
+| SUPERMERCADO | $472.802 | $0 | $472.802 |
+| ENTRETENIMIENTO | $471.243 | $0 | $471.243 |
+| RAMÓN | $380.824 | $0 | $380.824 |
+| COMIDA | $156.034 | $0 | $156.034 |
+| COMBUSTIBLE | $19.754 | $0 | $19.754 |
+| **TOTAL** | **$1.500.657** | **$0** | **$1.500.657** |
 
 ### Junio
 
 - **TOTAL:** $2.654.854
 - **Cada uno:** $1.327.427
+- **Almacén Sol:** $1.314.709 · **Almacén Chris:** $0
 - **Pagó Sol:** $2.654.854 · **Pagó Chris:** $0
 - **Pendiente Sol:** -$1.327.427 · **Pendiente Chris:** $1.327.427
 - **Veredicto:** Chris le debe a Sol **$1.327.427**
@@ -210,21 +216,22 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 #### Almacén por familia
 
-| Familia | Total |
-|---|---:|
-| COMIDA | $522.676 |
-| SUPERMERCADO | $372.151 |
-| ENTRETENIMIENTO | $206.700 |
-| RAMÓN | $113.600 |
-| FARMACIA | $85.034 |
-| STREAMING TV | $12.900 |
-| COMBUSTIBLE | $1.648 |
-| **TOTAL** | **$1.314.709** |
+| Familia | Almacén Sol | Almacén Chris | Total |
+|---|---:|---:|---:|
+| COMIDA | $522.676 | $0 | $522.676 |
+| SUPERMERCADO | $372.151 | $0 | $372.151 |
+| ENTRETENIMIENTO | $206.700 | $0 | $206.700 |
+| RAMÓN | $113.600 | $0 | $113.600 |
+| FARMACIA | $85.034 | $0 | $85.034 |
+| STREAMING TV | $12.900 | $0 | $12.900 |
+| COMBUSTIBLE | $1.648 | $0 | $1.648 |
+| **TOTAL** | **$1.314.709** | **$0** | **$1.314.709** |
 
 ### Julio
 
 - **TOTAL:** $1.172.762
 - **Cada uno:** $586.381
+- **Almacén Sol:** $585.071 · **Almacén Chris:** $0
 - **Pagó Sol:** $1.172.762 · **Pagó Chris:** $0
 - **Pendiente Sol:** -$586.381 · **Pendiente Chris:** $586.381
 - **Veredicto:** Chris le debe a Sol **$586.381**
@@ -241,11 +248,11 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 #### Almacén por familia
 
-| Familia | Total |
-|---|---:|
-| COMIDA | $478.421 |
-| RAMÓN | $106.650 |
-| **TOTAL** | **$585.071** |
+| Familia | Almacén Sol | Almacén Chris | Total |
+|---|---:|---:|---:|
+| COMIDA | $478.421 | $0 | $478.421 |
+| RAMÓN | $106.650 | $0 | $106.650 |
+| **TOTAL** | **$585.071** | **$0** | **$585.071** |
 
 ### Agosto
 
