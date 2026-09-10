@@ -229,22 +229,66 @@ def resolve_month_values(matrix_rows, alm_sol, alm_chris) -> dict:
             )
             total += alm_c
 
-        cada_uno = settle(total / 2) if total else 0
-        pagado_sol = total - alm_c  # todo excepto ALMACEN CHRIS
+        # --- Reconciliación (como la explicó Sol) ---
+        # 1) Servicios CIUDAD (sin almacén) ÷ 2 = cuota de cada uno
+        # 2) Almacén también se parte 50/50
+        # 3) A cada uno se le resta lo que ya pagó (Sol: todos los servicios + su almacén;
+        #    Chris: solo su almacén) → queda quién le debe a quién
+        servicios = total - alm_s - alm_c
+        almacen_total = alm_s + alm_c
+        cuota_servicios = settle(servicios / 2) if servicios else 0
+        cuota_almacen = settle(almacen_total / 2) if almacen_total else 0
+        cada_uno = settle((servicios + almacen_total) / 2) if (servicios + almacen_total) else 0
+        # sanity: cada_uno ≈ cuota_servicios + cuota_almacen (puede diferir $1 por redondeo)
+        pagado_sol = servicios + alm_s  # Sol paga todos los servicios + su almacén
         pagado_chris = alm_c
-        pendiente_sol = cada_uno - pagado_sol  # + Sol paga a Chris; − a favor de Sol
-        pendiente_chris = cada_uno - pagado_chris  # + Chris paga a Sol
+        pendiente_sol = cada_uno - pagado_sol  # + Sol le debe a Chris; − a favor de Sol
+        pendiente_chris = cada_uno - pagado_chris  # + Chris le debe a Sol
+
+        if pendiente_chris > 0 and pendiente_sol <= 0:
+            veredicto = f"Chris le debe a Sol {fmt_ars(pendiente_chris)}"
+            transferencia = pendiente_chris
+            direccion = "Chris→Sol"
+        elif pendiente_sol > 0 and pendiente_chris <= 0:
+            veredicto = f"Sol le debe a Chris {fmt_ars(pendiente_sol)}"
+            transferencia = pendiente_sol
+            direccion = "Sol→Chris"
+        elif pendiente_chris == 0 and pendiente_sol == 0:
+            veredicto = "Liquidado — sin saldo"
+            transferencia = 0
+            direccion = "—"
+        else:
+            # ambos mismos signo por redondeo raro: usar el de mayor magnitud hacia Sol/Chris
+            if abs(pendiente_chris) >= abs(pendiente_sol) and pendiente_chris > 0:
+                veredicto = f"Chris le debe a Sol {fmt_ars(pendiente_chris)}"
+                transferencia = pendiente_chris
+                direccion = "Chris→Sol"
+            elif pendiente_sol > 0:
+                veredicto = f"Sol le debe a Chris {fmt_ars(pendiente_sol)}"
+                transferencia = pendiente_sol
+                direccion = "Sol→Chris"
+            else:
+                veredicto = "Liquidado / a favor de Sol"
+                transferencia = abs(pendiente_sol)
+                direccion = "a favor Sol"
 
         out[mes] = {
             "conceptos": conceptos,
             "total": total,
+            "servicios": servicios,
             "almacen_sol": alm_s,
             "almacen_chris": alm_c,
+            "almacen_total": almacen_total,
+            "cuota_servicios": cuota_servicios,
+            "cuota_almacen": cuota_almacen,
             "cada_uno": cada_uno,
             "pagado_sol": pagado_sol,
             "pagado_chris": pagado_chris,
             "pendiente_sol": pendiente_sol,
             "pendiente_chris": pendiente_chris,
+            "transferencia": transferencia,
+            "direccion": direccion,
+            "veredicto": veredicto,
             "tiene_datos": total > 0,
             "estado": (
                 "completo"
@@ -287,23 +331,22 @@ def build_excel(rendicion, fam, items) -> None:
     ws["A1"].font = Font(size=16, bold=True, color=NAVY)
     ws["A2"] = (
         f"Generado {date.today().isoformat()} · Fuente: Gastos_CIUDAD_1132_2026.xlsx · "
-        "Liquidación 50/50 Sol–Chris (ALMACEN CHRIS = único pagado por Chris)"
+        "Servicios÷2 + Almacén÷2 − lo que cada uno ya pagó → quién le debe a quién"
     )
     ws["A2"].font = Font(italic=True, color="666666")
 
     headers = [
         "Mes",
         "Estado",
-        "Servicios casa",
+        "Servicios",
+        "Cuota serv. (÷2)",
         "Almacén Sol",
         "Almacén Chris",
-        "TOTAL",
-        "Cada uno",
+        "Cuota alm. (÷2)",
+        "A cargo c/u",
         "Pagó Sol",
         "Pagó Chris",
-        "Pendiente Sol",
-        "Pendiente Chris",
-        "Quién debe a quién",
+        "Reconciliación",
     ]
     for c, h in enumerate(headers, 1):
         style_header(ws.cell(4, c, h))
@@ -315,72 +358,68 @@ def build_excel(rendicion, fam, items) -> None:
     }
 
     row = 5
-    tot_serv = tot_as = tot_ac = tot_t = 0
+    tot_serv = tot_as = tot_ac = tot_t = tot_tr = 0
     for mes in MONTHS:
         d = rendicion[mes]
-        servicios = d["total"] - d["almacen_sol"] - d["almacen_chris"]
         if d["estado"] == "solo_telecentro":
             veredicto = "Mes incompleto — no liquidar aún"
-        elif d["pendiente_chris"] > 0:
-            veredicto = f"Chris le debe a Sol {fmt_ars(d['pendiente_chris'])}"
-        elif d["pendiente_sol"] > 0:
-            veredicto = f"Sol le debe a Chris {fmt_ars(d['pendiente_sol'])}"
-        elif d["total"] == 0:
-            veredicto = "Sin datos"
         else:
-            veredicto = "Sin saldo"
+            veredicto = d.get("veredicto", "—")
 
         ws.cell(row, 1, mes).border = THIN
         ws.cell(row, 2, estado_label[d["estado"]]).border = THIN
-        write_money(ws, row, 3, servicios)
-        write_money(ws, row, 4, d["almacen_sol"])
-        write_money(ws, row, 5, d["almacen_chris"])
-        write_money(ws, row, 6, d["total"], bold=True)
-        write_money(ws, row, 7, d["cada_uno"], round_mode="settle")
-        write_money(ws, row, 8, d["pagado_sol"])
-        write_money(ws, row, 9, d["pagado_chris"])
-        color_s = GREEN if d["pendiente_sol"] < 0 else (RED if d["pendiente_sol"] > 0 else None)
-        color_c = RED if d["pendiente_chris"] > 0 else (GREEN if d["pendiente_chris"] < 0 else None)
-        write_money(ws, row, 10, d["pendiente_sol"], color=color_s, round_mode="settle")
-        write_money(ws, row, 11, d["pendiente_chris"], color=color_c, round_mode="settle")
-        cell = ws.cell(row, 12, veredicto)
+        write_money(ws, row, 3, d["servicios"])
+        write_money(ws, row, 4, d["cuota_servicios"], round_mode="settle")
+        write_money(ws, row, 5, d["almacen_sol"])
+        write_money(ws, row, 6, d["almacen_chris"])
+        write_money(ws, row, 7, d["cuota_almacen"], round_mode="settle")
+        write_money(ws, row, 8, d["cada_uno"], bold=True, round_mode="settle")
+        write_money(ws, row, 9, d["pagado_sol"])
+        write_money(ws, row, 10, d["pagado_chris"])
+        cell = ws.cell(row, 11, veredicto)
         cell.border = THIN
         if d["estado"] != "completo":
-            for c in range(1, 13):
+            for c in range(1, 12):
                 ws.cell(row, c).fill = PatternFill("solid", fgColor=GRAY)
 
-        tot_serv += servicios
+        tot_serv += d["servicios"]
         tot_as += d["almacen_sol"]
         tot_ac += d["almacen_chris"]
         tot_t += d["total"]
+        if d["estado"] == "completo" and d["direccion"] == "Chris→Sol":
+            tot_tr += d["transferencia"]
         row += 1
 
     ws.cell(row, 1, "TOTAL 2026").font = Font(bold=True)
     ws.cell(row, 1).border = THIN
     ws.cell(row, 2).border = THIN
     write_money(ws, row, 3, tot_serv, bold=True)
-    write_money(ws, row, 4, tot_as, bold=True)
-    write_money(ws, row, 5, tot_ac, bold=True)
-    write_money(ws, row, 6, tot_t, bold=True)
-    write_money(ws, row, 7, tot_t / 2, bold=True, round_mode="settle")
-    for c in range(8, 13):
+    write_money(ws, row, 4, tot_serv / 2, bold=True, round_mode="settle")
+    write_money(ws, row, 5, tot_as, bold=True)
+    write_money(ws, row, 6, tot_ac, bold=True)
+    write_money(ws, row, 7, (tot_as + tot_ac) / 2, bold=True, round_mode="settle")
+    write_money(ws, row, 8, tot_t / 2, bold=True, round_mode="settle")
+    for c in range(9, 11):
         ws.cell(row, c).border = THIN
         ws.cell(row, c).fill = PatternFill("solid", fgColor=LIGHT)
+    ws.cell(row, 11, f"Chris → Sol (meses completos): {fmt_ars(tot_tr)}").border = THIN
+    ws.cell(row, 11).font = Font(bold=True, color=RED)
 
     row += 2
-    ws.cell(row, 1, "Notas de lectura").font = Font(bold=True, color=NAVY)
+    ws.cell(row, 1, "Cómo se calcula").font = Font(bold=True, color=NAVY)
     notes = [
-        "Pendiente Sol positivo → Sol le paga a Chris; negativo → a favor de Sol.",
-        "Pendiente Chris positivo → Chris le paga a Sol.",
-        "Se asume que Sol pagó todos los servicios de la casa + ALMACEN SOL; Chris solo ALMACEN CHRIS.",
-        "Gasto Personal Sol, MP No Gasto, inversión y retiros NO entran en esta rendición.",
-        "Agosto–Diciembre: almacén vacío; Telecentro proyectado $50.000 — no usar para liquidar hasta completar el mes.",
+        "1) Sumar servicios CIUDAD del mes (expensas, luz, gas, limpieza, etc. — sin almacén) y dividir por 2 = cuota de cada uno.",
+        "2) Sumar almacén Sol + almacén Chris y dividir por 2 = cuota de almacén de cada uno.",
+        "3) A cargo de cada uno = cuota servicios + cuota almacén.",
+        "4) Restar lo que ya pagó: Sol pagó todos los servicios + su almacén; Chris pagó solo su almacén.",
+        "5) Reconciliación: si el saldo de Chris es positivo → Chris le debe a Sol; si el de Sol es positivo → Sol le debe a Chris.",
+        "Agosto–diciembre: almacén vacío / Telecentro proyectado — no liquidar hasta completar el mes.",
     ]
     for note in notes:
         row += 1
         ws.cell(row, 1, f"• {note}")
 
-    widths = [14, 34, 14, 14, 14, 14, 12, 12, 12, 14, 14, 36]
+    widths = [12, 34, 12, 14, 12, 12, 14, 12, 12, 12, 36]
     for i, w in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(i)].width = w
 
@@ -475,21 +514,43 @@ def build_excel(rendicion, fam, items) -> None:
             f"Pagó Sol {fmt_ars(d['pagado_sol'])} · Pagó Chris {fmt_ars(d['pagado_chris'])}"
         )
 
-        # Liquidación box — columnas Sol / Chris
-        wsm["A4"] = "Liquidación Sol / Chris"
+        # Liquidación box — pasos de reconciliación
+        wsm["A4"] = "Reconciliación Sol / Chris"
         wsm["A4"].font = Font(bold=True, color=NAVY)
-        for c, h in enumerate(["Concepto", "Sol", "Chris", "Total"], 1):
-            style_header(wsm.cell(5, c, h))
-        servicios = d["total"] - d["almacen_sol"] - d["almacen_chris"]
-        # Filas con montos en Sol / Chris / Total
+        wsm["A5"] = (
+            "1) Servicios ÷ 2  →  2) + Almacén ÷ 2  →  3) − lo que cada uno ya pagó  →  quién le debe a quién"
+        )
+        wsm["A5"].font = Font(italic=True, color="666666")
+        for c, h in enumerate(["Paso", "Sol", "Chris", "Total"], 1):
+            style_header(wsm.cell(6, c, h))
         liq_rows = [
-            ("Servicios casa", servicios, 0, servicios, False),
-            ("Almacén", d["almacen_sol"], d["almacen_chris"], d["almacen_sol"] + d["almacen_chris"], False),
-            ("TOTAL casa + almacén", d["pagado_sol"], d["pagado_chris"], d["total"], True),
-            ("Cada uno (÷2)", d["cada_uno"], d["cada_uno"], d["total"], False),
-            ("Pendiente (+ debe / − a favor)", d["pendiente_sol"], d["pendiente_chris"], None, True),
+            ("1. Servicios CIUDAD (sin almacén)", d["servicios"], 0, d["servicios"], False),
+            ("2. Cuota servicios (÷2)", d["cuota_servicios"], d["cuota_servicios"], d["servicios"], False),
+            ("3. Almacén pagado", d["almacen_sol"], d["almacen_chris"], d["almacen_total"], False),
+            ("4. Cuota almacén (÷2)", d["cuota_almacen"], d["cuota_almacen"], d["almacen_total"], False),
+            (
+                "5. A cargo de cada uno (servicios÷2 + almacén÷2)",
+                d["cada_uno"],
+                d["cada_uno"],
+                d["total"],
+                False,
+            ),
+            (
+                "6. Ya pagó (Sol: servicios+su almacén / Chris: su almacén)",
+                d["pagado_sol"],
+                d["pagado_chris"],
+                d["total"],
+                False,
+            ),
+            (
+                "7. Saldo (+ debe / − a favor)",
+                d["pendiente_sol"],
+                d["pendiente_chris"],
+                None,
+                True,
+            ),
         ]
-        rr = 6
+        rr = 7
         for label, sol_v, chris_v, tot_v, highlight in liq_rows:
             wsm.cell(rr, 1, label).border = THIN
             write_money(wsm, rr, 2, sol_v, bold=highlight, round_mode="settle")
@@ -503,13 +564,7 @@ def build_excel(rendicion, fam, items) -> None:
                     wsm.cell(rr, c).fill = PatternFill("solid", fgColor=AMBER)
             rr += 1
 
-        if d["pendiente_chris"] > 0:
-            msg = f"→ Chris le debe a Sol {fmt_ars(d['pendiente_chris'])}"
-        elif d["pendiente_sol"] > 0:
-            msg = f"→ Sol le debe a Chris {fmt_ars(d['pendiente_sol'])}"
-        else:
-            msg = "→ Sin saldo a pagar (o a favor de Sol)"
-        wsm.cell(rr, 1, msg).font = Font(bold=True, color=TEAL)
+        wsm.cell(rr, 1, f"→ {d['veredicto']}").font = Font(bold=True, color=TEAL)
 
         # Conceptos casa
         rr += 2
@@ -605,51 +660,54 @@ def build_markdown(rendicion, fam) -> None:
         "",
         f"Generado: **{date.today().isoformat()}** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`",
         "",
-        "Liquidación 50/50: Sol paga servicios de la casa + ALMACEN SOL; Chris paga solo ALMACEN CHRIS.",
-        "Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor de Sol.",
+        "## Cómo se calcula la reconciliación",
+        "",
+        "1. **Servicios CIUDAD** (sin almacén) ÷ 2 = cuota de cada uno",
+        "2. **Almacén Sol + Almacén Chris** ÷ 2 = cuota de almacén de cada uno",
+        "3. **A cargo de cada uno** = cuota servicios + cuota almacén",
+        "4. **Restar lo ya pagado**: Sol = todos los servicios + su almacén; Chris = solo su almacén",
+        "5. **Reconciliación**: si Chris quedó debiendo → le paga a Sol; si Sol quedó debiendo → le paga a Chris",
         "",
         "## Resumen anual",
         "",
-        "| Mes | Estado | Servicios | Almacén Sol | Almacén Chris | TOTAL | Cada uno | Chris → Sol |",
-        "|---|---|---:|---:|---:|---:|---:|---:|",
+        "| Mes | Estado | Servicios | Cuota serv. | Alm. Sol | Alm. Chris | A cargo c/u | Pagó Sol | Pagó Chris | Reconciliación |",
+        "|---|---|---:|---:|---:|---:|---:|---:|---:|---|",
     ]
     estado_label = {
         "completo": "Completo",
         "solo_telecentro": "Parcial",
         "vacio": "Sin datos",
     }
-    tot_s = tot_as = tot_ac = tot_t = tot_c = 0
-    tot_s_ok = tot_as_ok = tot_ac_ok = tot_t_ok = tot_c_ok = 0
+    tot_s = tot_as = tot_ac = tot_t = tot_tr = 0
     for mes in MONTHS:
         d = rendicion[mes]
-        servicios = d["total"] - d["almacen_sol"] - d["almacen_chris"]
+        if d["estado"] == "solo_telecentro":
+            verd = "no liquidar aún"
+        else:
+            verd = d.get("veredicto", "—")
         lines.append(
-            f"| {mes} | {estado_label[d['estado']]} | {fmt_ars(servicios)} | {fmt_ars(d['almacen_sol'])} | "
-            f"{fmt_ars(d['almacen_chris'])} | {fmt_ars(d['total'])} | {fmt_ars(d['cada_uno'])} | "
-            f"{fmt_ars(d['pendiente_chris'])} |"
+            f"| {mes} | {estado_label[d['estado']]} | {fmt_ars(d['servicios'])} | "
+            f"{fmt_ars(d['cuota_servicios'])} | {fmt_ars(d['almacen_sol'])} | "
+            f"{fmt_ars(d['almacen_chris'])} | {fmt_ars(d['cada_uno'])} | "
+            f"{fmt_ars(d['pagado_sol'])} | {fmt_ars(d['pagado_chris'])} | {verd} |"
         )
-        tot_s += servicios
+        tot_s += d["servicios"]
         tot_as += d["almacen_sol"]
         tot_ac += d["almacen_chris"]
         tot_t += d["total"]
-        tot_c += d["pendiente_chris"]
-        if d["estado"] == "completo":
-            tot_s_ok += servicios
-            tot_as_ok += d["almacen_sol"]
-            tot_ac_ok += d["almacen_chris"]
-            tot_t_ok += d["total"]
-            tot_c_ok += d["pendiente_chris"]
+        if d["estado"] == "completo" and d.get("direccion") == "Chris→Sol":
+            tot_tr += d["transferencia"]
     lines.append(
-        f"| **TOTAL (todos)** | | **{fmt_ars(tot_s)}** | **{fmt_ars(tot_as)}** | **{fmt_ars(tot_ac)}** | "
-        f"**{fmt_ars(tot_t)}** | **{fmt_ars(tot_t/2)}** | **{fmt_ars(tot_c)}** |"
-    )
-    lines.append(
-        f"| **TOTAL liquidable (ene–jul)** | Completo | **{fmt_ars(tot_s_ok)}** | **{fmt_ars(tot_as_ok)}** | "
-        f"**{fmt_ars(tot_ac_ok)}** | **{fmt_ars(tot_t_ok)}** | **{fmt_ars(tot_t_ok/2)}** | **{fmt_ars(tot_c_ok)}** |"
+        f"| **TOTAL liquidable*** | | **{fmt_ars(sum(rendicion[m]['servicios'] for m in MONTHS if rendicion[m]['estado']=='completo'))}** | "
+        f"| **{fmt_ars(sum(rendicion[m]['almacen_sol'] for m in MONTHS if rendicion[m]['estado']=='completo'))}** | "
+        f"**{fmt_ars(sum(rendicion[m]['almacen_chris'] for m in MONTHS if rendicion[m]['estado']=='completo'))}** | "
+        f"| | | **Chris → Sol {fmt_ars(tot_tr)}** |"
     )
     lines += [
         "",
-        f"**Chris le debe a Sol (meses completos):** {fmt_ars(tot_c_ok)}",
+        "\\* Solo meses completos (ene–jul).",
+        "",
+        f"**Chris le debe a Sol (meses completos):** {fmt_ars(tot_tr)}",
         "",
         "## Detalle por mes",
         "",
@@ -671,22 +729,21 @@ def build_markdown(rendicion, fam) -> None:
         lines += [
             f"### {mes}",
             "",
-            f"- **TOTAL:** {fmt_ars(d['total'])}",
-            f"- **Cada uno:** {fmt_ars(d['cada_uno'])}",
-            f"- **Almacén Sol:** {fmt_ars(d['almacen_sol'])} · **Almacén Chris:** {fmt_ars(d['almacen_chris'])}",
-            f"- **Pagó Sol:** {fmt_ars(d['pagado_sol'])} · **Pagó Chris:** {fmt_ars(d['pagado_chris'])}",
-            f"- **Pendiente Sol:** {fmt_ars(d['pendiente_sol'])} · **Pendiente Chris:** {fmt_ars(d['pendiente_chris'])}",
+            "| Paso | Sol | Chris | Total |",
+            "|---|---:|---:|---:|",
+            f"| 1. Servicios CIUDAD | | | {fmt_ars(d['servicios'])} |",
+            f"| 2. Cuota servicios (÷2) | {fmt_ars(d['cuota_servicios'])} | {fmt_ars(d['cuota_servicios'])} | {fmt_ars(d['servicios'])} |",
+            f"| 3. Almacén pagado | {fmt_ars(d['almacen_sol'])} | {fmt_ars(d['almacen_chris'])} | {fmt_ars(d['almacen_total'])} |",
+            f"| 4. Cuota almacén (÷2) | {fmt_ars(d['cuota_almacen'])} | {fmt_ars(d['cuota_almacen'])} | {fmt_ars(d['almacen_total'])} |",
+            f"| 5. A cargo de cada uno | {fmt_ars(d['cada_uno'])} | {fmt_ars(d['cada_uno'])} | {fmt_ars(d['total'])} |",
+            f"| 6. Ya pagó | {fmt_ars(d['pagado_sol'])} | {fmt_ars(d['pagado_chris'])} | {fmt_ars(d['total'])} |",
+            f"| 7. Saldo (+ debe / − a favor) | {fmt_ars(d['pendiente_sol'])} | {fmt_ars(d['pendiente_chris'])} | |",
+            "",
+            f"**Reconciliación:** {d['veredicto']}",
+            "",
         ]
-        if d["pendiente_chris"] > 0:
-            lines.append(f"- **Veredicto:** Chris le debe a Sol **{fmt_ars(d['pendiente_chris'])}**")
-        elif d["pendiente_sol"] > 0:
-            lines.append(f"- **Veredicto:** Sol le debe a Chris **{fmt_ars(d['pendiente_sol'])}**")
-        lines += ["", "#### Conceptos", "", "| Categoría | Descripción | Monto |", "|---|---|---:|"]
-        for c in d["conceptos"]:
-            lines.append(f"| {c['categoria']} | {c['descripcion']} | {fmt_ars(c['monto'])} |")
         if fam[mes]:
             lines += [
-                "",
                 "#### Almacén por familia",
                 "",
                 "| Familia | Almacén Sol | Almacén Chris | Total |",
@@ -699,15 +756,15 @@ def build_markdown(rendicion, fam) -> None:
                 )
             lines.append(
                 f"| **TOTAL** | **{fmt_ars(d['almacen_sol'])}** | **{fmt_ars(d['almacen_chris'])}** | "
-                f"**{fmt_ars(d['almacen_sol'] + d['almacen_chris'])}** |"
+                f"**{fmt_ars(d['almacen_total'])}** |"
             )
-        lines.append("")
+            lines.append("")
 
     lines += [
         "## Fuera de esta rendición",
         "",
-        "- Gasto Personal Sol (transporte, ropa, suscripciones IA, etc.)",
-        "- MP No Gasto (retiros, pago de deuda/resumen, inversión)",
+        "- Gasto Personal Sol",
+        "- MP No Gasto / inversión / retiros",
         "- Propiedades BONORINO / OHIGGINS / AVA",
         "",
         "## Regenerar",
