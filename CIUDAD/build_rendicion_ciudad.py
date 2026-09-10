@@ -566,13 +566,18 @@ def build_excel(rendicion, fam, items) -> None:
             ):
                 style_header(wsm.cell(rr, c, h), TEAL)
             rr += 1
-            for it in sorted(
-                items[mes],
-                key=lambda x: (x["fecha"] or date.min, x["detalle"]),
-            ):
-                fecha = it["fecha"]
-                if hasattr(fecha, "date"):
-                    fecha = fecha.date()
+            def _fecha_key(it):
+                f = it["fecha"]
+                if f is None:
+                    return date.min
+                if hasattr(f, "date"):
+                    return f.date()
+                return f
+
+            for it in sorted(items[mes], key=lambda x: (_fecha_key(x), x["detalle"])):
+                fecha = _fecha_key(it)
+                if fecha == date.min:
+                    fecha = None
                 wsm.cell(rr, 1, fecha).border = THIN
                 wsm.cell(rr, 1).number_format = "YYYY-MM-DD"
                 wsm.cell(rr, 2, it["familia"]).border = THIN
@@ -614,7 +619,7 @@ def build_markdown(rendicion, fam) -> None:
         "vacio": "Sin datos",
     }
     tot_s = tot_as = tot_ac = tot_t = tot_c = 0
-    tot_s_ok = tot_as_ok = tot_t_ok = tot_c_ok = 0
+    tot_s_ok = tot_as_ok = tot_ac_ok = tot_t_ok = tot_c_ok = 0
     for mes in MONTHS:
         d = rendicion[mes]
         servicios = d["total"] - d["almacen_sol"] - d["almacen_chris"]
@@ -631,6 +636,7 @@ def build_markdown(rendicion, fam) -> None:
         if d["estado"] == "completo":
             tot_s_ok += servicios
             tot_as_ok += d["almacen_sol"]
+            tot_ac_ok += d["almacen_chris"]
             tot_t_ok += d["total"]
             tot_c_ok += d["pendiente_chris"]
     lines.append(
@@ -639,7 +645,7 @@ def build_markdown(rendicion, fam) -> None:
     )
     lines.append(
         f"| **TOTAL liquidable (ene–jul)** | Completo | **{fmt_ars(tot_s_ok)}** | **{fmt_ars(tot_as_ok)}** | "
-        f"**$0** | **{fmt_ars(tot_t_ok)}** | **{fmt_ars(tot_t_ok/2)}** | **{fmt_ars(tot_c_ok)}** |"
+        f"**{fmt_ars(tot_ac_ok)}** | **{fmt_ars(tot_t_ok)}** | **{fmt_ars(tot_t_ok/2)}** | **{fmt_ars(tot_c_ok)}** |"
     )
     lines += [
         "",

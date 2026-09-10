@@ -13,18 +13,18 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 | Febrero | Completo | $931.127 | $992.343 | $0 | $1.923.470 | $961.735 | $961.735 |
 | Marzo | Completo | $907.385 | $1.200.106 | $0 | $2.107.491 | $1.053.746 | $1.053.746 |
 | Abril | Completo | $884.997 | $1.374.704 | $0 | $2.259.701 | $1.129.851 | $1.129.851 |
-| Mayo | Completo | $1.066.812 | $1.500.657 | $0 | $2.567.469 | $1.283.735 | $1.283.735 |
-| Junio | Completo | $1.340.145 | $1.314.709 | $0 | $2.654.854 | $1.327.427 | $1.327.427 |
-| Julio | Completo | $587.691 | $585.071 | $0 | $1.172.762 | $586.381 | $586.381 |
+| Mayo | Completo | $1.066.812 | $1.500.657 | $176.932 | $2.744.401 | $1.372.201 | $1.195.269 |
+| Junio | Completo | $1.340.145 | $1.314.709 | $101.000 | $2.755.854 | $1.377.927 | $1.276.927 |
+| Julio | Completo | $587.691 | $585.071 | $155.800 | $1.328.562 | $664.281 | $508.481 |
 | Agosto | Parcial | $50.000 | $0 | $0 | $50.000 | $25.000 | $25.000 |
 | Septiembre | Parcial | $50.000 | $0 | $0 | $50.000 | $25.000 | $25.000 |
 | Octubre | Parcial | $50.000 | $0 | $0 | $50.000 | $25.000 | $25.000 |
 | Noviembre | Parcial | $50.000 | $0 | $0 | $50.000 | $25.000 | $25.000 |
 | Diciembre | Parcial | $50.000 | $0 | $0 | $50.000 | $25.000 | $25.000 |
-| **TOTAL (todos)** | | **$7.106.294** | **$8.234.788** | **$0** | **$15.341.082** | **$7.670.541** | **$7.670.543** |
-| **TOTAL liquidable (ene–jul)** | Completo | **$6.856.294** | **$8.234.788** | **$0** | **$15.091.082** | **$7.545.541** | **$7.545.543** |
+| **TOTAL (todos)** | | **$7.106.294** | **$8.234.788** | **$433.732** | **$15.774.814** | **$7.887.407** | **$7.453.677** |
+| **TOTAL liquidable (ene–jul)** | Completo | **$6.856.294** | **$8.234.788** | **$433.732** | **$15.524.814** | **$7.762.407** | **$7.328.677** |
 
-**Chris le debe a Sol (meses completos):** $7.545.543
+**Chris le debe a Sol (meses completos):** $7.328.677
 
 ## Detalle por mes
 
@@ -162,12 +162,12 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 
 ### Mayo
 
-- **TOTAL:** $2.567.469
-- **Cada uno:** $1.283.735
-- **Almacén Sol:** $1.500.657 · **Almacén Chris:** $0
-- **Pagó Sol:** $2.567.469 · **Pagó Chris:** $0
-- **Pendiente Sol:** -$1.283.734 · **Pendiente Chris:** $1.283.735
-- **Veredicto:** Chris le debe a Sol **$1.283.735**
+- **TOTAL:** $2.744.401
+- **Cada uno:** $1.372.201
+- **Almacén Sol:** $1.500.657 · **Almacén Chris:** $176.932
+- **Pagó Sol:** $2.567.469 · **Pagó Chris:** $176.932
+- **Pendiente Sol:** -$1.195.268 · **Pendiente Chris:** $1.195.269
+- **Veredicto:** Chris le debe a Sol **$1.195.269**
 
 #### Conceptos
 
@@ -181,6 +181,7 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 | LIMPIEZA CASA | Limpieza Susana | $545.533 |
 | STREAMING | Streaming música — Spotify | $4.504 |
 | ALMACEN | ALMACEN SOL | $1.500.657 |
+| ALMACEN | ALMACEN CHRIS | $176.932 |
 
 #### Almacén por familia
 
@@ -189,18 +190,19 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 | SUPERMERCADO | $472.802 | $0 | $472.802 |
 | ENTRETENIMIENTO | $471.243 | $0 | $471.243 |
 | RAMÓN | $380.824 | $0 | $380.824 |
+| OTROS | $0 | $176.932 | $176.932 |
 | COMIDA | $156.034 | $0 | $156.034 |
 | COMBUSTIBLE | $19.754 | $0 | $19.754 |
-| **TOTAL** | **$1.500.657** | **$0** | **$1.500.657** |
+| **TOTAL** | **$1.500.657** | **$176.932** | **$1.677.589** |
 
 ### Junio
 
-- **TOTAL:** $2.654.854
-- **Cada uno:** $1.327.427
-- **Almacén Sol:** $1.314.709 · **Almacén Chris:** $0
-- **Pagó Sol:** $2.654.854 · **Pagó Chris:** $0
-- **Pendiente Sol:** -$1.327.427 · **Pendiente Chris:** $1.327.427
-- **Veredicto:** Chris le debe a Sol **$1.327.427**
+- **TOTAL:** $2.755.854
+- **Cada uno:** $1.377.927
+- **Almacén Sol:** $1.314.709 · **Almacén Chris:** $101.000
+- **Pagó Sol:** $2.654.854 · **Pagó Chris:** $101.000
+- **Pendiente Sol:** -$1.276.927 · **Pendiente Chris:** $1.276.927
+- **Veredicto:** Chris le debe a Sol **$1.276.927**
 
 #### Conceptos
 
@@ -213,6 +215,7 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 | LIMPIEZA CASA | Limpieza Susana | $876.981 |
 | STREAMING | Streaming música — Spotify | $4.389 |
 | ALMACEN | ALMACEN SOL | $1.314.709 |
+| ALMACEN | ALMACEN CHRIS | $101.000 |
 
 #### Almacén por familia
 
@@ -222,19 +225,20 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 | SUPERMERCADO | $372.151 | $0 | $372.151 |
 | ENTRETENIMIENTO | $206.700 | $0 | $206.700 |
 | RAMÓN | $113.600 | $0 | $113.600 |
+| OTROS | $0 | $101.000 | $101.000 |
 | FARMACIA | $85.034 | $0 | $85.034 |
 | STREAMING TV | $12.900 | $0 | $12.900 |
 | COMBUSTIBLE | $1.648 | $0 | $1.648 |
-| **TOTAL** | **$1.314.709** | **$0** | **$1.314.709** |
+| **TOTAL** | **$1.314.709** | **$101.000** | **$1.415.709** |
 
 ### Julio
 
-- **TOTAL:** $1.172.762
-- **Cada uno:** $586.381
-- **Almacén Sol:** $585.071 · **Almacén Chris:** $0
-- **Pagó Sol:** $1.172.762 · **Pagó Chris:** $0
-- **Pendiente Sol:** -$586.381 · **Pendiente Chris:** $586.381
-- **Veredicto:** Chris le debe a Sol **$586.381**
+- **TOTAL:** $1.328.562
+- **Cada uno:** $664.281
+- **Almacén Sol:** $585.071 · **Almacén Chris:** $155.800
+- **Pagó Sol:** $1.172.762 · **Pagó Chris:** $155.800
+- **Pendiente Sol:** -$508.481 · **Pendiente Chris:** $508.481
+- **Veredicto:** Chris le debe a Sol **$508.481**
 
 #### Conceptos
 
@@ -245,14 +249,16 @@ Pendiente Chris positivo = Chris le debe a Sol. Pendiente Sol negativo = a favor
 | IMPUESTOS | ABL — partida 397789 | $26.175 |
 | LIMPIEZA CASA | Limpieza Susana | $400.640 |
 | ALMACEN | ALMACEN SOL | $585.071 |
+| ALMACEN | ALMACEN CHRIS | $155.800 |
 
 #### Almacén por familia
 
 | Familia | Almacén Sol | Almacén Chris | Total |
 |---|---:|---:|---:|
 | COMIDA | $478.421 | $0 | $478.421 |
+| OTROS | $0 | $155.800 | $155.800 |
 | RAMÓN | $106.650 | $0 | $106.650 |
-| **TOTAL** | **$585.071** | **$0** | **$585.071** |
+| **TOTAL** | **$585.071** | **$155.800** | **$740.871** |
 
 ### Agosto
 
