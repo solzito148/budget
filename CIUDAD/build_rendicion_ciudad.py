@@ -254,6 +254,12 @@ def resolve_month_values(matrix_rows, alm_sol, alm_chris) -> dict:
         sin_cargo_chris = bool(
             first_chris_month and MONTHS.index(mes) < MONTHS.index(first_chris_month)
         )
+        # Meses solo con Telecentro proyectado: no liquidar
+        solo_telecentro = not (
+            alm_s or alm_c or any(
+                c["categoria"] not in ("TV CABLE", "ALMACEN") for c in conceptos
+            )
+        ) and total > 0
 
         if sin_cargo_chris:
             veredicto = "Sin cargo a Chris (aún no pasó almacén)"
@@ -261,6 +267,10 @@ def resolve_month_values(matrix_rows, alm_sol, alm_chris) -> dict:
             direccion = "sin cargo"
             pendiente_sol = 0
             pendiente_chris = 0
+        elif solo_telecentro:
+            veredicto = "Mes incompleto — no liquidar aún"
+            transferencia = 0
+            direccion = "no liquidar"
         elif pendiente_chris > 0 and pendiente_sol <= 0:
             veredicto = f"Chris le debe a Sol {fmt_ars(pendiente_chris)}"
             transferencia = pendiente_chris
@@ -309,11 +319,8 @@ def resolve_month_values(matrix_rows, alm_sol, alm_chris) -> dict:
             "primer_mes_chris": first_chris_month,
             "tiene_datos": total > 0,
             "estado": (
-                "completo"
-                if alm_s or alm_c or any(
-                    c["categoria"] not in ("TV CABLE", "ALMACEN") for c in conceptos
-                )
-                else ("solo_telecentro" if total > 0 else "vacio")
+                "solo_telecentro" if solo_telecentro
+                else ("completo" if total > 0 else "vacio")
             ),
         }
     return out
