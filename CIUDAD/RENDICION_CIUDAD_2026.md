@@ -1,6 +1,6 @@
 # Rendición CIUDAD 1132 — 2026
 
-Generado: **2026-09-10** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
+Generado: **2026-09-11** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 
 ## Cómo se calcula la reconciliación
 
@@ -9,15 +9,16 @@ Generado: **2026-09-10** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 3. **A cargo de cada uno** = cuota servicios + cuota almacén
 4. **Restar lo ya pagado**: Sol = todos los servicios + su almacén; Chris = solo su almacén
 5. **Reconciliación**: si Chris quedó debiendo → le paga a Sol; si Sol quedó debiendo → le paga a Chris
+6. **Enero–abril: sin cargo a Chris** (aún no había pasado almacén). La deuda arranca en **mayo**.
 
 ## Resumen anual
 
 | Mes | Estado | Servicios | Cuota serv. | Alm. Sol | Alm. Chris | A cargo c/u | Pagó Sol | Pagó Chris | Reconciliación |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|
-| Enero | Completo | $1.138.137 | $569.069 | $1.267.198 | $0 | $1.202.668 | $2.405.335 | $0 | Chris le debe a Sol $1.202.668 |
-| Febrero | Completo | $931.127 | $465.564 | $992.343 | $0 | $961.735 | $1.923.470 | $0 | Chris le debe a Sol $961.735 |
-| Marzo | Completo | $907.385 | $453.693 | $1.200.106 | $0 | $1.053.746 | $2.107.491 | $0 | Chris le debe a Sol $1.053.746 |
-| Abril | Completo | $884.997 | $442.499 | $1.374.704 | $0 | $1.129.851 | $2.259.701 | $0 | Chris le debe a Sol $1.129.851 |
+| Enero | Completo | $1.138.137 | $569.069 | $1.267.198 | $0 | $1.202.668 | $2.405.335 | $0 | Sin cargo a Chris (aún no pasó almacén) |
+| Febrero | Completo | $931.127 | $465.564 | $992.343 | $0 | $961.735 | $1.923.470 | $0 | Sin cargo a Chris (aún no pasó almacén) |
+| Marzo | Completo | $907.385 | $453.693 | $1.200.106 | $0 | $1.053.746 | $2.107.491 | $0 | Sin cargo a Chris (aún no pasó almacén) |
+| Abril | Completo | $884.997 | $442.499 | $1.374.704 | $0 | $1.129.851 | $2.259.701 | $0 | Sin cargo a Chris (aún no pasó almacén) |
 | Mayo | Completo | $1.066.812 | $533.406 | $1.500.657 | $176.932 | $1.372.201 | $2.567.469 | $176.932 | Chris le debe a Sol $1.195.269 |
 | Junio | Completo | $1.340.145 | $670.073 | $1.314.709 | $101.000 | $1.377.927 | $2.654.854 | $101.000 | Chris le debe a Sol $1.276.927 |
 | Julio | Completo | $587.691 | $293.846 | $585.071 | $155.800 | $664.281 | $1.172.762 | $155.800 | Chris le debe a Sol $508.481 |
@@ -26,11 +27,11 @@ Generado: **2026-09-10** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 | Octubre | Parcial | $50.000 | $25.000 | $0 | $0 | $25.000 | $50.000 | $0 | no liquidar aún |
 | Noviembre | Parcial | $50.000 | $25.000 | $0 | $0 | $25.000 | $50.000 | $0 | no liquidar aún |
 | Diciembre | Parcial | $50.000 | $25.000 | $0 | $0 | $25.000 | $50.000 | $0 | no liquidar aún |
-| **TOTAL liquidable*** | | **$6.856.294** | | **$8.234.788** | **$433.732** | | | | **Chris → Sol $7.328.677** |
+| **TOTAL liquidable*** | | **$3.244.648** | | **$3.400.437** | **$433.732** | | | | **Chris → Sol $2.980.677** |
 
-\* Solo meses completos (ene–jul).
+\* Solo meses con cargo a Chris (mayo–julio). Enero–abril: sin cargo.
 
-**Chris le debe a Sol (meses completos):** $7.328.677
+**Chris le debe a Sol (desde mayo):** $2.980.677
 
 ## Detalle por mes
 
@@ -44,9 +45,9 @@ Generado: **2026-09-10** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 | 4. Cuota almacén (÷2) | $633.599 | $633.599 | $1.267.198 |
 | 5. A cargo de cada uno | $1.202.668 | $1.202.668 | $2.405.335 |
 | 6. Ya pagó | $2.405.335 | $0 | $2.405.335 |
-| 7. Saldo (+ debe / − a favor) | -$1.202.667 | $1.202.668 | |
+| 7. Saldo (+ debe / − a favor) | $0 | $0 | |
 
-**Reconciliación:** Chris le debe a Sol $1.202.668
+**Reconciliación:** Sin cargo a Chris (aún no pasó almacén)
 
 #### Almacén por familia
 
@@ -68,9 +69,9 @@ Generado: **2026-09-10** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 | 4. Cuota almacén (÷2) | $496.172 | $496.172 | $992.343 |
 | 5. A cargo de cada uno | $961.735 | $961.735 | $1.923.470 |
 | 6. Ya pagó | $1.923.470 | $0 | $1.923.470 |
-| 7. Saldo (+ debe / − a favor) | -$961.735 | $961.735 | |
+| 7. Saldo (+ debe / − a favor) | $0 | $0 | |
 
-**Reconciliación:** Chris le debe a Sol $961.735
+**Reconciliación:** Sin cargo a Chris (aún no pasó almacén)
 
 #### Almacén por familia
 
@@ -94,9 +95,9 @@ Generado: **2026-09-10** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 | 4. Cuota almacén (÷2) | $600.053 | $600.053 | $1.200.106 |
 | 5. A cargo de cada uno | $1.053.746 | $1.053.746 | $2.107.491 |
 | 6. Ya pagó | $2.107.491 | $0 | $2.107.491 |
-| 7. Saldo (+ debe / − a favor) | -$1.053.745 | $1.053.746 | |
+| 7. Saldo (+ debe / − a favor) | $0 | $0 | |
 
-**Reconciliación:** Chris le debe a Sol $1.053.746
+**Reconciliación:** Sin cargo a Chris (aún no pasó almacén)
 
 #### Almacén por familia
 
@@ -120,9 +121,9 @@ Generado: **2026-09-10** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 | 4. Cuota almacén (÷2) | $687.352 | $687.352 | $1.374.704 |
 | 5. A cargo de cada uno | $1.129.851 | $1.129.851 | $2.259.701 |
 | 6. Ya pagó | $2.259.701 | $0 | $2.259.701 |
-| 7. Saldo (+ debe / − a favor) | -$1.129.850 | $1.129.851 | |
+| 7. Saldo (+ debe / − a favor) | $0 | $0 | |
 
-**Reconciliación:** Chris le debe a Sol $1.129.851
+**Reconciliación:** Sin cargo a Chris (aún no pasó almacén)
 
 #### Almacén por familia
 

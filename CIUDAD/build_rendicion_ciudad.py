@@ -178,7 +178,12 @@ def load_almacen(wb) -> tuple[dict, dict, dict, dict]:
 
 
 def resolve_month_values(matrix_rows, alm_sol, alm_chris) -> dict:
-    """Compute full rendición per month using matrix formulas."""
+    """Compute full rendición per month using matrix formulas.
+
+    Regla Sol: no cobrarle nada a Chris en los meses anteriores al primero
+    en que Chris pasó gastos de almacén (ene–abr 2026 = sin cargo).
+    """
+    first_chris_month = next((m for m in MONTHS if alm_chris.get(m, 0) > 0), None)
     out = {}
     for mes in MONTHS:
         conceptos = []
@@ -245,7 +250,18 @@ def resolve_month_values(matrix_rows, alm_sol, alm_chris) -> dict:
         pendiente_sol = cada_uno - pagado_sol  # + Sol le debe a Chris; − a favor de Sol
         pendiente_chris = cada_uno - pagado_chris  # + Chris le debe a Sol
 
-        if pendiente_chris > 0 and pendiente_sol <= 0:
+        # Antes del primer mes con almacén Chris: no cobrarle nada a Chris
+        sin_cargo_chris = bool(
+            first_chris_month and MONTHS.index(mes) < MONTHS.index(first_chris_month)
+        )
+
+        if sin_cargo_chris:
+            veredicto = "Sin cargo a Chris (aún no pasó almacén)"
+            transferencia = 0
+            direccion = "sin cargo"
+            pendiente_sol = 0
+            pendiente_chris = 0
+        elif pendiente_chris > 0 and pendiente_sol <= 0:
             veredicto = f"Chris le debe a Sol {fmt_ars(pendiente_chris)}"
             transferencia = pendiente_chris
             direccion = "Chris→Sol"
@@ -289,6 +305,8 @@ def resolve_month_values(matrix_rows, alm_sol, alm_chris) -> dict:
             "transferencia": transferencia,
             "direccion": direccion,
             "veredicto": veredicto,
+            "sin_cargo_chris": sin_cargo_chris,
+            "primer_mes_chris": first_chris_month,
             "tiene_datos": total > 0,
             "estado": (
                 "completo"
@@ -402,7 +420,7 @@ def build_excel(rendicion, fam, items) -> None:
     for c in range(9, 11):
         ws.cell(row, c).border = THIN
         ws.cell(row, c).fill = PatternFill("solid", fgColor=LIGHT)
-    ws.cell(row, 11, f"Chris → Sol (meses completos): {fmt_ars(tot_tr)}").border = THIN
+    ws.cell(row, 11, f"Chris → Sol (desde 1er mes con almacén Chris): {fmt_ars(tot_tr)}").border = THIN
     ws.cell(row, 11).font = Font(bold=True, color=RED)
 
     row += 2
@@ -413,6 +431,7 @@ def build_excel(rendicion, fam, items) -> None:
         "3) A cargo de cada uno = cuota servicios + cuota almacén.",
         "4) Restar lo que ya pagó: Sol pagó todos los servicios + su almacén; Chris pagó solo su almacén.",
         "5) Reconciliación: si el saldo de Chris es positivo → Chris le debe a Sol; si el de Sol es positivo → Sol le debe a Chris.",
+        "6) Enero–abril: NO se le cobra nada a Chris (todavía no había pasado gastos de almacén). La deuda arranca en mayo.",
         "Agosto–diciembre: almacén vacío / Telecentro proyectado — no liquidar hasta completar el mes.",
     ]
     for note in notes:
@@ -667,6 +686,7 @@ def build_markdown(rendicion, fam) -> None:
         "3. **A cargo de cada uno** = cuota servicios + cuota almacén",
         "4. **Restar lo ya pagado**: Sol = todos los servicios + su almacén; Chris = solo su almacén",
         "5. **Reconciliación**: si Chris quedó debiendo → le paga a Sol; si Sol quedó debiendo → le paga a Chris",
+        "6. **Enero–abril: sin cargo a Chris** (aún no había pasado almacén). La deuda arranca en **mayo**.",
         "",
         "## Resumen anual",
         "",
@@ -698,16 +718,16 @@ def build_markdown(rendicion, fam) -> None:
         if d["estado"] == "completo" and d.get("direccion") == "Chris→Sol":
             tot_tr += d["transferencia"]
     lines.append(
-        f"| **TOTAL liquidable*** | | **{fmt_ars(sum(rendicion[m]['servicios'] for m in MONTHS if rendicion[m]['estado']=='completo'))}** | "
-        f"| **{fmt_ars(sum(rendicion[m]['almacen_sol'] for m in MONTHS if rendicion[m]['estado']=='completo'))}** | "
-        f"**{fmt_ars(sum(rendicion[m]['almacen_chris'] for m in MONTHS if rendicion[m]['estado']=='completo'))}** | "
+        f"| **TOTAL liquidable*** | | **{fmt_ars(sum(rendicion[m]['servicios'] for m in MONTHS if rendicion[m].get('direccion')=='Chris→Sol'))}** | "
+        f"| **{fmt_ars(sum(rendicion[m]['almacen_sol'] for m in MONTHS if rendicion[m].get('direccion')=='Chris→Sol'))}** | "
+        f"**{fmt_ars(sum(rendicion[m]['almacen_chris'] for m in MONTHS if rendicion[m].get('direccion')=='Chris→Sol'))}** | "
         f"| | | **Chris → Sol {fmt_ars(tot_tr)}** |"
     )
     lines += [
         "",
-        "\\* Solo meses completos (ene–jul).",
+        "\\* Solo meses con cargo a Chris (mayo–julio). Enero–abril: sin cargo.",
         "",
-        f"**Chris le debe a Sol (meses completos):** {fmt_ars(tot_tr)}",
+        f"**Chris le debe a Sol (desde mayo):** {fmt_ars(tot_tr)}",
         "",
         "## Detalle por mes",
         "",
@@ -794,9 +814,10 @@ def main() -> None:
         d = rendicion[mes]
         if not d["tiene_datos"]:
             continue
+        cargo = d["transferencia"] if d.get("direccion") == "Chris→Sol" else 0
         print(
             f"{mes:<12} {fmt_ars(d['total']):>14} {fmt_ars(d['cada_uno']):>14} "
-            f"{fmt_ars(d['pendiente_chris']):>14}"
+            f"{fmt_ars(cargo):>14}"
         )
 
 
