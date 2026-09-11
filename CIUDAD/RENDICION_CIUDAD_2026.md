@@ -27,7 +27,7 @@ Generado: **2026-09-11** · Fuente: `Gastos_CIUDAD_1132_2026.xlsx`
 | Octubre | Parcial | $50.000 | $25.000 | $0 | $0 | $25.000 | $50.000 | $0 | no liquidar aún |
 | Noviembre | Parcial | $50.000 | $25.000 | $0 | $0 | $25.000 | $50.000 | $0 | no liquidar aún |
 | Diciembre | Parcial | $50.000 | $25.000 | $0 | $0 | $25.000 | $50.000 | $0 | no liquidar aún |
-| **TOTAL liquidable*** | | **$3.244.648** | | **$3.400.437** | **$433.732** | | | | **Chris → Sol $2.980.677** |
+| **TOTAL liquidable*** | | **$2.994.648** | | **$3.400.437** | **$433.732** | | | | **Chris → Sol $2.980.677** |
 
 \* Solo meses con cargo a Chris (mayo–julio). Enero–abril: sin cargo.
 
