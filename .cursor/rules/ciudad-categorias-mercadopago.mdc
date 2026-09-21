@@ -74,7 +74,8 @@ Otras exclusiones:
 El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **CIUDAD 1132** → partida **397789** → montos **≤ $80.000** → fila ABL CIUDAD
 - **OHIGGINS** → partida **3016365** → montos **> $80.000** → `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` (nunca CIUDAD)
-- AVA / BONORINO → partidas pendientes
+- **BONORINO** → partida **1084069** → `BONORINO/Gastos_BONORINO_2026.xlsx` · `SERVICIOS` / `ABL` / `AGIP ABL — partida 1084069` (nunca CIUDAD ni OHIGGINS)
+- AVA → partida pendiente
 - Referencia: `CIUDAD/_inbox/abl_partidas.csv`
 
 ## ALMACEN SOL — taxonomía fija (detalle)
@@ -152,7 +153,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
   - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
   - **Marta Chagas** / Sanes M.i.chagas → **OHIGGINS** (cuenta `9267222037` · O'Higgins 2225 8)
   - **INVALMAR / Ivilmar** → **OHIGGINS**
-- **ABL AGIP**: CIUDAD partida `397789` (≤$80.000) · OHIGGINS partida `3016365` (>$80.000)
+- **ABL AGIP**: CIUDAD partida `397789` (≤$80.000) · OHIGGINS partida `3016365` (>$80.000) · BONORINO partida `1084069`
 - Referencia: `CIUDAD/_inbox/utilidades_cuentas.csv`
 
 
