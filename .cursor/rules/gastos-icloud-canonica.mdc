@@ -18,7 +18,7 @@ El archivo que **todos los meses** debe quedar completo con todos los gastos de 
 
 `/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/BONORINO/Gastos_BONORINO_2026.xlsx`
 
-Incluye expensas, Edesur (cliente `3932799`), Metrogas (cliente `30010713734`) y cualquier otro gasto de BONORINO.
+Incluye expensas, Edesur (cliente `3932799`), Metrogas (cliente `30010713734` · medidor `25767970` · Bonorino 82 1º 005) y cualquier otro gasto de BONORINO.
 
 ## Cómo trabajar según entorno
 1. **Cursor Desktop en la Mac de Sol:** editar **directamente** el Excel en iCloud (`GastosCiudad/…`). El repo `BONORINO/` / `CIUDAD/` / etc. es espejo; sincronizar con `python3 scripts/sync_gastos_icloud.py` (repo ↔ iCloud).
