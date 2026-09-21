@@ -74,7 +74,8 @@ Otras exclusiones:
 El settlement de Mercado Pago **no trae la partida**; mapear a mano.
 - **CIUDAD 1132** → partida **397789** → montos **≤ $80.000** → fila ABL CIUDAD
 - **OHIGGINS** → partida **3016365** → montos **> $80.000** → `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` (nunca CIUDAD)
-- AVA / BONORINO → partidas pendientes
+- **BONORINO** → partida **1084069** → `BONORINO/Gastos_BONORINO_2026.xlsx` · `SERVICIOS` / `ABL` / `AGIP ABL — partida 1084069` (nunca CIUDAD ni OHIGGINS)
+- AVA → partida pendiente
 - Referencia: `CIUDAD/_inbox/abl_partidas.csv`
 
 ## ALMACEN SOL — taxonomía fija (detalle)
@@ -146,12 +147,13 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Metrogas** por N° cliente:
   - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes
   - **OHIGGINS**: cliente `10139236800` · medidor `8683287` · titular **INVALMAR SRL** (Ivilmar) · O'Higgins 2225 8
+  - **BONORINO**: cliente `30010713734` · medidor `25767970` · Av. Cnel. Esteban Bonorino 82 1º 005 · GAS BONORINO (nunca CIUDAD ni OHIGGINS)
   - **Mes del gasto (GAS CIUDAD y utilidades con débito TC):** asignar al mes de la **fecha de cobro** (pago efectivo BBVA / vencimiento de la factura), **no** al período de consumo de la boleta.
 - **Edenor (LUZ)** según titular / cuenta:
   - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
   - **Marta Chagas** / Sanes M.i.chagas → **OHIGGINS** (cuenta `9267222037` · O'Higgins 2225 8)
   - **INVALMAR / Ivilmar** → **OHIGGINS**
-- **ABL AGIP**: CIUDAD partida `397789` (≤$80.000) · OHIGGINS partida `3016365` (>$80.000)
+- **ABL AGIP**: CIUDAD partida `397789` (≤$80.000) · OHIGGINS partida `3016365` (>$80.000) · BONORINO partida `1084069`
 - Referencia: `CIUDAD/_inbox/utilidades_cuentas.csv`
 
 
@@ -209,3 +211,4 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Fecha obligatoria:** todo registro cargado en cualquier Excel (GPS, Almacén, Detalle, MP No Gasto, Inversión, Dinero Retirado, Pago de Tarjetas, propiedades BONORINO/OHIGGINS/AVA, maestro SOL) **debe llevar siempre la fecha del gasto** (fecha del movimiento / cobro según el resumen oficial). **Nunca** crear ni dejar filas sin fecha; si no hay fecha en el extracto, no cargar hasta tenerla o marcar `REVISAR` solo con fecha tentativa del resumen y comentario explícito.
 - Montos enteros, ceil hacia arriba
 - Solo editar archivo canónico de la propiedad
+- **Canónico iCloud (actualizar todos los meses):** `/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/{PROPIEDAD}/…`. BONORINO → `…/BONORINO/Gastos_BONORINO_2026.xlsx`. En Cloud Agent editar el repo y sincronizar a iCloud con `python3 scripts/sync_gastos_icloud.py` desde la Mac.

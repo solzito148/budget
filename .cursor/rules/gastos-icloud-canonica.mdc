@@ -1,0 +1,49 @@
+# Archivos canónicos — iCloud + Google Drive/Sheets
+
+## Fuente de verdad según entorno
+
+### Cloud Agent / VM (editable en la nube)
+El archivo que **todos los meses** debe actualizarse con servicios y pagos (canónico cloud) es el Google Spreadsheet:
+
+- URL: https://docs.google.com/spreadsheets/d/14398lhBiIOkSAXSbwTp_XTF4M_HmlpTCWkWFCfJIrto/edit
+- Spreadsheet ID: `14398lhBiIOkSAXSbwTp_XTF4M_HmlpTCWkWFCfJIrto`
+- Carpeta Drive (espejos xlsx): https://drive.google.com/drive/folders/1cWkY56sBG-k7ZmdzIdRImUr4EyHHSE7x
+- Folder ID: `1cWkY56sBG-k7ZmdzIdRImUr4EyHHSE7x`
+
+Requiere conexiones Composio **ACTIVE**: `googledrive` + `googlesheets` (alias `sol-gastos-drive` / `sol-gastos-sheets`).
+Editar vía `GOOGLESHEETS_*`; subir/espejar xlsx vía `GOOGLEDRIVE_*` + `scripts/sync_gastos_drive.py`.
+
+### Mac Desktop (iCloud)
+Copia personal en iCloud (solo visible en la Mac de Sol):
+
+`/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/`
+
+| Propiedad | Archivo canónico iCloud |
+|-----------|------------------|
+| **BONORINO** | `…/GastosCiudad/BONORINO/Gastos_BONORINO_2026.xlsx` |
+| **CIUDAD** | `…/GastosCiudad/CIUDAD/Gastos_CIUDAD_1132_2026.xlsx` |
+| **OHIGGINS** | `…/GastosCiudad/OHIGGINS/Gastos_OHIGGINS_2026.xlsx` |
+| **SOL** | `…/GastosCiudad/SOL/Gastos_SOL_2026.xlsx` (si aplica) |
+| **AVA** | `…/GastosCiudad/AVA/…` (fideicomiso; aparte) |
+
+## BONORINO — regla explícita
+Todos los meses debe quedar completo (expensas, Edesur cliente `3932799`, Metrogas cliente `30010713734` · medidor `25767970`, AGIP ABL partida `1084069` · Bonorino 82 1º 005):
+
+1. **Cloud:** Google Sheet `14398lhBiIOkSAXSbwTp_XTF4M_HmlpTCWkWFCfJIrto` (+ espejo repo `BONORINO/Gastos_BONORINO_2026.xlsx` / Drive folder).
+2. **Mac:** iCloud `GastosCiudad/BONORINO/Gastos_BONORINO_2026.xlsx`.
+
+## Cómo trabajar según entorno
+1. **Cursor Desktop en la Mac de Sol:** editar el Excel en iCloud; sync con `python3 scripts/sync_gastos_icloud.py`.
+2. **Cloud Agent / VM:** editar el Google Spreadsheet canónico (y el xlsx del repo). Subir espejos a Drive con el flujo Composio tras OAuth ACTIVE. No depender de la ruta iCloud (no existe en la VM).
+3. Mantener repo + Sheet/Drive al día; en Mac, sincronizar también iCloud cuando se trabaje local.
+
+## Sync
+```bash
+# Mac (iCloud visible):
+python3 scripts/sync_gastos_icloud.py          # repo → iCloud
+python3 scripts/sync_gastos_icloud.py --pull   # iCloud → repo
+
+# Cloud Agent (espejo local Gastos/ + plan Drive):
+python3 scripts/sync_gastos_drive.py
+python3 scripts/sync_gastos_drive.py --print-plan
+```
