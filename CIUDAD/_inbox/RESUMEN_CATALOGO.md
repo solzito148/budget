@@ -14,7 +14,7 @@
 - **INGRESO**: 7
 - **AVA**: 3
 - **GAS**: 3
-- **EXPENSAS_BONORINO**: 3
+- **EXPENSAS_BONORINO**: 4
 - **AGUS_PSA**: 2
 - **EXPENSAS_CIUDAD**: 2
 - **TV_CABLE**: 2
