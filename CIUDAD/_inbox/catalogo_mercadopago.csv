@@ -510,7 +510,6 @@ fecha,comercio,monto,categoria,comentario
 2026-05-16,PedidosYa Propina,1000,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-05-16,PedidosYa,17519,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-05-16,Valeria Mele,90000,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
-2026-05-18,Edesur,1441,EDESUR_BONORINO,Edesur · LUZ BONORINO
 2026-05-18,Leocan,79924,ALMACEN_SOL,RAMON · Veterinario · Leocan · ALMACEN SOL
 2026-05-18,Didi,6030,GASTO_PERSONAL_SOL,transporte
 2026-05-18,Didi,6880,GASTO_PERSONAL_SOL,transporte
@@ -613,7 +612,6 @@ fecha,comercio,monto,categoria,comentario
 2026-06-18,Mercado Libre,67000,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-06-18,Tienda De Café,18700,ALMACEN_SOL,café
 2026-06-19,Todo Tartas,28000,ALMACEN_SOL,panadería
-2026-06-19,Edesur,2198,EDESUR_BONORINO,Edesur · LUZ BONORINO
 2026-06-20,PedidosYa Propina,1500,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-06-20,PedidosYa,47299,ALMACEN_SOL,PEDIDOS YA · COMIDA · neto tras devolución
 2026-06-20,Susana Carmen Ortiz,112020,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -897,6 +895,10 @@ fecha,comercio,monto,categoria,comentario
 2026-06-23,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-06-25,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-07-02,Fabricio Bollonine,5990,GASTO_PERSONAL_SOL,pago QR Fabricio Bollonine · gasto personal Sol
+2026-09-07,Metrogas,0,METROGAS_BONORINO,Metrogas BONORINO 30010713734 · medidor 25767970 · PDF 280003529220 · TOTAL A PAGAR 0 · NO GASTO (liq 8276.79 cubierta por entrega a cuenta)
+2026-05-05,Edesur,1685,EDESUR_BONORINO,Edesur · LUZ BONORINO · venc 05/05/2026 · Gmail
+2026-06-02,Edesur,1441,EDESUR_BONORINO,Edesur · LUZ BONORINO · venc 02/06/2026 · Gmail
+2026-07-02,Edesur,2198,EDESUR_BONORINO,Edesur · LUZ BONORINO · venc 02/07/2026 · Gmail
+2026-08-03,Edesur,2074,EDESUR_BONORINO,Edesur · LUZ BONORINO · venc 03/08/2026 · Gmail
 2026-09-02,Edesur,154,EDESUR_BONORINO,Edesur · LUZ BONORINO · venc 02/09/2026 · Gmail
 2026-09-30,Edesur,2009,EDESUR_BONORINO,Edesur · LUZ BONORINO · venc 30/09/2026 · Gmail
-2026-09-07,Metrogas,0,METROGAS_BONORINO,Metrogas BONORINO 30010713734 · medidor 25767970 · PDF 280003529220 · TOTAL A PAGAR 0 · NO GASTO (liq 8276.79 cubierta por entrega a cuenta)
