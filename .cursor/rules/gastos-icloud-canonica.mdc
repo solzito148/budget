@@ -1,0 +1,33 @@
+# Archivos canónicos — iCloud GastosCiudad
+
+## Fuente de verdad (obligatoria)
+Todos los meses se actualizan **automáticamente** los Excel en iCloud:
+
+`/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/`
+
+| Propiedad | Archivo canónico |
+|-----------|------------------|
+| **BONORINO** | `…/GastosCiudad/BONORINO/Gastos_BONORINO_2026.xlsx` |
+| **CIUDAD** | `…/GastosCiudad/CIUDAD/Gastos_CIUDAD_1132_2026.xlsx` |
+| **OHIGGINS** | `…/GastosCiudad/OHIGGINS/Gastos_OHIGGINS_2026.xlsx` |
+| **SOL** | `…/GastosCiudad/SOL/Gastos_SOL_2026.xlsx` (si aplica) |
+| **AVA** | `…/GastosCiudad/AVA/…` (fideicomiso; aparte) |
+
+## BONORINO — regla explícita
+El archivo que **todos los meses** debe quedar completo con todos los gastos de la propiedad es:
+
+`/Users/sol/Library/Mobile Documents/com~apple~CloudDocs/GastosCiudad/BONORINO/Gastos_BONORINO_2026.xlsx`
+
+Incluye expensas, Edesur (cliente `3932799`), Metrogas (cliente `30010713734`) y cualquier otro gasto de BONORINO.
+
+## Cómo trabajar según entorno
+1. **Cursor Desktop en la Mac de Sol:** editar **directamente** el Excel en iCloud (`GastosCiudad/…`). El repo `BONORINO/` / `CIUDAD/` / etc. es espejo; sincronizar con `python3 scripts/sync_gastos_icloud.py` (repo ↔ iCloud).
+2. **Cloud Agent / VM sin iCloud montado:** editar el Excel del repo (`BONORINO/Gastos_BONORINO_2026.xlsx`, etc.), commit/PR, y al final correr el sync **en la Mac** (o copiar el xlsx a la carpeta iCloud) para que el archivo canónico quede al día.
+3. **Nunca** dejar solo el repo actualizado si el canónico iCloud quedó viejo: el archivo de iCloud es el que Sol usa mes a mes.
+
+## Sync
+```bash
+# Desde la Mac (iCloud visible):
+python3 scripts/sync_gastos_icloud.py          # repo → iCloud
+python3 scripts/sync_gastos_icloud.py --pull   # iCloud → repo
+```

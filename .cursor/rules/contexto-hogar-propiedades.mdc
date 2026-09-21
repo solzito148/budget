@@ -16,8 +16,8 @@ alwaysApply: true
 
 ## BONORINO y OHIGGINS — propiedades (no hogar)
 - Sol tiene **dos propiedades adicionales** además de la casa donde vive:
-  - **BONORINO** → `BONORINO/Gastos_BONORINO_2026.xlsx` (ej. Edesur / expensas Bonorino).
-  - **OHIGGINS** → `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` (expensas, Personal TV, Edenor Chagas, Metrogas INVALMAR, ABL, etc.).
+- **BONORINO** → canónico iCloud `GastosCiudad/BONORINO/Gastos_BONORINO_2026.xlsx` (actualizar todos los meses; espejo repo `BONORINO/`). Edesur `3932799` · Metrogas `30010713734` · expensas Cons De Prop E Bonorino 82.
+- **OHIGGINS** → canónico iCloud `GastosCiudad/OHIGGINS/…` (espejo repo `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`: Personal TV, Edenor Chagas, Metrogas INVALMAR, ABL, etc.).
 - En estas propiedades se registran **gastos de la propiedad** (servicios, expensas, impuestos, TV de esa unidad), **no** el consumo diario del hogar ni el almacén de Sol/Ramón.
 - Nunca mezclar: almacén / Ramón / comida hogareña → **CIUDAD**; gastos de cada depto de renta/inversión → **BONORINO** u **OHIGGINS** según corresponda.
 
