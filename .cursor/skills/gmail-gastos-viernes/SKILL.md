@@ -108,10 +108,15 @@ Branch `cursor/<descriptive>-548e` (o la del agente), commit descriptivo, push, 
 - [ ] `build_gastos_sol.py` corrido
 - [ ] Commit + push + PR actualizado
 
-## Automatización Cursor
+## Automatización Cursor (corrida sola cada viernes)
 
-Crear (o verificar) una **Cloud Automation** en Cursor con cron viernes ~18:00 ART cuyo prompt sea:
+Plantilla lista para pegar: `.cursor/automations/gmail-gastos-viernes.md`
 
-> Ejecutá el skill `.cursor/skills/gmail-gastos-viernes/SKILL.md`: revisá Gmail de s.sanes@gmail.com, cargá gastos faltantes en CIUDAD, BONORINO, OHIGGINS y AVA, regenerá SOL, commit/push/PR.
+1. Abrí https://cursor.com/automations → **New automation**
+2. Trigger **Schedule** con cron:
+   `CRON_TZ=America/Argentina/Buenos_Aires 0 18 * * 5` (viernes 18:00 ART)
+3. Repo: `solzito148/budget` (obligatorio)
+4. Prompt: el bloque del archivo de plantilla (apunta a este skill)
+5. Save + Enable
 
-Si no hay Automation, al arrancar un agente el viernes (o al pedir “gastos del viernes”) leer este skill y ejecutarlo de punta a punta.
+Sin la Automation habilitada, el skill igual sirve: al pedir “gastos del viernes” o al arrancar un agente el viernes, leer este skill y ejecutarlo de punta a punta.

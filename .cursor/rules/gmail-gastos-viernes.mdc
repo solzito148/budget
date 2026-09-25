@@ -17,3 +17,4 @@ Every Friday end of day (`America/Argentina/Buenos_Aires`), and whenever Sol ask
 4. Apply `.cursor/rules/contexto-hogar-propiedades.mdc` and `.cursor/rules/ciudad-categorias-mercadopago.mdc` (never mix properties; Almacén vs GPS; MP No Gasto).
 5. Run `python3 SOL/build_gastos_sol.py`, then commit, push, and update the PR.
 6. Optional helper: `python3 scripts/gmail_gastos_viernes_queries.py`.
+7. Unattended Friday runs: enable Cloud Automation using `.cursor/automations/gmail-gastos-viernes.md` (cron viernes 18:00 ART → repo budget).
