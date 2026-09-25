@@ -25,3 +25,11 @@
 - Julio 2026: CAC junio aún no publicado (corte 19-jul-2026).
 
 Cuotas 10–32: pendientes (sin monto aún).
+
+## Cuota 10 — agosto 2026
+
+- Monto total: **$6.269.440** (venc. 04/09/2026)
+- TC MEP venta: **1525.3** (2026-09-04)
+- Valor USD: **4110.29**
+- 50% Sol: **$3.134.720** (cargado en Gasto Personal Sol)
+- Fuente: Gmail Sancor 25-ago + pago confirmado 7-sep + factura Estudio CMS
