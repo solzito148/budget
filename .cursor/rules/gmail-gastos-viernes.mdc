@@ -1,0 +1,19 @@
+---
+description: Viernes ART — sync Gmail→planillas CIUDAD/BONORINO/OHIGGINS/AVA
+alwaysApply: true
+---
+
+# Gmail gastos — viernes
+
+Every Friday end of day (`America/Argentina/Buenos_Aires`), and whenever Sol asks to review mails / cargar gastos / sync Gmail:
+
+1. Read and follow `.cursor/skills/gmail-gastos-viernes/SKILL.md`.
+2. Search Gmail (`s.sanes@gmail.com` via Composio) for payments, transfers, utilities, expensas, AVA cuotas, MP/BBVA settlements since the last loaded date (or previous Friday).
+3. Register confirmed amounts only into:
+   - `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`
+   - `BONORINO/Gastos_BONORINO_2026.xlsx`
+   - `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
+   - `AVA/Gastos_AVA_2026.xlsx` + `AVA/cuotas_fideicomiso_ava.csv`
+4. Apply `.cursor/rules/contexto-hogar-propiedades.mdc` and `.cursor/rules/ciudad-categorias-mercadopago.mdc` (never mix properties; Almacén vs GPS; MP No Gasto).
+5. Run `python3 SOL/build_gastos_sol.py`, then commit, push, and update the PR.
+6. Optional helper: `python3 scripts/gmail_gastos_viernes_queries.py`.
