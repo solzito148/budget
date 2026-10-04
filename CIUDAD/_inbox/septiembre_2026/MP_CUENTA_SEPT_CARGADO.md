@@ -31,6 +31,6 @@ Script: `apply_mp_oficial_sept.py`.
 - Créditos MP (si aparecen)
 
 ## REVISAR
-1. Kelly ($20k+$86k) y Camilo Carlos Ihan ($69.900) — ítem
+1. Camilo Carlos Ihan ($69.900) — ítem (Kelly → Sol Estética)
 2. Sol Dollar Mdp: saldo final header US$ 1,68 vs detalle movimientos US$ 2002,21 (ajuste −2000,53)
 3. Ítems previos: Luxodia, Markova, La Obanesad, pagos genéricos 13/09

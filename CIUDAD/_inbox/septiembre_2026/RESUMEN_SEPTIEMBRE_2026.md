@@ -75,7 +75,7 @@ Fuentes: Gmail + capturas MP (1–27) + **resumen oficial cuenta MP 1–30 sep**
 - Cuota 11 (oct, PENDIENTE factura): $6,550,413 · 50% Sol $3,275,207 en Cashflow
 
 ## Pendiente / REVISAR
-- Kelly ($106.000) y Camilo Carlos Ihan ($69.900) — ítem
+- Camilo Carlos Ihan ($69.900) — ítem (Kelly → Sol Estética OK)
 - Sol Dollar Mdp: saldo final header US$ 1,68 vs detalle movimientos US$ 2002,21
 - PedidosYa Plus: sin cargo visible en sept → matriz SUSCRIPCIONES vacía
 - Resumen BBVA Visa/MC PDF oficial (alertas Gmail usadas)
