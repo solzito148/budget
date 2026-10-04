@@ -77,7 +77,7 @@ Fuentes: Gmail + capturas MP dinero en cuenta (1–27) + resumen TC MP cierre 12
 
 ## Pendiente / REVISAR
 - MP cuenta: posible gap **28–30** sep (sin capturas)
-- PedidosYa cargados como COMIDA (confirmar si alguno era Market)
+- PedidosYa: confirmado COMIDA → Almacén (no Market)
 - PedidosYa Plus: sin cargo visible en sept → matriz SUSCRIPCIONES vacía
 - Resumen BBVA Visa/MC PDF oficial (alertas Gmail usadas; cruzar al bajar PDF)
 - Post-cierre TC MP (Itsclassic/Promarine nuevo/EducaciónIT/Vienna/Yenny) → confirmar en resumen octubre

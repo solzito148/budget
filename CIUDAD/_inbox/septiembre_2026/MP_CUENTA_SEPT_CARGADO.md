@@ -30,7 +30,7 @@ Archivo JSON: `mp_cuenta_sept_2026.json` / `mp_cuenta_sept_classified.json`.
 - Christian Ventura $10 (test)
 
 ## REVISAR
-1. **PedidosYa** clasificados como `PEDIDOS YA · COMIDA` (+ propinas). Si alguno es Market → pasar a `PEDIDOS YA · SUPERMERCADO`.
+1. **PedidosYa**: confirmado por Sol → siempre `PEDIDOS YA · COMIDA` (+ propina) en Almacén.
 2. **Pago** genérico 13/09 $71.250 y $76.742 — sin comercio visible en captura.
 3. ZILVER / Happy buy / El Bazar Digital / Kiosk Store / transfers a terceros — GPS COMPRAS/TRANSFERENCIAS a confirmar ítem.
 4. **la monumental** → Almacén `ENTRETENIMIENTO · Social` (si era cuota River / TLM, mover a GPS Eventos deportivos).
