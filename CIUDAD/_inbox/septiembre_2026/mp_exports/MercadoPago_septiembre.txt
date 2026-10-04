@@ -1,0 +1,592 @@
+1/21
+RESUMEN DE CUENTA EN PESOS
+Maria Soledad Sanes
+CVU: 0000003100030460538285  27290390791CUIT/ CUIL:
+ Del 1 al 30 de septiembre de 2026Periodo:
+Saldo inicial: $ 9.869,39
+Entradas: $ 58.951.207,01
+Salidas: $ -58.207.882,21
+Saldo final: $ 753.194,19
+DETALLE DE MOVIMIENTOS
+Fecha Descripción ID de la
+operación Valor Saldo
+01-09-2026 Rendimientos 1749233182391 $ 5,06 $ 9.874,45
+01-09-2026
+Transferencia recibida SANES 
+MARIA SOLE 175714969965 $ 5.000.000,00 $ 5.009.874,45
+01-09-2026 Dinero reservado Susi 175715708841 $ -500.000,00 $ 4.509.874,45
+01-09-2026 Dinero reservado AVA 176669207270 $ -4.300.000,00 $ 209.874,45
+01-09-2026 Dinero retirado AVA 176670344236 $ 1.000.000,00 $ 1.209.874,45
+01-09-2026 Dinero reservado Expensas 176669891822 $ -1.000.000,00 $ 209.874,45
+01-09-2026 Dinero retirado Expensas 176670197960 $ 100.000,00 $ 309.874,45
+01-09-2026
+Transferencia enviada Cons 
+De Prop E Bonorino 82 175716187231 $ -222.824,05 $ 87.050,40
+01-09-2026 Reserva por gastos Susi 175716957483 $ -3.000,00 $ 84.050,40
+01-09-2026 Reserva por gastos AVA 176670874948 $ -500,00 $ 83.550,40
+01-09-2026 Venta de dólar MEP 175716248657 $ 1.715.611,40 $ 1.799.161,80
+
+
+---PAGE---
+
+2/21
+Fecha Descripción ID de la
+operación Valor Saldo
+01-09-2026 Dinero reservado Tarjeta MELI 176697071778 $ -1.799.161,80 $ 0,00
+01-09-2026 Dinero retirado Tarjeta MELI 176771280062 $ 45.000,00 $ 45.000,00
+01-09-2026
+Transferencia enviada 
+Facundo Lisandro Marin 176771409822 $ -45.000,00 $ 0,00
+01-09-2026 Dinero retirado AVA 175833734653 $ 870.000,00 $ 870.000,00
+01-09-2026 Pago Apple 175848378227 $ -81.960,51 $ 788.039,49
+01-09-2026 Reserva por gastos Susi 175848472625 $ -3.000,00 $ 785.039,49
+01-09-2026 Reserva por gastos AVA 176802548522 $ -500,00 $ 784.539,49
+02-09-2026 Rendimientos 1749305206120 $ 411,31 $ 784.950,80
+02-09-2026 Pago EBANX S.A. 175876885269 $ -6.094,00 $ 778.856,80
+02-09-2026 Pago Dlo*didi 176832912780 $ -7.600,00 $ 771.256,80
+02-09-2026 Devolución de pago Dlo*didi 176832912780 $ 7.600,00 $ 778.856,80
+02-09-2026 Reserva por gastos AVA 175878560779 $ -500,00 $ 778.356,80
+02-09-2026 Reserva por gastos Susi 175878219507 $ -3.000,00 $ 775.356,80
+02-09-2026 Dinero retirado AVA 176834369428 $ 200.000,00 $ 975.356,80
+02-09-2026
+Transferencia enviada Neira 
+Martina 176833953994 $ -863.600,00 $ 111.756,80
+02-09-2026 Reserva por gastos Susi 176834779136 $ -3.000,00 $ 108.756,80
+
+---PAGE---
+
+3/21
+Fecha Descripción ID de la
+operación Valor Saldo
+02-09-2026 Reserva por gastos AVA 176835046480 $ -500,00 $ 108.256,80
+02-09-2026
+Pago COPETIN CATERING S.R.
+L. 175924516567 $ -4.080,00 $ 104.176,80
+02-09-2026 Pago EBANX S.A. 175929962803 $ -6.607,00 $ 97.569,80
+02-09-2026 Pago EBANX S.A. 175930160573 $ -6.607,00 $ 90.962,80
+02-09-2026
+Devolución de pago EBANX S.
+A. 175929962803 $ 6.607,00 $ 97.569,80
+02-09-2026
+Transferencia enviada Kiosk 
+Store 175943115085 $ -4.000,00 $ 93.569,80
+02-09-2026 Reserva por gastos Susi 175943040057 $ -3.000,00 $ 90.569,80
+02-09-2026 Reserva por gastos AVA 175943510931 $ -500,00 $ 90.069,80
+02-09-2026
+Pago CORREO OFICIAL DE LA 
+REPUBLICA ARGENTINA 
+SOCIEDAD ANONIMA
+175963160715 $ -24.000,00 $ 66.069,80
+03-09-2026 Rendimientos 1749380222029 $ 33,87 $ 66.103,67
+03-09-2026 Pago EBANX S.A. 176052359481 $ -7.520,00 $ 58.583,67
+03-09-2026 Pago Dlo*didi 176089149653 $ -4.900,00 $ 53.683,67
+03-09-2026 Reserva por gastos Susi 176090234135 $ -3.000,00 $ 50.683,67
+03-09-2026 Reserva por gastos AVA 177048512550 $ -500,00 $ 50.183,67
+03-09-2026 Pago PedidosYa 176101775631 $ -16.149,00 $ 34.034,67
+
+---PAGE---
+
+4/21
+Fecha Descripción ID de la
+operación Valor Saldo
+03-09-2026 Reserva por gastos Susi 177061078740 $ -3.000,00 $ 31.034,67
+03-09-2026 Reserva por gastos AVA 176102660757 $ -500,00 $ 30.534,67
+03-09-2026 Pago PedidosYa Propina 177067937924 $ -800,00 $ 29.734,67
+03-09-2026 Reserva por gastos Susi 176110844753 $ -3.000,00 $ 26.734,67
+03-09-2026 Reserva por gastos AVA 176110521451 $ -500,00 $ 26.234,67
+03-09-2026 Dinero retirado Tarjeta MELI 177129936970 $ 1.755.981,13 $ 1.782.215,80
+03-09-2026
+Transferencia enviada Maria 
+Soledad Sanes 177127980036 $ -200.000,00 $ 1.582.215,80
+04-09-2026 Rendimientos 1749453735473 $ 827,01 $ 1.583.042,81
+04-09-2026 Pago Andres Javier Di Pasqua 176354853989 $ -6.213,00 $ 1.576.829,81
+05-09-2026
+Transferencia enviada Digno 
+Lopez 177439225062 $ -10.800,00 $ 1.566.029,81
+05-09-2026 Reserva por gastos Susi 176478978461 $ -3.000,00 $ 1.563.029,81
+05-09-2026 Reserva por gastos AVA 176478645009 $ -500,00 $ 1.562.529,81
+05-09-2026 Pago de servicio ARCA 177467733136 $ -10.000,00 $ 1.552.529,81
+05-09-2026 Pago de servicio ARCA 176507482417 $ -10.000,00 $ 1.542.529,81
+05-09-2026
+Transferencia enviada Susana 
+Carmen Ortiz 176512874997 $ -38.800,00 $ 1.503.729,81
+
+---PAGE---
+
+5/21
+Fecha Descripción ID de la
+operación Valor Saldo
+05-09-2026
+Transferencia enviada Susana 
+Carmen Ortiz 176513280369 $ -160.000,00 $ 1.343.729,81
+05-09-2026 Reserva por gastos Susi 176513362435 $ -3.000,00 $ 1.340.729,81
+05-09-2026 Reserva por gastos AVA 177473307814 $ -500,00 $ 1.340.229,81
+05-09-2026 Reserva por gastos Susi 176513003377 $ -3.000,00 $ 1.337.229,81
+05-09-2026 Reserva por gastos AVA 176512584059 $ -500,00 $ 1.336.729,81
+06-09-2026 Pago Tuenti recargas dcp 176595635701 $ -18.300,00 $ 1.318.429,81
+06-09-2026 Reserva por gastos Susi 177557514804 $ -3.000,00 $ 1.315.429,81
+06-09-2026 Reserva por gastos AVA 177557083696 $ -500,00 $ 1.314.929,81
+06-09-2026 Pago con QR AL PASO 176642588277 $ -8.700,00 $ 1.306.229,81
+06-09-2026 Pago SUBE Viajes 176682202869 $ -986,70 $ 1.305.243,11
+07-09-2026 Rendimientos 1749528824130 $ 2.061,68 $ 1.307.304,79
+07-09-2026 Dinero retirado AVA 177703110684 $ 9.426.901,94 $ 10.734.206,73
+07-09-2026
+Transferencia enviada 
+Fideicomiso Ava Palpa 177703222506 $ -6.269.440,00 $ 4.464.766,73
+07-09-2026
+Pago de cuota Créditos de 
+Mercado Pago 177703165020 $ -819.945,24 $ 3.644.821,49
+07-09-2026 Reserva por gastos Susi 176739027479 $ -3.000,00 $ 3.641.821,49
+
+---PAGE---
+
+6/21
+Fecha Descripción ID de la
+operación Valor Saldo
+07-09-2026 Reserva por gastos AVA 176739233051 $ -500,00 $ 3.641.321,49
+07-09-2026 Dinero reservado AVA 177703071306 $ -3.500.000,00 $ 141.321,49
+07-09-2026 Pago EBANX S.A. 176740473303 $ -6.948,00 $ 134.373,49
+07-09-2026 Pago con QR FEED 176765517247 $ -1.350,00 $ 133.023,49
+07-09-2026 Reserva por gastos Susi 176765715563 $ -3.000,00 $ 130.023,49
+07-09-2026 Reserva por gastos AVA 176765461843 $ -500,00 $ 129.523,49
+07-09-2026 Pago de servicio ARCA 177748105886 $ -58.118,00 $ 71.405,49
+07-09-2026 Pago de servicio ARCA 176785175143 $ -43.038,00 $ 28.367,49
+07-09-2026 Pago Dlo*didi 176809448043 $ -6.700,00 $ 21.667,49
+07-09-2026 Reserva por gastos Susi 176810447269 $ -3.000,00 $ 18.667,49
+07-09-2026 Reserva por gastos AVA 176810051943 $ -500,00 $ 18.167,49
+07-09-2026
+Transferencia recibida SANES 
+MARIA SOLE 177776988272 $ 660.048,00 $ 678.215,49
+07-09-2026 Pago con QR McDonald's 177784659484 $ -2.039,70 $ 676.175,79
+08-09-2026 Rendimientos 1749588442240 $ 348,91 $ 676.524,70
+08-09-2026 Pago de servicio ARCA 177892394796 $ -4.865,02 $ 671.659,68
+
+---PAGE---
+
+7/21
+Fecha Descripción ID de la
+operación Valor Saldo
+08-09-2026
+Transferencia recibida 
+FUNDACION UNIVERSIDAD 
+DE PALERMO
+176941515613 $ 3.315.000,00 $ 3.986.659,68
+08-09-2026 Dinero reservado Palermo 177990827740 $ -3.315.000,00 $ 671.659,68
+08-09-2026 Pago Sodastream 177035854699 $ -88.659,00 $ 583.000,68
+08-09-2026 Pago con QR la monumental 177038830229 $ -8.248,00 $ 574.752,68
+08-09-2026 Pago OZZ 177061420845 $ -28.199,00 $ 546.553,68
+09-09-2026 Rendimientos 1749667920119 $ 285,63 $ 546.839,31
+09-09-2026 Pago Dlo*pedidosya compra 178133067570 $ -39.819,00 $ 507.020,31
+09-09-2026 Reserva por gastos Susi 178133332060 $ -3.000,00 $ 504.020,31
+09-09-2026 Reserva por gastos AVA 177166384311 $ -500,00 $ 503.520,31
+09-09-2026 Pago Dlo*pedidosya propina 178152367012 $ -900,00 $ 502.620,31
+09-09-2026 Reserva por gastos Susi 177184965983 $ -3.000,00 $ 499.620,31
+09-09-2026 Reserva por gastos AVA 177185572769 $ -500,00 $ 499.120,31
+09-09-2026
+Transferencia recibida 
+PELESSON ALDO OSCAR 178174075270 $ 5.350.000,00 $ 5.849.120,31
+09-09-2026
+Transferencia enviada 
+Consorcio De Propiet 177242680767 $ -300.850,00 $ 5.548.270,31
+09-09-2026 Dinero reservado Chris 178212152144 $ -5.350.000,00 $ 198.270,31
+
+---PAGE---
+
+8/21
+Fecha Descripción ID de la
+operación Valor Saldo
+09-09-2026 Reserva por gastos Susi 177243225315 $ -3.000,00 $ 195.270,31
+09-09-2026 Reserva por gastos AVA 178211023854 $ -500,00 $ 194.770,31
+10-09-2026 Rendimientos 1749746389268 $ 63,96 $ 194.834,27
+10-09-2026 Pago de servicio ARCA 178250709770 $ -43.082,70 $ 151.751,57
+10-09-2026 Pago EBANX S.A. 177283758823 $ -5.612,00 $ 146.139,57
+10-09-2026 Venta de dólar MEP 178296615510 $ 2.989.713,19 $ 3.135.852,76
+10-09-2026 Pago EBANX S.A. 178309581600 $ -7.155,00 $ 3.128.697,76
+10-09-2026 Pago EBANX S.A. 178313785906 $ -81,00 $ 3.128.616,76
+10-09-2026 Pago Personal 178353492330 $ -76.043,51 $ 3.052.573,25
+10-09-2026 Reserva por gastos Susi 177384210977 $ -3.000,00 $ 3.049.573,25
+10-09-2026 Reserva por gastos AVA 177383588053 $ -500,00 $ 3.049.073,25
+10-09-2026
+Transferencia enviada Cova 
+Abreu Gibiana Del Valle 178376680784 $ -131.000,00 $ 2.918.073,25
+10-09-2026 Reserva por gastos Susi 178377355184 $ -3.000,00 $ 2.915.073,25
+10-09-2026 Reserva por gastos AVA 178377449072 $ -500,00 $ 2.914.573,25
+10-09-2026 Pago ZILVER SA 178412049922 $ -163.350,00 $ 2.751.223,25
+11-09-2026 Rendimientos 1749818436504 $ 1.441,83 $ 2.752.665,08
+
+---PAGE---
+
+9/21
+Fecha Descripción ID de la
+operación Valor Saldo
+11-09-2026
+Retiro Bonos, plazos fijos y 
+más 178259630038 $ 12.361.243,87 $ 15.113.908,95
+11-09-2026 Pago Apple.com/bill 178494164340 $ -29.330,65 $ 15.084.578,30
+11-09-2026 Reserva por gastos Susi 178494392640 $ -3.000,00 $ 15.081.578,30
+11-09-2026 Reserva por gastos AVA 177523472223 $ -500,00 $ 15.081.078,30
+11-09-2026 Pago Dlo*didi 178510383966 $ -5.800,00 $ 15.075.278,30
+11-09-2026 Reserva por gastos Susi 177539975407 $ -3.000,00 $ 15.072.278,30
+11-09-2026 Reserva por gastos AVA 177540356463 $ -500,00 $ 15.071.778,30
+11-09-2026
+Transferencia recibida MarIa 
+Sanes 178531142556 $ 1.485.128,02 $ 16.556.906,32
+11-09-2026
+Transferencia enviada 
+Consorcio De Copropietarios 
+O Higgins 22
+178531094492 $ -722.978,08 $ 15.833.928,24
+11-09-2026 Reserva por gastos Susi 177559893607 $ -3.000,00 $ 15.830.928,24
+11-09-2026 Reserva por gastos AVA 178531848482 $ -500,00 $ 15.830.428,24
+11-09-2026 Dinero reservado Chris 177562253415 $ -14.250.000,00 $ 1.580.428,24
+11-09-2026 Dinero retirado Chris 178535014388 $ 2.500.000,00 $ 4.080.428,24
+11-09-2026 Dinero reservado Expensas 178535192218 $ -3.000.000,00 $ 1.080.428,24
+11-09-2026 Pago Dlo*didi 178538822454 $ -4.500,00 $ 1.075.928,24
+
+---PAGE---
+
+10/21
+Fecha Descripción ID de la
+operación Valor Saldo
+11-09-2026 Reserva por gastos Susi 178538843204 $ -3.000,00 $ 1.072.928,24
+11-09-2026 Reserva por gastos AVA 178538905044 $ -500,00 $ 1.072.428,24
+11-09-2026 Pago EBANX S.A. 177600883917 $ -7.758,00 $ 1.064.670,24
+11-09-2026
+Transferencia enviada 
+Sanbras oficial 178574765304 $ -185.288,00 $ 879.382,24
+11-09-2026 Reserva por gastos Susi 177603355513 $ -3.000,00 $ 876.382,24
+11-09-2026 Reserva por gastos AVA 178575430328 $ -500,00 $ 875.882,24
+11-09-2026
+Transferencia enviada Paula 
+Carolina Fasanella 177637234049 $ -135.000,00 $ 740.882,24
+11-09-2026 Reserva por gastos Susi 178608730030 $ -3.000,00 $ 737.882,24
+11-09-2026 Reserva por gastos AVA 177637615159 $ -500,00 $ 737.382,24
+12-09-2026 Pago Apple.com/bill 177677356513 $ -19.748,54 $ 717.633,70
+12-09-2026 Reserva por gastos Susi 177678010209 $ -3.000,00 $ 714.633,70
+12-09-2026 Reserva por gastos AVA 177678048133 $ -500,00 $ 714.133,70
+12-09-2026
+Transferencia enviada Eva 
+Graciela Zarate Valdovino 178657837796 $ -140.000,00 $ 574.133,70
+12-09-2026 Reserva por gastos Susi 178657801584 $ -3.000,00 $ 571.133,70
+12-09-2026 Reserva por gastos AVA 177685227483 $ -500,00 $ 570.633,70
+
+---PAGE---
+
+11/21
+Fecha Descripción ID de la
+operación Valor Saldo
+12-09-2026 Pago Dlo*pedidosya compra 178678437172 $ -38.099,00 $ 532.534,70
+12-09-2026 Reserva por gastos Susi 178678366022 $ -3.000,00 $ 529.534,70
+12-09-2026 Reserva por gastos AVA 178678937068 $ -500,00 $ 529.034,70
+12-09-2026
+Devolución de pago 
+Dlo*pedidosya compra 178678437172 $ 38.099,00 $ 567.133,70
+12-09-2026
+Pago ARCOS DORADOS 
+ARGENTINA SOCIED ARCOS 
+DORADOS ARGENTINA 
+SOCIED
+177709432451 $ -8.010,00 $ 559.123,70
+12-09-2026
+Transferencia enviada Susana 
+Carmen Ortiz 178703417200 $ -140.000,00 $ 419.123,70
+12-09-2026 Reserva por gastos Susi 178703421548 $ -3.000,00 $ 416.123,70
+12-09-2026 Reserva por gastos AVA 177731160851 $ -500,00 $ 415.623,70
+13-09-2026 Pago El Bazar Digital 178818060496 $ -176.509,00 $ 239.114,70
+13-09-2026 Pago Megapeluquerías CABA 178835381724 $ -12.720,00 $ 226.394,70
+13-09-2026
+Transferencia enviada Noelia 
+Soledad Caballero Britez 178864621362 $ -5.900,00 $ 220.494,70
+13-09-2026 Reserva por gastos Susi 178865038902 $ -3.000,00 $ 217.494,70
+13-09-2026 Reserva por gastos AVA 177891177673 $ -500,00 $ 216.994,70
+13-09-2026 Pago 177898681603 $ -71.250,00 $ 145.744,70
+
+---PAGE---
+
+12/21
+Fecha Descripción ID de la
+operación Valor Saldo
+13-09-2026 Pago 178873790190 $ -76.741,14 $ 69.003,56
+14-09-2026 Rendimientos 1749893667666 $ 110,77 $ 69.114,33
+14-09-2026 Pago de servicio Metrogas 177945606283 $ -5.581,82 $ 63.532,51
+14-09-2026
+Pago de servicio AGIP ABL 
+GCBA 177945491343 $ -27.634,08 $ 35.898,43
+14-09-2026
+Transferencia recibida 
+ROLANDO PABLO JAVIER 177983989539 $ 24.856,02 $ 60.754,45
+14-09-2026 Dinero retirado Expensas 177992934377 $ 30.000,00 $ 90.754,45
+14-09-2026
+Transferencia enviada Maria 
+Celeste Gonzalez 178966242006 $ -85.000,00 $ 5.754,45
+14-09-2026 Reserva por gastos Susi 178969460526 $ -3.000,00 $ 2.754,45
+14-09-2026 Reserva por gastos AVA 178968921438 $ -500,00 $ 2.254,45
+14-09-2026
+Transferencia enviada 
+Mariano Morales 178049400255 $ -1.000,00 $ 1.254,45
+14-09-2026 Reserva por gastos AVA 178049600513 $ -500,00 $ 754,45
+14-09-2026 Reserva por gastos AVA 178049526865 $ -500,00 $ 254,45
+15-09-2026 Rendimientos 1749977441272 $ 0,13 $ 254,58
+15-09-2026 Dinero retirado Expensas 178124476905 $ 3.882.827,57 $ 3.883.082,15
+15-09-2026 Pago EBANX S.A. 179101270560 $ -4.980,00 $ 3.878.102,15
+
+---PAGE---
+
+13/21
+Fecha Descripción ID de la
+operación Valor Saldo
+15-09-2026
+Pago de estado de cuenta 
+Tarjeta de crédito 179100941380 $ -1.214.000,00 $ 2.664.102,15
+15-09-2026
+Transferencia recibida MarIa 
+Sanes 179102139324 $ 1.490.351,32 $ 4.154.453,47
+15-09-2026 Dinero reservado Tarjeta MELI 178125385343 $ -4.000.000,00 $ 154.453,47
+15-09-2026 Pago Happy buy 179104464626 $ -40.900,00 $ 113.553,47
+15-09-2026 Venta de dólar MEP 178124944219 $ 59.333,83 $ 172.887,30
+15-09-2026 Pago Dlo*didi 178154165859 $ -5.500,00 $ 167.387,30
+15-09-2026 Reserva por gastos Susi 178155086899 $ -3.000,00 $ 164.387,30
+15-09-2026 Reserva por gastos AVA 179132390774 $ -500,00 $ 163.887,30
+15-09-2026 Pago Dlo*pedidosya compra 179161972532 $ -26.019,00 $ 137.868,30
+15-09-2026 Reserva por gastos Susi 179161853648 $ -3.000,00 $ 134.868,30
+15-09-2026 Reserva por gastos AVA 178184757721 $ -500,00 $ 134.368,30
+15-09-2026 Pago de servicio Epagos 179168880516 $ -10.150,00 $ 124.218,30
+15-09-2026 Pago Dlo*pedidosya propina 178198204931 $ -1.050,00 $ 123.168,30
+15-09-2026 Reserva por gastos Susi 179176046632 $ -3.000,00 $ 120.168,30
+15-09-2026 Reserva por gastos AVA 178198375373 $ -500,00 $ 119.668,30
+
+---PAGE---
+
+14/21
+Fecha Descripción ID de la
+operación Valor Saldo
+15-09-2026
+Pago con QR 
+CASAARISTOBULO017 179251727388 $ -43.666,70 $ 76.001,60
+15-09-2026
+Transferencia enviada Gaston 
+Osvaldo Roca 179253079562 $ -4.000,00 $ 72.001,60
+15-09-2026 Reserva por gastos Susi 179253193712 $ -3.000,00 $ 69.001,60
+15-09-2026 Reserva por gastos AVA 178275476767 $ -500,00 $ 68.501,60
+16-09-2026 Rendimientos 1750051337369 $ 35,60 $ 68.537,20
+17-09-2026 Rendimientos 1750114099809 $ 35,57 $ 68.572,77
+17-09-2026 Pago EBANX S.A. 178467738855 $ -7.257,00 $ 61.315,77
+17-09-2026 Pago Dlo*didi 179507701898 $ -6.200,00 $ 55.115,77
+17-09-2026 Reserva por gastos Susi 178526326783 $ -3.000,00 $ 52.115,77
+17-09-2026 Reserva por gastos AVA 178526532391 $ -500,00 $ 51.615,77
+17-09-2026 Dinero retirado Tarjeta MELI 179532656112 $ 200.000,00 $ 251.615,77
+17-09-2026
+Transferencia enviada Sanes 
+Maria Sole 178549830497 $ -200.000,00 $ 51.615,77
+17-09-2026 Pago con QR McDonald's 179549602394 $ -1.900,00 $ 49.715,77
+17-09-2026 Dinero retirado Tarjeta MELI 178598781291 $ 2.000.000,00 $ 2.049.715,77
+17-09-2026
+Transferencia enviada Sanes 
+Maria Sole 178597223453 $ -1.000.000,00 $ 1.049.715,77
+
+---PAGE---
+
+15/21
+Fecha Descripción ID de la
+operación Valor Saldo
+17-09-2026
+Pago de estado de cuenta 
+Tarjeta de crédito 178598929375 $ -1.000.000,00 $ 49.715,77
+18-09-2026 Rendimientos 1750193001963 $ 27,70 $ 49.743,47
+18-09-2026 Pago EBANX S.A. 178717265699 $ -6.053,00 $ 43.690,47
+18-09-2026
+Devolución de pago EBANX S.
+A. 178717265699 $ 6.053,00 $ 49.743,47
+18-09-2026 Pago Dlo*didi 178722597961 $ -4.900,00 $ 44.843,47
+18-09-2026 Reserva por gastos Susi 178722971971 $ -3.000,00 $ 41.843,47
+18-09-2026 Reserva por gastos AVA 178723263267 $ -500,00 $ 41.343,47
+18-09-2026 Pago EBANX S.A. 179765049792 $ -6.478,00 $ 34.865,47
+19-09-2026 Pago con QR la monumental 179867123972 $ -33.359,00 $ 1.506,47
+19-09-2026 Reserva por gastos AVA 179869153172 $ -500,00 $ 1.006,47
+19-09-2026 Pago SUBE Viajes 179944955604 $ -861,66 $ 144,81
+19-09-2026 Dinero retirado Susi 178958372559 $ 140.000,00 $ 140.144,81
+19-09-2026
+Transferencia enviada Susana 
+Carmen Ortiz 178958141461 $ -140.000,00 $ 144,81
+21-09-2026 Rendimientos 1750262926021 $ 0,22 $ 145,03
+21-09-2026 Dinero retirado Susi 179116959345 $ 30.000,00 $ 30.145,03
+
+---PAGE---
+
+16/21
+Fecha Descripción ID de la
+operación Valor Saldo
+21-09-2026
+Transferencia enviada 
+Christian Pablo Ventura 180197190384 $ -10,00 $ 30.135,03
+21-09-2026 Reserva por gastos Susi 180197111410 $ -3.000,00 $ 27.135,03
+21-09-2026 Reserva por gastos AVA 180196975634 $ -500,00 $ 26.635,03
+22-09-2026 Rendimientos 1750344727502 $ 13,79 $ 26.648,82
+22-09-2026 Pago EBANX S.A. 179298189769 $ -5.393,00 $ 21.255,82
+22-09-2026 Pago Dlo*didi 180323776440 $ -3.300,00 $ 17.955,82
+22-09-2026 Reserva por gastos Susi 180324332334 $ -3.000,00 $ 14.955,82
+22-09-2026 Reserva por gastos AVA 180323439910 $ -500,00 $ 14.455,82
+22-09-2026 Reserva por gastos Susi 179402404563 $ -3.000,00 $ 11.455,82
+22-09-2026 Reserva por gastos AVA 180394592646 $ -500,00 $ 10.955,82
+23-09-2026 Rendimientos 1750419327703 $ 5,67 $ 10.961,49
+23-09-2026 Dinero retirado Susi 180454236768 $ 150.000,00 $ 160.961,49
+23-09-2026 Pago Randy Kopeles 179461738387 $ -63.514,00 $ 97.447,49
+23-09-2026 Pago EBANX S.A. 180455172488 $ -7.016,00 $ 90.431,49
+23-09-2026 Pago EBANX S.A. 180458017790 $ -153,00 $ 90.278,49
+23-09-2026
+Transferencia enviada Clinicas 
+Altamirao 179477774069 $ -50.000,00 $ 40.278,49
+
+---PAGE---
+
+17/21
+Fecha Descripción ID de la
+operación Valor Saldo
+23-09-2026 Reserva por gastos Susi 179479866227 $ -3.000,00 $ 37.278,49
+23-09-2026 Reserva por gastos AVA 180473066748 $ -500,00 $ 36.778,49
+23-09-2026 Pago Dlo*didi 180499214404 $ -3.200,00 $ 33.578,49
+23-09-2026 Reserva por gastos AVA 180499636292 $ -500,00 $ 33.078,49
+23-09-2026 Reserva por gastos Susi 179505160083 $ -3.000,00 $ 30.078,49
+23-09-2026 Pago Dlo*pedidosya compra 180509284942 $ -23.964,00 $ 6.114,49
+23-09-2026 Dinero retirado Susi 179515527277 $ 289.298,34 $ 295.412,83
+23-09-2026 Reserva por gastos Susi 180509287726 $ -3.000,00 $ 292.412,83
+23-09-2026 Reserva por gastos AVA 180509211884 $ -500,00 $ 291.912,83
+23-09-2026 Pago Dlo*pedidosya propina 180517693026 $ -850,00 $ 291.062,83
+23-09-2026 Reserva por gastos Susi 180517687840 $ -3.000,00 $ 288.062,83
+23-09-2026 Reserva por gastos AVA 179524053893 $ -500,00 $ 287.562,83
+23-09-2026 Pago Tatiana Aylén Gonzalez 179527492999 $ -72.999,00 $ 214.563,83
+23-09-2026
+Pago con QR Estancia San 
+Francisco Devoto 180546635222 $ -16.597,20 $ 197.966,63
+23-09-2026 Reserva por gastos Susi 179554392883 $ -3.000,00 $ 194.966,63
+23-09-2026 Reserva por gastos AVA 179554349053 $ -500,00 $ 194.466,63
+
+---PAGE---
+
+18/21
+Fecha Descripción ID de la
+operación Valor Saldo
+24-09-2026 Rendimientos 1750491435921 $ 100,57 $ 194.567,20
+25-09-2026 Rendimientos 1750564530874 $ 100,40 $ 194.667,60
+25-09-2026 Pago Dlo*didi 180854655070 $ -4.800,00 $ 189.867,60
+25-09-2026 Reserva por gastos Susi 179858414151 $ -3.000,00 $ 186.867,60
+25-09-2026 Reserva por gastos AVA 180854903344 $ -500,00 $ 186.367,60
+25-09-2026 Pago Dlo*didi 180883513314 $ -6.800,00 $ 179.567,60
+25-09-2026 Reserva por gastos Susi 180883895316 $ -3.000,00 $ 176.567,60
+25-09-2026 Reserva por gastos AVA 179887452105 $ -500,00 $ 176.067,60
+25-09-2026 Pago con QR Paws Pet Market 179893834687 $ -47.900,00 $ 128.167,60
+25-09-2026 Reserva por gastos Susi 179893871239 $ -3.000,00 $ 125.167,60
+25-09-2026 Reserva por gastos AVA 180890813500 $ -500,00 $ 124.667,60
+25-09-2026
+Transferencia enviada Susana 
+Carmen Ortiz 179933603833 $ -16.400,00 $ 108.267,60
+25-09-2026 Dinero retirado Tarjeta MELI 179934162641 $ 1.811.721,34 $ 1.919.988,94
+25-09-2026
+Transferencia enviada Susana 
+Carmen Ortiz 179934356329 $ -140.000,00 $ 1.779.988,94
+25-09-2026 Reserva por gastos Susi 179933511791 $ -3.000,00 $ 1.776.988,94
+25-09-2026 Reserva por gastos AVA 179934418277 $ -500,00 $ 1.776.488,94
+
+---PAGE---
+
+19/21
+Fecha Descripción ID de la
+operación Valor Saldo
+25-09-2026
+Transferencia enviada Susana 
+Carmen Ortiz 180931299910 $ -200.000,00 $ 1.576.488,94
+25-09-2026 Reserva por gastos AVA 180931900416 $ -500,00 $ 1.575.988,94
+25-09-2026 Reserva por gastos Susi 179934720203 $ -3.000,00 $ 1.572.988,94
+25-09-2026 Reserva por gastos Susi 180932134430 $ -3.000,00 $ 1.569.988,94
+25-09-2026 Reserva por gastos AVA 179933877881 $ -500,00 $ 1.569.488,94
+27-09-2026 Pago con QR Open 25 180185386989 $ -6.700,00 $ 1.562.788,94
+27-09-2026 Reserva por gastos Susi 180185848583 $ -3.000,00 $ 1.559.788,94
+27-09-2026 Reserva por gastos AVA 181184852708 $ -500,00 $ 1.559.288,94
+27-09-2026 Reserva por gastos Expensas 181184361728 $ -1.000,00 $ 1.558.288,94
+27-09-2026
+Transferencia enviada Dhl 
+Express (argentina) 181213744392 $ -13.287,11 $ 1.545.001,83
+27-09-2026 Reserva por gastos Susi 180214555407 $ -3.000,00 $ 1.542.001,83
+27-09-2026 Reserva por gastos AVA 181213491760 $ -500,00 $ 1.541.501,83
+27-09-2026 Reserva por gastos Expensas 180215070423 $ -1.000,00 $ 1.540.501,83
+28-09-2026 Rendimientos 1750639789041 $ 2.419,94 $ 1.542.921,77
+28-09-2026 Pago con QR Súper pollo 180354383613 $ -10.900,00 $ 1.532.021,77
+28-09-2026 Reserva por gastos Susi 181356860684 $ -3.000,00 $ 1.529.021,77
+
+---PAGE---
+
+20/21
+Fecha Descripción ID de la
+operación Valor Saldo
+28-09-2026 Reserva por gastos AVA 181356501420 $ -500,00 $ 1.528.521,77
+28-09-2026 Reserva por gastos Expensas 180354959139 $ -1.000,00 $ 1.527.521,77
+28-09-2026 Pago Camilo Carlos Ihan 180381900495 $ -69.900,00 $ 1.457.621,77
+29-09-2026 Rendimientos 1750719992761 $ 756,63 $ 1.458.378,40
+29-09-2026 Pago EBANX S.A. 180412884471 $ -7.230,00 $ 1.451.148,40
+29-09-2026 Pago Dlo*didi 181445463370 $ -5.700,00 $ 1.445.448,40
+29-09-2026 Reserva por gastos AVA 180443209897 $ -500,00 $ 1.444.948,40
+29-09-2026 Reserva por gastos Expensas 181445983258 $ -1.000,00 $ 1.443.948,40
+29-09-2026 Reserva por gastos Susi 181446075048 $ -3.000,00 $ 1.440.948,40
+29-09-2026 Dlo*didi Pago 181458653724 $ -4.000,00 $ 1.436.948,40
+29-09-2026 Reserva por gastos Susi 180456281961 $ -3.000,00 $ 1.433.948,40
+29-09-2026 Reserva por gastos AVA 180456192015 $ -500,00 $ 1.433.448,40
+29-09-2026 Reserva por gastos Expensas 180456231953 $ -1.000,00 $ 1.432.448,40
+30-09-2026 Rendimientos 1750795079283 $ 745,79 $ 1.433.194,19
+30-09-2026
+Pago de resumen Tarjeta de 
+crédito 181614816434 $ -500.000,00 $ 933.194,19
+30-09-2026 Pago con QR Shell 181641027696 $ -1.039,00 $ 932.155,19
+
+---PAGE---
+
+Fecha de generación: 04-10-2026
+Mercado Libre S.R.L. CUIT 30-70308853-4 Av. Caseros 3039, Piso 2, CP 1264, Parque Patricios, CABA. Encuentra nuestros canales
+de consulta en: www.mercadopago.com.ar
+21/21
+Fecha Descripción ID de la
+operación Valor Saldo
+30-09-2026 Pago con QR Shell 180637628719 $ -287,50 $ 931.867,69
+30-09-2026 Transferencia enviada Kelly 181680253190 $ -20.000,00 $ 911.867,69
+30-09-2026 Transferencia enviada Kelly 180676345177 $ -86.000,00 $ 825.867,69
+30-09-2026 Reserva por gastos Susi 181680628954 $ -3.000,00 $ 822.867,69
+30-09-2026 Reserva por gastos AVA 181680447374 $ -500,00 $ 822.367,69
+30-09-2026 Reserva por gastos Expensas 180676620465 $ -1.000,00 $ 821.367,69
+30-09-2026 Reserva por gastos Susi 180677002449 $ -3.000,00 $ 818.367,69
+30-09-2026 Reserva por gastos AVA 180677032403 $ -500,00 $ 817.867,69
+30-09-2026 Reserva por gastos Expensas 180676447379 $ -1.000,00 $ 816.867,69
+30-09-2026 Pago con QR Shell 181732588478 $ -1.126,00 $ 815.741,69
+30-09-2026 Pago con QR Shell 181732926396 $ -62.547,50 $ 753.194,19
+
+---PAGE---
+
+Fecha de generación: 04-10-2026
+Mercado Libre S.R.L. CUIT 30-70308853-4 Av. Caseros 3039, Piso 2, CP 1264, Parque Patricios, CABA. Encontrá nuestros canales de
+consulta en: www.mercadopago.com.ar
+Estas operaciones fueron realizadas por Industrial Valores S.A. (ALyC y AN Propio N° 153 inscripto ante CNV y ACDl N°92 registrado 
+ante la C.N.V). Mercado Pago actúa como modalidad alternativa de captación de clientes de Industrial Valores S.A. y no interviene 
+en la operación.
+1/1
+RESUMEN DE TENENCIAS EN DÓLARES
+Maria Soledad Sanes
+Comitente: 1003273  27290390791CUIT/ CUIL:
+ Del 1 al 30 de septiembre de 2026Periodo:
+Saldo inicial: US$ 3.159,41
+Entradas: US$ 2.001,57
+Salidas: US$ -3.158,77
+Saldo final: US$ 1,68
+DETALLE DE MOVIMIENTOS DEL PERIODO
+Fecha Descripción ID de la
+operación Valor Pesos usados/
+recibidos
+Cotización del
+dólar Saldo
+01-09-2026 Rendimientos 1749242353437 US$ 0,06 US$ 3.159,47
+01-09-2026 Venta de dólar MEP 175716248657 US$ -1.135,23 $ 1.715.611,40 $ 1.511,25 US$ 2.024,24
+07-09-2026 Dinero retirado 
+Gastos 177776819002 US$ 2.001,20 US$ 4.025,44
+08-09-2026 Rendimientos 1749603415283 US$ 0,10 US$ 4.025,54
+09-09-2026 Rendimientos 1749678724673 US$ 0,10 US$ 4.025,64
+10-09-2026 Rendimientos 1749755190733 US$ 0,10 US$ 4.025,74
+10-09-2026 Venta de dólar MEP 178296615510 US$ -1.984,17 $ 2.989.713,19 $ 1.506,78 US$ 2.041,57
+15-09-2026 Rendimientos 1749981652874 US$ 0,01 US$ 2.041,58
+15-09-2026 Venta de dólar MEP 178124944219 US$ -39,37 $ 59.333,83 $ 1.507,08 US$ 2.002,21

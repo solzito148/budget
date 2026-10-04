@@ -118,3 +118,32 @@ fecha_compra,fecha_cobro_resumen,periodo_resumen,descripcion,cuota,operacion,mon
 2026-06-23,2026-07-12,Julio 2026,MERPAGO*LABORATORIOBE,1 de 9,402984,55707,,PERSONAL,SALUD · Laboratoriobe · C.01/09,SALUD · MERPAGO*LABORATORIOBE · TC Mercado Pago · cuota 1 de 9,statement.pdf,consumo
 2026-06-25,2026-07-12,Julio 2026,MERPAGO*BIODEPOT,1 de 3,293868,58334,,PERSONAL,SALUD · Biodepot · C.01/03,SALUD · MERPAGO*BIODEPOT · TC Mercado Pago · cuota 1 de 3,statement.pdf,consumo
 2026-07-09,2026-07-12,Julio 2026,MERPAGO*PANDORA,1 de 6,617879,297891,,PERSONAL,ROPA · Pandora · C.01/06,ROPA · Pandora · TC Mercado Pago · cuota 1 de 6,statement.pdf,consumo
+2025-11-26,2026-09-12,Septiembre 2026,MERPAGO*ENERFIT,10 de 12,543675,66527,,ALMACEN,COMIDA · Barritas proteicas,COMIDA · Barritas proteicas · Enerfit · TC Mercado Pago · C.10/12,resumen_sep_26_e7de.pdf,consumo
+2026-03-20,2026-09-12,Septiembre 2026,MERPAGO*LOCCITANE,6 de 6,134482,41715,,GPS,ROPA,ROPA · Loccitane · TC Mercado Pago · C.6/6,resumen_sep_26_e7de.pdf,consumo
+2026-03-23,2026-09-12,Septiembre 2026,PAYU*AR*ADIDAS,6 de 6,531092,23000,,GPS,ROPA,ROPA · Adidas · TC Mercado Pago · C.6/6,resumen_sep_26_e7de.pdf,consumo
+2026-03-23,2026-09-12,Septiembre 2026,MERPAGO*AWADA,6 de 9,904616,67112,,GPS,ROPA,ROPA · Awada · TC Mercado Pago · C.6/9,resumen_sep_26_e7de.pdf,consumo
+2026-03-30,2026-09-12,Septiembre 2026,MERPAGO*LAPARFUMERIE,6 de 6,179511,41345,,GPS,ROPA,ROPA · Laparfumerie · TC Mercado Pago · C.6/6,resumen_sep_26_e7de.pdf,consumo
+2026-04-04,2026-09-12,Septiembre 2026,MERPAGO*PROMARINE,6 de 6,869919,87900,,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine · TC Mercado Pago · C.6/6,resumen_sep_26_e7de.pdf,consumo
+2026-06-23,2026-09-12,Septiembre 2026,MERPAGO*LABORATORIOBE,3 de 9,131477,55707,,GPS,SALUD,SALUD · Laboratorio · TC Mercado Pago · C.3/9,resumen_sep_26_e7de.pdf,consumo
+2026-06-25,2026-09-12,Septiembre 2026,MERPAGO*BIODEPOT,3 de 3,142733,58334,,GPS,SALUD,SALUD · Biodepot · TC Mercado Pago · C.3/3,resumen_sep_26_e7de.pdf,consumo
+2026-07-09,2026-09-12,Septiembre 2026,MERPAGO*PANDORA,3 de 6,531933,297891,,GPS,ROPA,ROPA · Pandora · TC Mercado Pago · C.3/6,resumen_sep_26_e7de.pdf,consumo
+2026-07-16,2026-09-12,Septiembre 2026,MERPAGO*PPNL,2 de 2,832769,31450,,GPS,COMPRAS,COMPRAS · PPNL · TC Mercado Pago · C.2/2 · REVISAR ítem,resumen_sep_26_e7de.pdf,consumo
+2026-07-29,2026-09-12,Septiembre 2026,MERPAGO*LGDISTRIBUIDO,2 de 3,885647,126325,,GPS,COMPRAS,COMPRAS · LG Distribuidor · TC Mercado Pago · C.2/3 · REVISAR ítem,resumen_sep_26_e7de.pdf,consumo
+2026-07-31,2026-09-12,Septiembre 2026,MERPAGO*REGALOSDALILA,2 de 2,316814,33500,,GPS,REGALOS,REGALOS · Regalos Dalila · TC Mercado Pago · C.2/2,resumen_sep_26_e7de.pdf,consumo
+2026-07-31,2026-09-12,Septiembre 2026,MERPAGO*REGALOSDALILA,2 de 2,932424,546850,,GPS,REGALOS,REGALOS · Regalos Dalila · TC Mercado Pago · C.2/2,resumen_sep_26_e7de.pdf,consumo
+2026-07-31,2026-09-12,Septiembre 2026,MERPAGO*REGALOSDALILA,2 de 2,440581,62500,,GPS,REGALOS,REGALOS · Regalos Dalila · TC Mercado Pago · C.2/2,resumen_sep_26_e7de.pdf,consumo
+2026-08-01,2026-09-12,Septiembre 2026,MERPAGO*CENTRALSTORE,2 de 6,128518,58430,,GPS,COMPRAS,COMPRAS · Central Store · TC Mercado Pago · C.2/6,resumen_sep_26_e7de.pdf,consumo
+2026-08-04,2026-09-12,Septiembre 2026,MERPAGO*MONOFUK,2 de 12,391388,82742,,GPS,ROPA,ROPA · Monofuk · TC Mercado Pago · C.2/12,resumen_sep_26_e7de.pdf,consumo
+2026-08-13,2026-09-12,Septiembre 2026,MERPAGO*MACSTATION,1 de 2,592210,290000,,GPS,COMPRAS,COMPRAS · Mac Station · TC Mercado Pago · C.1/2,resumen_sep_26_e7de.pdf,consumo
+2026-08-13,2026-09-12,Septiembre 2026,MERPAGO*MACSTATION,1 de 2,160876,52624,,GPS,COMPRAS,COMPRAS · Mac Station · TC Mercado Pago · C.1/2,resumen_sep_26_e7de.pdf,consumo
+2026-08-18,2026-09-12,Septiembre 2026,MERPAGO*BANCHEROSANIT,1 de 3,902385,256862,,GPS,HOGAR,HOGAR · Banchero Sanitarios · TC Mercado Pago · C.1/3,resumen_sep_26_e7de.pdf,consumo
+2026-08-22,2026-09-12,Septiembre 2026,MERPAGO*AEROLINEASARG,,647894,1633555,,GPS,VIAJES,VIAJES · Aerolíneas Argentinas · TC Mercado Pago,resumen_sep_26_e7de.pdf,consumo
+2026-08-22,2026-09-12,Septiembre 2026,MERPAGO*MERCADOLIBRE,1 de 2,950901,107500,,GPS,MERCADO LIBRE,Mercado Libre · TC Mercado Pago · C.1/2,resumen_sep_26_e7de.pdf,consumo
+2026-08-22,2026-09-12,Septiembre 2026,MERPAGO*CELUGADGETS,,186039,40000,,GPS,COMPRAS,COMPRAS · Celugadgets · TC Mercado Pago,resumen_sep_26_e7de.pdf,consumo
+2026-08-25,2026-09-12,Septiembre 2026,MERPAGO*ETIQUETANEGRA,1 de 6,604180,72000,,GPS,VESTIMENTA,VESTIMENTA · Etiqueta Negra · TC Mercado Pago · C.1/6,resumen_sep_26_e7de.pdf,consumo
+2026-08-27,2026-09-12,Septiembre 2026,MERPAGO*JUANCORNACCHI,,297737,57725,,GPS,COMPRAS,COMPRAS · Juan Cornacchi · TC Mercado Pago · REVISAR ítem,resumen_sep_26_e7de.pdf,consumo
+2026-08-27,2026-09-12,Septiembre 2026,MERPAGO*MEGAVENTASHM,,359831,39000,,GPS,COMPRAS,COMPRAS · Megaventas HM · TC Mercado Pago,resumen_sep_26_e7de.pdf,consumo
+2026-09-05,2026-09-12,Septiembre 2026,DLO*HELP.HBOMAX.CO,,451704,97393,,ALMACEN,STREAMING TV,STREAMING TV · HBO Max · TC Mercado Pago,resumen_sep_26_e7de.pdf,consumo
+2026-09-10,2026-09-12,Septiembre 2026,MERPAGO*GALEONJOYAS,1 de 3,498996,418000,,GPS,ROPA,ROPA · Galeon Joyas · TC Mercado Pago · C.1/3,resumen_sep_26_e7de.pdf,consumo
+2026-08-19,2026-09-12,Septiembre 2026,Reembolso de PAYU*AR*ZARA,,678607,-795614,,GPS,ROPA,REEMBOLSO · ROPA · Zara · TC Mercado Pago,resumen_sep_26_e7de.pdf,reembolso
+2026-08-27,2026-09-12,Septiembre 2026,Reembolso de MERPAGO*MEGAVENTASHM,,550630,-39000,,GPS,COMPRAS,REEMBOLSO · COMPRAS · Megaventas HM · TC Mercado Pago,resumen_sep_26_e7de.pdf,reembolso
