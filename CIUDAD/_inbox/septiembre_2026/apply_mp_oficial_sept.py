@@ -146,10 +146,10 @@ def main() -> None:
          "TRANSPORTE · Didi · " + SRC),
         (datetime(2026, 9, 29), "TRANSPORTE · Didi", 4000, "Mercado Pago",
          "TRANSPORTE · Didi · " + SRC),
-        (datetime(2026, 9, 30), "TRANSFERENCIAS", 20000, "Mercado Pago",
-         "TRANSFERENCIAS · Kelly · REVISAR ítem · " + SRC),
-        (datetime(2026, 9, 30), "TRANSFERENCIAS", 86000, "Mercado Pago",
-         "TRANSFERENCIAS · Kelly · REVISAR ítem · " + SRC),
+        (datetime(2026, 9, 30), "Sol Estética", 20000, "Mercado Pago",
+         "Sol Estética · Kelly · " + SRC),
+        (datetime(2026, 9, 30), "Sol Estética", 86000, "Mercado Pago",
+         "Sol Estética · Kelly · " + SRC),
     ]
     gps_row = next_empty_row(gps, 938)
     for fecha, concepto, monto, medio, comentario in new_gps:

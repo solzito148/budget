@@ -13,7 +13,7 @@ Script: `apply_mp_oficial_sept.py`.
 | Destino | Cant. / monto | Notas |
 |---|---|---|
 | Almacén 28–30 | Súper Pollo $10.900 + Shell $65.001 | ceil |
-| GPS 28–30 | Uber $7.230 · Didi $9.700 · Camilo $69.900 · Kelly $106.000 | Kelly/Camilo REVISAR |
+| GPS 28–30 | Uber $7.230 · Didi $9.700 · Camilo $69.900 · Kelly $106.000 (Sol Estética) | Camilo REVISAR |
 | MP No Gasto | 160 movs sept | reservas / retirado / reservado / inversión / pago resumen |
 | Dinero Retirado | 17 | espejo |
 | Pago de Tarjetas | 1 × $500.000 (30/09) | espejo |
