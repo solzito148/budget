@@ -817,7 +817,7 @@ def build():
         "Farmacity → Almacen Detalle · FARMACIA. Sodastream → Almacen Detalle · REPUESTOS. Farmacia Maure/Selma → GPS · FARMACIA SALUD.",
         "PedidosYa Plus → CIUDAD SUSCRIPCIONES (no Gasto Personal Sol ni Almacén).",
         "Los resúmenes oficiales (PDF/CSV) prevalecen sobre texto de chat.",
-        "Compras de dólar BBVA Mastercard → hoja Sol Dollar Mdp (no GPS). Stock USD al 2026-10-04 = 0.",
+        "Compras de dólar BBVA Mastercard / tenencias USD MP → hoja Sol Dollar Mdp (no GPS). Stock USD al 2026-09-30 = 1,68.",
         "Almacén Sol comprende comida, supermercado, combustible y Ramón (Comida/Veterinario/Otros). OpenAI/ChatGPT → Gasto Personal Sol · SUSCRIPCIONES · IA.",
     ]
     for note in notes:
