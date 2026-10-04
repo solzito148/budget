@@ -13,6 +13,7 @@ En `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`, hoja **MP No Gasto**.
 4. **Pago de deuda** (Mercado Pago)
 5. **Pago de resumen** de tarjeta de crédito
 6. **Inversión** (venta/compra de dólares, bonos, plazos fijos, fondos)
+7. **Compras de dólar BBVA Mastercard** → hoja **`Sol Dollar Mdp`** (stock USD de Sol). No son gasto. Saldo al 2026-10-04: **USD 0**.
 
 ### Prohibido
 - Cargar cualquiera de los anteriores en `Almacen Detalle`

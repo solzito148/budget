@@ -43,6 +43,7 @@ Al analizar extractos MP, estos conceptos **nunca** van a `Almacen Detalle` ni c
 | **Pago de deuda** (Mercado Pago) | `MP No Gasto` |
 | **Pago de resumen** de tarjeta | `MP No Gasto` + `Pago de Tarjetas` |
 | **Inversión** (venta/compra USD, bonos, PF, fondos) | `MP No Gasto` + `Inversión` |
+| **Compras de dólar Mastercard (BBVA MC)** | hoja **`Sol Dollar Mdp`** (stock USD). **Nunca** GPS ni matriz `2026` |
 
 Otras exclusiones:
 - Transferencias propias: Sanes Maria Sole / Maria Soledad Sanes → EXCLUIR

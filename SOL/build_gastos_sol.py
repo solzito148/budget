@@ -1,4 +1,5 @@
 from collections import Counter, defaultdict
+from copy import copy
 from datetime import date, datetime
 from pathlib import Path
 import re
@@ -282,6 +283,27 @@ def add_table(sheet, start_row, end_row, end_column, name):
     sheet.add_table(table)
 
 
+def copy_sol_dollar_mdp(target):
+    source = load_workbook(SOURCE, data_only=False)
+    if "Sol Dollar Mdp" not in source.sheetnames:
+        return
+    src = source["Sol Dollar Mdp"]
+    dst = target.create_sheet("Sol Dollar Mdp")
+    for row in src.iter_rows():
+        for cell in row:
+            new = dst.cell(cell.row, cell.column, cell.value)
+            if cell.has_style:
+                new.font = copy(cell.font)
+                new.fill = copy(cell.fill)
+                new.alignment = copy(cell.alignment)
+                new.border = copy(cell.border)
+                new.number_format = cell.number_format
+    for col, dim in src.column_dimensions.items():
+        dst.column_dimensions[col].width = dim.width
+    for merge in src.merged_cells.ranges:
+        dst.merge_cells(str(merge))
+
+
 def title(sheet, text, subtitle):
     sheet["A1"] = text
     sheet["A1"].font = Font(size=18, bold=True, color=WHITE)
@@ -462,6 +484,7 @@ def build():
     categories_ws = workbook.create_sheet("Categorías")
     perceptions_ws = workbook.create_sheet("Percepciones USD")
     control_ws = workbook.create_sheet("Control y fuentes")
+    copy_sol_dollar_mdp(workbook)
 
     movement_headers = [
         "ID", "Fecha", "Año-Mes", "Mes fuente", "Tipo", "Categoría",
@@ -794,6 +817,7 @@ def build():
         "Farmacity → Almacen Detalle · FARMACIA. Sodastream → Almacen Detalle · REPUESTOS. Farmacia Maure/Selma → GPS · FARMACIA SALUD.",
         "PedidosYa Plus → CIUDAD SUSCRIPCIONES (no Gasto Personal Sol ni Almacén).",
         "Los resúmenes oficiales (PDF/CSV) prevalecen sobre texto de chat.",
+        "Compras de dólar BBVA Mastercard → hoja Sol Dollar Mdp (no GPS). Stock USD al 2026-10-04 = 0.",
         "Almacén Sol comprende comida, supermercado, combustible y Ramón (Comida/Veterinario/Otros). OpenAI/ChatGPT → Gasto Personal Sol · SUSCRIPCIONES · IA.",
     ]
     for note in notes:
