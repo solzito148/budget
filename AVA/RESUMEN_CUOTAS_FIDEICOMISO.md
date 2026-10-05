@@ -1,6 +1,6 @@
 # AVA Fideicomiso Palpa — Cuotas
 
-**Norma TC:** siempre valorizar con **dólar MEP tipo vendedor (venta)** del día de **vencimiento** de la cuota (fuente: argentinadatos / dólar bolsa). Si no hay rueda, último hábil anterior.
+**Norma TC:** siempre valorizar con **dólar MEP tipo vendedor (venta)** del **día de pago** de la cuota (fuente: argentinadatos / dólar bolsa). Si no hay rueda, último hábil anterior.
 
 | Cuota | Mes | Monto ARS | Venc. | MEP venta | USD | %Δ cuota | IPC | CAC | IPC+CAC | Diff pp | Vs |
 |------:|-----|----------:|-------|----------:|----:|---------:|----:|----:|--------:|--------:|----|
@@ -12,16 +12,19 @@
 | 6 | abril 2026 | $5,553,706 | 2026-04-06 | 1430.60 | $3,882.08 | 1.27% | 3.4% | 1.60% | 5.00% | -3.73 | MENOS que IPC+CAC |
 | 7 | mayo 2026 | $5,644,624 | 2026-05-06 | 1448.50 | $3,896.88 | 1.64% | 2.6% | 3.70% | 6.30% | -4.66 | MENOS que IPC+CAC |
 | 8 | junio 2026 | $5,850,639 | 2026-06-05 | 1461.40 | $4,003.45 | 3.65% | 2.1% | 2.60% | 4.70% | -1.05 | MENOS que IPC+CAC |
-| 9 | julio 2026 | $6,005,392 | 2026-07-06 | 1525.10 | $3,937.70 | 2.65% | 1.9% |  |  |  | CAC pendiente |
+| 9 | julio 2026 | $6,005,392 | 2026-07-06 | 1525.10 | $3,937.70 | 2.65% | 1.9% | 2.88% | 4.78% | -2.13 | MENOS que IPC+CAC |
+| 10 | agosto 2026 | $6,178,522 | 2026-08-05 | 1524.50 | $4,052.82 | 2.88% |  |  |  |  | IPC/CAC julio pendiente |
+| 11 | septiembre 2026 | — | — | — | — | — | — | — | — | — | PENDIENTE (sin factura) |
+| 12 | octubre 2026 | $6,550,413 | 2026-10-05 | 1551.90 | $4,220.90 | — |  |  |  |  | IPC/CAC sept pendiente |
 
-**Total pagado:** $49,449,457
-**Total USD (MEP venta):** $33,646.10
-**Total 50% Sol:** $24,724,731
+**Total pagado:** $62,178,392
+**Total USD (MEP venta):** $41,919.82
+**Total 50% Sol:** $31,089,199
 
 ### Cómo leer la comparación
 - `%Δ cuota` = suba de la cuota respecto del mes anterior.
 - `IPC` y `CAC` = del **mes calendario anterior** al período de la cuota.
 - Benchmark = **IPC + CAC**. Si Diff > 0 → la cuota aumentó más que inflación+CAC.
-- Julio 2026: CAC junio aún no publicado (corte 19-jul-2026).
+- Octubre 2026: abonada 2026-10-05 (MP 181443753207). TC MEP venta 1551.90 del 05/10. Cuota 11 (septiembre) aún sin factura — %Δ mes a mes no calculable. Vs última pagada (agosto): +6.02%.
 
-Cuotas 10–32: pendientes (sin monto aún).
+Cuotas 11 y 13–32: pendientes (11 sin monto; 13+ futuras).
