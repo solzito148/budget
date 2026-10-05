@@ -14,15 +14,17 @@
 | 8 | junio 2026 | $5,850,639 | 2026-06-05 | 1461.40 | $4,003.45 | 3.65% | 2.1% | 2.60% | 4.70% | -1.05 | MENOS que IPC+CAC |
 | 9 | julio 2026 | $6,005,392 | 2026-07-06 | 1525.10 | $3,937.70 | 2.65% | 1.9% | 2.88% | 4.78% | -2.13 | MENOS que IPC+CAC |
 | 10 | agosto 2026 | $6,178,522 | 2026-08-05 | 1524.50 | $4,052.82 | 2.88% |  |  |  |  | IPC/CAC julio pendiente |
+| 11 | septiembre 2026 | — | — | — | — | — | — | — | — | — | PENDIENTE (sin factura) |
+| 12 | octubre 2026 | $6,550,413 | 2026-10-05 | 1551.90 | $4,220.90 | — |  |  |  |  | IPC/CAC sept pendiente |
 
-**Total pagado:** $55,627,979
-**Total USD (MEP venta):** $37,698.92
-**Total 50% Sol:** $27,813,992
+**Total pagado:** $62,178,392
+**Total USD (MEP venta):** $41,919.82
+**Total 50% Sol:** $31,089,199
 
 ### Cómo leer la comparación
 - `%Δ cuota` = suba de la cuota respecto del mes anterior.
 - `IPC` y `CAC` = del **mes calendario anterior** al período de la cuota.
 - Benchmark = **IPC + CAC**. Si Diff > 0 → la cuota aumentó más que inflación+CAC.
-- Agosto 2026: abonada 2026-08-05. TC MEP venta cierre 2026-08-04 = 1524.50 (argentinadatos). IPC/CAC julio aún no publicados.
+- Octubre 2026: abonada 2026-10-05 (MP 181443753207). TC MEP venta 1551.90 del 05/10. Cuota 11 (septiembre) aún sin factura — %Δ mes a mes no calculable. Vs última pagada (agosto): +6.02%.
 
-Cuotas 11–32: pendientes (sin monto aún).
+Cuotas 11 y 13–32: pendientes (11 sin monto; 13+ futuras).
