@@ -1,6 +1,6 @@
 # AVA Fideicomiso Palpa — Cuotas
 
-**Norma TC:** siempre valorizar con **dólar MEP tipo vendedor (venta)** del día de **vencimiento** de la cuota (fuente: argentinadatos / dólar bolsa). Si no hay rueda, último hábil anterior.
+**Norma TC:** siempre valorizar con **dólar MEP tipo vendedor (venta)** del **día de pago** de la cuota (fuente: argentinadatos / dólar bolsa). Si no hay rueda, último hábil anterior.
 
 | Cuota | Mes | Monto ARS | Venc. | MEP venta | USD | %Δ cuota | IPC | CAC | IPC+CAC | Diff pp | Vs |
 |------:|-----|----------:|-------|----------:|----:|---------:|----:|----:|--------:|--------:|----|
