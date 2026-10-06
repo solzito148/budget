@@ -23,3 +23,10 @@ Montos de cuota 08 tomados de descarga previa del mismo mail; cuota 09 confirmad
 
 ## Carga aplicada
 Ver Excel CIUDAD / OHIGGINS / BONORINO y `abl_partidas.csv`.
+
+## Actualización AGIP ConsultaABL (2026-10-06)
+Ver `AGIP_DEUDA_2026-10-06.md`. Resumen:
+- **CIUDAD** deuda vencida cuotas **08** (Act 51964) y **09** (Act 51756); pendientes 10–12 (42960 / 43680 / 44712).
+- El MP $27.634,08 del 14/09 **no** era CIUDAD → **BONORINO** cuota 09.
+- **OHIGGINS** sin deuda vencida; pendientes 10–12 a 88891.
+- **BONORINO** pendientes 10–12 (28215 / 28723 / 29556).
