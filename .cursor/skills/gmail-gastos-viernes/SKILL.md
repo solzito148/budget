@@ -90,12 +90,25 @@ python3 SOL/build_gastos_sol.py
 
 Verificar que GPS, Importe Sol Almacén, percepciones USD, Cashflow BBVA y AVA 50% Sol queden consistentes.
 
-## Paso 5 — Commit / PR
+## Paso 5 — Audit meses cerrados (OBLIGATORIO avisar)
+
+Después de cargar, correr:
+
+```bash
+python3 scripts/audit_servicios_mensuales.py
+```
+
+**Si un mes ya cerró y falta un servicio → AVISAR a Sol en el resumen y en el PR**, con propiedad · servicio · mes. No inventar montos: buscar en Gmail o pedir el comprobante.
+
+Vacíos permitidos solo los documentados en el script (ej. Metrogas CIUDAD jul-2026 sin cobro BBVA; Metrogas OHIG ene–mar).
+
+## Paso 6 — Commit / PR
 
 Branch `cursor/<descriptive>-548e` (o la del agente), commit descriptivo, push, actualizar PR. En el body del PR listar:
 
 - Qué se cargó (propiedad · concepto · mes · monto)
 - Qué quedó **pendiente** (sin pago / sin monto / solo emisión)
+- **ALERTAS** del audit de meses cerrados (si hay)
 
 ## Checklist rápido
 
@@ -105,6 +118,7 @@ Branch `cursor/<descriptive>-548e` (o la del agente), commit descriptivo, push, 
 - [ ] AVA cuota(s) del período + MEP venta + 50% Sol GPS + Cashflow Compromisos
 - [ ] MP No Gasto / pagos de resumen / retiros
 - [ ] Almacén + GPS nuevos del período
+- [ ] `python3 scripts/audit_servicios_mensuales.py` — alertas de meses cerrados avisadas
 - [ ] `build_gastos_sol.py` corrido
 - [ ] Commit + push + PR actualizado
 

@@ -30,8 +30,10 @@ Tarea semanal (viernes ART):
    - OHIGGINS/Gastos_OHIGGINS_2026.xlsx
    - AVA/Gastos_AVA_2026.xlsx + AVA/cuotas_fideicomiso_ava.csv
 4. Seguí .cursor/rules/contexto-hogar-propiedades.mdc y .cursor/rules/ciudad-categorias-mercadopago.mdc (no mezclar propiedades; Almacén vs GPS; MP No Gasto).
-5. Corré: python3 SOL/build_gastos_sol.py
-6. Commit, push y abrí/actualizá el PR con lo cargado y lo pendiente.
+5. Corré: python3 scripts/audit_servicios_mensuales.py
+   Si un mes ya cerró y falta un servicio → AVISAR explícitamente (propiedad · servicio · mes). No inventar montos.
+6. Corré: python3 SOL/build_gastos_sol.py
+7. Commit, push y abrí/actualizá el PR con lo cargado, lo pendiente y las ALERTAS del audit.
 
 Helper de queries: python3 scripts/gmail_gastos_viernes_queries.py
 No inventes movimientos. Toda fila lleva fecha. Montos enteros ceil.
