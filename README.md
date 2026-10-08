@@ -21,3 +21,16 @@ gastos, fórmulas, clientes, medidores ni detalles entre propiedades.
 
 La planilla de CIUDAD se mantiene sincronizada con su archivo canónico en
 Google Drive.
+
+## Sync semanal Gmail → planillas
+
+Todos los **viernes** (fin de día ART) un agente debe leer
+`.cursor/skills/gmail-gastos-viernes/SKILL.md`, revisar Gmail
+(`s.sanes@gmail.com`), cargar gastos faltantes en CIUDAD / BONORINO /
+OHIGGINS / AVA y regenerar `SOL/Gastos_SOL_2026.xlsx`.
+
+Helper de queries:
+
+```bash
+python3 scripts/gmail_gastos_viernes_queries.py
+```
