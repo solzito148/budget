@@ -89,14 +89,27 @@ CHECKS = [
         "path": "OHIGGINS/Gastos_OHIGGINS_2026.xlsx",
         "row": 6,
         "name": "Personal TV",
-        "allow_empty": set(),
+        # Feb: factura Gmail $35.784 venc 23/02 sin pago MP hallado
+        # Mar: débito rechazado 09/04; saldo incluido en pago MP Abr $101.114
+        # Ago: factura venc 03/08 $56.200 pagada MP 14/07 (cargada en Julio)
+        "allow_empty": {2, 3, 8},
+        "allow_empty_note": {
+            2: "factura Gmail $35.784 venc 23/02; sin pago MP (revisar si entró en Abr $101.114)",
+            3: "débito rechazado 09/04; incluido en pago MP Abr $101.114",
+            8: "factura venc 03/08 $56.200 pagada MP 14/07 (en Julio)",
+        },
     },
     {
         "prop": "OHIGGINS",
         "path": "OHIGGINS/Gastos_OHIGGINS_2026.xlsx",
         "row": 8,
         "name": "Edenor Chagas",
-        "allow_empty": set(),
+        # Ene/Feb: sin factura ni cobro BBVA (primer cobro 12/03 $116.475)
+        "allow_empty": {1, 2},
+        "allow_empty_note": {
+            1: "sin factura Gmail ni cobro BBVA",
+            2: "sin cobro BBVA (primer cobro 12/03)",
+        },
     },
     {
         "prop": "OHIGGINS",
@@ -125,8 +138,12 @@ CHECKS = [
         "path": "BONORINO/Gastos_BONORINO_2026.xlsx",
         "row": 6,
         "name": "Edesur",
-        "allow_empty": {1, 2, 3},
-        "allow_empty_note": {m: "sin factura en archivo (pre-Abr)" for m in (1, 2, 3)},
+        # Jul: factura emisión 21/07 $2.074 venc 03/08 → cobro Agosto (ya cargado)
+        "allow_empty": {1, 2, 3, 7},
+        "allow_empty_note": {
+            **{m: "sin factura en archivo (pre-Abr)" for m in (1, 2, 3)},
+            7: "factura emisión 21/07 $2.074 venc 03/08 → cobro Agosto",
+        },
     },
     {
         "prop": "AVA",
