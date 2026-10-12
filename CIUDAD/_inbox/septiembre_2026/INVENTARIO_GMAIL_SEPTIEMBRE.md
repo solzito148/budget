@@ -34,7 +34,7 @@ Sin esos tres, no se puede cargar el grueso de súper/comida/Ramón/transporte n
 |---------|----------|------------|------------------|-----------|
 | CIUDAD | Edenor LUZ 8917502309 | 63980 | 11/09 BBVA | mail + Compra aprobada |
 | CIUDAD | Metrogas 30010996459 | 105839 | 15/09 BBVA | mail + Compra aprobada |
-| CIUDAD | Telecentro | 69659 | 25/09 BBVA | factura 10/2026 + débito; **reemplaza placeholder 50000** |
+| CIUDAD | Telecentro | 82364 | Gmail factura 09/2026 | $82.363,35 ceil; débito 25/09 $69.659 → **octubre** (factura 10/2026) |
 | OHIGGINS | Edenor Chagas 9267222037 | 18236 | 09/09 BBVA | mail + Compra aprobada |
 | OHIGGINS | Metrogas INVALMAR 10139236800 | 5589 | factura 01/10 (monto en mail) | mail Metrogas — mes cobro a confirmar |
 | OHIGGINS | Personal TV | 76044 | vto 01/10 | mail 10/09 — mes = cobro (pendiente si no debitó en sept) |

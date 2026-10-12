@@ -6,7 +6,10 @@ Fuentes: Gmail + capturas MP (1–27) + **resumen oficial cuenta MP 1–30 sep**
 | Concepto | ARS |
 |---|---:|
 | Expensas | 328,200 |
-| Telecentro — CIUDAD | 69,659 |
+| Telecentro — CIUDAD | 82,364 |
+
+> Telecentro septiembre = factura Gmail 09/2026 $82.363,35 (ceil). El débito BBVA 25/09 $69.659 corresponde a factura 10/2026 → octubre.
+
 | Metrogas — cliente 30010996459 | 105,839 |
 | Luz Edenor — Sanes (cuenta 008917502309) | 63,980 |
 | ABL — partida 397789 | 27,635 |

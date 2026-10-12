@@ -16,4 +16,4 @@
 ## Pendiente
 - Spotify julio (falta extracto BBVA)
 - Desglose Almacén Chris
-- Confirmar facturas Telecentro por mail (follow-up en cola)
+- Telecentro confirmado por Gmail factura (julio $31.999).

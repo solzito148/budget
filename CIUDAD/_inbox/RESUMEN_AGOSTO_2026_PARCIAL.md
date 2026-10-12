@@ -16,4 +16,4 @@
 - Spotify
 - Almacén Sol completo (extracto MP / settlements ago)
 - GPS real agosto (hoy solo cuotas BBVA proyectadas)
-- Confirmar Telecentro con mails de factura (hay follow-up en cola)
+- Telecentro confirmado por Gmail factura (agosto $31.999).
