@@ -1,0 +1,147 @@
+fecha,tipo,comercio,monto,moneda,medio,destino,cat,comment,duda,status,id,subject
+2025-12-09,pago_tarjeta_o_credito,,,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste tu crédito,False,NO_GASTO_OK,19b02c65edb64712,Pagaste tu crédito
+2026-01-06,pago_tarjeta_o_credito,,,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste tu crédito,False,NO_GASTO_OK,19b933a7c4b5ab09,Pagaste tu crédito
+2026-02-18,pago,COPETIN CATERING S.R.L.,2703,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_CATALOG,19c71c2700e6ccbf,Pago aprobado en COPETIN CATERING S.R.L.
+2026-02-19,transferencia_enviada,Quiche Sibulka Marcelo Gaston,30000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Quiche Sibulka Marcelo Gaston · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19c77848b45696de,Tu transferencia fue enviada
+2026-02-20,transferencia_enviada,,18500,ARS,MP_cuenta,GPS,TRANSFERENCIAS, · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19c7cb8d7bd1712f,Tu transferencia fue enviada
+2026-02-20,transferencia_enviada,Farmacia Maure Srl,124100,ARS,MP_cuenta,GPS,FARMACIA SALUD,FARMACIA SALUD · Farmacia Maure,False,IN_CATALOG,19c7cba92f967390,Tu transferencia fue enviada
+2026-02-21,transferencia_enviada,Clinicas Altamirao,40000,ARS,BBVA_TC,GPS,TRANSFERENCIAS,Clinicas Altamirao · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19c807951b154d75,Tu transferencia fue enviada
+2026-02-21,transferencia_enviada,Sanes Maria Sole,60000,ARS,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,IN_CATALOG,19c80fa4410110b0,Tu transferencia fue enviada
+2026-02-21,transferencia_enviada,Susana Carmen Ortiz,3240,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 3240,False,IN_CATALOG,19c81a8cb6bff307,Tu transferencia fue enviada
+2026-02-23,transferencia_enviada,Valeria Laura Mele,72000,ARS,MP_cuenta,ALMACEN,RAMON · Veterinario,RAMON · Veterinario · Valeria Mele,False,IN_CATALOG,19c8b2d4f0ce2f15,Tu transferencia fue enviada
+2026-02-24,pago,COPETIN CATERING S.R.L.,13500,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_CATALOG,19c9060985e37bfd,Pago aprobado en COPETIN CATERING S.R.L.
+2026-02-24,transferencia_enviada,Sanes Maria Sole,400000,ARS,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,IN_CATALOG,19c913f98cc75b43,Tu transferencia fue enviada
+2026-02-26,devolucion,,9295,ARS,?,EXCLUIR,DEVOLUCION,Devolución Gmail $9295,False,IN_CATALOG,19c99d66bcda9f29,Tu pago fue devuelto
+2026-02-26,pago,COPETIN CATERING S.R.L.,11050,ARS,BBVA_TC,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_GPS,19c99efe31e903e1,Pago aprobado en COPETIN CATERING S.R.L.
+2026-02-28,transferencia_enviada,Cesar David Ledesma,310000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Cesar David Ledesma · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19ca28b3eff9a13a,Tu transferencia fue enviada
+2026-03-01,transferencia_enviada,Susana Carmen Ortiz,149502,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 149502,False,IN_CATALOG,19ca97c4b29bd73e,Tu transferencia fue enviada
+2026-03-01,transferencia_enviada,Christian Pablo Ventura,120000,ARS,MP_cuenta,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Christian Pablo Ventura,False,IN_CATALOG,19caa1f521b5223a,Tu transferencia fue enviada
+2026-03-01,transferencia_enviada,,2000,ARS,MP_cuenta,GPS,TRANSFERENCIAS, · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19caa3651e1ffe88,Tu transferencia fue enviada
+2026-03-02,transferencia_enviada,,400,ARS,MP_cuenta,GPS,TRANSFERENCIAS, · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19cb053782272698,Tu transferencia fue enviada
+2026-03-03,transferencia_enviada,Sanes Maria Sole,200000,ARS,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,IN_SEPT_OFFICIAL,19cb5eba84d4cffe,Tu transferencia fue enviada
+2026-03-04,transferencia_enviada,Jardin Del Pilar Sa-Norte,4000000,ARS,BBVA_TC,GPS,FUNERAL,FUNERAL · Jardin Del Pilar,False,IN_CATALOG,19cba5de2d88caea,Tu transferencia fue enviada
+2026-03-06,transferencia_enviada,Fideicomiso Ava Palpa,5484067,ARS,MP_cuenta,GPS,AVA Fideicomiso,AVA Fideicomiso · transferencia 5484067 (50% Sol a confirmar),True,IN_CATALOG,19cc321c7cc6cf37,Tu transferencia fue enviada
+2026-03-06,transferencia_enviada,Susana Carmen Ortiz,91841,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 91841,False,IN_CATALOG,19cc3dfa45483bb3,Tu transferencia fue enviada
+2026-03-06,transferencia_enviada,Susana Carmen Ortiz,20000,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 20000,False,IN_CATALOG,19cc3e72cf119e9b,Tu transferencia fue enviada
+2026-03-10,transferencia_enviada,Consorcio De Propiet,218800,ARS,MP_cuenta,CIUDAD,EXPENSAS,Pago de Expensas · CIUDAD 1132 · Consorcio De Propiet,False,IN_CATALOG,19cd77f29383e31e,Tu transferencia fue enviada
+2026-03-10,transferencia_enviada,Consorcio De Copropi,402934,ARS,MP_cuenta,OHIGGINS,EXPENSAS,Pago de Expensas · OHIGGINS · Consorcio De Copropi,False,IN_CATALOG,19cd780d6e405c03,Tu transferencia fue enviada
+2026-03-10,transferencia_enviada,Sanes Maria Sole,600000,ARS,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,IN_CATALOG,19cd857ec881bf8c,Tu transferencia fue enviada
+2026-03-10,transferencia_enviada,Sanes Maria Sole,600000,ARS,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,IN_CATALOG,19cd858585a502ed,Tu transferencia fue enviada
+2026-03-13,transferencia_enviada,Maria Soledad Martinez,27500,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Maria Soledad Martinez · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19ce98b8ac470595,Tu transferencia fue enviada
+2026-03-14,transferencia_enviada,Fernando Paredes Aguilar,40000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Fernando Paredes Aguilar · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19cea0eaf0f08f3a,Tu transferencia fue enviada
+2026-03-14,transferencia_enviada,Susana Carmen Ortiz,77568,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 77568,False,IN_CATALOG,19cee3cb0f77b423,Tu transferencia fue enviada
+2026-03-14,transferencia_enviada,Susana Carmen Ortiz,9000,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 9000,False,IN_CATALOG,19cee3fec9a6e89d,Tu transferencia fue enviada
+2026-03-16,transferencia_enviada,Jorge Celso Doben,100000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Jorge Celso Doben · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19cf47e2adebfd41,Tu transferencia fue enviada
+2026-03-16,pago,TelePASE,8700,ARS,MP_cuenta,GPS,AUTO,AUTO · TelePASE,False,IN_CATALOG,19cf7ed927aa8020,Pago aprobado en TelePASE
+2026-03-16,transferencia_enviada,Mesarina Castro Kimberly Juliet,10000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Mesarina Castro Kimberly Juliet · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19cf88252b1aac2b,Tu transferencia fue enviada
+2026-03-16,transferencia_enviada,Andrea Carmen Palacios,50000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Andrea Carmen Palacios · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19cf8a233e92eb7c,Tu transferencia fue enviada
+2026-03-18,transferencia_enviada,Cecilia Noemi Pons,89261,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Cecilia Noemi Pons · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19d0190e666de80b,Tu transferencia fue enviada
+2026-03-19,pago,Cambio de Aires,528698,ARS,TC_MP,GPS,ROPA,ROPA · Cambio de Aires,False,IN_GPS,19d036834d5328ec,Pago aprobado en Cambio de Aires
+2026-03-20,pago,LOccitane en Provence,250290,ARS,TC_MP,GPS,ROPA,ROPA · LOccitane en Provence,False,NEW,19d0b0455a09a40a,Pago aprobado en LOccitane en Provence
+2026-03-21,pago,Martina19,75000,ARS,TC_MP,GPS,VESTIMENTA,VESTIMENTA · Martina19,False,IN_GPS,19d118322bc594ae,Pago aprobado en Martina19
+2026-03-21,transferencia_enviada,Susana Carmen Ortiz,90000,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 90000,False,IN_CATALOG,19d12743dfd6b7e1,Tu transferencia fue enviada
+2026-03-28,transferencia_enviada,Susana Carmen Ortiz,86568,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 86568,False,IN_CATALOG,19d34c0d2dba13a2,Tu transferencia fue enviada
+2026-04-01,transferencia_enviada,,1500,ARS,MP_cuenta,GPS,TRANSFERENCIAS, · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19d4b1c360a842fe,Tu transferencia fue enviada
+2026-04-04,pago,Promarine Erisea,527400,ARS,TC_MP,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine,False,NEW,19d588c95ca04570,Pago aprobado en Promarine Erisea
+2026-04-04,transferencia_enviada,Susana Carmen Ortiz,82416,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 82416,False,IN_CATALOG,19d58a33f6dbb271,Tu transferencia fue enviada
+2026-04-04,transferencia_enviada,Susana Carmen Ortiz,9000,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 9000,False,IN_CATALOG,19d58a5263266be6,Tu transferencia fue enviada
+2026-04-04,transferencia_enviada,Susana Carmen Ortiz,11000,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 11000,False,IN_CATALOG,19d58a6567fb656e,Tu transferencia fue enviada
+2026-04-04,pago,Cambio de Aires,519441,ARS,TC_MP,GPS,ROPA,ROPA · Cambio de Aires,False,IN_GPS,19d58fb6f3193c60,Pago aprobado en Cambio de Aires
+2026-04-05,transferencia_enviada,,7000,ARS,MP_cuenta,GPS,TRANSFERENCIAS, · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19d5f9859d82a6f5,Tu transferencia fue enviada
+2026-04-06,transferencia_enviada,Fideicomiso Ava Palpa,5553706,ARS,MP_cuenta,GPS,AVA Fideicomiso,AVA Fideicomiso · transferencia 5553706 (50% Sol a confirmar),True,IN_CATALOG,19d629dd81fc4e3a,Tu transferencia fue enviada
+2026-04-06,pago,COPETIN CATERING S.R.L.,12650,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_CATALOG,19d630e7a97662e5,Pago aprobado en COPETIN CATERING S.R.L.
+2026-04-06,transferencia_enviada,Farmacia Maure Srl,191500,ARS,MP_cuenta,GPS,FARMACIA SALUD,FARMACIA SALUD · Farmacia Maure,False,IN_CATALOG,19d64d9e3ffc2026,Tu transferencia fue enviada
+2026-04-07,transferencia_enviada,Ana Silvia Castillo,79000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Ana Silvia Castillo · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19d690577636697a,Tu transferencia fue enviada
+2026-04-08,transferencia_enviada,Gabriel Anibal Fradkin,110000,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Gabriel Anibal Fradkin · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19d6ae681453543c,Tu transferencia fue enviada
+2026-04-08,pago,COPETIN CATERING S.R.L.,17050,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_CATALOG,19d6dde7c609498d,Pago aprobado en COPETIN CATERING S.R.L.
+2026-04-08,transferencia_enviada,Yenny Paola Calisaya Cquispe,15120,ARS,MP_cuenta,GPS,TRANSFERENCIAS,Yenny Paola Calisaya Cquispe · Transferencia enviada · gasto personal Sol · REVISAR,True,IN_CATALOG,19d6f067cddaf142,Tu transferencia fue enviada
+2026-04-08,transferencia_enviada,Susana Carmen Ortiz,100000,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 100000,False,IN_CATALOG,19d6f1309e30adde,Tu transferencia fue enviada
+2026-04-09,transferencia_enviada,Sanes Maria Sole,800,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,IN_ALMACEN,19d733ffda99f64b,Tu transferencia fue enviada
+2026-04-09,transferencia_enviada,Sanes Maria Sole,1500000,ARS,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,IN_CATALOG,19d7341b819a9fad,Tu transferencia fue enviada
+2026-04-12,transferencia_enviada,Susana Carmen Ortiz,96567,ARS,MP_cuenta,CIUDAD,LIMPIEZA CASA,LIMPIEZA CASA / Limpieza Susana · 96567,False,IN_CATALOG,19d829185e47e474,Tu transferencia fue enviada
+2026-04-12,pago_tarjeta_o_credito,,,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Activamos el débito automático de tu tarjeta,False,NO_GASTO_OK,19d82d1b6cda3f89,Activamos el débito automático de tu tarjeta
+2026-04-13,pago,Mono Fuk,575900,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Mono Fuk,False,NEW,19d8944e55cb6590,Pago aprobado en Mono Fuk
+2026-04-18,pago_tarjeta_o_credito,,699172,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Hicimos el débito automático,False,NO_GASTO_OK,19d9ec8872dc6882,Hicimos el débito automático
+2026-04-18,transferencia_enviada,Sanes Maria Sole,100,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19da29402c2ea667,Tu transferencia fue enviada
+2026-04-20,pago,COPETIN CATERING S.R.L.,12650,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_CATALOG,19dabb74fc554c75,Pago aprobado en COPETIN CATERING S.R.L.
+2026-04-21,pago,LABORATORIO BEK SRL,324195,ARS,BBVA_TC,GPS,SALUD,SALUD · LABORATORIO BEK SRL,False,NEW,19dada9885ef6c7b,Pago aprobado en LABORATORIO BEK SRL
+2026-04-21,transferencia_enviada,Sanes Maria Sole,500,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19db1ee7dd032378,Tu transferencia fue enviada
+2026-04-23,pago,Mart Platería,153480,ARS,MP_cuenta,GPS,ROPA,ROPA · Mart Platería,False,IN_GPS,19db7ac48d074cdd,Pago aprobado en Mart Platería
+2026-04-25,transferencia_enviada,Sanes Maria Sole,500,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19dc68e5bf81364b,Tu transferencia fue enviada
+2026-04-25,transferencia_enviada,Sanes Maria Sole,100,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19dc69a02917d5a6,Tu transferencia fue enviada
+2026-04-27,pago,Martina19,45000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Martina19,False,IN_GPS,19dcea8c65e04f11,Pago aprobado en Martina19
+2026-04-27,devolucion,,5763,ARS,?,EXCLUIR,DEVOLUCION,Devolución Gmail $5763,False,IN_CATALOG,19dcfc6e102c0ebb,Tu pago fue devuelto
+2026-05-01,transferencia_enviada,Sanes Maria Sole,400,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19de441cf2bd34d6,Tu transferencia fue enviada
+2026-05-06,pago,Zadig et Voltaire,731000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Zadig et Voltaire,False,NEW,19dfd34b3f37702f,Pago aprobado en Zadig et Voltaire
+2026-05-09,pago,Tilgorita,266443,ARS,TC_MP,GPS,VESTIMENTA,VESTIMENTA · Tilgorita,False,IN_GPS,19e0a73befa9e235,Pago aprobado en Tilgorita
+2026-05-09,pago,Zadig et Voltaire,837000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Zadig et Voltaire,False,NEW,19e0e5164cceb73c,Pago aprobado en Zadig et Voltaire
+2026-05-09,pago,Cambio de Aires,989957,ARS,BBVA_TC,GPS,ROPA,ROPA · Cambio de Aires,False,NEW,19e0e525304d7926,Pago aprobado en Cambio de Aires
+2026-05-10,confirmacion_pago,,,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Ya recibieron tu pago,False,NO_GASTO_OK,19e0f7bea4263640,Ya recibieron tu pago
+2026-05-11,pago,Tienda River,252647,ARS,BBVA_TC,GPS,ROPA,ROPA · Tienda River,False,NEW,19e14d679d6835d6,Pago aprobado en Tienda River
+2026-05-11,pago,Pescadería Belgrano,24852,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_ALMACEN,19e18e5c24303ccb,Pago aprobado en Pescadería Belgrano
+2026-05-13,pago_tarjeta_o_credito,,18,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Debitaremos el total de tu tarjeta el 18 de mayo,False,NO_GASTO_OK,19e2165c81071097,Debitaremos el total de tu tarjeta el 18 de mayo
+2026-05-15,transferencia_enviada,Sanes Maria Sole,400,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19e2db1de1382415,Tu transferencia fue enviada
+2026-05-16,pago,BOKEN VORENO,590000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Bokenvoreno,False,NEW,19e2e43551c56ac2,Pago aprobado en BOKEN VORENO
+2026-05-20,transferencia_enviada,Sanes Maria Sole,100,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19e47632da639b34,Tu transferencia fue enviada
+2026-05-24,pago,Bimba y Lola,748000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Bimba y Lola,False,IN_CATALOG,19e57c3bf9ace4e0,Pago aprobado en Bimba y Lola
+2026-05-24,pago,Bimba y Lola,748000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Bimba y Lola,False,IN_CATALOG,19e57c52dc3baa05,Pago aprobado en Bimba y Lola
+2026-05-28,pago,Zilver SA,25971,ARS,MP_cuenta,GPS,HOGAR,HOGAR · Zilver SA,False,IN_CATALOG,19e70e9e8a66e29a,Pago aprobado en Zilver SA
+2026-06-02,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,22500,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,19e88f158a5de08e,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-06-02,pago,Pescadería Belgrano,32046,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_ALMACEN,19e89484cf72fd87,Pago aprobado en Pescadería Belgrano
+2026-06-03,pago,PANDORA JEWELRY ARGENTINA SRL,1708760,ARS,BBVA_TC,GPS,ROPA,ROPA · Pandora,False,NEW,19e8e7f3946f7ca5,Pago aprobado en PANDORA JEWELRY ARGENTINA SRL
+2026-06-11,pago,CASA GODOY,806000,ARS,TC_MP,GPS,ROPA,ROPA · CASA GODOY,False,IN_CATALOG,19eb422dccbf4e51,Pago aprobado en CASA GODOY
+2026-06-12,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,48000,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,19ebddfbc4fd7ce9,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-06-13,pago,SAPHIRUS COMERCIAL SA,79900,ARS,BBVA_TC,GPS,HOGAR,HOGAR · SAPHIRUS COMERCIAL SA,False,IN_CATALOG,19ec35244c9d8195,Pago aprobado en SAPHIRUS COMERCIAL SA
+2026-06-16,pago,AIB CURSOS ONLINE,29999,ARS,BBVA_TC,GPS,EDUCACIÓN,EDUCACIÓN · AIB Cursos,False,IN_GPS,19ed04c57d99105d,Pago aprobado en AIB CURSOS ONLINE
+2026-06-16,pago,ITSCLASSIC,2542970,ARS,TC_MP,GPS,VESTIMENTA,VESTIMENTA · Itsclassic,False,IN_GPS,19ed284b47446bb1,Pago aprobado en ITSCLASSIC
+2026-06-18,pago,TELECENTRO SA,48420,ARS,MP_cuenta,CIUDAD,TV CABLE,Telecentro · TV CABLE CIUDAD,False,IN_CATALOG,19ed8306f9f3fb20,Pago aprobado en TELECENTRO SA
+2026-06-23,pago,LABORATORIO BEK SRL,501356,ARS,TC_MP,GPS,SALUD,SALUD · LABORATORIO BEK SRL,False,NEW,19ef20f13f5e5aa0,Pago aprobado en LABORATORIO BEK SRL
+2026-06-28,pago,FRIVILLI,95100,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · FRIVILLI,False,NEW,19f0f5b4df1f7150,Pago aprobado en FRIVILLI
+2026-07-06,pago,COPETIN CATERING S.R.L.,765,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_CATALOG,19f38754651d0dea,Pago aprobado en COPETIN CATERING S.R.L.
+2026-07-09,pago,Ojo rojo,159000,ARS,BBVA_TC,GPS,SALUD,SALUD · Ojo rojo,False,IN_GPS,19f44409ff317b51,Pago aprobado en Ojo rojo
+2026-07-09,pago,PANDORA JEWELRY ARGENTINA SRL,1787341,ARS,?,GPS,ROPA,ROPA · Pandora,False,NEW,19f44530408d623e,Pago aprobado en PANDORA JEWELRY ARGENTINA SRL
+2026-07-09,pago,Valenti SA,26400,ARS,MP_cuenta,ALMACEN,COMIDA · Valenti,COMIDA · Valenti SA,False,IN_CATALOG,19f4842b28a325a4,Pago aprobado en Valenti SA
+2026-07-12,pago,Karen,27000,ARS,MP_cuenta,GPS,SALUD,SALUD · Karen,False,IN_GPS,19f57d1324503245,Pago aprobado en Karen
+2026-07-13,pago_tarjeta_o_credito,,17,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Debitaremos el total de tu tarjeta el 17 de julio,False,NO_GASTO_OK,19f5b45a2161ec03,Debitaremos el total de tu tarjeta el 17 de julio
+2026-07-13,pago,COPETIN CATERING S.R.L.,16150,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_CATALOG,19f5c3e97a204021,Pago aprobado en COPETIN CATERING S.R.L.
+2026-07-15,pago_tarjeta_o_credito,,576242,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste una parte del resumen de tu tarjeta,False,IN_CATALOG,19f6585c6cc322cd,Pagaste una parte del resumen de tu tarjeta
+2026-07-18,pago_tarjeta_o_credito,,966,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Solo pudimos debitar una parte para pagar tu tarjeta,False,IN_CATALOG,19f735be6fa74e14,Solo pudimos debitar una parte para pagar tu tarjeta
+2026-07-22,pago,Zilver SA,78167,ARS,MP_cuenta,GPS,HOGAR,HOGAR · Zilver SA,False,NEW,19f879723f8199b2,Pago aprobado en Zilver SA
+2026-07-24,pago,CASA GODOY,976000,ARS,BBVA_TC,GPS,ROPA,ROPA · CASA GODOY,False,NEW,19f95913ac62d20b,Pago aprobado en CASA GODOY
+2026-07-25,pago,Martina19,24000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Martina19,False,NEW,19f999965cb4247f,Pago aprobado en Martina19
+2026-07-29,pago,Promarine Erisea,896580,ARS,BBVA_TC,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine,False,NEW,19faee329bf14453,Pago aprobado en Promarine Erisea
+2026-08-01,pago,CENTRAL STORE,350580,ARS,TC_MP,GPS,ROPA,ROPA · CENTRAL STORE,False,NEW,19fbe68b55454062,Pago aprobado en CENTRAL STORE
+2026-08-01,pago,Gibiana Cova,176000,ARS,BBVA_TC,ALMACEN,RAMON · Comida,RAMON · Comida · DR BARF · Gibiana Cova · ALMACEN SOL,False,IN_ALMACEN,19fbe7bbe0b7237d,Pago aprobado en Gibiana Cova
+2026-08-02,devolucion,,11059,ARS,?,EXCLUIR,DEVOLUCION,Devolución Gmail $11059,False,NO_GASTO_OK,19fbfccd0e4637bd,Tu pago fue devuelto
+2026-08-03,pago,COPETIN CATERING S.R.L.,11010,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,NEW,19fc839793ccb3c7,Pago aprobado en COPETIN CATERING S.R.L.
+2026-08-05,pago,Renová tu vestidor,152000,ARS,MP_cuenta,GPS,VESTIMENTA,VESTIMENTA · Renová tu vestidor,False,NEW,19fcfa537d3e0661,Pago aprobado en Renová tu vestidor
+2026-08-09,pago,Siendo Consciencia,22222,ARS,MP_cuenta,GPS,SALUD,SALUD · Siendo Consciencia,False,NEW,19fe45c327f9718f,Pago aprobado en Siendo Consciencia
+2026-08-09,pago,Lorena Ferreyra,24000,ARS,MP_cuenta,GPS,SALUD,SALUD · Lorena Ferreyra,False,NEW,19fe694e270678e7,Pago aprobado en Lorena Ferreyra
+2026-08-09,pago,Lorena Ferreyra,75000,ARS,MP_cuenta,GPS,SALUD,SALUD · Lorena Ferreyra,False,NEW,19fe6976368f1eab,Pago aprobado en Lorena Ferreyra
+2026-08-10,pago,Reiki,356000,ARS,BBVA_TC,GPS,SALUD,SALUD · Reiki,False,NEW,19feb6d5f1c6579c,Pago aprobado en Reiki
+2026-08-10,pago,COPETIN CATERING S.R.L.,13600,ARS,TC_MP,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,NEW,19febfde148712fc,Pago aprobado en COPETIN CATERING S.R.L.
+2026-08-19,pago_tarjeta_o_credito,,1200000,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste una parte del resumen de tu tarjeta,False,IN_MP_NO_GASTO,1a019cc9c4d5cff0,Pagaste una parte del resumen de tu tarjeta
+2026-08-19,devolucion,,6020,ARS,?,EXCLUIR,DEVOLUCION,Devolución Gmail $6020,False,NO_GASTO_OK,1a01b82c94b57e38,Tu pago fue devuelto
+2026-08-19,pago_tarjeta_o_credito,,1225483,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste el resumen de tu tarjeta de crédito,False,IN_MP_NO_GASTO,1a01b89704ebbd86,Pagaste el resumen de tu tarjeta de crédito
+2026-08-20,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,24000,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,1a021549a48e7926,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-08-21,pago,Karen,27000,ARS,MP_cuenta,GPS,SALUD,SALUD · Karen,False,NEW,1a02686b4bb17762,Pago aprobado en Karen
+2026-08-25,pago,ETIQUETA NEGRA,432000,ARS,TC_MP,GPS,VESTIMENTA,VESTIMENTA · ETIQUETA NEGRA,False,NEW,1a038b1ff186b758,Pago aprobado en ETIQUETA NEGRA
+2026-08-27,pago,Juan Cornacchini,57725,ARS,TC_MP,GPS,SALUD,SALUD · Juan Cornacchini,False,IN_GPS,1a04103890593662,Pago aprobado en Juan Cornacchini
+2026-08-28,pago,Bitgenia,30000,ARS,MP_cuenta,GPS,EDUCACIÓN,EDUCACIÓN · Bitgenia,False,NEW,1a048d8ecdfee392,Pago aprobado en Bitgenia
+2026-09-02,pago,COPETIN CATERING S.R.L.,4080,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_SEPT_OFFICIAL,1a062df20f39ae8d,Pago aprobado en COPETIN CATERING S.R.L.
+2026-09-02,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,24000,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,1a063b219ba89d96,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-09-04,pago,Pescadería Belgrano,6213,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_SEPT_OFFICIAL,1a06e6d3eaf8247e,Pago aprobado en Pescadería Belgrano
+2026-09-08,pago,Sodastream,88659,ARS,MP_cuenta,ALMACEN,REPUESTOS · Sodastream,REPUESTOS · Sodastream,False,IN_SEPT_OFFICIAL,1a08327321a5b6ac,Pago aprobado en Sodastream
+2026-09-15,pago_tarjeta_o_credito,,1214000,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste una parte del resumen de tu tarjeta,False,NO_GASTO_OK,1a0a4c71421fbd70,Pagaste una parte del resumen de tu tarjeta
+2026-09-17,pago,ITSCLASSIC,719990,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Itsclassic,False,IN_GPS,1a0ad1bee8768ed9,Pago aprobado en ITSCLASSIC
+2026-09-17,pago_tarjeta_o_credito,,1000000,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste una parte del resumen de tu tarjeta,False,IN_SEPT_OFFICIAL,1a0b1b1b05d67515,Pagaste una parte del resumen de tu tarjeta
+2026-09-19,pago,EducaciónIT,127196,ARS,TC_MP,GPS,EDUCACIÓN,EDUCACIÓN · EducaciónIT,False,IN_GPS,1a0b9798fc01bc3a,Pago aprobado en EducaciónIT
+2026-09-19,pago,Promarine Erisea,530100,ARS,TC_MP,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine,False,IN_GPS,1a0badfd68185874,Pago aprobado en Promarine Erisea
+2026-09-20,pago,Yenny El Ateneo,89998,ARS,TC_MP,GPS,LIBROS,LIBROS · Yenny El Ateneo,False,IN_GPS,1a0bc4e36dd5567e,Pago aprobado en Yenny El Ateneo
+2026-09-29,pago,ViennaHogar,134572,ARS,TC_MP,GPS,HOGAR,HOGAR · ViennaHogar,False,IN_GPS,1a0eaad2b743141f,Pago aprobado en ViennaHogar
+2026-10-04,pago,HIPERFARMACEUTICA TEMPERLEY SCS,17038,ARS,MP_cuenta,GPS,FARMACIA SALUD,FARMACIA SALUD · HIPERFARMACEUTICA TEMPERLEY SCS,False,NEW,1a1093ffacf32cb0,Pago aprobado en HIPERFARMACEUTICA TEMPERLEY SCS
+2026-10-05,pago,MARPATAG  SRL,1430000,ARS,TC_MP,GPS,VIAJES,VIAJES · regalo Chris Cumple 50 · MARPATAG  SRL · Gmail Pago aprobado,False,NEW,1a10dc545b743939,Pago aprobado en MARPATAG  SRL
+2026-10-06,pago_tarjeta_o_credito,,,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste tu crédito,False,NO_GASTO_OK,1a111d0678a88273,Pagaste tu crédito
+2026-10-09,pago,Soy lashista,7000,ARS,MP_cuenta,GPS,PELUQUERÍA,PELUQUERÍA · Soy lashista,False,NEW,1a11e06f32050308,Pago aprobado en Soy lashista
+2026-10-09,pago,Soy lashista,7000,ARS,MP_cuenta,GPS,PELUQUERÍA,PELUQUERÍA · Soy lashista,False,NEW,1a11e08544a0534b,Pago aprobado en Soy lashista
+2026-10-11,pago,Patagonia Chic Excursiones,1143000,ARS,BBVA_TC,GPS,VIAJES,VIAJES · regalo Chris Cumple 50 · Patagonia Chic Excursiones · Gmail Pago aprobado,False,NEW,1a12b614cac75c59,Pago aprobado en Patagonia Chic Excursiones

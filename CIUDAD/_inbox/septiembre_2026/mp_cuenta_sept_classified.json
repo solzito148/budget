@@ -116,9 +116,9 @@
     "tipo": "Pago",
     "monto": 24000,
     "dest": "GPS",
-    "cat": "ENVÍOS",
+    "cat": "Courier",
     "desc": null,
-    "comment": "ENVÍOS · Correo Oficial · gasto personal Sol"
+    "comment": "Courier · Correo Oficial · gasto personal Sol"
   },
   {
     "fecha": "2026-09-03",
@@ -500,10 +500,10 @@
     "comercio": "Cova Abreu Gibiana Del Valle",
     "tipo": "Transferencia enviada",
     "monto": 131000,
-    "dest": "GPS",
-    "cat": "TRANSFERENCIAS",
+    "dest": "ALMACEN",
+    "cat": "RAMON · Comida",
     "desc": null,
-    "comment": "Cova Abreu Gibiana Del Valle · Transferencia enviada · gasto personal Sol"
+    "comment": "RAMON · Comida · DR BARF · ALMACEN SOL"
   },
   {
     "fecha": "2026-09-10",
@@ -1119,7 +1119,7 @@
     "dest": "ALMACEN",
     "cat": "RAMON · Otros",
     "desc": null,
-    "comment": "RAMON · Otros · Paws Pet Market · Mercado Pago"
+    "comment": "RAMON · Otros · Paws Pet Market · PetShop · Mercado Pago"
   },
   {
     "fecha": "2026-09-25",

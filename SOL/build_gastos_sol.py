@@ -725,9 +725,9 @@ def build():
     category_definitions = {
         "SUPERMERCADO": ("Coto, Carrefour, Día y PedidosYa Market", "ALMACÉN SOL"),
         "COMIDA": ("Restaurantes, delivery, cafeterías y verdulería", "ALMACÉN SOL"),
-        "RAMON · COMIDA": ("Alimento de Ramón (Kalbby / DR BARF)", "ALMACÉN SOL"),
+        "RAMON · COMIDA": ("Alimento de Ramón (Kalbby / DR BARF / Gibiana Cova)", "ALMACÉN SOL"),
         "RAMON · VETERINARIO": ("Valeria Mele / El Perro Verde / Leocan — veterinario Ramón", "ALMACÉN SOL"),
-        "RAMON · OTROS": ("Paws Pet Market y otros de Ramón (no comida ni veterinario)", "ALMACÉN SOL"),
+        "RAMON · OTROS": ("Paws Pet Market (PetShop) y otros de Ramón (no comida ni veterinario)", "ALMACÉN SOL"),
         "ENTRETENIMIENTO · SALIDAS COMIDA": ("Hotel Madero — salidas comida (extracto BBVA)", "ALMACÉN SOL"),
         "ENTRETENIMIENTO SOCIAL": ("Restaurant Roldan / salidas sociales", "ALMACÉN SOL"),
         "ENTRETENIMIENTO CENAS": ("Cosi Mi Piace — cenas", "ALMACÉN SOL"),
