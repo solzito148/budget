@@ -62,7 +62,17 @@ def normalized_category(concept, comment, medium, kind):
         if (
             "PEDIDOS YA · SUPERMERCADO" in text
             or "SUPERMERCADO" in text
-            or any(value in text for value in ("COTO", "CARREFOUR", "DÍA", "DIA ONLINE", "SUPERDIA"))
+            or any(
+                value in text
+                for value in (
+                    "COTO",
+                    "CARREFOUR",
+                    "SUPERMERCADO · DÍA",
+                    "SUPERMERCADO · DIA",
+                    "DIA ONLINE",
+                    "SUPERDIA",
+                )
+            )
         ):
             return "SUPERMERCADO"
         if (
