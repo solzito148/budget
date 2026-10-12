@@ -173,7 +173,7 @@ fecha,comercio,monto,categoria,comentario
 2026-02-10,Didi,3976,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-02-11,Didi,5830,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
 2026-02-11,Didi,4590,GASTO_PERSONAL_SOL,TRANSPORTE · Didi
-2026-02-12,Paws Pet Market,27200,ALMACEN_SOL,RAMON · Comida · Paws Pet Market · ALMACEN SOL
+2026-02-12,Paws Pet Market,27200,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · PetShop · ALMACEN SOL
 2026-02-12,Sodastream,53037,ALMACEN_SOL,REPUESTOS · Sodastream · Almacen Detalle
 2026-02-12,Compraenkalbb,30336,ALMACEN_SOL,RAMON · Comida · Kalbby · ALMACEN SOL
 2026-02-13,Cabify,5479,GASTO_PERSONAL_SOL,Cabify
@@ -232,7 +232,7 @@ fecha,comercio,monto,categoria,comentario
 2026-03-03,Le Pain Quotidien,1344,ALMACEN_SOL,panadería
 2026-03-03,Agip Abl Gcba,88141,ABL_OHIGGINS,ABL OHIGGINS partida 3016365 · $88.141 (>80.000)
 2026-03-04,Jardin Del Pilar Sa-Norte,4000000,GASTO_PERSONAL_SOL,FUNERAL · Jardin Del Pilar · gasto personal Sol
-2026-03-05,Paws Pet Market,9000,ALMACEN_SOL,RAMON · Comida · Paws Pet Market · ALMACEN SOL
+2026-03-05,Paws Pet Market,9000,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · PetShop · ALMACEN SOL
 2026-03-05,Huevos Point,14500,ALMACEN_SOL,huevos
 2026-03-06,Coto,114263,ALMACEN_SOL,SUPERMERCADO · Coto
 2026-03-06,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
@@ -308,7 +308,7 @@ fecha,comercio,monto,categoria,comentario
 2026-03-24,Mercado Libre,60193,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-03-24,Mercado Libre,377337,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
 2026-03-24,Mercado Libre,101899,GASTO_PERSONAL_SOL,MERCADO LIBRE · gasto personal Sol
-2026-03-25,Paws Pet Market,35700,ALMACEN_SOL,RAMON · Comida · Paws Pet Market · ALMACEN SOL
+2026-03-25,Paws Pet Market,35700,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · PetShop · ALMACEN SOL
 2026-03-26,Agustina Vissani,75000,AGUS_PSA,confirmar AGUS/PSA
 2026-03-27,Tuenti,4000,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
 2026-03-28,Susana Carmen Ortiz,86568,LIMPIEZA,LIMPIEZA CASA · ya en LIMPIEZA CASA (no almacén)
@@ -362,7 +362,7 @@ fecha,comercio,monto,categoria,comentario
 2026-04-09,Sanes Maria Sole,,EXCLUIR,propia US$800
 2026-04-09,Arca VEP,85300,IMPUESTOS_AFIP,ARCA VEP
 2026-04-09,Tuenti,16650,GASTO_PERSONAL_SOL,Tuenti · gasto personal Sol · hoja Gasto Personal Sol
-2026-04-10,Paws Pet Market,71400,ALMACEN_SOL,RAMON · Comida · Paws Pet Market · ALMACEN SOL
+2026-04-10,Paws Pet Market,71400,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · PetShop · ALMACEN SOL
 2026-04-10,PedidosYa Propina,800,ALMACEN_SOL,PEDIDOS YA · COMIDA · propina
 2026-04-10,PedidosYa,2599,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-04-10,Apple,359951,GASTO_PERSONAL_SOL,SUSCRIPCIONES · Apple · gasto personal Sol
@@ -541,7 +541,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-26,Movistar Arena,19000,GASTO_PERSONAL_SOL,evento · gasto personal Sol
 2026-05-26,Didi,4880,GASTO_PERSONAL_SOL,transporte
 2026-05-26,Todo Tartas,8730,ALMACEN_SOL,panadería
-2026-05-27,Paws Pet Market,11100,ALMACEN_SOL,RAMON · Comida · Paws Pet Market · ALMACEN SOL
+2026-05-27,Paws Pet Market,11100,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · PetShop · ALMACEN SOL
 2026-05-27,Uber (Ebanx),35,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
 2026-05-27,Sanes Maria Sole,,EXCLUIR,propia US$500
 2026-05-27,Uber (Ebanx),2890,GASTO_PERSONAL_SOL,TRANSPORTE · Uber · Ebanx (=Uber)
@@ -1006,6 +1006,6 @@ fecha,comercio,monto,categoria,comentario
 2026-09-10,Cova Abreu Gibiana Del Valle,131000,ALMACEN_SOL,RAMON · Comida · DR BARF · Cova Abreu Gibiana Del Valle · ALMACEN SOL
 2026-07-04,DR BARF,149500,ALMACEN_SOL,RAMON · Comida · DR BARF · AJUSTE SEPT · origen julio · no rindió mes origen por error · ALMACEN SOL
 2026-08-16,Gardiner Restaurant,1060501,ALMACEN_SOL,ENTRETENIMIENTO · Social · Gardiner · AJUSTE SEPT · origen agosto · no rindió mes origen por error · ALMACEN SOL
-2026-08-22,Paws Pet Market,77200,ALMACEN_SOL,RAMON · Comida · Paws · AJUSTE SEPT · origen agosto · no rindió mes origen por error · ALMACEN SOL
+2026-08-22,Paws Pet Market,77200,ALMACEN_SOL,RAMON · Otros · Paws · AJUSTE SEPT · origen agosto · no rindió mes origen por error · PetShop · ALMACEN SOL
 2026-01-08,Pescadería Belgrano,12426,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-01-08 · no rindió mes origen por error · ALMACEN SOL
 2026-02-06,Pescadería Belgrano,24852,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-02-06 · no rindió mes origen por error · ALMACEN SOL
