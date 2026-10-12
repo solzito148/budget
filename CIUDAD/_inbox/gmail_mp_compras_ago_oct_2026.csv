@@ -1,0 +1,40 @@
+fecha,comercio,monto,destino,categoria,medio,estado
+2026-05-11,Pescadería Belgrano,24852,ALMACEN,COMIDA · Pescadería Belgrano,Dinero disponible,CARGADO
+2026-06-02,Pescadería Belgrano,32046,ALMACEN,COMIDA · Pescadería Belgrano,Dinero disponible,CARGADO
+2026-09-04,Pescadería Belgrano,6213,ALMACEN,COMIDA · Pescadería Belgrano,Dinero disponible,CARGADO
+2026-09-08,Sodastream,88659,ALMACEN,REPUESTOS · Sodastream,Dinero disponible,CARGADO
+2026-08-03,COPETIN CATERING,11010,GPS,COMIDA · Oficina,Dinero disponible,CARGADO
+2026-08-10,COPETIN CATERING,13600,GPS,COMIDA · Oficina,MP,CARGADO
+2026-09-02,COPETIN CATERING,4080,GPS,COMIDA · Oficina,Dinero disponible,CARGADO
+2026-08-01,CENTRAL STORE,350580,GPS,COMPRAS,MP,CARGADO · REVISAR
+2026-08-01,Gibiana Cova,176000,GPS,COMPRAS,BBVA 1 cuota,CARGADO
+2026-08-05,Renová tu vestidor,152000,GPS,VESTIMENTA,Dinero disponible,CARGADO
+2026-08-09,Siendo Consciencia,22222,GPS,SALUD,Dinero disponible,CARGADO · REVISAR
+2026-08-09,Lorena Ferreyra,24000,GPS,COMPRAS,Dinero disponible,CARGADO · REVISAR
+2026-08-09,Lorena Ferreyra,75000,GPS,COMPRAS,Dinero disponible,CARGADO · REVISAR
+2026-08-10,Reiki,356000,GPS,SALUD,BBVA 1 cuota,CARGADO
+2026-08-21,Karen,27000,GPS,COMPRAS,Dinero disponible,CARGADO · REVISAR
+2026-08-27,Juan Cornacchini,57725,GPS,COMPRAS,MP,CARGADO · REVISAR
+2026-08-28,Bitgenia,30000,GPS,COMPRAS,Dinero disponible,CARGADO
+2026-09-17,ITSCLASSIC,719990,GPS,VESTIMENTA,BBVA 1 cuota,CARGADO
+2026-09-19,EducaciónIT,127196,GPS,EDUCACIÓN,MP,CARGADO
+2026-09-20,Yenny El Ateneo,89998,GPS,COMPRAS,MP,CARGADO
+2026-10-04,HIPERFARMACEUTICA TEMPERLEY,17038,GPS,FARMACIA SALUD,Dinero disponible,CARGADO
+2026-10-05,MARPATAG SRL,1430000,GPS,VIAJES,TC MP 1 cuota,CARGADO
+2026-10-09,Soy lashista,7000,GPS,PELUQUERÍA,Dinero disponible,CARGADO
+2026-10-09,Soy lashista,7000,GPS,PELUQUERÍA,Dinero disponible,CARGADO
+2026-10-11,Patagonia Chic Excursiones,1143000,GPS,VIAJES,BBVA 1 cuota,CARGADO
+2026-07-12,Karen,27000,GPS,COMPRAS,Dinero disponible,CARGADO · REVISAR
+2026-08-25,ETIQUETA NEGRA,432000,GPS,VESTIMENTA,TC MP 6 cuotas,OMITIDO · esperar resumen TC MP (cuotas)
+2026-09-19,Promarine Erisea,530100,GPS,SALUD · Vitaminas,TC MP 6 cuotas $88350,OMITIDO · esperar resumen TC MP (cuotas)
+2026-09-29,ViennaHogar,134572,GPS,HOGAR,TC MP 3 cuotas,OMITIDO · esperar resumen TC MP (cuotas)
+2026-07-29,Promarine Erisea,896580,GPS,SALUD · Vitaminas,BBVA 6 cuotas,OMITIDO · ya hay cuotas BBVA proyectadas / resumen
+2026-08-19,Pago resumen TC,1225483,MP_NO_GASTO,Pago de resumen,MP,OMITIDO · MP No Gasto
+2026-08-19,Pago parte resumen TC,1200000,MP_NO_GASTO,Pago de resumen,MP,OMITIDO · MP No Gasto
+2026-09-15,Pago parte resumen TC,1214000,MP_NO_GASTO,Pago de resumen,MP,OMITIDO · MP No Gasto
+2026-09-17,Pago parte resumen TC,1000000,MP_NO_GASTO,Pago de resumen,MP,OMITIDO · MP No Gasto
+2026-10-06,Pagaste tu crédito,,EXCLUIR,Crédito MP,MP,OMITIDO · préstamo MP
+2026-08-02,Devolución,11059,EXCLUIR,Devolución,MP,OMITIDO · devolución
+2026-08-19,Devolución,6020,EXCLUIR,Devolución,MP,OMITIDO · devolución
+2026-08-20,Correo Oficial,,GPS,ENVÍOS,MP,OMITIDO · sin monto en mail
+2026-09-02,Correo Oficial,,GPS,ENVÍOS,MP,OMITIDO · sin monto en mail
