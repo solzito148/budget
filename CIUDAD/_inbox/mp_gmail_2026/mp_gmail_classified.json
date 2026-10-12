@@ -1195,9 +1195,9 @@
     "subject": "Pago aprobado en Pescadería Belgrano",
     "destino": "ALMACEN",
     "cat": "COMIDA · Pescadería",
-    "comment": "COMIDA · Pescadería Belgrano",
+    "comment": "COMIDA · Pescadería Belgrano · ALMACEN SOL",
     "duda": false,
-    "status": "IN_GPS"
+    "status": "IN_ALMACEN"
   },
   {
     "fecha": "2026-05-13",
@@ -1330,9 +1330,9 @@
     "subject": "Pago aprobado en Pescadería Belgrano",
     "destino": "ALMACEN",
     "cat": "COMIDA · Pescadería",
-    "comment": "COMIDA · Pescadería Belgrano",
+    "comment": "COMIDA · Pescadería Belgrano · ALMACEN SOL",
     "duda": false,
-    "status": "IN_GPS"
+    "status": "IN_ALMACEN"
   },
   {
     "fecha": "2026-06-03",

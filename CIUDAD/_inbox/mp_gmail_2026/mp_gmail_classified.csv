@@ -78,7 +78,7 @@ fecha,tipo,comercio,monto,moneda,medio,destino,cat,comment,duda,status,id,subjec
 2026-05-09,pago,Cambio de Aires,989957,ARS,BBVA_TC,GPS,ROPA,ROPA · Cambio de Aires,False,NEW,19e0e525304d7926,Pago aprobado en Cambio de Aires
 2026-05-10,confirmacion_pago,,,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Ya recibieron tu pago,False,NO_GASTO_OK,19e0f7bea4263640,Ya recibieron tu pago
 2026-05-11,pago,Tienda River,252647,ARS,BBVA_TC,GPS,ROPA,ROPA · Tienda River,False,NEW,19e14d679d6835d6,Pago aprobado en Tienda River
-2026-05-11,pago,Pescadería Belgrano,24852,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_GPS,19e18e5c24303ccb,Pago aprobado en Pescadería Belgrano
+2026-05-11,pago,Pescadería Belgrano,24852,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_ALMACEN,19e18e5c24303ccb,Pago aprobado en Pescadería Belgrano
 2026-05-13,pago_tarjeta_o_credito,,18,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Debitaremos el total de tu tarjeta el 18 de mayo,False,NO_GASTO_OK,19e2165c81071097,Debitaremos el total de tu tarjeta el 18 de mayo
 2026-05-15,transferencia_enviada,Sanes Maria Sole,400,USD,BBVA_TC,EXCLUIR,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole,False,CATALOG_ONLY,19e2db1de1382415,Tu transferencia fue enviada
 2026-05-16,pago,BOKEN VORENO,590000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Bokenvoreno,False,NEW,19e2e43551c56ac2,Pago aprobado en BOKEN VORENO
@@ -87,7 +87,7 @@ fecha,tipo,comercio,monto,moneda,medio,destino,cat,comment,duda,status,id,subjec
 2026-05-24,pago,Bimba y Lola,748000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Bimba y Lola,False,IN_CATALOG,19e57c52dc3baa05,Pago aprobado en Bimba y Lola
 2026-05-28,pago,Zilver SA,25971,ARS,MP_cuenta,GPS,HOGAR,HOGAR · Zilver SA,False,IN_CATALOG,19e70e9e8a66e29a,Pago aprobado en Zilver SA
 2026-06-02,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,22500,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,19e88f158a5de08e,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
-2026-06-02,pago,Pescadería Belgrano,32046,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_GPS,19e89484cf72fd87,Pago aprobado en Pescadería Belgrano
+2026-06-02,pago,Pescadería Belgrano,32046,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_ALMACEN,19e89484cf72fd87,Pago aprobado en Pescadería Belgrano
 2026-06-03,pago,PANDORA JEWELRY ARGENTINA SRL,1708760,ARS,BBVA_TC,GPS,ROPA,ROPA · Pandora,False,NEW,19e8e7f3946f7ca5,Pago aprobado en PANDORA JEWELRY ARGENTINA SRL
 2026-06-11,pago,CASA GODOY,806000,ARS,TC_MP,GPS,ROPA,ROPA · CASA GODOY,False,IN_CATALOG,19eb422dccbf4e51,Pago aprobado en CASA GODOY
 2026-06-12,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,48000,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,19ebddfbc4fd7ce9,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
