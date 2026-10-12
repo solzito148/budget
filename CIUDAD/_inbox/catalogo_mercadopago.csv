@@ -49,7 +49,7 @@ fecha,comercio,monto,categoria,comentario
 2026-01-08,Ceferina,395000,GASTO_PERSONAL_SOL,ROPA · Ceferina · hoja Gasto Personal Sol
 2026-01-08,Promarine Erisea,350000,GASTO_PERSONAL_SOL,SALUD · Vitaminas · Promarine · gasto personal Sol
 2026-01-08,Selma Salvatori,29546,GASTO_PERSONAL_SOL,FARMACIA SALUD · Farmacia Selma
-2026-01-08,Andres Javier Di Pasqua,12426,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
+2026-01-08,Andres Javier Di Pasqua,12426,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-01-08 · no rindió mes origen por error · ALMACEN SOL
 2026-01-08,Copetin Catering,3585,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
 2026-01-09,Catore Srl,44000,GASTO_PERSONAL_SOL,transferencia · gasto personal Sol (ex-PENDIENTE)
 2026-01-09,Tarjeta de crédito,164709,PAGO_TARJETA,pago resumen TC · hoja Pago de Tarjetas
@@ -149,7 +149,7 @@ fecha,comercio,monto,categoria,comentario
 2026-02-06,Sanes Maria Sole,US$700,EXCLUIR,propia USD
 2026-02-06,Sanes Maria Sole,US$2000,EXCLUIR,propia USD
 2026-02-06,Carrefour Ecommerce,22768,ALMACEN_SOL,SUPERMERCADO · Carrefour
-2026-02-06,Andres Javier Di Pasqua,24852,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
+2026-02-06,Andres Javier Di Pasqua,24852,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-02-06 · no rindió mes origen por error · ALMACEN SOL
 2026-02-06,Sanes Maria Sole,900000,EXCLUIR,propia
 2026-02-06,Consorcio De Propiet,218800,EXPENSAS_CIUDAD,Pago de Expensas · CIUDAD 1132
 2026-02-06,Consorcio De Copropi,395551,EXPENSAS_OHIGGINS,Pago de Expensas · OHIGGINS 2219 piso 8 · Consorcio De Copropi · período febrero 2026 (Gmail Sent / Estudio Kalmus)
@@ -477,7 +477,7 @@ fecha,comercio,monto,categoria,comentario
 2026-05-10,Agip Abl Gcba,27164,ABL_CIUDAD,ABL CIUDAD partida 397789 · $27.164
 2026-05-10,Agip Abl Gcba,27439,ABL_CIUDAD,ABL CIUDAD partida 397789 · $27.439
 2026-05-10,Agip Abl Gcba,27739,ABL_CIUDAD,ABL CIUDAD partida 397789 · $27.739
-2026-05-11,Andres Di Pasqua,24852,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
+2026-05-11,Andres Di Pasqua,24852,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-05-11 · no rindió mes origen por error · ALMACEN SOL
 2026-05-11,Uber (Ebanx),7151,EXCLUIR,Uber refund neto 0
 2026-05-11,Valeria Mele,65700,ALMACEN_SOL,RAMON · Veterinario · Valeria Mele / El Perro Verde · ALMACEN SOL
 2026-05-11,Mercado Libre,4699990,TRANSFERENCIA_RECIBIDA,reintegro ML · hoja Transferencias recibidas (no gasto)
@@ -565,7 +565,7 @@ fecha,comercio,monto,categoria,comentario
 2026-06-01,Sanes Maria Sole,,EXCLUIR,propia US$300
 2026-06-01,Huevos Point,7500,ALMACEN_SOL,huevos
 2026-06-01,Copetin Catering,2700,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · gasto personal Sol
-2026-06-02,Andres Di Pasqua,32046,GASTO_PERSONAL_SOL,compra · gasto personal Sol (ex-PENDIENTE)
+2026-06-02,Andres Di Pasqua,32046,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-06-02 · no rindió mes origen por error · ALMACEN SOL
 2026-06-02,CORREO OFICIAL DE LA REPUBLICA ARGENTINA,22500,GASTO_PERSONAL_SOL,Courier · Correo Oficial · gasto personal Sol
 2026-06-03,Vercel Domains,,GASTO_PERSONAL_SOL,SUSCRIPCIONES · IA · gasto personal Sol
 2026-06-03,Metrogas,4984,METROGAS_OHIGGINS,Metrogas INVALMAR 10139236800 · OHIGGINS
@@ -942,13 +942,13 @@ fecha,comercio,monto,categoria,comentario
 2026-05-09,Cambio de Aires,989957,GASTO_PERSONAL_SOL,ROPA · Cambio de Aires · Gmail:19e0e525304d7926
 2026-05-10,Ya recibieron tu pago,,PAGO_TARJETA,Ya recibieron tu pago · Gmail:19e0f7bea4263640
 2026-05-11,Tienda River,252647,GASTO_PERSONAL_SOL,ROPA · Tienda River · Gmail:19e14d679d6835d6
-2026-05-11,Pescadería Belgrano,24852,ALMACEN_SOL,COMIDA · Pescadería Belgrano · Gmail:19e18e5c24303ccb
+2026-05-11,Pescadería Belgrano,24852,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-05-11 · no rindió mes origen por error · ALMACEN SOL
 2026-05-13,Debitaremos el total de tu tarjeta el 18 de mayo,18,PAGO_TARJETA,Debitaremos el total de tu tarjeta el 18 de mayo · Gmail:19e2165c81071097
 2026-05-15,Sanes Maria Sole,400,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole · Gmail:19e2db1de1382415
 2026-05-16,BOKEN VORENO,590000,GASTO_PERSONAL_SOL,VESTIMENTA · Bokenvoreno · Gmail:19e2e43551c56ac2
 2026-05-20,Sanes Maria Sole,100,TRANSFERENCIA_PROPIA,Transferencia propia · Sanes Maria Sole · Gmail:19e47632da639b34
 2026-05-24,Bimba y Lola,748000,GASTO_PERSONAL_SOL,VESTIMENTA · Bimba y Lola · Gmail:19e57c3bf9ace4e0
-2026-06-02,Pescadería Belgrano,32046,ALMACEN_SOL,COMIDA · Pescadería Belgrano · Gmail:19e89484cf72fd87
+2026-06-02,Pescadería Belgrano,32046,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-06-02 · no rindió mes origen por error · ALMACEN SOL
 2026-06-03,PANDORA JEWELRY ARGENTINA SRL,1708760,GASTO_PERSONAL_SOL,ROPA · Pandora · Gmail:19e8e7f3946f7ca5
 2026-06-11,CASA GODOY,806000,GASTO_PERSONAL_SOL,ROPA · CASA GODOY · Gmail:19eb422dccbf4e51
 2026-06-13,SAPHIRUS COMERCIAL SA,79900,GASTO_PERSONAL_SOL,HOGAR · SAPHIRUS COMERCIAL SA · Gmail:19ec35244c9d8195
@@ -970,7 +970,7 @@ fecha,comercio,monto,categoria,comentario
 2026-07-25,Martina19,24000,GASTO_PERSONAL_SOL,VESTIMENTA · Martina19 · Gmail:19f999965cb4247f
 2026-07-29,Promarine Erisea,896580,GASTO_PERSONAL_SOL,SALUD · Vitaminas · Promarine · Gmail:19faee329bf14453
 2026-08-01,CENTRAL STORE,350580,GASTO_PERSONAL_SOL,ROPA · CENTRAL STORE · Gmail:19fbe68b55454062
-2026-08-01,Gibiana Cova,176000,ALMACEN_SOL,RAMON · Comida · DR BARF · Gibiana Cova · ALMACEN SOL
+2026-08-01,Gibiana Cova,176000,ALMACEN_SOL,RAMON · Comida · DR BARF · Gibiana · AJUSTE SEPT · origen agosto · no rindió mes origen por error · ALMACEN SOL
 2026-08-02,Tu pago fue devuelto,11059,DEVOLUCION,Devolución Gmail $11059 · Gmail:19fbfccd0e4637bd
 2026-08-03,COPETIN CATERING S.R.L.,11010,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · Gmail:19fc839793ccb3c7
 2026-08-05,Renová tu vestidor,152000,GASTO_PERSONAL_SOL,VESTIMENTA · Renová tu vestidor · Gmail:19fcfa537d3e0661
@@ -1004,6 +1004,8 @@ fecha,comercio,monto,categoria,comentario
 2026-10-09,Soy lashista,7000,GASTO_PERSONAL_SOL,PELUQUERÍA · Soy lashista · Gmail:1a11e06f32050308
 2026-10-11,Patagonia Chic Excursiones,1143000,GASTO_PERSONAL_SOL,VIAJES · regalo Chris Cumple 50 · Patagonia Chic Excursiones · Gmail:1a12b614cac75c59
 2026-09-10,Cova Abreu Gibiana Del Valle,131000,ALMACEN_SOL,RAMON · Comida · DR BARF · Cova Abreu Gibiana Del Valle · ALMACEN SOL
-2026-07-04,DR BARF,149500,ALMACEN_SOL,RAMON · Comida · DR BARF · pedido #462 · checkout $149.500 · ALMACEN SOL
-2026-08-16,Gardiner Restaurant,1060501,ALMACEN_SOL,ENTRETENIMIENTO · Social · Gardiner · BBVA VISA · ALMACEN SOL
-2026-08-22,Paws Pet Market,77200,ALMACEN_SOL,RAMON · Otros · Paws Pet Market · BBVA VISA · ALMACEN SOL
+2026-07-04,DR BARF,149500,ALMACEN_SOL,RAMON · Comida · DR BARF · AJUSTE SEPT · origen julio · no rindió mes origen por error · ALMACEN SOL
+2026-08-16,Gardiner Restaurant,1060501,ALMACEN_SOL,ENTRETENIMIENTO · Social · Gardiner · AJUSTE SEPT · origen agosto · no rindió mes origen por error · ALMACEN SOL
+2026-08-22,Paws Pet Market,77200,ALMACEN_SOL,RAMON · Otros · Paws · AJUSTE SEPT · origen agosto · no rindió mes origen por error · ALMACEN SOL
+2026-01-08,Pescadería Belgrano,12426,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-01-08 · no rindió mes origen por error · ALMACEN SOL
+2026-02-06,Pescadería Belgrano,24852,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-02-06 · no rindió mes origen por error · ALMACEN SOL

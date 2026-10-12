@@ -8,13 +8,13 @@
 | Metrogas | 73.187 | Factura vence 18/08 · débito auto |
 | ABL partida 397789 | 41.344 | MP · cuota 08/2026 |
 | Limpieza Susana | 567.080 | Transferencias MP consolidadas |
-| ALMACEN SOL | 1.322.601 | Verdulería 8.900 + DR BARF 176.000 + Gardiner 1.060.501 + Paws 77.200 (resto QR/súper pendiente settlement) |
+| ALMACEN SOL | 8.900 | Solo verdulería 11/08 en mes agosto; DR BARF/Gardiner/Paws pasaron a **AJUSTE SEPT** (no rindieron en agosto por error) |
 | ALMACEN CHRIS | 80.000 | Total sin desglose · REVISAR |
 
-## Cargado desde Gmail/BBVA (2026-10-12)
-- 01/08 · $176.000 · `RAMON · Comida` · DR BARF / Gibiana
-- 16/08 · $1.060.501 · `ENTRETENIMIENTO · Social` · Gardiner Restaurant · BBVA
-- 22/08 · $77.200 · `RAMON · Otros` · Paws Pet Market · BBVA
+## Ajuste en Septiembre (origen agosto, no rindieron por error)
+- 01/08 · $176.000 · `RAMON · Comida` · DR BARF / Gibiana → mes Septiembre · AJUSTE SEPT
+- 16/08 · $1.060.501 · `ENTRETENIMIENTO · Social` · Gardiner → mes Septiembre · AJUSTE SEPT
+- 22/08 · $77.200 · `RAMON · Otros` · Paws → mes Septiembre · AJUSTE SEPT
 
 ## Pendiente
 - Luz Edenor CIUDAD (agosto)

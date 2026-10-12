@@ -95,10 +95,11 @@ Fuente: Gmail `from:mercadopago.com` · 146 mails de movimiento (Pago aprobado, 
 
 ## Dr.Barf / Gibiana Cova
 - Destino: **Almacén CIUDAD · RAMON · Comida**
-- 04/07 $149.500 (checkout #462) · 01/08 $176.000 (BBVA) · 10/09 $131.000 (transferencia MP)
+- 10/09 $131.000 (transferencia MP) en mes septiembre
+- 04/07 $149.500 y 01/08 $176.000 → **AJUSTE SEPT** (no rindieron en mes de origen por error)
 
 ## Auditoría emails → Almacén (pasada 2026-10-12)
 Ver `AUDITORIA_EMAILS_ALMACEN.md`.
-- Pescadería Belgrano 11/05 $24.852 y 02/06 $32.046: movidos GPS → Almacén
-- Gardiner 16/08 $1.060.501 · Paws 22/08 $77.200 → Almacén
+- Pescadería = siempre Almacén CIUDAD (nunca GPS), incl. Andres Di Pasqua
+- Faltantes de otros meses sumados en **Septiembre** con comentario `AJUSTE SEPT · … no se pasó/rindió en el mes de origen por error`
 - **Agosto QR/súper aún incompleto** sin CSV/PDF oficial de cuenta MP

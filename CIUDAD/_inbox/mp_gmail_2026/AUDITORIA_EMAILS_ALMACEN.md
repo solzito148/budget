@@ -12,14 +12,21 @@ Mail 02/09/2026 · `Ya podés conciliar todas tus transacciones` · período **0
 Link CSV (requiere login MP):  
 `https://www.mercadopago.com.ar/balance/reports/settlement_v2/statements/7992b462-9433-4a8d-aecf-5627fb7e43e0/download?format=csv`
 
-## Cargado desde emails en esta pasada
-| Fecha | Monto | Destino | Fuente |
+## Cargado como AJUSTE en Septiembre (no rindieron en mes de origen por error)
+Comentario canónico: `AJUSTE SEPT · gasto origen {mes} {fecha} · no se pasó/rindió en el mes de origen por error · …`
+
+| Fecha origen | Monto | Destino | Fuente |
 |---|---:|---|---|
-| 2026-05-11 | 24.852 | `COMIDA · Pescadería Belgrano` | MP Pago aprobado · estaba mal en GPS |
-| 2026-06-02 | 32.046 | `COMIDA · Pescadería Belgrano` | MP Pago aprobado · estaba mal en GPS |
-| 2026-07-04 | 149.500 | `RAMON · Comida` · DR BARF #462 | Gmail + checkout success total |
+| 2026-01-08 | 12.426 | `COMIDA · Pescadería Belgrano` | MP Andres Javier Di Pasqua (GPS→Almacén) |
+| 2026-02-06 | 24.852 | `COMIDA · Pescadería Belgrano` | MP Andres Javier Di Pasqua (GPS→Almacén) |
+| 2026-05-11 | 24.852 | `COMIDA · Pescadería Belgrano` | MP Pago aprobado Pescadería |
+| 2026-06-02 | 32.046 | `COMIDA · Pescadería Belgrano` | MP Pago aprobado Pescadería |
+| 2026-07-04 | 149.500 | `RAMON · Comida` · DR BARF #462 | Gmail + checkout |
+| 2026-08-01 | 176.000 | `RAMON · Comida` · DR BARF / Gibiana | BBVA (antes mal en GPS) |
 | 2026-08-16 | 1.060.501 | `ENTRETENIMIENTO · Social` · Gardiner | BBVA Compra aprobada |
 | 2026-08-22 | 77.200 | `RAMON · Otros` · Paws | BBVA Compra aprobada (3 cuotas) |
+
+**Regla:** pescadería (Pescadería Belgrano / Andres Di Pasqua) → siempre Almacén CIUDAD, nunca GPS.
 
 ## Ya estaban / no duplicar
 - Dr.Barf 01/08 $176.000 y 10/09 $131.000 → Almacén
