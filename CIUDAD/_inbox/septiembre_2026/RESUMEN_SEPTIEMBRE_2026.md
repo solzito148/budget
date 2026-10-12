@@ -1,6 +1,6 @@
-# Rendición Septiembre 2026 — armada
+# Rendición Septiembre 2026 — consolidada
 
-Fuentes: Gmail + capturas MP (1–27) + **resumen oficial cuenta MP 1–30 sep** + resumen TC MP cierre 12/09 + alertas BBVA Visa.
+Fuentes: Gmail + capturas MP (1–27) + **resumen oficial cuenta MP 1–30 sep** + resumen TC MP cierre 12/09 + alertas BBVA Visa + **Almacén Chris (detalle línea a línea)**.
 
 ## CIUDAD 1132 — matriz `2026` (casa)
 | Concepto | ARS |
@@ -13,8 +13,8 @@ Fuentes: Gmail + capturas MP (1–27) + **resumen oficial cuenta MP 1–30 sep**
 | Limpieza Susana | 835,200 |
 | Streaming música — Spotify | 5,999 |
 | ALMACEN SOL | 668,405 |
-| ALMACEN CHRIS | 0 |
-| **TOTAL CASA** | **2,104,917** |
+| ALMACEN CHRIS | 237,104 |
+| **TOTAL CASA** | **2,342,021** |
 
 ### Almacén Sol detalle: **$668,405**
 - COMIDA: $160,557
@@ -26,37 +26,43 @@ Fuentes: Gmail + capturas MP (1–27) + **resumen oficial cuenta MP 1–30 sep**
 - RAMON: $47,900
 - SUPERMERCADO: $41,139
 
+### Almacén Chris detalle: **$237,104**
+- SUPERMERCADO: $114,492
+- COMIDA: $50,228
+- REVISAR: $48,960
+- PEDIDOS YA: $23,424
+
+> Nota Chris: fechas tentativas 30/09 (listado sin día). Incluye `REVISAR · sin comercio` $48.960 y PedidosYa tipificado como COMIDA (confirmar si Market).
+
 ## Gasto Personal Sol — Septiembre
-- Filas: 132
-- Total GPS: **$16,198,464** (real $14,589,889 + proyectado BBVA $1,608,575)
+- Filas: 130
+- Total GPS: **$15,884,895** (real $14,276,320 + proyectado BBVA $1,608,575)
 
 ### Por medio
 - TC Mercado Pago: $5,349,309
 - Mercado Pago / Transferencia: $3,134,720
 - Mercado Pago: $3,062,516
-- BBVA VISA: $3,043,344
+- BBVA VISA: $2,729,775
 - BBVA VISA · proyectado: $939,813
 - BBVA MASTERCARD · proyectado: $668,762
 
 ### Top categorías
 - AVA Fideicomiso: $3,134,720
-- COMPRAS: $2,934,475
+- COMPRAS: $2,634,641
 - VESTIMENTA: $2,111,503
-- TRANSFERENCIAS: $1,776,588
+- TRANSFERENCIAS: $1,670,588
 - VIAJES: $1,633,555
 - ROPA: $1,035,104
 - SALUD · Vitaminas: $705,900
 - REGALOS: $642,850
 - HOGAR: $596,068
-- MERCADO LIBRE: $442,629
-- TRANSPORTE · Uber: $86,282
-- TRANSPORTE · Didi: $66,300
+- MERCADO LIBRE: $428,894
+- SALUD: $218,074
+- Eventos deportivos - River: $169,667
 
 ## MP No Gasto (sept, no suma casa)
-- 160 movimientos (reservas / dinero reservado / retirado / inversión / pago resumen $500.000 el 30/09)
-- Inversión rescates: ventas MEP + Retiro Bonos $12.361.244
-- Transferencias recibidas: 7
-- Sol Dollar Mdp: **US$ 1,68** al 30/09 (ajuste REVISAR vs detalle PDF)
+- Ver hoja `MP No Gasto` / inbox `septiembre_2026/` (reservas, retirado, inversión, pago resumen).
+- Sol Dollar Mdp: pendiente REVISAR vs detalle PDF.
 
 ## OHIGGINS
 - Expensas — O'Higgins 2219 piso 8 (Kalmus / Consorcio De Copropi): $722,979
@@ -75,12 +81,11 @@ Fuentes: Gmail + capturas MP (1–27) + **resumen oficial cuenta MP 1–30 sep**
 - Cuota 11 (oct, PENDIENTE factura): $6,550,413 · 50% Sol $3,275,207 en Cashflow
 
 ## Pendiente / REVISAR
-- Camilo Carlos Ihan ($69.900) — ítem (Kelly → Sol Estética OK)
-- Sol Dollar Mdp: saldo final header US$ 1,68 vs detalle movimientos US$ 2002,21
-- PedidosYa Plus: sin cargo visible en sept → matriz SUSCRIPCIONES vacía
+- Camilo Carlos Ihan / Luxodia / Markova / La Obanesad / PPNL (GPS)
+- Sol Dollar Mdp: saldo header vs detalle movimientos
+- PedidosYa Plus: sin cargo visible en sept
 - Resumen BBVA Visa/MC PDF oficial (alertas Gmail usadas)
-- Post-cierre TC MP → confirmar en resumen octubre
-- Ítems: Luxodia, Markova, La Obanesad, PPNL, pagos genéricos 13/09
+- Almacén Chris: fechas día a día + comercio del $48.960
 - IPC/CAC para análisis AVA cuotas 10–11
 
 ## Archivos
