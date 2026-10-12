@@ -500,10 +500,10 @@
     "comercio": "Cova Abreu Gibiana Del Valle",
     "tipo": "Transferencia enviada",
     "monto": 131000,
-    "dest": "GPS",
-    "cat": "TRANSFERENCIAS",
+    "dest": "ALMACEN",
+    "cat": "RAMON · Comida",
     "desc": null,
-    "comment": "Cova Abreu Gibiana Del Valle · Transferencia enviada · gasto personal Sol"
+    "comment": "RAMON · Comida · DR BARF · ALMACEN SOL"
   },
   {
     "fecha": "2026-09-10",

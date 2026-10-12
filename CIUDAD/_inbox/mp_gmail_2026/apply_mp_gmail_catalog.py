@@ -119,13 +119,6 @@ LOAD_GPS = [
         "medio": "Mercado Pago",
         "comment": "EDUCACIÓN · Bitgenia · Gmail Pago aprobado · gasto personal Sol",
     },
-    {
-        "fecha": "2026-08-01",
-        "cat": "VESTIMENTA",
-        "monto": 176000,
-        "medio": "BBVA Crédito ****3200",
-        "comment": "VESTIMENTA · Gibiana Cova · Gmail Pago aprobado · distinto de transferencia $131.000 · gasto personal Sol",
-    },
     # Octubre
     {
         "fecha": "2026-10-04",

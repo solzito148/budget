@@ -111,7 +111,7 @@ fecha,tipo,comercio,monto,moneda,medio,destino,cat,comment,duda,status,id,subjec
 2026-07-25,pago,Martina19,24000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Martina19,False,NEW,19f999965cb4247f,Pago aprobado en Martina19
 2026-07-29,pago,Promarine Erisea,896580,ARS,BBVA_TC,GPS,SALUD · Vitaminas,SALUD · Vitaminas · Promarine,False,NEW,19faee329bf14453,Pago aprobado en Promarine Erisea
 2026-08-01,pago,CENTRAL STORE,350580,ARS,TC_MP,GPS,ROPA,ROPA · CENTRAL STORE,False,NEW,19fbe68b55454062,Pago aprobado en CENTRAL STORE
-2026-08-01,pago,Gibiana Cova,176000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Gibiana Cova,False,NEW,19fbe7bbe0b7237d,Pago aprobado en Gibiana Cova
+2026-08-01,pago,Gibiana Cova,176000,ARS,BBVA_TC,ALMACEN,RAMON · Comida,RAMON · Comida · DR BARF · Gibiana Cova · ALMACEN SOL,False,IN_ALMACEN,19fbe7bbe0b7237d,Pago aprobado en Gibiana Cova
 2026-08-02,devolucion,,11059,ARS,?,EXCLUIR,DEVOLUCION,Devolución Gmail $11059,False,NO_GASTO_OK,19fbfccd0e4637bd,Tu pago fue devuelto
 2026-08-03,pago,COPETIN CATERING S.R.L.,11010,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,NEW,19fc839793ccb3c7,Pago aprobado en COPETIN CATERING S.R.L.
 2026-08-05,pago,Renová tu vestidor,152000,ARS,MP_cuenta,GPS,VESTIMENTA,VESTIMENTA · Renová tu vestidor,False,NEW,19fcfa537d3e0661,Pago aprobado en Renová tu vestidor

@@ -41,7 +41,7 @@ Fuente: Gmail `from:mercadopago.com` · 146 mails de movimiento (Pago aprobado, 
 - 2026-08-10 · $13.600 · COMIDA · Oficina · COMIDA · Oficina · Copetin Catering · Gmail Pago aprobado
 - 2026-08-21 · $27.000 · SALUD · SALUD · Karen · Gmail Pago aprobado · REVISAR ítem
 - 2026-08-28 · $30.000 · EDUCACIÓN · EDUCACIÓN · Bitgenia · Gmail Pago aprobado · gasto personal Sol
-- 2026-08-01 · $176.000 · VESTIMENTA · VESTIMENTA · Gibiana Cova · Gmail Pago aprobado · distinto de transferencia $131.000 · gasto personal Sol
+- 2026-08-01 · $176.000 · RAMON · Comida · DR BARF · Gibiana Cova · Gmail Pago aprobado · Almacén CIUDAD (no GPS)
 - 2026-10-04 · $17.038 · FARMACIA SALUD · FARMACIA SALUD · Hiperfarmaceutica Temperley · Gmail Pago aprobado
 - 2026-10-05 · $1.430.000 · VIAJES · VIAJES · regalo Chris Cumple 50 · MARPATAG SRL · Gmail Pago aprobado · gasto personal Sol
 - 2026-10-09 · $7.000 · PELUQUERÍA · PELUQUERÍA · Soy lashista · Gmail Pago aprobado (2 mails mismo monto; se carga 1)
@@ -92,3 +92,7 @@ Fuente: Gmail `from:mercadopago.com` · 146 mails de movimiento (Pago aprobado, 
 ## Correo Oficial → Courier
 - Categoría GPS: **Courier**
 - 02/06 $22.500 · 12/06 $48.000 · 20/08 $24.000 · 02/09 $24.000
+
+## Dr.Barf / Gibiana Cova
+- Destino: **Almacén CIUDAD · RAMON · Comida**
+- 01/08 $176.000 (BBVA) · 10/09 $131.000 (transferencia MP)

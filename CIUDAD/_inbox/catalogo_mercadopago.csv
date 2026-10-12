@@ -970,7 +970,7 @@ fecha,comercio,monto,categoria,comentario
 2026-07-25,Martina19,24000,GASTO_PERSONAL_SOL,VESTIMENTA · Martina19 · Gmail:19f999965cb4247f
 2026-07-29,Promarine Erisea,896580,GASTO_PERSONAL_SOL,SALUD · Vitaminas · Promarine · Gmail:19faee329bf14453
 2026-08-01,CENTRAL STORE,350580,GASTO_PERSONAL_SOL,ROPA · CENTRAL STORE · Gmail:19fbe68b55454062
-2026-08-01,Gibiana Cova,176000,GASTO_PERSONAL_SOL,VESTIMENTA · Gibiana Cova · Gmail:19fbe7bbe0b7237d
+2026-08-01,Gibiana Cova,176000,ALMACEN_SOL,RAMON · Comida · DR BARF · Gibiana Cova · ALMACEN SOL
 2026-08-02,Tu pago fue devuelto,11059,DEVOLUCION,Devolución Gmail $11059 · Gmail:19fbfccd0e4637bd
 2026-08-03,COPETIN CATERING S.R.L.,11010,GASTO_PERSONAL_SOL,COMIDA · Oficina · Copetin Catering · Gmail:19fc839793ccb3c7
 2026-08-05,Renová tu vestidor,152000,GASTO_PERSONAL_SOL,VESTIMENTA · Renová tu vestidor · Gmail:19fcfa537d3e0661
@@ -1003,3 +1003,4 @@ fecha,comercio,monto,categoria,comentario
 2026-10-06,Pagaste tu crédito,,PAGO_TARJETA,Pagaste tu crédito · Gmail:1a111d0678a88273
 2026-10-09,Soy lashista,7000,GASTO_PERSONAL_SOL,PELUQUERÍA · Soy lashista · Gmail:1a11e06f32050308
 2026-10-11,Patagonia Chic Excursiones,1143000,GASTO_PERSONAL_SOL,VIAJES · regalo Chris Cumple 50 · Patagonia Chic Excursiones · Gmail:1a12b614cac75c59
+2026-09-10,Cova Abreu Gibiana Del Valle,131000,ALMACEN_SOL,RAMON · Comida · DR BARF · Cova Abreu Gibiana Del Valle · ALMACEN SOL

@@ -1688,11 +1688,11 @@
     "medio": "BBVA_TC",
     "id": "19fbe7bbe0b7237d",
     "subject": "Pago aprobado en Gibiana Cova",
-    "destino": "GPS",
-    "cat": "VESTIMENTA",
-    "comment": "VESTIMENTA · Gibiana Cova",
+    "destino": "ALMACEN",
+    "cat": "RAMON · Comida",
+    "comment": "RAMON · Comida · DR BARF · Gibiana Cova · ALMACEN SOL",
     "duda": false,
-    "status": "NEW"
+    "status": "IN_ALMACEN"
   },
   {
     "fecha": "2026-08-02",
