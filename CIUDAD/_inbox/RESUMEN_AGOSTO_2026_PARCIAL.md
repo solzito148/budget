@@ -13,7 +13,7 @@
 
 ## Ajuste en Septiembre (origen agosto, no rindieron por error)
 - 01/08 · $176.000 · `RAMON · Comida` · DR BARF / Gibiana → mes Septiembre · AJUSTE SEPT
-- 16/08 · $1.060.501 · GPS · `ENTRETENIMIENTO · Comidas` · Gardiner → mes Septiembre · AJUSTE SEPT
+- 16/08 · $1.060.501 · **Gasto Personal Sol** · `ENTRETENIMIENTO · Comidas` · Gardiner (no Almacén)
 - 22/08 · $77.200 · `RAMON · Otros` · Paws PetShop → mes Septiembre · AJUSTE SEPT
 
 ## Pendiente
