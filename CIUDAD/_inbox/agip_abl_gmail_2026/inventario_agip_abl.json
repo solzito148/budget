@@ -1,0 +1,188 @@
+{
+  "boletas_agip_gmail": [
+    {
+      "fecha_mail": "2026-06-03",
+      "cuota": 6,
+      "vto": "2026-06-12",
+      "msg": "19e8ed2f62d8c396",
+      "partida": "397789",
+      "propiedad": "CIUDAD",
+      "fuente": "AGIP Emisión boleta digital"
+    },
+    {
+      "fecha_mail": "2026-08-08",
+      "cuota": 8,
+      "vto": "2026-08-14",
+      "msg": "19fe25d0cf6f3e04",
+      "partida": "397789",
+      "propiedad": "CIUDAD",
+      "fuente": "AGIP Emisión boleta digital"
+    },
+    {
+      "fecha_mail": "2026-09-09",
+      "cuota": 9,
+      "vto": "2026-09-14",
+      "msg": "1a08390e83ad1900",
+      "partida": "397789",
+      "propiedad": "CIUDAD",
+      "fuente": "AGIP Emisión boleta digital"
+    },
+    {
+      "fecha_mail": "2026-10-09",
+      "cuota": 10,
+      "vto": "2026-10-14",
+      "msg": "1a12025f1e131873",
+      "partida": "397789",
+      "propiedad": "CIUDAD",
+      "fuente": "AGIP Emisión boleta digital"
+    }
+  ],
+  "bbva_avisos_ciudadabl": [
+    {
+      "fecha_mail": "2026-08-12",
+      "vto": "2026-08-14",
+      "importe": 41344,
+      "raw": "41.343,91",
+      "ident": "CIUDADABL 0070039773890",
+      "msg": "19ff6724afb0cc08"
+    },
+    {
+      "fecha_mail": "2026-08-29",
+      "vto": "2026-08-31",
+      "importe": 49478,
+      "raw": "49.477,73",
+      "ident": "CIUDADABL 0070039773890",
+      "msg": "1a04df80aca9ffdb"
+    },
+    {
+      "fecha_mail": "2026-09-12",
+      "vto": "2026-09-14",
+      "importe": 42188,
+      "raw": "42.187,09",
+      "ident": "CIUDADABL 0070039773890",
+      "msg": "1a096181e1d4dd5b"
+    },
+    {
+      "fecha_mail": "2026-09-28",
+      "vto": "2026-09-30",
+      "importe": 50487,
+      "raw": "50.486,80",
+      "ident": "CIUDADABL 0070039773890",
+      "msg": "1a0e87a051b8c30f"
+    },
+    {
+      "fecha_mail": "2026-09-28",
+      "vto": "2026-09-30",
+      "importe": 50721,
+      "raw": "50.720,85",
+      "ident": "CIUDADABL 0070039773890",
+      "msg": "1a0e878bca1d9602"
+    },
+    {
+      "fecha_mail": "2026-10-12",
+      "vto": "2026-10-14",
+      "importe": 42960,
+      "raw": "42.959,96",
+      "ident": "CIUDADABL 0070039773890",
+      "msg": "1a130940267e6456"
+    }
+  ],
+  "pagos_registrados": [
+    {
+      "fecha": "2026-01-07",
+      "monto": 12435,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP AGIP"
+    },
+    {
+      "fecha": "2026-02-13",
+      "monto": 83757,
+      "propiedad": "OHIGGINS",
+      "partida": "3016365",
+      "nota": "MP AGIP ABL GCBA >80k"
+    },
+    {
+      "fecha": "2026-03-03",
+      "monto": 88141,
+      "propiedad": "OHIGGINS",
+      "partida": "3016365",
+      "nota": "MP AGIP ABL GCBA >80k"
+    },
+    {
+      "fecha": "2026-05-10",
+      "monto": 27739,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP (1/5 mismo día)"
+    },
+    {
+      "fecha": "2026-05-10",
+      "monto": 27439,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP (2/5)"
+    },
+    {
+      "fecha": "2026-05-10",
+      "monto": 27164,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP (3/5)"
+    },
+    {
+      "fecha": "2026-05-10",
+      "monto": 24745,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP (4/5)"
+    },
+    {
+      "fecha": "2026-05-10",
+      "monto": 25512,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP (5/5); matriz May=suma 132599"
+    },
+    {
+      "fecha": "2026-06-30",
+      "monto": 100779,
+      "propiedad": "OHIGGINS",
+      "partida": "3016365",
+      "nota": "MP >80k"
+    },
+    {
+      "fecha": "2026-07-14",
+      "monto": 88891,
+      "propiedad": "OHIGGINS",
+      "partida": "3016365",
+      "nota": "MP >80k"
+    },
+    {
+      "fecha": "2026-07-14",
+      "monto": 26175,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP ≤80k"
+    },
+    {
+      "fecha": "2026-08-14",
+      "monto": 41344,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP cuota 08 · coincide BBVA aviso"
+    },
+    {
+      "fecha": "2026-09-14",
+      "monto": 27635,
+      "propiedad": "CIUDAD",
+      "partida": "397789",
+      "nota": "MP oficial sept (aviso BBVA decía 42188 — prevalece pago)"
+    }
+  ],
+  "notas": {
+    "ohiggins_boletas_gmail": "No hay mails 'Emisión de boleta digital | ABL' de partida 3016365 en s.sanes@gmail.com. Solo aparece 3016365 en mails de sucesión Chagas / DDJJ.",
+    "bonorino_ava": "Partidas ABL pendientes en abl_partidas.csv; sin boletas AGIP en este buzón.",
+    "identificador_bbva": "CIUDADABL 0070039773890 → partida 397789 (CIUDAD)"
+  }
+}
