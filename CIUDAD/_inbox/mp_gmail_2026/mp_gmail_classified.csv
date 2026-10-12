@@ -86,11 +86,11 @@ fecha,tipo,comercio,monto,moneda,medio,destino,cat,comment,duda,status,id,subjec
 2026-05-24,pago,Bimba y Lola,748000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Bimba y Lola,False,IN_CATALOG,19e57c3bf9ace4e0,Pago aprobado en Bimba y Lola
 2026-05-24,pago,Bimba y Lola,748000,ARS,BBVA_TC,GPS,VESTIMENTA,VESTIMENTA · Bimba y Lola,False,IN_CATALOG,19e57c52dc3baa05,Pago aprobado en Bimba y Lola
 2026-05-28,pago,Zilver SA,25971,ARS,MP_cuenta,GPS,HOGAR,HOGAR · Zilver SA,False,IN_CATALOG,19e70e9e8a66e29a,Pago aprobado en Zilver SA
-2026-06-02,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,,ARS,?,GPS,ENVÍOS,ENVÍOS · Correo Argentino · REVISAR monto,True,NEW,19e88f158a5de08e,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-06-02,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,22500,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,19e88f158a5de08e,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
 2026-06-02,pago,Pescadería Belgrano,32046,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_GPS,19e89484cf72fd87,Pago aprobado en Pescadería Belgrano
 2026-06-03,pago,PANDORA JEWELRY ARGENTINA SRL,1708760,ARS,BBVA_TC,GPS,ROPA,ROPA · Pandora,False,NEW,19e8e7f3946f7ca5,Pago aprobado en PANDORA JEWELRY ARGENTINA SRL
 2026-06-11,pago,CASA GODOY,806000,ARS,TC_MP,GPS,ROPA,ROPA · CASA GODOY,False,IN_CATALOG,19eb422dccbf4e51,Pago aprobado en CASA GODOY
-2026-06-12,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,,ARS,?,GPS,ENVÍOS,ENVÍOS · Correo Argentino · REVISAR monto,True,NEW,19ebddfbc4fd7ce9,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-06-12,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,48000,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,19ebddfbc4fd7ce9,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
 2026-06-13,pago,SAPHIRUS COMERCIAL SA,79900,ARS,BBVA_TC,GPS,HOGAR,HOGAR · SAPHIRUS COMERCIAL SA,False,IN_CATALOG,19ec35244c9d8195,Pago aprobado en SAPHIRUS COMERCIAL SA
 2026-06-16,pago,AIB CURSOS ONLINE,29999,ARS,BBVA_TC,GPS,EDUCACIÓN,EDUCACIÓN · AIB Cursos,False,IN_GPS,19ed04c57d99105d,Pago aprobado en AIB CURSOS ONLINE
 2026-06-16,pago,ITSCLASSIC,2542970,ARS,TC_MP,GPS,VESTIMENTA,VESTIMENTA · Itsclassic,False,IN_GPS,19ed284b47446bb1,Pago aprobado en ITSCLASSIC
@@ -123,13 +123,13 @@ fecha,tipo,comercio,monto,moneda,medio,destino,cat,comment,duda,status,id,subjec
 2026-08-19,pago_tarjeta_o_credito,,1200000,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste una parte del resumen de tu tarjeta,False,IN_MP_NO_GASTO,1a019cc9c4d5cff0,Pagaste una parte del resumen de tu tarjeta
 2026-08-19,devolucion,,6020,ARS,?,EXCLUIR,DEVOLUCION,Devolución Gmail $6020,False,NO_GASTO_OK,1a01b82c94b57e38,Tu pago fue devuelto
 2026-08-19,pago_tarjeta_o_credito,,1225483,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste el resumen de tu tarjeta de crédito,False,IN_MP_NO_GASTO,1a01b89704ebbd86,Pagaste el resumen de tu tarjeta de crédito
-2026-08-20,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,,ARS,?,GPS,ENVÍOS,ENVÍOS · Correo Argentino · REVISAR monto,True,NEW,1a021549a48e7926,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-08-20,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,24000,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,1a021549a48e7926,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
 2026-08-21,pago,Karen,27000,ARS,MP_cuenta,GPS,SALUD,SALUD · Karen,False,NEW,1a02686b4bb17762,Pago aprobado en Karen
 2026-08-25,pago,ETIQUETA NEGRA,432000,ARS,TC_MP,GPS,VESTIMENTA,VESTIMENTA · ETIQUETA NEGRA,False,NEW,1a038b1ff186b758,Pago aprobado en ETIQUETA NEGRA
 2026-08-27,pago,Juan Cornacchini,57725,ARS,TC_MP,GPS,SALUD,SALUD · Juan Cornacchini,False,IN_GPS,1a04103890593662,Pago aprobado en Juan Cornacchini
 2026-08-28,pago,Bitgenia,30000,ARS,MP_cuenta,GPS,EDUCACIÓN,EDUCACIÓN · Bitgenia,False,NEW,1a048d8ecdfee392,Pago aprobado en Bitgenia
 2026-09-02,pago,COPETIN CATERING S.R.L.,4080,ARS,MP_cuenta,GPS,COMIDA · Oficina,COMIDA · Oficina · Copetin Catering,False,IN_SEPT_OFFICIAL,1a062df20f39ae8d,Pago aprobado en COPETIN CATERING S.R.L.
-2026-09-02,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,,ARS,?,GPS,ENVÍOS,ENVÍOS · Correo Argentino · REVISAR monto,True,NEW,1a063b219ba89d96,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
+2026-09-02,pago,CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA,24000,ARS,?,GPS,Courier,Courier · Correo Oficial · Gmail Pago aprobado · gasto personal Sol,False,IN_GPS,1a063b219ba89d96,Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA
 2026-09-04,pago,Pescadería Belgrano,6213,ARS,MP_cuenta,ALMACEN,COMIDA · Pescadería,COMIDA · Pescadería Belgrano,False,IN_SEPT_OFFICIAL,1a06e6d3eaf8247e,Pago aprobado en Pescadería Belgrano
 2026-09-08,pago,Sodastream,88659,ARS,MP_cuenta,ALMACEN,REPUESTOS · Sodastream,REPUESTOS · Sodastream,False,IN_SEPT_OFFICIAL,1a08327321a5b6ac,Pago aprobado en Sodastream
 2026-09-15,pago_tarjeta_o_credito,,1214000,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste una parte del resumen de tu tarjeta,False,NO_GASTO_OK,1a0a4c71421fbd70,Pagaste una parte del resumen de tu tarjeta

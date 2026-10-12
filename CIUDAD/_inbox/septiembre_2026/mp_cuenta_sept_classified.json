@@ -116,9 +116,9 @@
     "tipo": "Pago",
     "monto": 24000,
     "dest": "GPS",
-    "cat": "ENVÍOS",
+    "cat": "Courier",
     "desc": null,
-    "comment": "ENVÍOS · Correo Oficial · gasto personal Sol"
+    "comment": "Courier · Correo Oficial · gasto personal Sol"
   },
   {
     "fecha": "2026-09-03",

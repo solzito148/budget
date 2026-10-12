@@ -72,10 +72,10 @@ Fuente: Gmail `from:mercadopago.com` · 146 mails de movimiento (Pago aprobado, 
 - 2026-04-07 · Ana Silvia Castillo · $79000 · GPS/TRANSFERENCIAS — Ana Silvia Castillo · Transferencia enviada · gasto personal Sol · REVISAR
 - 2026-04-08 · Gabriel Anibal Fradkin · $110000 · GPS/TRANSFERENCIAS — Gabriel Anibal Fradkin · Transferencia enviada · gasto personal Sol · REVISAR
 - 2026-04-08 · Yenny Paola Calisaya Cquispe · $15120 · GPS/TRANSFERENCIAS — Yenny Paola Calisaya Cquispe · Transferencia enviada · gasto personal Sol · REVISAR
-- 2026-06-02 · CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA · $None · GPS/ENVÍOS — ENVÍOS · Correo Argentino · REVISAR monto
-- 2026-06-12 · CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA · $None · GPS/ENVÍOS — ENVÍOS · Correo Argentino · REVISAR monto
-- 2026-08-20 · CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA · $None · GPS/ENVÍOS — ENVÍOS · Correo Argentino · REVISAR monto
-- 2026-09-02 · CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA · $None · GPS/ENVÍOS — ENVÍOS · Correo Argentino · REVISAR monto
+- 2026-06-02 · CORREO OFICIAL · $22500 · GPS/Courier — confirmado
+- 2026-06-12 · CORREO OFICIAL · $48000 · GPS/Courier — confirmado
+- 2026-08-20 · CORREO OFICIAL · $24000 · GPS/Courier — confirmado
+- 2026-09-02 · CORREO OFICIAL · $24000 · GPS/Courier — confirmado
 
 ## Ya cubiertos por cuotas TC (no se duplicó el total del mail)
 - CENTRAL STORE $350.580 (ago) → cuotas TC MP
@@ -88,3 +88,7 @@ Fuente: Gmail `from:mercadopago.com` · 146 mails de movimiento (Pago aprobado, 
 - `mp_gmail_classified.csv` / `.json` — clasificación
 - `apply_mp_gmail_catalog.py` — este script
 
+
+## Correo Oficial → Courier
+- Categoría GPS: **Courier**
+- 02/06 $22.500 · 12/06 $48.000 · 20/08 $24.000 · 02/09 $24.000
