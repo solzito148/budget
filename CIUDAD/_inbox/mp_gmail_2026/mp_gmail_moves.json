@@ -1,0 +1,1462 @@
+[
+  {
+    "fecha": "2025-12-09",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19b02c65edb64712",
+    "subject": "Pagaste tu crédito"
+  },
+  {
+    "fecha": "2026-01-06",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19b933a7c4b5ab09",
+    "subject": "Pagaste tu crédito"
+  },
+  {
+    "fecha": "2026-02-18",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 2703,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19c71c2700e6ccbf",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-02-19",
+    "tipo": "transferencia_enviada",
+    "comercio": "Quiche Sibulka Marcelo Gaston",
+    "monto": 30000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19c77848b45696de",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-20",
+    "tipo": "transferencia_enviada",
+    "comercio": "",
+    "monto": 18500,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19c7cb8d7bd1712f",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-20",
+    "tipo": "transferencia_enviada",
+    "comercio": "Farmacia Maure Srl",
+    "monto": 124100,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19c7cba92f967390",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-21",
+    "tipo": "transferencia_enviada",
+    "comercio": "Clinicas Altamirao",
+    "monto": 40000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19c807951b154d75",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-21",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 60000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19c80fa4410110b0",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-21",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 3240,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19c81a8cb6bff307",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-23",
+    "tipo": "transferencia_enviada",
+    "comercio": "Valeria Laura Mele",
+    "monto": 72000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19c8b2d4f0ce2f15",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-24",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 13500,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19c9060985e37bfd",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-02-24",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 400000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19c913f98cc75b43",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-02-26",
+    "tipo": "devolucion",
+    "comercio": "",
+    "monto": 9295,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19c99d66bcda9f29",
+    "subject": "Tu pago fue devuelto"
+  },
+  {
+    "fecha": "2026-02-26",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 11050,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19c99efe31e903e1",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-02-28",
+    "tipo": "transferencia_enviada",
+    "comercio": "Cesar David Ledesma",
+    "monto": 310000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19ca28b3eff9a13a",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-01",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 149502,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19ca97c4b29bd73e",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-01",
+    "tipo": "transferencia_enviada",
+    "comercio": "Christian Pablo Ventura",
+    "monto": 120000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19caa1f521b5223a",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-01",
+    "tipo": "transferencia_enviada",
+    "comercio": "",
+    "monto": 2000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19caa3651e1ffe88",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-02",
+    "tipo": "transferencia_enviada",
+    "comercio": "",
+    "monto": 400,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cb053782272698",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-03",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 200000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19cb5eba84d4cffe",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-04",
+    "tipo": "transferencia_enviada",
+    "comercio": "Jardin Del Pilar Sa-Norte",
+    "monto": 4000000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19cba5de2d88caea",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-06",
+    "tipo": "transferencia_enviada",
+    "comercio": "Fideicomiso Ava Palpa",
+    "monto": 5484067,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cc321c7cc6cf37",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-06",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 91841,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cc3dfa45483bb3",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-06",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 20000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cc3e72cf119e9b",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-10",
+    "tipo": "transferencia_enviada",
+    "comercio": "Consorcio De Propiet",
+    "monto": 218800,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cd77f29383e31e",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-10",
+    "tipo": "transferencia_enviada",
+    "comercio": "Consorcio De Copropi",
+    "monto": 402934,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cd780d6e405c03",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-10",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 600000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19cd857ec881bf8c",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-10",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 600000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19cd858585a502ed",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-13",
+    "tipo": "transferencia_enviada",
+    "comercio": "Maria Soledad Martinez",
+    "monto": 27500,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19ce98b8ac470595",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-14",
+    "tipo": "transferencia_enviada",
+    "comercio": "Fernando Paredes Aguilar",
+    "monto": 40000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cea0eaf0f08f3a",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-14",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 77568,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cee3cb0f77b423",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-14",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 9000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cee3fec9a6e89d",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-16",
+    "tipo": "transferencia_enviada",
+    "comercio": "Jorge Celso Doben",
+    "monto": 100000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cf47e2adebfd41",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-16",
+    "tipo": "pago",
+    "comercio": "TelePASE",
+    "monto": 8700,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cf7ed927aa8020",
+    "subject": "Pago aprobado en TelePASE"
+  },
+  {
+    "fecha": "2026-03-16",
+    "tipo": "transferencia_enviada",
+    "comercio": "Mesarina Castro Kimberly Juliet",
+    "monto": 10000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cf88252b1aac2b",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-16",
+    "tipo": "transferencia_enviada",
+    "comercio": "Andrea Carmen Palacios",
+    "monto": 50000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19cf8a233e92eb7c",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-18",
+    "tipo": "transferencia_enviada",
+    "comercio": "Cecilia Noemi Pons",
+    "monto": 89261,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d0190e666de80b",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-19",
+    "tipo": "pago",
+    "comercio": "Cambio de Aires",
+    "monto": 528698,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19d036834d5328ec",
+    "subject": "Pago aprobado en Cambio de Aires"
+  },
+  {
+    "fecha": "2026-03-20",
+    "tipo": "pago",
+    "comercio": "LOccitane en Provence",
+    "monto": 250290,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19d0b0455a09a40a",
+    "subject": "Pago aprobado en LOccitane en Provence"
+  },
+  {
+    "fecha": "2026-03-21",
+    "tipo": "pago",
+    "comercio": "Martina19",
+    "monto": 75000,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19d118322bc594ae",
+    "subject": "Pago aprobado en Martina19"
+  },
+  {
+    "fecha": "2026-03-21",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 90000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d12743dfd6b7e1",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-03-28",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 86568,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d34c0d2dba13a2",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-01",
+    "tipo": "transferencia_enviada",
+    "comercio": "",
+    "monto": 1500,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d4b1c360a842fe",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-04",
+    "tipo": "pago",
+    "comercio": "Promarine Erisea",
+    "monto": 527400,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19d588c95ca04570",
+    "subject": "Pago aprobado en Promarine Erisea"
+  },
+  {
+    "fecha": "2026-04-04",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 82416,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d58a33f6dbb271",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-04",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 9000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d58a5263266be6",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-04",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 11000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d58a6567fb656e",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-04",
+    "tipo": "pago",
+    "comercio": "Cambio de Aires",
+    "monto": 519441,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19d58fb6f3193c60",
+    "subject": "Pago aprobado en Cambio de Aires"
+  },
+  {
+    "fecha": "2026-04-05",
+    "tipo": "transferencia_enviada",
+    "comercio": "",
+    "monto": 7000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d5f9859d82a6f5",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-06",
+    "tipo": "transferencia_enviada",
+    "comercio": "Fideicomiso Ava Palpa",
+    "monto": 5553706,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d629dd81fc4e3a",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-06",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 12650,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d630e7a97662e5",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-04-06",
+    "tipo": "transferencia_enviada",
+    "comercio": "Farmacia Maure Srl",
+    "monto": 191500,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d64d9e3ffc2026",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-07",
+    "tipo": "transferencia_enviada",
+    "comercio": "Ana Silvia Castillo",
+    "monto": 79000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d690577636697a",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-08",
+    "tipo": "transferencia_enviada",
+    "comercio": "Gabriel Anibal Fradkin",
+    "monto": 110000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d6ae681453543c",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-08",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 17050,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d6dde7c609498d",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-04-08",
+    "tipo": "transferencia_enviada",
+    "comercio": "Yenny Paola Calisaya Cquispe",
+    "monto": 15120,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d6f067cddaf142",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-08",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 100000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d6f1309e30adde",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-09",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 800,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19d733ffda99f64b",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-09",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 1500000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19d7341b819a9fad",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-12",
+    "tipo": "transferencia_enviada",
+    "comercio": "Susana Carmen Ortiz",
+    "monto": 96567,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19d829185e47e474",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-12",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19d82d1b6cda3f89",
+    "subject": "Activamos el débito automático de tu tarjeta"
+  },
+  {
+    "fecha": "2026-04-13",
+    "tipo": "pago",
+    "comercio": "Mono Fuk",
+    "monto": 575900,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19d8944e55cb6590",
+    "subject": "Pago aprobado en Mono Fuk"
+  },
+  {
+    "fecha": "2026-04-18",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 699172,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19d9ec8872dc6882",
+    "subject": "Hicimos el débito automático"
+  },
+  {
+    "fecha": "2026-04-18",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 100,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19da29402c2ea667",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-20",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 12650,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19dabb74fc554c75",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-04-21",
+    "tipo": "pago",
+    "comercio": "LABORATORIO BEK SRL",
+    "monto": 324195,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19dada9885ef6c7b",
+    "subject": "Pago aprobado en LABORATORIO BEK SRL"
+  },
+  {
+    "fecha": "2026-04-21",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 500,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19db1ee7dd032378",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-23",
+    "tipo": "pago",
+    "comercio": "Mart Platería",
+    "monto": 153480,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19db7ac48d074cdd",
+    "subject": "Pago aprobado en Mart Platería"
+  },
+  {
+    "fecha": "2026-04-25",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 500,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19dc68e5bf81364b",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-25",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 100,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19dc69a02917d5a6",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-04-27",
+    "tipo": "pago",
+    "comercio": "Martina19",
+    "monto": 45000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19dcea8c65e04f11",
+    "subject": "Pago aprobado en Martina19"
+  },
+  {
+    "fecha": "2026-04-27",
+    "tipo": "devolucion",
+    "comercio": "",
+    "monto": 5763,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19dcfc6e102c0ebb",
+    "subject": "Tu pago fue devuelto"
+  },
+  {
+    "fecha": "2026-05-01",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 400,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19de441cf2bd34d6",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-05-06",
+    "tipo": "pago",
+    "comercio": "Zadig et Voltaire",
+    "monto": 731000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19dfd34b3f37702f",
+    "subject": "Pago aprobado en Zadig et Voltaire"
+  },
+  {
+    "fecha": "2026-05-09",
+    "tipo": "pago",
+    "comercio": "Tilgorita",
+    "monto": 266443,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19e0a73befa9e235",
+    "subject": "Pago aprobado en Tilgorita"
+  },
+  {
+    "fecha": "2026-05-09",
+    "tipo": "pago",
+    "comercio": "Zadig et Voltaire",
+    "monto": 837000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19e0e5164cceb73c",
+    "subject": "Pago aprobado en Zadig et Voltaire"
+  },
+  {
+    "fecha": "2026-05-09",
+    "tipo": "pago",
+    "comercio": "Cambio de Aires",
+    "monto": 989957,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19e0e525304d7926",
+    "subject": "Pago aprobado en Cambio de Aires"
+  },
+  {
+    "fecha": "2026-05-10",
+    "tipo": "confirmacion_pago",
+    "comercio": "",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19e0f7bea4263640",
+    "subject": "Ya recibieron tu pago"
+  },
+  {
+    "fecha": "2026-05-11",
+    "tipo": "pago",
+    "comercio": "Tienda River",
+    "monto": 252647,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19e14d679d6835d6",
+    "subject": "Pago aprobado en Tienda River"
+  },
+  {
+    "fecha": "2026-05-11",
+    "tipo": "pago",
+    "comercio": "Pescadería Belgrano",
+    "monto": 24852,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19e18e5c24303ccb",
+    "subject": "Pago aprobado en Pescadería Belgrano"
+  },
+  {
+    "fecha": "2026-05-13",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 18,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19e2165c81071097",
+    "subject": "Debitaremos el total de tu tarjeta el 18 de mayo"
+  },
+  {
+    "fecha": "2026-05-15",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 400,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19e2db1de1382415",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-05-16",
+    "tipo": "pago",
+    "comercio": "BOKEN VORENO",
+    "monto": 590000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19e2e43551c56ac2",
+    "subject": "Pago aprobado en BOKEN VORENO"
+  },
+  {
+    "fecha": "2026-05-20",
+    "tipo": "transferencia_enviada",
+    "comercio": "Sanes Maria Sole",
+    "monto": 100,
+    "moneda": "USD",
+    "medio": "BBVA_TC",
+    "id": "19e47632da639b34",
+    "subject": "Tu transferencia fue enviada"
+  },
+  {
+    "fecha": "2026-05-24",
+    "tipo": "pago",
+    "comercio": "Bimba y Lola",
+    "monto": 748000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19e57c3bf9ace4e0",
+    "subject": "Pago aprobado en Bimba y Lola"
+  },
+  {
+    "fecha": "2026-05-24",
+    "tipo": "pago",
+    "comercio": "Bimba y Lola",
+    "monto": 748000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19e57c52dc3baa05",
+    "subject": "Pago aprobado en Bimba y Lola"
+  },
+  {
+    "fecha": "2026-05-28",
+    "tipo": "pago",
+    "comercio": "Zilver SA",
+    "monto": 25971,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19e70e9e8a66e29a",
+    "subject": "Pago aprobado en Zilver SA"
+  },
+  {
+    "fecha": "2026-06-02",
+    "tipo": "pago",
+    "comercio": "CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19e88f158a5de08e",
+    "subject": "Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA"
+  },
+  {
+    "fecha": "2026-06-02",
+    "tipo": "pago",
+    "comercio": "Pescadería Belgrano",
+    "monto": 32046,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19e89484cf72fd87",
+    "subject": "Pago aprobado en Pescadería Belgrano"
+  },
+  {
+    "fecha": "2026-06-03",
+    "tipo": "pago",
+    "comercio": "PANDORA JEWELRY ARGENTINA SRL",
+    "monto": 1708760,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19e8e7f3946f7ca5",
+    "subject": "Pago aprobado en PANDORA JEWELRY ARGENTINA SRL"
+  },
+  {
+    "fecha": "2026-06-11",
+    "tipo": "pago",
+    "comercio": "CASA GODOY",
+    "monto": 806000,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19eb422dccbf4e51",
+    "subject": "Pago aprobado en CASA GODOY"
+  },
+  {
+    "fecha": "2026-06-12",
+    "tipo": "pago",
+    "comercio": "CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19ebddfbc4fd7ce9",
+    "subject": "Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA"
+  },
+  {
+    "fecha": "2026-06-13",
+    "tipo": "pago",
+    "comercio": "SAPHIRUS COMERCIAL SA",
+    "monto": 79900,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19ec35244c9d8195",
+    "subject": "Pago aprobado en SAPHIRUS COMERCIAL SA"
+  },
+  {
+    "fecha": "2026-06-16",
+    "tipo": "pago",
+    "comercio": "AIB CURSOS ONLINE",
+    "monto": 29999,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19ed04c57d99105d",
+    "subject": "Pago aprobado en AIB CURSOS ONLINE"
+  },
+  {
+    "fecha": "2026-06-16",
+    "tipo": "pago",
+    "comercio": "ITSCLASSIC",
+    "monto": 2542970,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19ed284b47446bb1",
+    "subject": "Pago aprobado en ITSCLASSIC"
+  },
+  {
+    "fecha": "2026-06-18",
+    "tipo": "pago",
+    "comercio": "TELECENTRO SA",
+    "monto": 48420,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19ed8306f9f3fb20",
+    "subject": "Pago aprobado en TELECENTRO SA"
+  },
+  {
+    "fecha": "2026-06-23",
+    "tipo": "pago",
+    "comercio": "LABORATORIO BEK SRL",
+    "monto": 501356,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19ef20f13f5e5aa0",
+    "subject": "Pago aprobado en LABORATORIO BEK SRL"
+  },
+  {
+    "fecha": "2026-06-28",
+    "tipo": "pago",
+    "comercio": "FRIVILLI",
+    "monto": 95100,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19f0f5b4df1f7150",
+    "subject": "Pago aprobado en FRIVILLI"
+  },
+  {
+    "fecha": "2026-07-06",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 765,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19f38754651d0dea",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-07-09",
+    "tipo": "pago",
+    "comercio": "Ojo rojo",
+    "monto": 159000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19f44409ff317b51",
+    "subject": "Pago aprobado en Ojo rojo"
+  },
+  {
+    "fecha": "2026-07-09",
+    "tipo": "pago",
+    "comercio": "PANDORA JEWELRY ARGENTINA SRL",
+    "monto": 1787341,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19f44530408d623e",
+    "subject": "Pago aprobado en PANDORA JEWELRY ARGENTINA SRL"
+  },
+  {
+    "fecha": "2026-07-09",
+    "tipo": "pago",
+    "comercio": "Valenti SA",
+    "monto": 26400,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19f4842b28a325a4",
+    "subject": "Pago aprobado en Valenti SA"
+  },
+  {
+    "fecha": "2026-07-12",
+    "tipo": "pago",
+    "comercio": "Karen",
+    "monto": 27000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19f57d1324503245",
+    "subject": "Pago aprobado en Karen"
+  },
+  {
+    "fecha": "2026-07-13",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 17,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19f5b45a2161ec03",
+    "subject": "Debitaremos el total de tu tarjeta el 17 de julio"
+  },
+  {
+    "fecha": "2026-07-13",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 16150,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19f5c3e97a204021",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-07-15",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 576242,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19f6585c6cc322cd",
+    "subject": "Pagaste una parte del resumen de tu tarjeta"
+  },
+  {
+    "fecha": "2026-07-18",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 966,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19f735be6fa74e14",
+    "subject": "Solo pudimos debitar una parte para pagar tu tarjeta"
+  },
+  {
+    "fecha": "2026-07-22",
+    "tipo": "pago",
+    "comercio": "Zilver SA",
+    "monto": 78167,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19f879723f8199b2",
+    "subject": "Pago aprobado en Zilver SA"
+  },
+  {
+    "fecha": "2026-07-24",
+    "tipo": "pago",
+    "comercio": "CASA GODOY",
+    "monto": 976000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19f95913ac62d20b",
+    "subject": "Pago aprobado en CASA GODOY"
+  },
+  {
+    "fecha": "2026-07-25",
+    "tipo": "pago",
+    "comercio": "Martina19",
+    "monto": 24000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19f999965cb4247f",
+    "subject": "Pago aprobado en Martina19"
+  },
+  {
+    "fecha": "2026-07-29",
+    "tipo": "pago",
+    "comercio": "Promarine Erisea",
+    "monto": 896580,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19faee329bf14453",
+    "subject": "Pago aprobado en Promarine Erisea"
+  },
+  {
+    "fecha": "2026-08-01",
+    "tipo": "pago",
+    "comercio": "CENTRAL STORE",
+    "monto": 350580,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19fbe68b55454062",
+    "subject": "Pago aprobado en CENTRAL STORE"
+  },
+  {
+    "fecha": "2026-08-01",
+    "tipo": "pago",
+    "comercio": "Gibiana Cova",
+    "monto": 176000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19fbe7bbe0b7237d",
+    "subject": "Pago aprobado en Gibiana Cova"
+  },
+  {
+    "fecha": "2026-08-02",
+    "tipo": "devolucion",
+    "comercio": "",
+    "monto": 11059,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "19fbfccd0e4637bd",
+    "subject": "Tu pago fue devuelto"
+  },
+  {
+    "fecha": "2026-08-03",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 11010,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19fc839793ccb3c7",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-08-05",
+    "tipo": "pago",
+    "comercio": "Renová tu vestidor",
+    "monto": 152000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19fcfa537d3e0661",
+    "subject": "Pago aprobado en Renová tu vestidor"
+  },
+  {
+    "fecha": "2026-08-09",
+    "tipo": "pago",
+    "comercio": "Siendo Consciencia",
+    "monto": 22222,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19fe45c327f9718f",
+    "subject": "Pago aprobado en Siendo Consciencia"
+  },
+  {
+    "fecha": "2026-08-09",
+    "tipo": "pago",
+    "comercio": "Lorena Ferreyra",
+    "monto": 24000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19fe694e270678e7",
+    "subject": "Pago aprobado en Lorena Ferreyra"
+  },
+  {
+    "fecha": "2026-08-09",
+    "tipo": "pago",
+    "comercio": "Lorena Ferreyra",
+    "monto": 75000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "19fe6976368f1eab",
+    "subject": "Pago aprobado en Lorena Ferreyra"
+  },
+  {
+    "fecha": "2026-08-10",
+    "tipo": "pago",
+    "comercio": "Reiki",
+    "monto": 356000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "19feb6d5f1c6579c",
+    "subject": "Pago aprobado en Reiki"
+  },
+  {
+    "fecha": "2026-08-10",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 13600,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "19febfde148712fc",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-08-19",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 1200000,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a019cc9c4d5cff0",
+    "subject": "Pagaste una parte del resumen de tu tarjeta"
+  },
+  {
+    "fecha": "2026-08-19",
+    "tipo": "devolucion",
+    "comercio": "",
+    "monto": 6020,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a01b82c94b57e38",
+    "subject": "Tu pago fue devuelto"
+  },
+  {
+    "fecha": "2026-08-19",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 1225483,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a01b89704ebbd86",
+    "subject": "Pagaste el resumen de tu tarjeta de crédito"
+  },
+  {
+    "fecha": "2026-08-20",
+    "tipo": "pago",
+    "comercio": "CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a021549a48e7926",
+    "subject": "Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA"
+  },
+  {
+    "fecha": "2026-08-21",
+    "tipo": "pago",
+    "comercio": "Karen",
+    "monto": 27000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a02686b4bb17762",
+    "subject": "Pago aprobado en Karen"
+  },
+  {
+    "fecha": "2026-08-25",
+    "tipo": "pago",
+    "comercio": "ETIQUETA NEGRA",
+    "monto": 432000,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "1a038b1ff186b758",
+    "subject": "Pago aprobado en ETIQUETA NEGRA"
+  },
+  {
+    "fecha": "2026-08-27",
+    "tipo": "pago",
+    "comercio": "Juan Cornacchini",
+    "monto": 57725,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "1a04103890593662",
+    "subject": "Pago aprobado en Juan Cornacchini"
+  },
+  {
+    "fecha": "2026-08-28",
+    "tipo": "pago",
+    "comercio": "Bitgenia",
+    "monto": 30000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a048d8ecdfee392",
+    "subject": "Pago aprobado en Bitgenia"
+  },
+  {
+    "fecha": "2026-09-02",
+    "tipo": "pago",
+    "comercio": "COPETIN CATERING S.R.L.",
+    "monto": 4080,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a062df20f39ae8d",
+    "subject": "Pago aprobado en COPETIN CATERING S.R.L."
+  },
+  {
+    "fecha": "2026-09-02",
+    "tipo": "pago",
+    "comercio": "CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a063b219ba89d96",
+    "subject": "Pago aprobado en CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA"
+  },
+  {
+    "fecha": "2026-09-04",
+    "tipo": "pago",
+    "comercio": "Pescadería Belgrano",
+    "monto": 6213,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a06e6d3eaf8247e",
+    "subject": "Pago aprobado en Pescadería Belgrano"
+  },
+  {
+    "fecha": "2026-09-08",
+    "tipo": "pago",
+    "comercio": "Sodastream",
+    "monto": 88659,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a08327321a5b6ac",
+    "subject": "Pago aprobado en Sodastream"
+  },
+  {
+    "fecha": "2026-09-15",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 1214000,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a0a4c71421fbd70",
+    "subject": "Pagaste una parte del resumen de tu tarjeta"
+  },
+  {
+    "fecha": "2026-09-17",
+    "tipo": "pago",
+    "comercio": "ITSCLASSIC",
+    "monto": 719990,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "1a0ad1bee8768ed9",
+    "subject": "Pago aprobado en ITSCLASSIC"
+  },
+  {
+    "fecha": "2026-09-17",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": 1000000,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a0b1b1b05d67515",
+    "subject": "Pagaste una parte del resumen de tu tarjeta"
+  },
+  {
+    "fecha": "2026-09-19",
+    "tipo": "pago",
+    "comercio": "EducaciónIT",
+    "monto": 127196,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "1a0b9798fc01bc3a",
+    "subject": "Pago aprobado en EducaciónIT"
+  },
+  {
+    "fecha": "2026-09-19",
+    "tipo": "pago",
+    "comercio": "Promarine Erisea",
+    "monto": 530100,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "1a0badfd68185874",
+    "subject": "Pago aprobado en Promarine Erisea"
+  },
+  {
+    "fecha": "2026-09-20",
+    "tipo": "pago",
+    "comercio": "Yenny El Ateneo",
+    "monto": 89998,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "1a0bc4e36dd5567e",
+    "subject": "Pago aprobado en Yenny El Ateneo"
+  },
+  {
+    "fecha": "2026-09-29",
+    "tipo": "pago",
+    "comercio": "ViennaHogar",
+    "monto": 134572,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "1a0eaad2b743141f",
+    "subject": "Pago aprobado en ViennaHogar"
+  },
+  {
+    "fecha": "2026-10-04",
+    "tipo": "pago",
+    "comercio": "HIPERFARMACEUTICA TEMPERLEY SCS",
+    "monto": 17038,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a1093ffacf32cb0",
+    "subject": "Pago aprobado en HIPERFARMACEUTICA TEMPERLEY SCS"
+  },
+  {
+    "fecha": "2026-10-05",
+    "tipo": "pago",
+    "comercio": "MARPATAG  SRL",
+    "monto": 1430000,
+    "moneda": "ARS",
+    "medio": "TC_MP",
+    "id": "1a10dc545b743939",
+    "subject": "Pago aprobado en MARPATAG  SRL"
+  },
+  {
+    "fecha": "2026-10-06",
+    "tipo": "pago_tarjeta_o_credito",
+    "comercio": "",
+    "monto": null,
+    "moneda": "ARS",
+    "medio": "?",
+    "id": "1a111d0678a88273",
+    "subject": "Pagaste tu crédito"
+  },
+  {
+    "fecha": "2026-10-09",
+    "tipo": "pago",
+    "comercio": "Soy lashista",
+    "monto": 7000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a11e06f32050308",
+    "subject": "Pago aprobado en Soy lashista"
+  },
+  {
+    "fecha": "2026-10-09",
+    "tipo": "pago",
+    "comercio": "Soy lashista",
+    "monto": 7000,
+    "moneda": "ARS",
+    "medio": "MP_cuenta",
+    "id": "1a11e08544a0534b",
+    "subject": "Pago aprobado en Soy lashista"
+  },
+  {
+    "fecha": "2026-10-11",
+    "tipo": "pago",
+    "comercio": "Patagonia Chic Excursiones",
+    "monto": 1143000,
+    "moneda": "ARS",
+    "medio": "BBVA_TC",
+    "id": "1a12b614cac75c59",
+    "subject": "Pago aprobado en Patagonia Chic Excursiones"
+  }
+]
