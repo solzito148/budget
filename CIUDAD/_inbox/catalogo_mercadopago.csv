@@ -1005,7 +1005,7 @@ fecha,comercio,monto,categoria,comentario
 2026-10-11,Patagonia Chic Excursiones,1143000,GASTO_PERSONAL_SOL,VIAJES · regalo Chris Cumple 50 · Patagonia Chic Excursiones · Gmail:1a12b614cac75c59
 2026-09-10,Cova Abreu Gibiana Del Valle,131000,ALMACEN_SOL,RAMON · Comida · DR BARF · Cova Abreu Gibiana Del Valle · ALMACEN SOL
 2026-07-04,DR BARF,149500,ALMACEN_SOL,RAMON · Comida · DR BARF · AJUSTE SEPT · origen julio · no rindió mes origen por error · ALMACEN SOL
-2026-08-16,Gardiner Restaurant,1060501,ALMACEN_SOL,ENTRETENIMIENTO · Social · Gardiner · AJUSTE SEPT · origen agosto · no rindió mes origen por error · ALMACEN SOL
+2026-08-16,Gardiner Restaurant,1060501,GASTO_PERSONAL_SOL,ENTRETENIMIENTO · Comidas · Gardiner Restaurant · BBVA VISA · GPS (no Almacén)
 2026-08-22,Paws Pet Market,77200,ALMACEN_SOL,RAMON · Otros · Paws · AJUSTE SEPT · origen agosto · no rindió mes origen por error · PetShop · ALMACEN SOL
 2026-01-08,Pescadería Belgrano,12426,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-01-08 · no rindió mes origen por error · ALMACEN SOL
 2026-02-06,Pescadería Belgrano,24852,ALMACEN_SOL,COMIDA · Pescadería Belgrano · AJUSTE SEPT · origen 2026-02-06 · no rindió mes origen por error · ALMACEN SOL
