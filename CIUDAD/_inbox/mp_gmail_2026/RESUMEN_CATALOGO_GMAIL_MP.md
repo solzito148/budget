@@ -43,9 +43,9 @@ Fuente: Gmail `from:mercadopago.com` · 146 mails de movimiento (Pago aprobado, 
 - 2026-08-28 · $30.000 · EDUCACIÓN · EDUCACIÓN · Bitgenia · Gmail Pago aprobado · gasto personal Sol
 - 2026-08-01 · $176.000 · VESTIMENTA · VESTIMENTA · Gibiana Cova · Gmail Pago aprobado · distinto de transferencia $131.000 · gasto personal Sol
 - 2026-10-04 · $17.038 · FARMACIA SALUD · FARMACIA SALUD · Hiperfarmaceutica Temperley · Gmail Pago aprobado
-- 2026-10-05 · $1.430.000 · VIAJES · VIAJES · MARPATAG SRL · Gmail Pago aprobado · gasto personal Sol
+- 2026-10-05 · $1.430.000 · VIAJES · VIAJES · regalo Chris Cumple 50 · MARPATAG SRL · Gmail Pago aprobado · gasto personal Sol
 - 2026-10-09 · $7.000 · PELUQUERÍA · PELUQUERÍA · Soy lashista · Gmail Pago aprobado (2 mails mismo monto; se carga 1)
-- 2026-10-11 · $1.143.000 · VIAJES · VIAJES · Patagonia Chic Excursiones · Gmail Pago aprobado · 1 cuota · gasto personal Sol
+- 2026-10-11 · $1.143.000 · VIAJES · VIAJES · regalo Chris Cumple 50 · Patagonia Chic Excursiones · Gmail Pago aprobado · 1 cuota · gasto personal Sol
 
 ## Espejos pago de resumen (sept Gmail)
 - 15/09 $1.214.000 → `MP No Gasto` + `Pago de Tarjetas`

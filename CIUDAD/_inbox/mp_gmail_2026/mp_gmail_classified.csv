@@ -140,8 +140,8 @@ fecha,tipo,comercio,monto,moneda,medio,destino,cat,comment,duda,status,id,subjec
 2026-09-20,pago,Yenny El Ateneo,89998,ARS,TC_MP,GPS,LIBROS,LIBROS · Yenny El Ateneo,False,IN_GPS,1a0bc4e36dd5567e,Pago aprobado en Yenny El Ateneo
 2026-09-29,pago,ViennaHogar,134572,ARS,TC_MP,GPS,HOGAR,HOGAR · ViennaHogar,False,IN_GPS,1a0eaad2b743141f,Pago aprobado en ViennaHogar
 2026-10-04,pago,HIPERFARMACEUTICA TEMPERLEY SCS,17038,ARS,MP_cuenta,GPS,FARMACIA SALUD,FARMACIA SALUD · HIPERFARMACEUTICA TEMPERLEY SCS,False,NEW,1a1093ffacf32cb0,Pago aprobado en HIPERFARMACEUTICA TEMPERLEY SCS
-2026-10-05,pago,MARPATAG  SRL,1430000,ARS,TC_MP,GPS,VIAJES,VIAJES · MARPATAG  SRL,False,NEW,1a10dc545b743939,Pago aprobado en MARPATAG  SRL
+2026-10-05,pago,MARPATAG  SRL,1430000,ARS,TC_MP,GPS,VIAJES,VIAJES · regalo Chris Cumple 50 · MARPATAG  SRL · Gmail Pago aprobado,False,NEW,1a10dc545b743939,Pago aprobado en MARPATAG  SRL
 2026-10-06,pago_tarjeta_o_credito,,,ARS,?,MP_NO_GASTO,PAGO_TARJETA_O_CREDITO,Pagaste tu crédito,False,NO_GASTO_OK,1a111d0678a88273,Pagaste tu crédito
 2026-10-09,pago,Soy lashista,7000,ARS,MP_cuenta,GPS,PELUQUERÍA,PELUQUERÍA · Soy lashista,False,NEW,1a11e06f32050308,Pago aprobado en Soy lashista
 2026-10-09,pago,Soy lashista,7000,ARS,MP_cuenta,GPS,PELUQUERÍA,PELUQUERÍA · Soy lashista,False,NEW,1a11e08544a0534b,Pago aprobado en Soy lashista
-2026-10-11,pago,Patagonia Chic Excursiones,1143000,ARS,BBVA_TC,GPS,VIAJES,VIAJES · Patagonia Chic Excursiones,False,NEW,1a12b614cac75c59,Pago aprobado en Patagonia Chic Excursiones
+2026-10-11,pago,Patagonia Chic Excursiones,1143000,ARS,BBVA_TC,GPS,VIAJES,VIAJES · regalo Chris Cumple 50 · Patagonia Chic Excursiones · Gmail Pago aprobado,False,NEW,1a12b614cac75c59,Pago aprobado en Patagonia Chic Excursiones

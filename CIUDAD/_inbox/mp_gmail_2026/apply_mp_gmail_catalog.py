@@ -139,7 +139,7 @@ LOAD_GPS = [
         "cat": "VIAJES",
         "monto": 1430000,
         "medio": "TC Mercado Pago",
-        "comment": "VIAJES · MARPATAG SRL · Gmail Pago aprobado · gasto personal Sol",
+        "comment": "VIAJES · regalo Chris Cumple 50 · MARPATAG SRL · Gmail Pago aprobado · gasto personal Sol",
     },
     {
         "fecha": "2026-10-09",
@@ -153,7 +153,7 @@ LOAD_GPS = [
         "cat": "VIAJES",
         "monto": 1143000,
         "medio": "BBVA Crédito ****3200",
-        "comment": "VIAJES · Patagonia Chic Excursiones · Gmail Pago aprobado · 1 cuota · gasto personal Sol",
+        "comment": "VIAJES · regalo Chris Cumple 50 · Patagonia Chic Excursiones · Gmail Pago aprobado · 1 cuota · gasto personal Sol",
     },
 ]
 
