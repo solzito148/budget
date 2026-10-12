@@ -14,7 +14,7 @@
 ## Ajuste en Septiembre (origen agosto, no rindieron por error)
 - 01/08 · $176.000 · `RAMON · Comida` · DR BARF / Gibiana → mes Septiembre · AJUSTE SEPT
 - 16/08 · $1.060.501 · `ENTRETENIMIENTO · Social` · Gardiner → mes Septiembre · AJUSTE SEPT
-- 22/08 · $77.200 · `RAMON · Otros` · Paws → mes Septiembre · AJUSTE SEPT
+- 22/08 · $77.200 · `RAMON · Comida` · Paws → mes Septiembre · AJUSTE SEPT
 
 ## Pendiente
 - Luz Edenor CIUDAD (agosto)

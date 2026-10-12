@@ -24,7 +24,7 @@ Comentario canónico: `AJUSTE SEPT · gasto origen {mes} {fecha} · no se pasó/
 | 2026-07-04 | 149.500 | `RAMON · Comida` · DR BARF #462 | Gmail + checkout |
 | 2026-08-01 | 176.000 | `RAMON · Comida` · DR BARF / Gibiana | BBVA (antes mal en GPS) |
 | 2026-08-16 | 1.060.501 | `ENTRETENIMIENTO · Social` · Gardiner | BBVA Compra aprobada |
-| 2026-08-22 | 77.200 | `RAMON · Otros` · Paws | BBVA Compra aprobada (3 cuotas) |
+| 2026-08-22 | 77.200 | `RAMON · Comida` · Paws | BBVA Compra aprobada (3 cuotas) |
 
 **Regla:** pescadería (Pescadería Belgrano / Andres Di Pasqua) → siempre Almacén CIUDAD, nunca GPS.
 

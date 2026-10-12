@@ -103,9 +103,9 @@ Etiqueta `COMIDA · {comercio}`. Incluye:
 
 ### Ramón — SIEMPRE Almacén CIUDAD, NUNCA Gasto Personal Sol
 Todo gasto de Ramón (perro) va a `Almacen Detalle` (ALMACEN SOL), sin excepción:
-- `RAMON · Comida` — Kalbby / Compraenkalbb / DR BARF
+- `RAMON · Comida` — Kalbby / Compraenkalbb / DR BARF / **Gibiana Cova** / **Cova Abreu Gibiana** / **Paws** / Paws Pet Market
 - `RAMON · Veterinario` — Valeria Mele / El Perro Verde · **Leocan**
-- `RAMON · Otros` — **Paws** / Paws Pet Market y otros de Ramón que no sean comida ni veterinario
+- `RAMON · Otros` — otros de Ramón que no sean comida ni veterinario (no Paws; Paws = Comida)
 - Otras mascotas (no Ramón) → `Gasto Personal Sol`
 
 ### PedidosYa Plus
@@ -179,7 +179,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Tu Lugar en el Monumental** / **TLM CARP** / **Cuota Social CARP** / **Cuota Social CAR** (River) → hoja `Gasto Personal Sol` · categoría `Eventos deportivos - River`. Nunca ACA ni almacén
 - **Tienda River** / TIENDARIVER (compra merchandising) → `Gasto Personal Sol` · `ROPA` (distinto de la cuota social)
 - **Zurich** → hoja `Gasto Personal Sol` (seguro de retiro; no suma al total CIUDAD)
-- Mascotas (vet/accesorios de otras mascotas; no Ramón — Ramón = Almacén `RAMON · Comida|Veterinario|Otros`) / donaciones / ropa / ML → `Gasto Personal Sol`
+- Mascotas (vet/accesorios de otras mascotas; no Ramón — Ramón = Almacén `RAMON · Comida` incl. Paws/Gibiana/DR BARF|`Veterinario`|`Otros`) / donaciones / ropa / ML → `Gasto Personal Sol`
 - **Pandora** / Pandora Jewelry (compra) → hoja `Gasto Personal Sol` (ropa/joyas; no suma al total CIUDAD)
 - **Zara**, **Gucci** y **Louis Vuitton** → hoja `Gasto Personal Sol` · categoría `ROPA` (no suma al total CIUDAD)
 - **Newplamier** → hoja `Gasto Personal Sol` · categoría `PELUQUERÍA` (no suma al total CIUDAD)
