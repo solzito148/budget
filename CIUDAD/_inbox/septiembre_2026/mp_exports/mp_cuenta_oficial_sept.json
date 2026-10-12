@@ -1,0 +1,2214 @@
+[
+  {
+    "fecha": "2026-09-01",
+    "desc": "Rendimientos",
+    "op": "1749233182391",
+    "valor": 5.06,
+    "saldo": 9874.45
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Transferencia recibida SANES MARIA SOLE",
+    "op": "175714969965",
+    "valor": 5000000.0,
+    "saldo": 5009874.45
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero reservado Susi",
+    "op": "175715708841",
+    "valor": -500000.0,
+    "saldo": 4509874.45
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero reservado AVA",
+    "op": "176669207270",
+    "valor": -4300000.0,
+    "saldo": 209874.45
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero retirado AVA",
+    "op": "176670344236",
+    "valor": 1000000.0,
+    "saldo": 1209874.45
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero reservado Expensas",
+    "op": "176669891822",
+    "valor": -1000000.0,
+    "saldo": 209874.45
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero retirado Expensas",
+    "op": "176670197960",
+    "valor": 100000.0,
+    "saldo": 309874.45
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Transferencia enviada Cons De Prop E Bonorino 82",
+    "op": "175716187231",
+    "valor": -222824.05,
+    "saldo": 87050.4
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Reserva por gastos Susi",
+    "op": "175716957483",
+    "valor": -3000.0,
+    "saldo": 84050.4
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Reserva por gastos AVA",
+    "op": "176670874948",
+    "valor": -500.0,
+    "saldo": 83550.4
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Venta de dólar MEP",
+    "op": "175716248657",
+    "valor": 1715611.4,
+    "saldo": 1799161.8
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero reservado Tarjeta MELI",
+    "op": "176697071778",
+    "valor": -1799161.8,
+    "saldo": 0.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero retirado Tarjeta MELI",
+    "op": "176771280062",
+    "valor": 45000.0,
+    "saldo": 45000.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Transferencia enviada Facundo Lisandro Marin",
+    "op": "176771409822",
+    "valor": -45000.0,
+    "saldo": 0.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Dinero retirado AVA",
+    "op": "175833734653",
+    "valor": 870000.0,
+    "saldo": 870000.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Pago Apple",
+    "op": "175848378227",
+    "valor": -81960.51,
+    "saldo": 788039.49
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Reserva por gastos Susi",
+    "op": "175848472625",
+    "valor": -3000.0,
+    "saldo": 785039.49
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Reserva por gastos AVA",
+    "op": "176802548522",
+    "valor": -500.0,
+    "saldo": 784539.49
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Rendimientos",
+    "op": "1749305206120",
+    "valor": 411.31,
+    "saldo": 784950.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Pago EBANX S.A.",
+    "op": "175876885269",
+    "valor": -6094.0,
+    "saldo": 778856.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Pago Dlo*didi",
+    "op": "176832912780",
+    "valor": -7600.0,
+    "saldo": 771256.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Devolución de pago Dlo*didi",
+    "op": "176832912780",
+    "valor": 7600.0,
+    "saldo": 778856.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Reserva por gastos AVA",
+    "op": "175878560779",
+    "valor": -500.0,
+    "saldo": 778356.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Reserva por gastos Susi",
+    "op": "175878219507",
+    "valor": -3000.0,
+    "saldo": 775356.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Dinero retirado AVA",
+    "op": "176834369428",
+    "valor": 200000.0,
+    "saldo": 975356.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Transferencia enviada Neira Martina",
+    "op": "176833953994",
+    "valor": -863600.0,
+    "saldo": 111756.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Reserva por gastos Susi",
+    "op": "176834779136",
+    "valor": -3000.0,
+    "saldo": 108756.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Reserva por gastos AVA",
+    "op": "176835046480",
+    "valor": -500.0,
+    "saldo": 108256.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Pago COPETIN CATERING S.R. L.",
+    "op": "175924516567",
+    "valor": -4080.0,
+    "saldo": 104176.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Pago EBANX S.A.",
+    "op": "175929962803",
+    "valor": -6607.0,
+    "saldo": 97569.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Pago EBANX S.A.",
+    "op": "175930160573",
+    "valor": -6607.0,
+    "saldo": 90962.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Devolución de pago EBANX S. A.",
+    "op": "175929962803",
+    "valor": 6607.0,
+    "saldo": 97569.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Transferencia enviada Kiosk Store",
+    "op": "175943115085",
+    "valor": -4000.0,
+    "saldo": 93569.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Reserva por gastos Susi",
+    "op": "175943040057",
+    "valor": -3000.0,
+    "saldo": 90569.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Reserva por gastos AVA",
+    "op": "175943510931",
+    "valor": -500.0,
+    "saldo": 90069.8
+  },
+  {
+    "fecha": "2026-09-02",
+    "desc": "Pago CORREO OFICIAL DE LA REPUBLICA ARGENTINA SOCIEDAD ANONIMA",
+    "op": "175963160715",
+    "valor": -24000.0,
+    "saldo": 66069.8
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Rendimientos",
+    "op": "1749380222029",
+    "valor": 33.87,
+    "saldo": 66103.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Pago EBANX S.A.",
+    "op": "176052359481",
+    "valor": -7520.0,
+    "saldo": 58583.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Pago Dlo*didi",
+    "op": "176089149653",
+    "valor": -4900.0,
+    "saldo": 53683.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Reserva por gastos Susi",
+    "op": "176090234135",
+    "valor": -3000.0,
+    "saldo": 50683.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Reserva por gastos AVA",
+    "op": "177048512550",
+    "valor": -500.0,
+    "saldo": 50183.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Pago PedidosYa",
+    "op": "176101775631",
+    "valor": -16149.0,
+    "saldo": 34034.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Reserva por gastos Susi",
+    "op": "177061078740",
+    "valor": -3000.0,
+    "saldo": 31034.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Reserva por gastos AVA",
+    "op": "176102660757",
+    "valor": -500.0,
+    "saldo": 30534.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Pago PedidosYa Propina",
+    "op": "177067937924",
+    "valor": -800.0,
+    "saldo": 29734.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Reserva por gastos Susi",
+    "op": "176110844753",
+    "valor": -3000.0,
+    "saldo": 26734.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Reserva por gastos AVA",
+    "op": "176110521451",
+    "valor": -500.0,
+    "saldo": 26234.67
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Dinero retirado Tarjeta MELI",
+    "op": "177129936970",
+    "valor": 1755981.13,
+    "saldo": 1782215.8
+  },
+  {
+    "fecha": "2026-09-03",
+    "desc": "Transferencia enviada Maria Soledad Sanes",
+    "op": "177127980036",
+    "valor": -200000.0,
+    "saldo": 1582215.8
+  },
+  {
+    "fecha": "2026-09-04",
+    "desc": "Rendimientos",
+    "op": "1749453735473",
+    "valor": 827.01,
+    "saldo": 1583042.81
+  },
+  {
+    "fecha": "2026-09-04",
+    "desc": "Pago Andres Javier Di Pasqua",
+    "op": "176354853989",
+    "valor": -6213.0,
+    "saldo": 1576829.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Transferencia enviada Digno Lopez",
+    "op": "177439225062",
+    "valor": -10800.0,
+    "saldo": 1566029.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Reserva por gastos Susi",
+    "op": "176478978461",
+    "valor": -3000.0,
+    "saldo": 1563029.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Reserva por gastos AVA",
+    "op": "176478645009",
+    "valor": -500.0,
+    "saldo": 1562529.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Pago de servicio ARCA",
+    "op": "177467733136",
+    "valor": -10000.0,
+    "saldo": 1552529.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Pago de servicio ARCA",
+    "op": "176507482417",
+    "valor": -10000.0,
+    "saldo": 1542529.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Transferencia enviada Susana Carmen Ortiz",
+    "op": "176512874997",
+    "valor": -38800.0,
+    "saldo": 1503729.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Transferencia enviada Susana Carmen Ortiz",
+    "op": "176513280369",
+    "valor": -160000.0,
+    "saldo": 1343729.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Reserva por gastos Susi",
+    "op": "176513362435",
+    "valor": -3000.0,
+    "saldo": 1340729.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Reserva por gastos AVA",
+    "op": "177473307814",
+    "valor": -500.0,
+    "saldo": 1340229.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Reserva por gastos Susi",
+    "op": "176513003377",
+    "valor": -3000.0,
+    "saldo": 1337229.81
+  },
+  {
+    "fecha": "2026-09-05",
+    "desc": "Reserva por gastos AVA",
+    "op": "176512584059",
+    "valor": -500.0,
+    "saldo": 1336729.81
+  },
+  {
+    "fecha": "2026-09-06",
+    "desc": "Pago Tuenti recargas dcp",
+    "op": "176595635701",
+    "valor": -18300.0,
+    "saldo": 1318429.81
+  },
+  {
+    "fecha": "2026-09-06",
+    "desc": "Reserva por gastos Susi",
+    "op": "177557514804",
+    "valor": -3000.0,
+    "saldo": 1315429.81
+  },
+  {
+    "fecha": "2026-09-06",
+    "desc": "Reserva por gastos AVA",
+    "op": "177557083696",
+    "valor": -500.0,
+    "saldo": 1314929.81
+  },
+  {
+    "fecha": "2026-09-06",
+    "desc": "Pago con QR AL PASO",
+    "op": "176642588277",
+    "valor": -8700.0,
+    "saldo": 1306229.81
+  },
+  {
+    "fecha": "2026-09-06",
+    "desc": "Pago SUBE Viajes",
+    "op": "176682202869",
+    "valor": -986.7,
+    "saldo": 1305243.11
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Rendimientos",
+    "op": "1749528824130",
+    "valor": 2061.68,
+    "saldo": 1307304.79
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Dinero retirado AVA",
+    "op": "177703110684",
+    "valor": 9426901.94,
+    "saldo": 10734206.73
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Transferencia enviada Fideicomiso Ava Palpa",
+    "op": "177703222506",
+    "valor": -6269440.0,
+    "saldo": 4464766.73
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Pago de cuota Créditos de Mercado Pago",
+    "op": "177703165020",
+    "valor": -819945.24,
+    "saldo": 3644821.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Reserva por gastos Susi",
+    "op": "176739027479",
+    "valor": -3000.0,
+    "saldo": 3641821.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Reserva por gastos AVA",
+    "op": "176739233051",
+    "valor": -500.0,
+    "saldo": 3641321.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Dinero reservado AVA",
+    "op": "177703071306",
+    "valor": -3500000.0,
+    "saldo": 141321.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Pago EBANX S.A.",
+    "op": "176740473303",
+    "valor": -6948.0,
+    "saldo": 134373.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Pago con QR FEED",
+    "op": "176765517247",
+    "valor": -1350.0,
+    "saldo": 133023.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Reserva por gastos Susi",
+    "op": "176765715563",
+    "valor": -3000.0,
+    "saldo": 130023.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Reserva por gastos AVA",
+    "op": "176765461843",
+    "valor": -500.0,
+    "saldo": 129523.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Pago de servicio ARCA",
+    "op": "177748105886",
+    "valor": -58118.0,
+    "saldo": 71405.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Pago de servicio ARCA",
+    "op": "176785175143",
+    "valor": -43038.0,
+    "saldo": 28367.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Pago Dlo*didi",
+    "op": "176809448043",
+    "valor": -6700.0,
+    "saldo": 21667.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Reserva por gastos Susi",
+    "op": "176810447269",
+    "valor": -3000.0,
+    "saldo": 18667.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Reserva por gastos AVA",
+    "op": "176810051943",
+    "valor": -500.0,
+    "saldo": 18167.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Transferencia recibida SANES MARIA SOLE",
+    "op": "177776988272",
+    "valor": 660048.0,
+    "saldo": 678215.49
+  },
+  {
+    "fecha": "2026-09-07",
+    "desc": "Pago con QR McDonald's",
+    "op": "177784659484",
+    "valor": -2039.7,
+    "saldo": 676175.79
+  },
+  {
+    "fecha": "2026-09-08",
+    "desc": "Rendimientos",
+    "op": "1749588442240",
+    "valor": 348.91,
+    "saldo": 676524.7
+  },
+  {
+    "fecha": "2026-09-08",
+    "desc": "Pago de servicio ARCA",
+    "op": "177892394796",
+    "valor": -4865.02,
+    "saldo": 671659.68
+  },
+  {
+    "fecha": "2026-09-08",
+    "desc": "Transferencia recibida FUNDACION UNIVERSIDAD DE PALERMO",
+    "op": "176941515613",
+    "valor": 3315000.0,
+    "saldo": 3986659.68
+  },
+  {
+    "fecha": "2026-09-08",
+    "desc": "Dinero reservado Palermo",
+    "op": "177990827740",
+    "valor": -3315000.0,
+    "saldo": 671659.68
+  },
+  {
+    "fecha": "2026-09-08",
+    "desc": "Pago Sodastream",
+    "op": "177035854699",
+    "valor": -88659.0,
+    "saldo": 583000.68
+  },
+  {
+    "fecha": "2026-09-08",
+    "desc": "Pago con QR la monumental",
+    "op": "177038830229",
+    "valor": -8248.0,
+    "saldo": 574752.68
+  },
+  {
+    "fecha": "2026-09-08",
+    "desc": "Pago OZZ",
+    "op": "177061420845",
+    "valor": -28199.0,
+    "saldo": 546553.68
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Rendimientos",
+    "op": "1749667920119",
+    "valor": 285.63,
+    "saldo": 546839.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Pago Dlo*pedidosya compra",
+    "op": "178133067570",
+    "valor": -39819.0,
+    "saldo": 507020.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Reserva por gastos Susi",
+    "op": "178133332060",
+    "valor": -3000.0,
+    "saldo": 504020.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Reserva por gastos AVA",
+    "op": "177166384311",
+    "valor": -500.0,
+    "saldo": 503520.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Pago Dlo*pedidosya propina",
+    "op": "178152367012",
+    "valor": -900.0,
+    "saldo": 502620.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Reserva por gastos Susi",
+    "op": "177184965983",
+    "valor": -3000.0,
+    "saldo": 499620.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Reserva por gastos AVA",
+    "op": "177185572769",
+    "valor": -500.0,
+    "saldo": 499120.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Transferencia recibida PELESSON ALDO OSCAR",
+    "op": "178174075270",
+    "valor": 5350000.0,
+    "saldo": 5849120.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Transferencia enviada Consorcio De Propiet",
+    "op": "177242680767",
+    "valor": -300850.0,
+    "saldo": 5548270.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Dinero reservado Chris",
+    "op": "178212152144",
+    "valor": -5350000.0,
+    "saldo": 198270.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Reserva por gastos Susi",
+    "op": "177243225315",
+    "valor": -3000.0,
+    "saldo": 195270.31
+  },
+  {
+    "fecha": "2026-09-09",
+    "desc": "Reserva por gastos AVA",
+    "op": "178211023854",
+    "valor": -500.0,
+    "saldo": 194770.31
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Rendimientos",
+    "op": "1749746389268",
+    "valor": 63.96,
+    "saldo": 194834.27
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Pago de servicio ARCA",
+    "op": "178250709770",
+    "valor": -43082.7,
+    "saldo": 151751.57
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Pago EBANX S.A.",
+    "op": "177283758823",
+    "valor": -5612.0,
+    "saldo": 146139.57
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Venta de dólar MEP",
+    "op": "178296615510",
+    "valor": 2989713.19,
+    "saldo": 3135852.76
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Pago EBANX S.A.",
+    "op": "178309581600",
+    "valor": -7155.0,
+    "saldo": 3128697.76
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Pago EBANX S.A.",
+    "op": "178313785906",
+    "valor": -81.0,
+    "saldo": 3128616.76
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Pago Personal",
+    "op": "178353492330",
+    "valor": -76043.51,
+    "saldo": 3052573.25
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Reserva por gastos Susi",
+    "op": "177384210977",
+    "valor": -3000.0,
+    "saldo": 3049573.25
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Reserva por gastos AVA",
+    "op": "177383588053",
+    "valor": -500.0,
+    "saldo": 3049073.25
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Transferencia enviada Cova Abreu Gibiana Del Valle",
+    "op": "178376680784",
+    "valor": -131000.0,
+    "saldo": 2918073.25
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Reserva por gastos Susi",
+    "op": "178377355184",
+    "valor": -3000.0,
+    "saldo": 2915073.25
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Reserva por gastos AVA",
+    "op": "178377449072",
+    "valor": -500.0,
+    "saldo": 2914573.25
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Pago ZILVER SA",
+    "op": "178412049922",
+    "valor": -163350.0,
+    "saldo": 2751223.25
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Rendimientos",
+    "op": "1749818436504",
+    "valor": 1441.83,
+    "saldo": 2752665.08
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Retiro Bonos, plazos fijos y más",
+    "op": "178259630038",
+    "valor": 12361243.87,
+    "saldo": 15113908.95
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Pago Apple.com/bill",
+    "op": "178494164340",
+    "valor": -29330.65,
+    "saldo": 15084578.3
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos Susi",
+    "op": "178494392640",
+    "valor": -3000.0,
+    "saldo": 15081578.3
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos AVA",
+    "op": "177523472223",
+    "valor": -500.0,
+    "saldo": 15081078.3
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Pago Dlo*didi",
+    "op": "178510383966",
+    "valor": -5800.0,
+    "saldo": 15075278.3
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos Susi",
+    "op": "177539975407",
+    "valor": -3000.0,
+    "saldo": 15072278.3
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos AVA",
+    "op": "177540356463",
+    "valor": -500.0,
+    "saldo": 15071778.3
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Transferencia recibida MarIa Sanes",
+    "op": "178531142556",
+    "valor": 1485128.02,
+    "saldo": 16556906.32
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Transferencia enviada Consorcio De Copropietarios O Higgins 22",
+    "op": "178531094492",
+    "valor": -722978.08,
+    "saldo": 15833928.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos Susi",
+    "op": "177559893607",
+    "valor": -3000.0,
+    "saldo": 15830928.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos AVA",
+    "op": "178531848482",
+    "valor": -500.0,
+    "saldo": 15830428.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Dinero reservado Chris",
+    "op": "177562253415",
+    "valor": -14250000.0,
+    "saldo": 1580428.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Dinero retirado Chris",
+    "op": "178535014388",
+    "valor": 2500000.0,
+    "saldo": 4080428.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Dinero reservado Expensas",
+    "op": "178535192218",
+    "valor": -3000000.0,
+    "saldo": 1080428.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Pago Dlo*didi",
+    "op": "178538822454",
+    "valor": -4500.0,
+    "saldo": 1075928.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos Susi",
+    "op": "178538843204",
+    "valor": -3000.0,
+    "saldo": 1072928.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos AVA",
+    "op": "178538905044",
+    "valor": -500.0,
+    "saldo": 1072428.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Pago EBANX S.A.",
+    "op": "177600883917",
+    "valor": -7758.0,
+    "saldo": 1064670.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Transferencia enviada Sanbras oficial",
+    "op": "178574765304",
+    "valor": -185288.0,
+    "saldo": 879382.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos Susi",
+    "op": "177603355513",
+    "valor": -3000.0,
+    "saldo": 876382.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos AVA",
+    "op": "178575430328",
+    "valor": -500.0,
+    "saldo": 875882.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Transferencia enviada Paula Carolina Fasanella",
+    "op": "177637234049",
+    "valor": -135000.0,
+    "saldo": 740882.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos Susi",
+    "op": "178608730030",
+    "valor": -3000.0,
+    "saldo": 737882.24
+  },
+  {
+    "fecha": "2026-09-11",
+    "desc": "Reserva por gastos AVA",
+    "op": "177637615159",
+    "valor": -500.0,
+    "saldo": 737382.24
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Pago Apple.com/bill",
+    "op": "177677356513",
+    "valor": -19748.54,
+    "saldo": 717633.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos Susi",
+    "op": "177678010209",
+    "valor": -3000.0,
+    "saldo": 714633.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos AVA",
+    "op": "177678048133",
+    "valor": -500.0,
+    "saldo": 714133.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Transferencia enviada Eva Graciela Zarate Valdovino",
+    "op": "178657837796",
+    "valor": -140000.0,
+    "saldo": 574133.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos Susi",
+    "op": "178657801584",
+    "valor": -3000.0,
+    "saldo": 571133.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos AVA",
+    "op": "177685227483",
+    "valor": -500.0,
+    "saldo": 570633.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Pago Dlo*pedidosya compra",
+    "op": "178678437172",
+    "valor": -38099.0,
+    "saldo": 532534.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos Susi",
+    "op": "178678366022",
+    "valor": -3000.0,
+    "saldo": 529534.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos AVA",
+    "op": "178678937068",
+    "valor": -500.0,
+    "saldo": 529034.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Devolución de pago Dlo*pedidosya compra",
+    "op": "178678437172",
+    "valor": 38099.0,
+    "saldo": 567133.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Pago ARCOS DORADOS ARGENTINA SOCIED ARCOS DORADOS ARGENTINA SOCIED",
+    "op": "177709432451",
+    "valor": -8010.0,
+    "saldo": 559123.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Transferencia enviada Susana Carmen Ortiz",
+    "op": "178703417200",
+    "valor": -140000.0,
+    "saldo": 419123.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos Susi",
+    "op": "178703421548",
+    "valor": -3000.0,
+    "saldo": 416123.7
+  },
+  {
+    "fecha": "2026-09-12",
+    "desc": "Reserva por gastos AVA",
+    "op": "177731160851",
+    "valor": -500.0,
+    "saldo": 415623.7
+  },
+  {
+    "fecha": "2026-09-13",
+    "desc": "Pago El Bazar Digital",
+    "op": "178818060496",
+    "valor": -176509.0,
+    "saldo": 239114.7
+  },
+  {
+    "fecha": "2026-09-13",
+    "desc": "Pago Megapeluquerías CABA",
+    "op": "178835381724",
+    "valor": -12720.0,
+    "saldo": 226394.7
+  },
+  {
+    "fecha": "2026-09-13",
+    "desc": "Transferencia enviada Noelia Soledad Caballero Britez",
+    "op": "178864621362",
+    "valor": -5900.0,
+    "saldo": 220494.7
+  },
+  {
+    "fecha": "2026-09-13",
+    "desc": "Reserva por gastos Susi",
+    "op": "178865038902",
+    "valor": -3000.0,
+    "saldo": 217494.7
+  },
+  {
+    "fecha": "2026-09-13",
+    "desc": "Reserva por gastos AVA",
+    "op": "177891177673",
+    "valor": -500.0,
+    "saldo": 216994.7
+  },
+  {
+    "fecha": "2026-09-13",
+    "desc": "Pago",
+    "op": "177898681603",
+    "valor": -71250.0,
+    "saldo": 145744.7
+  },
+  {
+    "fecha": "2026-09-13",
+    "desc": "Pago",
+    "op": "178873790190",
+    "valor": -76741.14,
+    "saldo": 69003.56
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Rendimientos",
+    "op": "1749893667666",
+    "valor": 110.77,
+    "saldo": 69114.33
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Pago de servicio Metrogas",
+    "op": "177945606283",
+    "valor": -5581.82,
+    "saldo": 63532.51
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Pago de servicio AGIP ABL GCBA",
+    "op": "177945491343",
+    "valor": -27634.08,
+    "saldo": 35898.43
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Transferencia recibida ROLANDO PABLO JAVIER",
+    "op": "177983989539",
+    "valor": 24856.02,
+    "saldo": 60754.45
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Dinero retirado Expensas",
+    "op": "177992934377",
+    "valor": 30000.0,
+    "saldo": 90754.45
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Transferencia enviada Maria Celeste Gonzalez",
+    "op": "178966242006",
+    "valor": -85000.0,
+    "saldo": 5754.45
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Reserva por gastos Susi",
+    "op": "178969460526",
+    "valor": -3000.0,
+    "saldo": 2754.45
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Reserva por gastos AVA",
+    "op": "178968921438",
+    "valor": -500.0,
+    "saldo": 2254.45
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Transferencia enviada Mariano Morales",
+    "op": "178049400255",
+    "valor": -1000.0,
+    "saldo": 1254.45
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Reserva por gastos AVA",
+    "op": "178049600513",
+    "valor": -500.0,
+    "saldo": 754.45
+  },
+  {
+    "fecha": "2026-09-14",
+    "desc": "Reserva por gastos AVA",
+    "op": "178049526865",
+    "valor": -500.0,
+    "saldo": 254.45
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Rendimientos",
+    "op": "1749977441272",
+    "valor": 0.13,
+    "saldo": 254.58
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Dinero retirado Expensas",
+    "op": "178124476905",
+    "valor": 3882827.57,
+    "saldo": 3883082.15
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago EBANX S.A.",
+    "op": "179101270560",
+    "valor": -4980.0,
+    "saldo": 3878102.15
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago de estado de cuenta Tarjeta de crédito",
+    "op": "179100941380",
+    "valor": -1214000.0,
+    "saldo": 2664102.15
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Transferencia recibida MarIa Sanes",
+    "op": "179102139324",
+    "valor": 1490351.32,
+    "saldo": 4154453.47
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Dinero reservado Tarjeta MELI",
+    "op": "178125385343",
+    "valor": -4000000.0,
+    "saldo": 154453.47
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago Happy buy",
+    "op": "179104464626",
+    "valor": -40900.0,
+    "saldo": 113553.47
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Venta de dólar MEP",
+    "op": "178124944219",
+    "valor": 59333.83,
+    "saldo": 172887.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago Dlo*didi",
+    "op": "178154165859",
+    "valor": -5500.0,
+    "saldo": 167387.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos Susi",
+    "op": "178155086899",
+    "valor": -3000.0,
+    "saldo": 164387.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos AVA",
+    "op": "179132390774",
+    "valor": -500.0,
+    "saldo": 163887.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago Dlo*pedidosya compra",
+    "op": "179161972532",
+    "valor": -26019.0,
+    "saldo": 137868.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos Susi",
+    "op": "179161853648",
+    "valor": -3000.0,
+    "saldo": 134868.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos AVA",
+    "op": "178184757721",
+    "valor": -500.0,
+    "saldo": 134368.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago de servicio Epagos",
+    "op": "179168880516",
+    "valor": -10150.0,
+    "saldo": 124218.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago Dlo*pedidosya propina",
+    "op": "178198204931",
+    "valor": -1050.0,
+    "saldo": 123168.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos Susi",
+    "op": "179176046632",
+    "valor": -3000.0,
+    "saldo": 120168.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos AVA",
+    "op": "178198375373",
+    "valor": -500.0,
+    "saldo": 119668.3
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Pago con QR CASAARISTOBULO017",
+    "op": "179251727388",
+    "valor": -43666.7,
+    "saldo": 76001.6
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Transferencia enviada Gaston Osvaldo Roca",
+    "op": "179253079562",
+    "valor": -4000.0,
+    "saldo": 72001.6
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos Susi",
+    "op": "179253193712",
+    "valor": -3000.0,
+    "saldo": 69001.6
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Reserva por gastos AVA",
+    "op": "178275476767",
+    "valor": -500.0,
+    "saldo": 68501.6
+  },
+  {
+    "fecha": "2026-09-16",
+    "desc": "Rendimientos",
+    "op": "1750051337369",
+    "valor": 35.6,
+    "saldo": 68537.2
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Rendimientos",
+    "op": "1750114099809",
+    "valor": 35.57,
+    "saldo": 68572.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Pago EBANX S.A.",
+    "op": "178467738855",
+    "valor": -7257.0,
+    "saldo": 61315.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Pago Dlo*didi",
+    "op": "179507701898",
+    "valor": -6200.0,
+    "saldo": 55115.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Reserva por gastos Susi",
+    "op": "178526326783",
+    "valor": -3000.0,
+    "saldo": 52115.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Reserva por gastos AVA",
+    "op": "178526532391",
+    "valor": -500.0,
+    "saldo": 51615.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Dinero retirado Tarjeta MELI",
+    "op": "179532656112",
+    "valor": 200000.0,
+    "saldo": 251615.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Transferencia enviada Sanes Maria Sole",
+    "op": "178549830497",
+    "valor": -200000.0,
+    "saldo": 51615.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Pago con QR McDonald's",
+    "op": "179549602394",
+    "valor": -1900.0,
+    "saldo": 49715.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Dinero retirado Tarjeta MELI",
+    "op": "178598781291",
+    "valor": 2000000.0,
+    "saldo": 2049715.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Transferencia enviada Sanes Maria Sole",
+    "op": "178597223453",
+    "valor": -1000000.0,
+    "saldo": 1049715.77
+  },
+  {
+    "fecha": "2026-09-17",
+    "desc": "Pago de estado de cuenta Tarjeta de crédito",
+    "op": "178598929375",
+    "valor": -1000000.0,
+    "saldo": 49715.77
+  },
+  {
+    "fecha": "2026-09-18",
+    "desc": "Rendimientos",
+    "op": "1750193001963",
+    "valor": 27.7,
+    "saldo": 49743.47
+  },
+  {
+    "fecha": "2026-09-18",
+    "desc": "Pago EBANX S.A.",
+    "op": "178717265699",
+    "valor": -6053.0,
+    "saldo": 43690.47
+  },
+  {
+    "fecha": "2026-09-18",
+    "desc": "Devolución de pago EBANX S. A.",
+    "op": "178717265699",
+    "valor": 6053.0,
+    "saldo": 49743.47
+  },
+  {
+    "fecha": "2026-09-18",
+    "desc": "Pago Dlo*didi",
+    "op": "178722597961",
+    "valor": -4900.0,
+    "saldo": 44843.47
+  },
+  {
+    "fecha": "2026-09-18",
+    "desc": "Reserva por gastos Susi",
+    "op": "178722971971",
+    "valor": -3000.0,
+    "saldo": 41843.47
+  },
+  {
+    "fecha": "2026-09-18",
+    "desc": "Reserva por gastos AVA",
+    "op": "178723263267",
+    "valor": -500.0,
+    "saldo": 41343.47
+  },
+  {
+    "fecha": "2026-09-18",
+    "desc": "Pago EBANX S.A.",
+    "op": "179765049792",
+    "valor": -6478.0,
+    "saldo": 34865.47
+  },
+  {
+    "fecha": "2026-09-19",
+    "desc": "Pago con QR la monumental",
+    "op": "179867123972",
+    "valor": -33359.0,
+    "saldo": 1506.47
+  },
+  {
+    "fecha": "2026-09-19",
+    "desc": "Reserva por gastos AVA",
+    "op": "179869153172",
+    "valor": -500.0,
+    "saldo": 1006.47
+  },
+  {
+    "fecha": "2026-09-19",
+    "desc": "Pago SUBE Viajes",
+    "op": "179944955604",
+    "valor": -861.66,
+    "saldo": 144.81
+  },
+  {
+    "fecha": "2026-09-19",
+    "desc": "Dinero retirado Susi",
+    "op": "178958372559",
+    "valor": 140000.0,
+    "saldo": 140144.81
+  },
+  {
+    "fecha": "2026-09-19",
+    "desc": "Transferencia enviada Susana Carmen Ortiz",
+    "op": "178958141461",
+    "valor": -140000.0,
+    "saldo": 144.81
+  },
+  {
+    "fecha": "2026-09-21",
+    "desc": "Rendimientos",
+    "op": "1750262926021",
+    "valor": 0.22,
+    "saldo": 145.03
+  },
+  {
+    "fecha": "2026-09-21",
+    "desc": "Dinero retirado Susi",
+    "op": "179116959345",
+    "valor": 30000.0,
+    "saldo": 30145.03
+  },
+  {
+    "fecha": "2026-09-21",
+    "desc": "Transferencia enviada Christian Pablo Ventura",
+    "op": "180197190384",
+    "valor": -10.0,
+    "saldo": 30135.03
+  },
+  {
+    "fecha": "2026-09-21",
+    "desc": "Reserva por gastos Susi",
+    "op": "180197111410",
+    "valor": -3000.0,
+    "saldo": 27135.03
+  },
+  {
+    "fecha": "2026-09-21",
+    "desc": "Reserva por gastos AVA",
+    "op": "180196975634",
+    "valor": -500.0,
+    "saldo": 26635.03
+  },
+  {
+    "fecha": "2026-09-22",
+    "desc": "Rendimientos",
+    "op": "1750344727502",
+    "valor": 13.79,
+    "saldo": 26648.82
+  },
+  {
+    "fecha": "2026-09-22",
+    "desc": "Pago EBANX S.A.",
+    "op": "179298189769",
+    "valor": -5393.0,
+    "saldo": 21255.82
+  },
+  {
+    "fecha": "2026-09-22",
+    "desc": "Pago Dlo*didi",
+    "op": "180323776440",
+    "valor": -3300.0,
+    "saldo": 17955.82
+  },
+  {
+    "fecha": "2026-09-22",
+    "desc": "Reserva por gastos Susi",
+    "op": "180324332334",
+    "valor": -3000.0,
+    "saldo": 14955.82
+  },
+  {
+    "fecha": "2026-09-22",
+    "desc": "Reserva por gastos AVA",
+    "op": "180323439910",
+    "valor": -500.0,
+    "saldo": 14455.82
+  },
+  {
+    "fecha": "2026-09-22",
+    "desc": "Reserva por gastos Susi",
+    "op": "179402404563",
+    "valor": -3000.0,
+    "saldo": 11455.82
+  },
+  {
+    "fecha": "2026-09-22",
+    "desc": "Reserva por gastos AVA",
+    "op": "180394592646",
+    "valor": -500.0,
+    "saldo": 10955.82
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Rendimientos",
+    "op": "1750419327703",
+    "valor": 5.67,
+    "saldo": 10961.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Dinero retirado Susi",
+    "op": "180454236768",
+    "valor": 150000.0,
+    "saldo": 160961.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago Randy Kopeles",
+    "op": "179461738387",
+    "valor": -63514.0,
+    "saldo": 97447.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago EBANX S.A.",
+    "op": "180455172488",
+    "valor": -7016.0,
+    "saldo": 90431.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago EBANX S.A.",
+    "op": "180458017790",
+    "valor": -153.0,
+    "saldo": 90278.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Transferencia enviada Clinicas Altamirao",
+    "op": "179477774069",
+    "valor": -50000.0,
+    "saldo": 40278.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos Susi",
+    "op": "179479866227",
+    "valor": -3000.0,
+    "saldo": 37278.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos AVA",
+    "op": "180473066748",
+    "valor": -500.0,
+    "saldo": 36778.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago Dlo*didi",
+    "op": "180499214404",
+    "valor": -3200.0,
+    "saldo": 33578.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos AVA",
+    "op": "180499636292",
+    "valor": -500.0,
+    "saldo": 33078.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos Susi",
+    "op": "179505160083",
+    "valor": -3000.0,
+    "saldo": 30078.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago Dlo*pedidosya compra",
+    "op": "180509284942",
+    "valor": -23964.0,
+    "saldo": 6114.49
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Dinero retirado Susi",
+    "op": "179515527277",
+    "valor": 289298.34,
+    "saldo": 295412.83
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos Susi",
+    "op": "180509287726",
+    "valor": -3000.0,
+    "saldo": 292412.83
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos AVA",
+    "op": "180509211884",
+    "valor": -500.0,
+    "saldo": 291912.83
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago Dlo*pedidosya propina",
+    "op": "180517693026",
+    "valor": -850.0,
+    "saldo": 291062.83
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos Susi",
+    "op": "180517687840",
+    "valor": -3000.0,
+    "saldo": 288062.83
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos AVA",
+    "op": "179524053893",
+    "valor": -500.0,
+    "saldo": 287562.83
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago Tatiana Aylén Gonzalez",
+    "op": "179527492999",
+    "valor": -72999.0,
+    "saldo": 214563.83
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Pago con QR Estancia San Francisco Devoto",
+    "op": "180546635222",
+    "valor": -16597.2,
+    "saldo": 197966.63
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos Susi",
+    "op": "179554392883",
+    "valor": -3000.0,
+    "saldo": 194966.63
+  },
+  {
+    "fecha": "2026-09-23",
+    "desc": "Reserva por gastos AVA",
+    "op": "179554349053",
+    "valor": -500.0,
+    "saldo": 194466.63
+  },
+  {
+    "fecha": "2026-09-24",
+    "desc": "Rendimientos",
+    "op": "1750491435921",
+    "valor": 100.57,
+    "saldo": 194567.2
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Rendimientos",
+    "op": "1750564530874",
+    "valor": 100.4,
+    "saldo": 194667.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Pago Dlo*didi",
+    "op": "180854655070",
+    "valor": -4800.0,
+    "saldo": 189867.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos Susi",
+    "op": "179858414151",
+    "valor": -3000.0,
+    "saldo": 186867.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos AVA",
+    "op": "180854903344",
+    "valor": -500.0,
+    "saldo": 186367.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Pago Dlo*didi",
+    "op": "180883513314",
+    "valor": -6800.0,
+    "saldo": 179567.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos Susi",
+    "op": "180883895316",
+    "valor": -3000.0,
+    "saldo": 176567.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos AVA",
+    "op": "179887452105",
+    "valor": -500.0,
+    "saldo": 176067.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Pago con QR Paws Pet Market",
+    "op": "179893834687",
+    "valor": -47900.0,
+    "saldo": 128167.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos Susi",
+    "op": "179893871239",
+    "valor": -3000.0,
+    "saldo": 125167.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos AVA",
+    "op": "180890813500",
+    "valor": -500.0,
+    "saldo": 124667.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Transferencia enviada Susana Carmen Ortiz",
+    "op": "179933603833",
+    "valor": -16400.0,
+    "saldo": 108267.6
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Dinero retirado Tarjeta MELI",
+    "op": "179934162641",
+    "valor": 1811721.34,
+    "saldo": 1919988.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Transferencia enviada Susana Carmen Ortiz",
+    "op": "179934356329",
+    "valor": -140000.0,
+    "saldo": 1779988.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos Susi",
+    "op": "179933511791",
+    "valor": -3000.0,
+    "saldo": 1776988.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos AVA",
+    "op": "179934418277",
+    "valor": -500.0,
+    "saldo": 1776488.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Transferencia enviada Susana Carmen Ortiz",
+    "op": "180931299910",
+    "valor": -200000.0,
+    "saldo": 1576488.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos AVA",
+    "op": "180931900416",
+    "valor": -500.0,
+    "saldo": 1575988.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos Susi",
+    "op": "179934720203",
+    "valor": -3000.0,
+    "saldo": 1572988.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos Susi",
+    "op": "180932134430",
+    "valor": -3000.0,
+    "saldo": 1569988.94
+  },
+  {
+    "fecha": "2026-09-25",
+    "desc": "Reserva por gastos AVA",
+    "op": "179933877881",
+    "valor": -500.0,
+    "saldo": 1569488.94
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Pago con QR Open 25",
+    "op": "180185386989",
+    "valor": -6700.0,
+    "saldo": 1562788.94
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Reserva por gastos Susi",
+    "op": "180185848583",
+    "valor": -3000.0,
+    "saldo": 1559788.94
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Reserva por gastos AVA",
+    "op": "181184852708",
+    "valor": -500.0,
+    "saldo": 1559288.94
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Reserva por gastos Expensas",
+    "op": "181184361728",
+    "valor": -1000.0,
+    "saldo": 1558288.94
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Transferencia enviada Dhl Express (argentina)",
+    "op": "181213744392",
+    "valor": -13287.11,
+    "saldo": 1545001.83
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Reserva por gastos Susi",
+    "op": "180214555407",
+    "valor": -3000.0,
+    "saldo": 1542001.83
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Reserva por gastos AVA",
+    "op": "181213491760",
+    "valor": -500.0,
+    "saldo": 1541501.83
+  },
+  {
+    "fecha": "2026-09-27",
+    "desc": "Reserva por gastos Expensas",
+    "op": "180215070423",
+    "valor": -1000.0,
+    "saldo": 1540501.83
+  },
+  {
+    "fecha": "2026-09-28",
+    "desc": "Rendimientos",
+    "op": "1750639789041",
+    "valor": 2419.94,
+    "saldo": 1542921.77
+  },
+  {
+    "fecha": "2026-09-28",
+    "desc": "Pago con QR Súper pollo",
+    "op": "180354383613",
+    "valor": -10900.0,
+    "saldo": 1532021.77
+  },
+  {
+    "fecha": "2026-09-28",
+    "desc": "Reserva por gastos Susi",
+    "op": "181356860684",
+    "valor": -3000.0,
+    "saldo": 1529021.77
+  },
+  {
+    "fecha": "2026-09-28",
+    "desc": "Reserva por gastos AVA",
+    "op": "181356501420",
+    "valor": -500.0,
+    "saldo": 1528521.77
+  },
+  {
+    "fecha": "2026-09-28",
+    "desc": "Reserva por gastos Expensas",
+    "op": "180354959139",
+    "valor": -1000.0,
+    "saldo": 1527521.77
+  },
+  {
+    "fecha": "2026-09-28",
+    "desc": "Pago Camilo Carlos Ihan",
+    "op": "180381900495",
+    "valor": -69900.0,
+    "saldo": 1457621.77
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Rendimientos",
+    "op": "1750719992761",
+    "valor": 756.63,
+    "saldo": 1458378.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Pago EBANX S.A.",
+    "op": "180412884471",
+    "valor": -7230.0,
+    "saldo": 1451148.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Pago Dlo*didi",
+    "op": "181445463370",
+    "valor": -5700.0,
+    "saldo": 1445448.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Reserva por gastos AVA",
+    "op": "180443209897",
+    "valor": -500.0,
+    "saldo": 1444948.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Reserva por gastos Expensas",
+    "op": "181445983258",
+    "valor": -1000.0,
+    "saldo": 1443948.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Reserva por gastos Susi",
+    "op": "181446075048",
+    "valor": -3000.0,
+    "saldo": 1440948.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Dlo*didi Pago",
+    "op": "181458653724",
+    "valor": -4000.0,
+    "saldo": 1436948.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Reserva por gastos Susi",
+    "op": "180456281961",
+    "valor": -3000.0,
+    "saldo": 1433948.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Reserva por gastos AVA",
+    "op": "180456192015",
+    "valor": -500.0,
+    "saldo": 1433448.4
+  },
+  {
+    "fecha": "2026-09-29",
+    "desc": "Reserva por gastos Expensas",
+    "op": "180456231953",
+    "valor": -1000.0,
+    "saldo": 1432448.4
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Rendimientos",
+    "op": "1750795079283",
+    "valor": 745.79,
+    "saldo": 1433194.19
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Pago de resumen Tarjeta de crédito",
+    "op": "181614816434",
+    "valor": -500000.0,
+    "saldo": 933194.19
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Pago con QR Shell",
+    "op": "181641027696",
+    "valor": -1039.0,
+    "saldo": 932155.19
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Pago con QR Shell",
+    "op": "180637628719",
+    "valor": -287.5,
+    "saldo": 931867.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Transferencia enviada Kelly",
+    "op": "181680253190",
+    "valor": -20000.0,
+    "saldo": 911867.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Transferencia enviada Kelly",
+    "op": "180676345177",
+    "valor": -86000.0,
+    "saldo": 825867.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Reserva por gastos Susi",
+    "op": "181680628954",
+    "valor": -3000.0,
+    "saldo": 822867.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Reserva por gastos AVA",
+    "op": "181680447374",
+    "valor": -500.0,
+    "saldo": 822367.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Reserva por gastos Expensas",
+    "op": "180676620465",
+    "valor": -1000.0,
+    "saldo": 821367.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Reserva por gastos Susi",
+    "op": "180677002449",
+    "valor": -3000.0,
+    "saldo": 818367.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Reserva por gastos AVA",
+    "op": "180677032403",
+    "valor": -500.0,
+    "saldo": 817867.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Reserva por gastos Expensas",
+    "op": "180676447379",
+    "valor": -1000.0,
+    "saldo": 816867.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Pago con QR Shell",
+    "op": "181732588478",
+    "valor": -1126.0,
+    "saldo": 815741.69
+  },
+  {
+    "fecha": "2026-09-30",
+    "desc": "Pago con QR Shell",
+    "op": "181732926396",
+    "valor": -62547.5,
+    "saldo": 753194.19
+  },
+  {
+    "fecha": "2026-09-01",
+    "desc": "Venta de dólar MEP 175716248657 US",
+    "op": null,
+    "valor": -1135.23,
+    "saldo": 1715611.4
+  },
+  {
+    "fecha": "2026-09-10",
+    "desc": "Venta de dólar MEP 178296615510 US",
+    "op": null,
+    "valor": -1984.17,
+    "saldo": 2989713.19
+  },
+  {
+    "fecha": "2026-09-15",
+    "desc": "Venta de dólar MEP 178124944219 US",
+    "op": null,
+    "valor": -39.37,
+    "saldo": 59333.83
+  }
+]

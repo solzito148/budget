@@ -1,0 +1,151 @@
+{
+  "bbva_visa": [
+    {
+      "fecha": "2026-09-30",
+      "comercio": "OPENAI *CHATGPT SU",
+      "moneda": "USD",
+      "monto": 20
+    },
+    {
+      "fecha": "2026-09-28",
+      "comercio": "Spotify P4768341AF",
+      "moneda": "ARS",
+      "monto": 5999
+    },
+    {
+      "fecha": "2026-09-27",
+      "comercio": "MERPAGO*LUXODIA",
+      "moneda": "ARS",
+      "monto": 334288
+    },
+    {
+      "fecha": "2026-09-27",
+      "comercio": "MERPAGO*LUXODIA",
+      "moneda": "ARS",
+      "monto": 49492
+    },
+    {
+      "fecha": "2026-09-27",
+      "comercio": "CURSOR, AI POWERED",
+      "moneda": "USD",
+      "monto": 60
+    },
+    {
+      "fecha": "2026-09-25",
+      "comercio": "TELECENTRO SA",
+      "moneda": "ARS",
+      "monto": 69659
+    },
+    {
+      "fecha": "2026-09-22",
+      "comercio": "GOOGLE *Google One",
+      "moneda": "USD",
+      "monto": 4.99
+    },
+    {
+      "fecha": "2026-09-16",
+      "comercio": "MERPAGO*ITSCLASSIC",
+      "moneda": "ARS",
+      "monto": 719990
+    },
+    {
+      "fecha": "2026-09-15",
+      "comercio": "METROGAS SA DEB AU",
+      "moneda": "ARS",
+      "monto": 105839
+    },
+    {
+      "fecha": "2026-09-14",
+      "comercio": "MERPAGO*LAOBANESAD",
+      "moneda": "ARS",
+      "monto": 8520
+    },
+    {
+      "fecha": "2026-09-13",
+      "comercio": "dhgate.com",
+      "moneda": "USD",
+      "monto": 409.57
+    },
+    {
+      "fecha": "2026-09-11",
+      "comercio": "EDENOR SA",
+      "moneda": "ARS",
+      "monto": 63980
+    },
+    {
+      "fecha": "2026-09-09",
+      "comercio": "EDENOR SA",
+      "moneda": "ARS",
+      "monto": 18236
+    },
+    {
+      "fecha": "2026-09-07",
+      "comercio": "MERPAGO*MARKOVA",
+      "moneda": "ARS",
+      "monto": 809200
+    },
+    {
+      "fecha": "2026-09-07",
+      "comercio": "MERPAGO*LUNAHOGAR",
+      "moneda": "ARS",
+      "monto": 186300
+    },
+    {
+      "fecha": "2026-09-04",
+      "comercio": "dhgate.com",
+      "moneda": "USD",
+      "monto": 380.44
+    },
+    {
+      "fecha": "2026-09-03",
+      "comercio": "MERPAGO*SUPERDIA",
+      "moneda": "ARS",
+      "monto": 41139
+    }
+  ],
+  "mp_pago_aprobado": [
+    {
+      "fecha": "2026-09-29",
+      "comercio": "ViennaHogar",
+      "monto": 134572,
+      "cuotas": 3
+    },
+    {
+      "fecha": "2026-09-20",
+      "comercio": "Yenny El Ateneo",
+      "monto": 89998
+    },
+    {
+      "fecha": "2026-09-19",
+      "comercio": "Promarine Erisea",
+      "monto": 530100,
+      "cuotas": 6
+    },
+    {
+      "fecha": "2026-09-19",
+      "comercio": "EducaciónIT",
+      "monto": 127196,
+      "cuotas": 3
+    },
+    {
+      "fecha": "2026-09-17",
+      "comercio": "ITSCLASSIC",
+      "monto": 719990
+    },
+    {
+      "fecha": "2026-09-08",
+      "comercio": "Sodastream",
+      "monto": 88659
+    },
+    {
+      "fecha": "2026-09-04",
+      "comercio": "Pescadería Belgrano",
+      "monto": 6213
+    },
+    {
+      "fecha": "2026-09-02",
+      "comercio": "COPETIN CATERING SRL",
+      "monto": 4080
+    }
+  ]
+}
