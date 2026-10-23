@@ -1,5 +1,6 @@
 {
   "updated": "2026-10-23",
+  "policy": "OBLIGATORIO desde 2026-10-23: toda alta/edición de planillas de gastos debe overwrite en esta carpeta Drive antes de cerrar la tarea. Git/local solo no alcanza.",
   "root_folder": {
     "name": "03_Finanzas_y_Gastos",
     "id": "1fc6P038_VTOXtH_GzZRti1rv_UD14w29",
