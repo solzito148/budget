@@ -8,10 +8,10 @@ alwaysApply: true
 ## Obligatorio a partir de 2026-10-23
 Después de **cualquier** creación o modificación de un Excel de gastos (CIUDAD, SOL, AVA, OHIGGINS, BONORINO u otro planilla canónica), **actualizar el archivo en Google Drive** en esta carpeta (no dejar solo el cambio en git/local):
 
-- **Carpeta raíz:** [03_Finanzas_y_Gastos](https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29) · id `1fc6P038_VTOXtH_GzZRti1rv_UD14w29`
-- **Subcarpeta de planillas xlsx:** `Gastos` · id `1cWkY56sBG-k7ZmdzIdRImUr4EyHHSE7x` (dentro de la anterior)
+- **Carpeta canónica (raíz, visible al abrir el link):** [03_Finanzas_y_Gastos](https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29) · id `1fc6P038_VTOXtH_GzZRti1rv_UD14w29`
+- Los xlsx canónicos van **directamente en esa carpeta** (no en la subcarpeta `Gastos/`).
 
-## Archivos canónicos (xlsx en `Gastos/`)
+## Archivos canónicos (xlsx en la raíz de `03_Finanzas_y_Gastos`)
 | Local | Drive file id | Nombre en Drive |
 |-------|---------------|-----------------|
 | `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx` | `1xnT1W5oObGF8VLho511-P_KxIBev70c7` | `Gastos_CIUDAD_1132_2026.xlsx` |
@@ -25,7 +25,7 @@ Inventario local: `CIUDAD/_inbox/drive_excel_canonico.json`.
 ## Cómo sincronizar
 1. Editar el Excel local del repo (fuente operativa).
 2. Subir/overwrite al **mismo file id** en Drive (`GOOGLEDRIVE_UPLOAD_UPDATE_FILE`) cuando el archivo ya existe.
-3. Si es un Excel nuevo: crearlo en la carpeta `Gastos` (`1cWkY56sBG-k7ZmdzIdRImUr4EyHHSE7x`) y **registrar el file id** en esta regla y en `drive_excel_canonico.json`.
+3. Si es un Excel nuevo: crearlo en `1fc6P038_VTOXtH_GzZRti1rv_UD14w29` y **registrar el file id** en esta regla y en `drive_excel_canonico.json`.
 4. No usar otras carpetas de Drive como destino de planillas de gastos (salvo que Sol indique otra).
 
 ## Sheets nativo (aparte de xlsx)
