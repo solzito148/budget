@@ -15,7 +15,14 @@
     "SOL": {
       "local": "SOL/Gastos_SOL_2026.xlsx",
       "drive_id": "1V2VcaieVaKNIKOa5I9LXHxWrgaHIUWy_",
-      "drive_name": "Gastos_SOL_2026.xlsx"
+      "drive_name": "Gastos_Personales_SOL_2026.xlsx"
+    },
+    "GASTOS_PERSONALES_SHEET": {
+      "local": null,
+      "drive_id": "18VtgMce4BAR4SdnIPvu1FQguroT9pJeqYg83hO8UBok",
+      "drive_name": "Gastos Personales",
+      "mime": "application/vnd.google-apps.spreadsheet",
+      "note": "Sheet nativo legacy; maestro actualizado es Gastos_Personales_SOL_2026.xlsx"
     },
     "AVA": {
       "local": "AVA/Gastos_AVA_2026.xlsx",

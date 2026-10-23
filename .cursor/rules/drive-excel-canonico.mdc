@@ -15,7 +15,8 @@ Después de **cualquier** creación o modificación de un Excel de gastos (CIUDA
 | Local | Drive file id | Nombre en Drive |
 |-------|---------------|-----------------|
 | `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx` | `1xnT1W5oObGF8VLho511-P_KxIBev70c7` | `Gastos_CIUDAD_1132_2026.xlsx` |
-| `SOL/Gastos_SOL_2026.xlsx` | `1V2VcaieVaKNIKOa5I9LXHxWrgaHIUWy_` | `Gastos_SOL_2026.xlsx` |
+| `SOL/Gastos_SOL_2026.xlsx` | `1V2VcaieVaKNIKOa5I9LXHxWrgaHIUWy_` | `Gastos_Personales_SOL_2026.xlsx` |
+| (Sheet nativo) | `18VtgMce4BAR4SdnIPvu1FQguroT9pJeqYg83hO8UBok` | `Gastos Personales` |
 | `AVA/Gastos_AVA_2026.xlsx` | `1ArzZnX0C7w1Ff5F5OXhLfhd-XcSCE844` | `Gastos_AVA_2026.xlsx` |
 | `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` | `1qkYD_3Zvxq3vGLJnBCm1B2RtFFpgpK_c` | `Gastos_OHIGGINS_2026.xlsx` |
 | `BONORINO/Gastos_BONORINO_2026.xlsx` | `1dqtXPaEgn5e34BcHzaVKL8lA-qhqzjlA` | `Gastos_BONORINO_2026.xlsx` |
