@@ -45,3 +45,9 @@ Fuente: 13 PDFs en `CIUDAD/_inbox/tarjetas_bbva/pdfs/` (file.pdf … file 13.pdf
 - TRANSPORTE meses actualizados: 6
 - Pandora: EXCLUIDO (norma)
 - Catálogo completo: `catalogo_bbva_2026.csv`
+## Actualización 2026-10-23 (Gmail Compra aprobada)
+- Verificados 60 avisos BBVA Visa *3200 (ago–23/10).
+- Resúmenes descargables: 02-ago, 30-ago, 04-oct → cuotas mes cobro jul/ago/sep marcadas **PAGADO**.
+- Octubre (cuotas) sigue PENDIENTE hasta próximo resumen.
+- Utilidades cargadas/ajustadas: Telecentro ago $82.364 / sep $69.659 / oct $70.289; Metrogas y Edenor según cobro.
+- Christian **no pagó** liquidación septiembre (nota en hoja `2026` y GASTOS2026).
