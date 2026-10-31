@@ -1,0 +1,16 @@
+plan,anio_grant,edad_sol,valor_nominal_usd,valor_por_ano_aprox,precio_accion_otorgamiento,estado,notas
+LTRP 2022,2022,41,30000,5000,1391.81,vigente,Últimos cobros 2027-2028
+LTRP 2023,2023,42,30000,5000,888.69,vigente,Cobros 2027-2029
+LTRP 2024,2024,43,30000,5000,1426.11,vigente,Cobros 2027-2030
+LTRP 2025,2025,44,36822,6137,1944.47,vigente,Cobros 2027-2031
+LTRP 2026,2026,45,70000,11666.67,2094.65,vigente,Cobros 2027-2032 · completo recién en 2032
+LTRP 2027,2027,46,70000,11666.67,,proyectado,Placeholder 1/6≈11666 sin precio de acción aún · cobros 2028-2033
+LTRP 2028,2028,47,70000,11666.67,,proyectado,Placeholder · cobros 2029-2034
+LTRP 2029,2029,47,70000,11666.67,,proyectado,Placeholder · cobros 2030-2035
+LTRP 2030,2030,48,70000,11666.67,,proyectado,Placeholder · cobros 2031-2036
+LTRP 2031,2031,48,70000,11666.67,,proyectado,Placeholder · cobros 2032-2037
+LTRP 2032,2032,49,70000,11666.67,,proyectado,Placeholder · cobros 2033-2038 (parcial en matriz hasta 2037)
+LTRP 2033,2033,49,70000,11666.67,,proyectado,Placeholder · cobros 2034-2039 (parcial hasta 2037)
+LTRP 2034,2034,50,70000,11666.67,,proyectado,Placeholder · cobros 2035-2040 (parcial hasta 2037)
+LTRP 2035,2035,50,70000,11666.67,,proyectado,Placeholder · cobros 2036-2041 (parcial hasta 2037)
+LTRP 2036,2036,51,70000,11666.67,,proyectado,Placeholder · primer cobro 2037
