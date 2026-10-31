@@ -1,0 +1,50 @@
+{
+  "updated": "2026-10-23",
+  "policy": "OBLIGATORIO desde 2026-10-23: toda alta/edición de planillas de gastos debe overwrite en esta carpeta Drive antes de cerrar la tarea. Git/local solo no alcanza.",
+  "root_folder": {
+    "name": "03_Finanzas_y_Gastos",
+    "id": "1fc6P038_VTOXtH_GzZRti1rv_UD14w29",
+    "url": "https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29",
+    "note": "Los xlsx canónicos viven en esta raíz (no en la subcarpeta Gastos/)."
+  },
+  "files": {
+    "CIUDAD": {
+      "local": "CIUDAD/Gastos_CIUDAD_1132_2026.xlsx",
+      "drive_id": "1xnT1W5oObGF8VLho511-P_KxIBev70c7",
+      "drive_name": "Gastos_CIUDAD_1132_2026.xlsx"
+    },
+    "SOL": {
+      "local": "SOL/Gastos_SOL_2026.xlsx",
+      "drive_id": "1V2VcaieVaKNIKOa5I9LXHxWrgaHIUWy_",
+      "drive_name": "Gastos_Personales_SOL_2026.xlsx"
+    },
+    "GASTOS_PERSONALES_SHEET": {
+      "local": null,
+      "drive_id": "18VtgMce4BAR4SdnIPvu1FQguroT9pJeqYg83hO8UBok",
+      "drive_name": "Gastos Personales",
+      "mime": "application/vnd.google-apps.spreadsheet",
+      "note": "Sheet nativo legacy; maestro actualizado es Gastos_Personales_SOL_2026.xlsx"
+    },
+    "AVA": {
+      "local": "AVA/Gastos_AVA_2026.xlsx",
+      "drive_id": "1ArzZnX0C7w1Ff5F5OXhLfhd-XcSCE844",
+      "drive_name": "Gastos_AVA_2026.xlsx"
+    },
+    "OHIGGINS": {
+      "local": "OHIGGINS/Gastos_OHIGGINS_2026.xlsx",
+      "drive_id": "1qkYD_3Zvxq3vGLJnBCm1B2RtFFpgpK_c",
+      "drive_name": "Gastos_OHIGGINS_2026.xlsx"
+    },
+    "BONORINO": {
+      "local": "BONORINO/Gastos_BONORINO_2026.xlsx",
+      "drive_id": "1dqtXPaEgn5e34BcHzaVKL8lA-qhqzjlA",
+      "drive_name": "Gastos_BONORINO_2026.xlsx"
+    }
+  },
+  "sheets": {
+    "GASTOS2026": {
+      "drive_id": "1vNBlSYLr9E2cEoalTHVesTxQfJUEFZSK-sjR8Au_VBU",
+      "parent": "1fc6P038_VTOXtH_GzZRti1rv_UD14w29"
+    }
+  }
+}
