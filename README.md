@@ -11,6 +11,16 @@ gastos, fórmulas, clientes, medidores ni detalles entre propiedades.
 - `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
 - `BONORINO/Gastos_BONORINO_2026.xlsx`
 
+## Enlaces canónicos
+
+| Qué | Link |
+|-----|------|
+| **GitHub (este repo)** | https://github.com/solzito148/budget |
+| **GitHub · docs Claude** | https://github.com/solzito148/budget/tree/master/CLAUDE |
+| **GitHub · prompt** | https://github.com/solzito148/budget/blob/master/CLAUDE/PROMPT_SISTEMA.md |
+| **Drive · Excels `03_Finanzas_y_Gastos`** | https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 |
+| **Drive · docs Claude** | https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW |
+
 ## Claude / documentación operativa
 
 Paquete listo para Project instructions + knowledge:
@@ -28,5 +38,4 @@ Reglas canónicas del agente: `.cursor/rules/*.mdc`.
 - La hoja `Detalle` registra fecha, forma de pago, número de cliente y
   número de medidor cuando estén disponibles.
 - Cada archivo solo puede contener datos de su propia propiedad.
-- Toda alta/edición se overwrite también en Drive `03_Finanzas_y_Gastos`
-  (raíz `1fc6P038_VTOXtH_GzZRti1rv_UD14w29`).
+- Toda alta/edición se overwrite también en Drive: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29

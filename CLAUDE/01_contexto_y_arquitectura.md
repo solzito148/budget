@@ -1,5 +1,14 @@
 # 01 — Contexto y arquitectura
 
+## Enlaces canónicos
+
+| Qué | Link |
+|-----|------|
+| **GitHub (repo)** | https://github.com/solzito148/budget |
+| **GitHub · carpeta CLAUDE** | https://github.com/solzito148/budget/tree/master/CLAUDE |
+| **Drive · Excels `03_Finanzas_y_Gastos`** | https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 |
+| **Drive · docs Claude** | https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW |
+
 ## Personas y roles
 
 | Persona | Rol | Implicancia |
@@ -43,8 +52,9 @@ Regenerar con `SOL/build_gastos_sol.py` después de actualizar fuentes CIUDAD/AV
 
 ## Drive canónico (desde 2026-10-23)
 
-Carpeta raíz: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29  
-(`03_Finanzas_y_Gastos` — **no** la subcarpeta `Gastos/`)
+- Carpeta raíz Excels: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 (`03_Finanzas_y_Gastos` — **no** la subcarpeta `Gastos/`)
+- Docs Claude: https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW
+- Repo GitHub: https://github.com/solzito148/budget
 
 | Local | Nombre en Drive | file id |
 |-------|-----------------|---------|
