@@ -1,0 +1,33 @@
+---
+description: Carpeta Drive canónica para todos los Excel de gastos — sincronizar ahí siempre
+alwaysApply: true
+---
+
+# Drive canónico — Excel de gastos
+
+## Obligatorio a partir de 2026-10-23
+Después de **cualquier** creación o modificación de un Excel de gastos (CIUDAD, SOL, AVA, OHIGGINS, BONORINO u otro planilla canónica), **actualizar el archivo en Google Drive** en esta carpeta (no dejar solo el cambio en git/local):
+
+- **Carpeta canónica (raíz, visible al abrir el link):** [03_Finanzas_y_Gastos](https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29) · id `1fc6P038_VTOXtH_GzZRti1rv_UD14w29`
+- Los xlsx canónicos van **directamente en esa carpeta** (no en la subcarpeta `Gastos/`).
+
+## Archivos canónicos (xlsx en la raíz de `03_Finanzas_y_Gastos`)
+| Local | Drive file id | Nombre en Drive |
+|-------|---------------|-----------------|
+| `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx` | `1xnT1W5oObGF8VLho511-P_KxIBev70c7` | `Gastos_CIUDAD_1132_2026.xlsx` |
+| `SOL/Gastos_SOL_2026.xlsx` | `1V2VcaieVaKNIKOa5I9LXHxWrgaHIUWy_` | `Gastos_Personales_SOL_2026.xlsx` |
+| (Sheet nativo) | `18VtgMce4BAR4SdnIPvu1FQguroT9pJeqYg83hO8UBok` | `Gastos Personales` |
+| `AVA/Gastos_AVA_2026.xlsx` | `1ArzZnX0C7w1Ff5F5OXhLfhd-XcSCE844` | `Gastos_AVA_2026.xlsx` |
+| `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` | `1qkYD_3Zvxq3vGLJnBCm1B2RtFFpgpK_c` | `Gastos_OHIGGINS_2026.xlsx` |
+| `BONORINO/Gastos_BONORINO_2026.xlsx` | `1dqtXPaEgn5e34BcHzaVKL8lA-qhqzjlA` | `Gastos_BONORINO_2026.xlsx` |
+
+Inventario local: `CIUDAD/_inbox/drive_excel_canonico.json`.
+
+## Cómo sincronizar
+1. Editar el Excel local del repo (fuente operativa).
+2. Subir/overwrite al **mismo file id** en Drive (`GOOGLEDRIVE_UPLOAD_UPDATE_FILE`) cuando el archivo ya existe.
+3. Si es un Excel nuevo: crearlo en `1fc6P038_VTOXtH_GzZRti1rv_UD14w29` y **registrar el file id** en esta regla y en `drive_excel_canonico.json`.
+4. No usar otras carpetas de Drive como destino de planillas de gastos (salvo que Sol indique otra).
+
+## Sheets nativo (aparte de xlsx)
+- `GASTOS2026` (Google Sheet) vive en la raíz `03_Finanzas_y_Gastos` · id `1vNBlSYLr9E2cEoalTHVesTxQfJUEFZSK-sjR8Au_VBU` — actualizar celdas ahí cuando corresponda (p. ej. liquidación Chris).
