@@ -173,7 +173,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
   - No mezclar: cada empresa/servicio tiene su propia categoría.
 - **Spotify** → hoja `2026` CIUDAD · categoría `STREAMING` / `Streaming música — Spotify` (USD de BBVA Visa × TC MEP del mes). No va a Gasto Personal Sol
 - **Personal pago directo → OHIGGINS TV CABLE-INTERNET** (no CIUDAD)
-- **Susana Carmen Ortiz** → siempre **CIUDAD** · `LIMPIEZA CASA` (fila `LIMPIEZA CASA / Limpieza Susana` en Detalle + matriz `2026`). Nunca Gasto Personal Sol ni Almacén. Las transferencias MP del mes se consolidan en el total mensual de Limpieza; no volver a sumar si el mes ya está cargado
+- **Susana Carmen Ortiz** → CIUDAD · `LIMPIEZA CASA` / `Limpieza Susana` (Detalle + matriz `2026`). Fuente única: Google Sheet `ORIGINAL_Tabla_Susi` (id `173WtFMCAwHJvcDUe4cfqkyeaV-J5-UQbfAqNop4v7bU`), solapa del año. Monto mensual de Limpieza = columna Y "Total Limpieza Casa Ciudad (sueldo + ARCA)" de la fila Total del mes (sueldo + aportes/contribuciones/ART), ceil. Las compras de almacén que hace Susana (columna V "Super", total mensual en columna Z) van a `Almacen Detalle` (ALMACEN SOL) como `SUPERMERCADO · Compras Susana`, una fila por semana. Las transferencias MP a Susana NO se suman desde el extracto: ya están en la Tabla Susi.
 - **ACA** → `Gasto Personal Sol` (AUTO) salvo que digas Combustible
 - **Tu Lugar en el Monumental** / **TLM CARP** / **Cuota Social CARP** / **Cuota Social CAR** (River) → hoja `Gasto Personal Sol` · categoría `Eventos deportivos - River`. Nunca ACA ni almacén
 - **Tienda River** / TIENDARIVER (compra merchandising) → `Gasto Personal Sol` · `ROPA` (distinto de la cuota social)

@@ -50,7 +50,7 @@
 | Zurich | GPS | seguro retiro |
 | Mercado Libre | GPS | revisar ítem |
 | Spotify | CIUDAD | `STREAMING` |
-| Susana Carmen Ortiz | CIUDAD | `LIMPIEZA CASA` |
+| Susana Carmen Ortiz | CIUDAD | `LIMPIEZA CASA` (sueldo + ARCA, desde Tabla Susi col. Y); compras → `Almacen Detalle` |
 | Telecentro | CIUDAD | TV CABLE |
 | Personal pago directo | OHIGGINS | TV CABLE-INTERNET |
 | Edesur 3932799 | BONORINO | LUZ |

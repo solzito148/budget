@@ -45,7 +45,7 @@ Si es **transferencia recibida / ingreso** → `Transferencias recibidas`.
 | Metrogas cliente `10139236800` (INVALMAR) | **OHIGGINS** · GAS |
 | ABL ≤ $80.000 / partida `397789` | CIUDAD · ABL |
 | ABL > $80.000 / partida `3016365` | **OHIGGINS** · ABL |
-| Susana Carmen Ortiz | CIUDAD · LIMPIEZA CASA |
+| Susana Carmen Ortiz | CIUDAD · LIMPIEZA CASA (Tabla Susi col. Y); compras → Almacen Detalle |
 | PedidosYa Plus | CIUDAD · SUSCRIPCIONES |
 | Spotify | CIUDAD · STREAMING |
 

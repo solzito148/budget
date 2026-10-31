@@ -49,8 +49,7 @@ El settlement MP **no trae partida** → mapear a mano:
 
 ## Limpieza CIUDAD
 
-**Susana Carmen Ortiz** → siempre CIUDAD · `LIMPIEZA CASA` / `Limpieza Susana` en Detalle + matriz.  
-Consolidar transferencias MP del mes en el total mensual; **no volver a sumar** si el mes ya está cargado. Nunca GPS ni Almacén.
+**Susana Carmen Ortiz** → CIUDAD · `LIMPIEZA CASA` / `Limpieza Susana` (Detalle + matriz `2026`). Fuente única: Google Sheet `ORIGINAL_Tabla_Susi` (id `173WtFMCAwHJvcDUe4cfqkyeaV-J5-UQbfAqNop4v7bU`), solapa del año. Monto mensual de Limpieza = columna Y "Total Limpieza Casa Ciudad (sueldo + ARCA)" de la fila Total del mes (sueldo + aportes/contribuciones/ART), ceil. Las compras de almacén que hace Susana (columna V "Super", total mensual en columna Z) van a `Almacen Detalle` (ALMACEN SOL) como `SUPERMERCADO · Compras Susana`, una fila por semana. Las transferencias MP a Susana NO se suman desde el extracto: ya están en la Tabla Susi.
 
 ## PedidosYa Plus / Spotify
 

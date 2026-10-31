@@ -89,7 +89,7 @@ Ninguna tarea queda completa solo en chat/git: hay que overwrite el mismo file i
 - Metrogas `30010996459` → CIUDAD GAS (mes = **fecha cobro**, no período boleta)  
 - Metrogas `10139236800` → OHIGGINS GAS  
 - ABL partida `397789` / monto ≤80k → CIUDAD; partida `3016365` / >80k → OHIGGINS  
-- Susana Carmen Ortiz → CIUDAD LIMPIEZA CASA (consolidar mes; no duplicar)  
+- Susana Carmen Ortiz → CIUDAD LIMPIEZA CASA = col. Y de la Tabla Susi (sueldo + ARCA); sus compras (col. V/Z) → Almacen Detalle `SUPERMERCADO · Compras Susana`. No sumar transferencias MP a Susana desde extractos  
 - PedidosYa Plus → CIUDAD SUSCRIPCIONES  
 - Spotify → CIUDAD STREAMING (USD × TC MEP del mes)  
 
