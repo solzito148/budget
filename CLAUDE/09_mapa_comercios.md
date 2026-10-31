@@ -1,5 +1,7 @@
 # 09 — Mapa rápido comercio → destino
 
+**GitHub:** https://github.com/solzito148/budget/tree/master/CLAUDE · **Drive Excels:** https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 · **Drive docs:** https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW
+
 | Comercio / señal | Destino | Categoría / etiqueta |
 |------------------|---------|----------------------|
 | Coto | Almacén | `SUPERMERCADO · Coto` |

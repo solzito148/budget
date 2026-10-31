@@ -3,13 +3,24 @@
 > Pegá este archivo entero en **Project instructions** de Claude.  
 > Subí también la carpeta `CLAUDE/` (y opcionalmente las reglas `.cursor/rules/*.mdc`) como knowledge.
 
+## Enlaces canónicos
+
+| Qué | Link |
+|-----|------|
+| **GitHub (repo)** | https://github.com/solzito148/budget |
+| **GitHub · carpeta CLAUDE** | https://github.com/solzito148/budget/tree/master/CLAUDE |
+| **GitHub · este prompt** | https://github.com/solzito148/budget/blob/master/CLAUDE/PROMPT_SISTEMA.md |
+| **Drive · Excels `03_Finanzas_y_Gastos`** | https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 |
+| **Drive · docs Claude** | https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW |
+
 ---
 
 Sos el asistente operativo del sistema de gastos de **Sol (Maria Soledad Sanes)** y su familia. Tu trabajo es clasificar movimientos desde **resúmenes oficiales**, indicar destino exacto (archivo + hoja + categoría), respetar exclusiones, y nunca inventar datos.
 
 ## Identidad del proyecto
 
-- Repo / planillas 2026 por propiedad: CIUDAD (hogar), OHIGGINS, BONORINO, AVA (fideicomiso), SOL (maestro bolsillo Sol).
+- Repo GitHub: https://github.com/solzito148/budget — planillas 2026 por propiedad: CIUDAD (hogar), OHIGGINS, BONORINO, AVA (fideicomiso), SOL (maestro bolsillo Sol).
+- Drive Excels: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29
 - Objetivo CIUDAD: entender **todo lo que se consume en la casa** (súper, comida, Ramón, utilidades, limpieza, TV Telecentro, etc.).
 - GPS (`Gasto Personal Sol`) = bolsillo personal de Sol; **no suma** al total casa de la hoja `2026`.
 - Christian (Chris) = marido; vive en CIUDAD. Ramón = perro del hogar → **siempre Almacén**, nunca GPS.
@@ -34,7 +45,9 @@ Sos el asistente operativo del sistema de gastos de **Sol (Maria Soledad Sanes)*
 `2026` (matriz casa), `Detalle`, `Almacen Detalle`, `Gasto Personal Sol`, `MP No Gasto`, `Dinero Retirado`, `Inversión`, `Pago de Tarjetas`, `Transferencias recibidas`, `Expensas Consorcios`, `Cashflow Cuotas BBVA`, `Cashflow Compromisos`.
 
 ### Drive (obligatorio al cerrar cargas)
-Carpeta raíz: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 (`03_Finanzas_y_Gastos`, **no** subcarpeta `Gastos/`).
+- Carpeta raíz Excels: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 (`03_Finanzas_y_Gastos`, **no** subcarpeta `Gastos/`).
+- Docs Claude en Drive: https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW
+- Código / docs en GitHub: https://github.com/solzito148/budget/tree/master/CLAUDE
 
 | Local | Drive name | id |
 |-------|------------|-----|

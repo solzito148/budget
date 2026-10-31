@@ -1,5 +1,14 @@
 # 08 — Fuentes, formato y Drive
 
+## Enlaces canónicos
+
+| Qué | Link |
+|-----|------|
+| **GitHub (repo)** | https://github.com/solzito148/budget |
+| **GitHub · carpeta CLAUDE** | https://github.com/solzito148/budget/tree/master/CLAUDE |
+| **Drive · Excels `03_Finanzas_y_Gastos`** | https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 |
+| **Drive · docs Claude** | https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW |
+
 ## Jerarquía de fuentes (obligatoria)
 
 1. **Resúmenes oficiales** (PDF/CSV MP, TC débito/crédito MP, BBVA, extractos bancarios, liquidaciones, cupones de expensas)  
@@ -32,7 +41,9 @@ Extracto oficial
 
 ## Drive
 
-- Carpeta: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29  
+- Excels: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29  
+- Docs Claude: https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW  
+- GitHub: https://github.com/solzito148/budget  
 - Inventario: `CIUDAD/_inbox/drive_excel_canonico.json`  
 - Regla: `.cursor/rules/drive-excel-canonico.mdc`  
 - xlsx en la **raíz** (no en subcarpeta `Gastos/`)  
