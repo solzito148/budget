@@ -46,5 +46,15 @@
       "drive_id": "1vNBlSYLr9E2cEoalTHVesTxQfJUEFZSK-sjR8Au_VBU",
       "parent": "1fc6P038_VTOXtH_GzZRti1rv_UD14w29"
     }
+  },
+  "docs": {
+    "CLAUDE_DOCS": {
+      "local": "CLAUDE/",
+      "drive_folder_id": "1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW",
+      "drive_name": "CLAUDE_DOCS_Budget_Sol",
+      "url": "https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW",
+      "prompt_file_id": "17aot4a45n00T3Ini27HzybFDOWfZr5Q-",
+      "note": "Prompt + MDs de lógicas para Claude Projects"
+    }
   }
 }

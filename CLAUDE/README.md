@@ -11,6 +11,8 @@ Documentación operativa del sistema de gastos (CIUDAD / SOL / OHIGGINS / BONORI
    - opcional: `.cursor/rules/*.mdc`, `CIUDAD/_inbox/NORMA_MP_NO_GASTO.md`, `CIUDAD/_inbox/utilidades_cuentas.csv`, `CIUDAD/_inbox/abl_partidas.csv`, `AVA/RESUMEN_CUOTAS_FIDEICOMISO.md`
 4. Cuando cargues extractos (PDF/CSV MP, BBVA, mails), adjuntá el resumen oficial: **siempre prevalece sobre el chat**.
 
+**Copia en Drive:** [CLAUDE_DOCS_Budget_Sol](https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW) (dentro de `03_Finanzas_y_Gastos`).
+
 ## Índice de archivos
 
 | Archivo | Contenido |
