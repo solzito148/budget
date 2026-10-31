@@ -1,0 +1,33 @@
+---
+description: SIEMPRE actualizar local (iCloud) Y workspace — obligatorio
+alwaysApply: true
+---
+
+# Obligatorio: actualizar SIEMPRE local + workspace
+
+Cada vez que se cargue, edite o regenere cualquier Excel/CSV/dato del presupuesto, actualizar **los dos lados en el mismo turno**. No dejar uno solo.
+
+## 1) Workspace / repo (siempre)
+- Editar los canónicos bajo la raíz del clone: `AVA/`, `CIUDAD/`, `BONORINO/`, `OHIGGINS/`, `SOL/`.
+- Commit + push de lo cambiado.
+
+## 2) Local iCloud (siempre que exista el path)
+Ruta fija:
+
+`/Users/msanes/Library/Mobile Documents/com~apple~CloudDocs/Cloud/Cursor/budget`
+
+- Si el path **existe** (Cursor en la Mac): copiar ahí los mismos archivos tocados **en el mismo turno**, o correr `./sync_to_icloud_budget.sh` al final.
+- Preferir escribir/actualizar **directamente en ambos** si workspace y iCloud son clones distintos; si el workspace **ya es** esa carpeta iCloud, un solo write alcanza (sigue siendo “ambos lados”).
+- Si el path **no existe** (cloud agent / VM Linux): no inventar `/Users/msanes/...`. Completar workspace + push; copiar Excels a `/opt/cursor/artifacts/` cuando ayude; avisar que falta el espejo iCloud en la Mac.
+
+## Checklist de cierre de turno
+1. Archivos actualizados en workspace.
+2. Espejo iCloud hecho **o** motivo explícito de por qué no (path ausente).
+3. Commit + push.
+
+## Canónicos
+- `AVA/Gastos_AVA_2026.xlsx` · `AVA/cuotas_fideicomiso_ava.csv`
+- `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx`
+- `SOL/Gastos_SOL_2026.xlsx` (regenerar con `SOL/build_gastos_sol.py` si cambian fuentes)
+- `BONORINO/Gastos_BONORINO_2026.xlsx`
+- `OHIGGINS/Gastos_OHIGGINS_2026.xlsx`
