@@ -808,7 +808,7 @@ fecha,comercio,monto,categoria,comentario
 2026-06-30,Dodochesa007,61500,GASTO_PERSONAL_SOL,Dodochesa007 · gasto personal Sol
 2026-07-07,Serenelli Joaquin,27900,GASTO_PERSONAL_SOL,MP cuenta
 2026-07-09,David Rosental e Hijos SA,164000,GASTO_PERSONAL_SOL,MP cuenta
-2026-07-01,Susana Carmen Ortiz,400640,LIMPIEZA,Julio total MP cuenta (corrige 147660 parcial)
+2026-07-01,Susana Carmen Ortiz,653120,LIMPIEZA,Julio total MP (actualiza 400640 → 653120)
 2026-04-17,Agustina Vissani,155000,AGUS_PSA,AGUS/PSA · CIUDAD · resumen MP
 2026-01-08,PedidosYa,55011,ALMACEN_SOL,PEDIDOS YA · COMIDA
 2026-01-10,PedidosYa,54202,EXCLUIR,PEDIDOS YA · COMIDA · bruto; neto 51455 en Almacén (devolución 2748)
@@ -895,3 +895,15 @@ fecha,comercio,monto,categoria,comentario
 2026-06-23,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-06-25,Reserva MP,500,EXCLUIR,Reserva por gastos (Juicio/AVA) · no es gasto · MP No Gasto
 2026-07-02,Fabricio Bollonine,5990,GASTO_PERSONAL_SOL,pago QR Fabricio Bollonine · gasto personal Sol
+2026-07-25,Susana Carmen Ortiz,126240,LIMPIEZA,LIMPIEZA CASA · julio consolidado Detalle
+2026-07-31,Susana Carmen Ortiz,126240,LIMPIEZA,LIMPIEZA CASA · julio consolidado Detalle
+2026-08-08,Susana Carmen Ortiz,123240,LIMPIEZA,LIMPIEZA CASA · agosto consolidado Detalle
+2026-08-16,Susana Carmen Ortiz,126240,LIMPIEZA,LIMPIEZA CASA · agosto consolidado Detalle
+2026-08-22,Susana Carmen Ortiz,154800,LIMPIEZA,LIMPIEZA CASA · agosto consolidado Detalle
+2026-08-22,Susana Carmen Ortiz,3800,LIMPIEZA,LIMPIEZA CASA · agosto consolidado Detalle
+2026-08-29,Susana Carmen Ortiz,150000,LIMPIEZA,LIMPIEZA CASA · agosto consolidado Detalle
+2026-08-29,Susana Carmen Ortiz,9000,LIMPIEZA,LIMPIEZA CASA · agosto consolidado Detalle
+2026-08-01,Susana Carmen Ortiz,567080,LIMPIEZA,Agosto total MP UI
+2026-09-05,Susana Carmen Ortiz,160000,LIMPIEZA,LIMPIEZA CASA · septiembre consolidado Detalle
+2026-09-05,Susana Carmen Ortiz,38800,LIMPIEZA,LIMPIEZA CASA · septiembre consolidado Detalle
+2026-09-01,Susana Carmen Ortiz,198800,LIMPIEZA,Septiembre parcial al 5/9
