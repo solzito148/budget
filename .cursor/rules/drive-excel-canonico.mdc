@@ -1,0 +1,41 @@
+---
+description: OBLIGATORIO — todo Excel de gastos se guarda y actualiza en Drive 03_Finanzas_y_Gastos
+alwaysApply: true
+---
+
+# Drive canónico — TODO va a Drive
+
+## Regla dura (desde 2026-10-23)
+**Ninguna tarea de gastos queda completa** si solo se cambió el Excel en git/local.
+
+Después de **cualquier** alta o edición de planillas (CIUDAD, SOL / personales, AVA, OHIGGINS, BONORINO, GASTOS2026, u otro Excel/Sheet de finanzas):
+
+1. Guardar/overwrite el archivo en Google Drive.
+2. Verificar que aparece en la carpeta canónica.
+3. Recién entonces dar por terminado el trabajo (commit/PR incluido).
+
+**Carpeta canónica (raíz):**  
+https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29  
+id `1fc6P038_VTOXtH_GzZRti1rv_UD14w29` (`03_Finanzas_y_Gastos`)
+
+Los xlsx van **en esa raíz** (no en la subcarpeta `Gastos/`).
+
+## Archivos canónicos
+| Local | Drive file id | Nombre en Drive |
+|-------|---------------|-----------------|
+| `CIUDAD/Gastos_CIUDAD_1132_2026.xlsx` | `1xnT1W5oObGF8VLho511-P_KxIBev70c7` | `Gastos_CIUDAD_1132_2026.xlsx` |
+| `SOL/Gastos_SOL_2026.xlsx` | `1V2VcaieVaKNIKOa5I9LXHxWrgaHIUWy_` | `Gastos_Personales_SOL_2026.xlsx` |
+| Sheet `Gastos Personales` | `18VtgMce4BAR4SdnIPvu1FQguroT9pJeqYg83hO8UBok` | `Gastos Personales` |
+| `AVA/Gastos_AVA_2026.xlsx` | `1ArzZnX0C7w1Ff5F5OXhLfhd-XcSCE844` | `Gastos_AVA_2026.xlsx` |
+| `OHIGGINS/Gastos_OHIGGINS_2026.xlsx` | `1qkYD_3Zvxq3vGLJnBCm1B2RtFFpgpK_c` | `Gastos_OHIGGINS_2026.xlsx` |
+| `BONORINO/Gastos_BONORINO_2026.xlsx` | `1dqtXPaEgn5e34BcHzaVKL8lA-qhqzjlA` | `Gastos_BONORINO_2026.xlsx` |
+| Sheet `GASTOS2026` | `1vNBlSYLr9E2cEoalTHVesTxQfJUEFZSK-sjR8Au_VBU` | `GASTOS2026` |
+
+Inventario: `CIUDAD/_inbox/drive_excel_canonico.json`.
+
+## Cómo sincronizar
+1. Editar Excel local del repo.
+2. Overwrite el **mismo file id** (`GOOGLEDRIVE_UPLOAD_UPDATE_FILE`).
+3. Excel nuevo → crear en `1fc6P038_VTOXtH_GzZRti1rv_UD14w29` y registrar el id aquí + en el JSON.
+4. Sheets nativos (`GASTOS2026`, `Gastos Personales`) → actualizar celdas en Drive, no solo notas en chat.
+5. No usar otras carpetas como destino salvo indicación explícita de Sol.
