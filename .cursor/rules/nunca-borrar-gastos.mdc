@@ -1,0 +1,13 @@
+---
+description: NUNCA borrar gastos ni movimientos ya cargados
+alwaysApply: true
+---
+
+# Nunca borrar gastos
+
+- **Nunca borrar** filas de gastos, movimientos, detalles, matrices, MP No Gasto, Almacén, GPS ni hojas espejo ya cargadas en los Excel (CIUDAD / OHIGGINS / BONORINO / AVA / SOL) ni en catálogos/inbox asociados.
+- **No “limpiar”** un mes borrando la carga de BBVA, notificaciones, Gmail Sent o resumen Mercado Pago para rehacerla desde cero.
+- Si hay que **recatalogar**: corregir categoría/comentario/destino **in place** (editar la fila), no eliminar y volver a crear en bloque.
+- Si un movimiento está mal ubicado (ej. GPS → Almacén): **mover** (actualizar hoja/categoría) sin perder fecha, monto, op/id ni trazabilidad del resumen.
+- Solo se puede quitar una fila si Sol lo pide **explícitamente** para ese ítem (error del extracto, duplicado confirmado, o ítem que no existe en ningún resumen oficial).
+- Ante duda: **conservar** el gasto y marcar `REVISAR` / pedir confirmación; nunca borrar por iniciativa propia.

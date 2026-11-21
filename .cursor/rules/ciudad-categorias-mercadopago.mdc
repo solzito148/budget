@@ -102,9 +102,9 @@ Etiqueta `COMIDA · {comercio}`. Incluye:
 
 ### Ramón — SIEMPRE Almacén CIUDAD, NUNCA Gasto Personal Sol
 Todo gasto de Ramón (perro) va a `Almacen Detalle` (ALMACEN SOL), sin excepción:
-- `RAMON · Comida` — Kalbby / Compraenkalbb / DR BARF
-- `RAMON · Veterinario` — Valeria Mele / El Perro Verde · **Leocan**
-- `RAMON · Otros` — **Paws** / Paws Pet Market y otros de Ramón que no sean comida ni veterinario
+- `RAMON · Comida` — Kalbby / Compraenkalbb / DR BARF · **Cova Abreu** / Cova Abreu Gibiana Del Valle
+- `RAMON · Veterinario` — **Valeria Mele** / El Perro Verde · **Leocan** (veterinaria Ramón; siempre Almacén). Nunca Paws
+- `RAMON · Otros` — **Paws** / Paws Pet Market / **Panda** (pet shop Ramón; siempre Almacén). Otros de Ramón que no sean comida ni veterinario
 - Otras mascotas (no Ramón) → `Gasto Personal Sol`
 
 ### PedidosYa Plus
@@ -146,6 +146,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Metrogas** por N° cliente:
   - **CIUDAD**: cliente `30010996459` · medidor `40049923` · titular Maria Soledad Sanes
   - **OHIGGINS**: cliente `10139236800` · medidor `8683287` · titular **INVALMAR SRL** (Ivilmar) · O'Higgins 2225 8
+- **Metrogas «Pago de servicio Metrogas»** (MP, distinto de `Pago METROGAS S A` INVALMAR ~$5k): si Sol confirma, va a **OHIGGINS** · GAS (`OHIGGINS/Gastos_OHIGGINS_2026.xlsx`). Nunca GPS. Oct-2026 op `182858998305` = $12.620
   - **Mes del gasto (GAS CIUDAD y utilidades con débito TC):** asignar al mes de la **fecha de cobro** (pago efectivo BBVA / vencimiento de la factura), **no** al período de consumo de la boleta.
 - **Edenor (LUZ)** según titular / cuenta:
   - **Maria Soledad Sanes** → **CIUDAD** (cuenta `00008917502309`)
@@ -185,6 +186,17 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Itsclassic**, **Analia Roay** / Analia Veronica Roay, **Jazmin Chebar** / JAZMINCHEBAR, **Aylen Difeo** → hoja `Gasto Personal Sol` · categoría `VESTIMENTA` (no suma al total CIUDAD)
 - **Levis** / MERPAGO*LEVIS y **Jackie Smith** / MERPAGO*JACKIESMITH → siempre GPS `VESTIMENTA` (nunca ROPA genérica ni COMPRAS)
 - **Longchamp** / MERPAGO*LONGCHAMP → siempre hoja `Gasto Personal Sol` · categoría `VESTIMENTA` (nunca ROPA genérica ni Almacén)
+- **Fabiola Lucero** → hoja `Gasto Personal Sol` · categoría `DONACIONES` · subcategoría `Perros` (comentario `DONACIONES · Perros · Fabiola Lucero`). Nunca Almacén ni COMPRAS genérico
+- **Griffo Daniela** / Daniela Grifo → hoja `Gasto Personal Sol` · categoría `DONACIONES` · subcategoría `Perros` (organizaciones de perros; mismo criterio que Fabiola Lucero). Comentario `DONACIONES · Perros · Griffo Daniela`. Nunca Almacén ni COMPRAS genérico
+- **Mariela Rosatelli** / Mariela Rosetti → hoja `Gasto Personal Sol` · categoría `MANICURA` (service de uñas; comentario `MANICURA · Mariela Rosatelli`). Nunca Almacén ni COMPRAS genérico
+- **Jenny Mercedes Torres Perez** → hoja `Gasto Personal Sol` · categoría `CUIDADO PERSONAL` · subcategoría `Cejas y pestañas` (perfilado de cejas y pestañas; comentario `CUIDADO PERSONAL · Cejas y pestañas · Jenny Mercedes Torres Perez`). Nunca Almacén
+- **Paws** / Paws Pet Market / **Panda** → `Almacen Detalle` · `RAMON · Otros` (pet shop Ramón). **Valeria Mele** → `RAMON · Veterinario`. Nunca Gasto Personal Sol
+- **Cova Abreu** / Cova Abreu Gibiana Del Valle → `Almacen Detalle` · `RAMON · Comida` (comida Ramón; siempre Almacén). Nunca Gasto Personal Sol ni COMPRAS
+- **Acrule** / Acrel / MERPAGO*ACRULESRL → hoja `Gasto Personal Sol` · categoría `CASA · Hidroponía` (compra sistema de cultivo hidroponía para la casa). Nunca Almacén
+- **Analia Beatriz Maradona** → hoja `Gasto Personal Sol` · categoría `MANICURA` (comentario `MANICURA · Analia Beatriz Maradona`). Nunca Almacén ni COMPRAS genérico
+- **Alicia de Luca** → `Almacen Detalle` · `ENTRETENIMIENTO · Cenas` (+ `· propina` si corresponde). Restaurante Asunción 4102. Nunca Gasto Personal Sol ni COMPRAS
+- **YUNGA** / Yunga Plant Based → `Almacen Detalle` · `COMIDA · Yunga` (vegano Villa Crespo). Nunca Gasto Personal Sol ni COMPRAS
+- **Deertech** / Deer Tech / MERPAGO*DEERTECH → hoja `Gasto Personal Sol` · categoría `TECNOLOGÍA` (electrónica JBL/Belkin/AKG). Nunca Almacén ni COMPRAS genérico
 - **Jardin Del Pilar** → hoja `Gasto Personal Sol` · categoría `FUNERAL` (no suma al total CIUDAD)
 
 - **Copetin Catering** / COPETIN CATERING → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (comentario `COMIDA · Oficina · Copetin Catering`). Nunca Almacén. Ignorar cancelados/devueltos y reservas MP
@@ -194,6 +206,8 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Hotel Madero** (si el extracto BBVA dice HOTEL MADERO; cena / propina) → siempre `ENTRETENIMIENTO · Salidas comida` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Oporto Almacen** / Oporto → hoja `Gasto Personal Sol` · categoría `ENTRETENIMIENTO · Comidas` (no suma al total CIUDAD). Nunca Almacen Detalle
 - **Cosi Mi Piace** (cena / propina) → siempre `ENTRETENIMIENTO · Cenas` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Alicia de Luca** (cena / propina) → siempre `ENTRETENIMIENTO · Cenas` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Yunga** / Yunga Plant Based → siempre `COMIDA · Yunga` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Movistar Arena** → siempre `ENTRETENIMIENTO · Recitales` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol ni telefonía
 - **Plateanet** → siempre `ENTRETENIMIENTO · Teatro` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Hoyts** / MOD*HOYTS → siempre `ENTRETENIMIENTO · Cine` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
