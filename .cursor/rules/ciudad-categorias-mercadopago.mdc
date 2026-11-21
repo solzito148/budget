@@ -189,6 +189,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Fabiola Lucero** → hoja `Gasto Personal Sol` · categoría `DONACIONES` · subcategoría `Perros` (comentario `DONACIONES · Perros · Fabiola Lucero`). Nunca Almacén ni COMPRAS genérico
 - **Griffo Daniela** / Daniela Grifo → hoja `Gasto Personal Sol` · categoría `DONACIONES` · subcategoría `Perros` (organizaciones de perros; mismo criterio que Fabiola Lucero). Comentario `DONACIONES · Perros · Griffo Daniela`. Nunca Almacén ni COMPRAS genérico
 - **Mariela Rosatelli** / Mariela Rosetti → hoja `Gasto Personal Sol` · categoría `MANICURA` (service de uñas; comentario `MANICURA · Mariela Rosatelli`). Nunca Almacén ni COMPRAS genérico
+- **Jenny Mercedes Torres Perez** → hoja `Gasto Personal Sol` · categoría `CUIDADO PERSONAL` · subcategoría `Cejas y pestañas` (perfilado de cejas y pestañas; comentario `CUIDADO PERSONAL · Cejas y pestañas · Jenny Mercedes Torres Perez`). Nunca Almacén
 - **Paws** / Paws Pet Market / **Panda** → `Almacen Detalle` · `RAMON · Veterinario` (Ramón e Iván). Nunca Gasto Personal Sol ni `RAMON · Otros`
 - **Jardin Del Pilar** → hoja `Gasto Personal Sol` · categoría `FUNERAL` (no suma al total CIUDAD)
 
