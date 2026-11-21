@@ -1,30 +1,36 @@
 ---
-description: OBLIGATORIO — todo Excel de gastos se guarda y actualiza en Drive 03_Finanzas_y_Gastos
+description: OBLIGATORIO — Drive es la fuente de verdad de los Excel; leer siempre desde ahí y volver a guardar ahí
 alwaysApply: true
 ---
 
-# Drive canónico — TODO va a Drive
+# Drive canónico — fuente de verdad
 
-## Regla dura (desde 2026-10-23 · reafirmada 2026-11-21)
-**Obligatorio:** después de editar Excel de gastos, **siempre** guardarlos / sobrescribirlos en el Google Drive que Sol compartió.  
-**Ninguna tarea de gastos queda completa** si solo se cambió el Excel en git/local.
+## Regla dura (desde 2026-10-23 · reforzada 2026-11-21)
+**Google Drive es la fuente de verdad** de todos los Excel de gastos.  
+El repo/local es solo copia de trabajo. **Nunca** editar partiendo del Excel viejo del git sin antes leer Drive.
 
-Después de **cualquier** alta o edición de planillas (CIUDAD, SOL / personales, AVA, OHIGGINS, BONORINO, GASTOS2026, u otro Excel/Sheet de finanzas):
+**Ninguna tarea de gastos queda completa** si:
+- se editó sin haber bajado primero la versión de Drive, o
+- no se sobrescribió de nuevo en Drive al terminar.
 
-1. Guardar/overwrite el archivo en Google Drive (carpeta compartida abajo).
-2. Verificar que aparece en la carpeta canónica.
-3. Recién entonces dar por terminado el trabajo (commit/PR incluido).
-
-No omitir el upload “por ahora” ni dejarlo para después: es parte del mismo turno.
-
-**Carpeta canónica (raíz) — Drive compartido por Sol:**  
+## Carpeta canónica
 https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29  
 id `1fc6P038_VTOXtH_GzZRti1rv_UD14w29` (`03_Finanzas_y_Gastos`)
 
-**GitHub (repo + docs Claude):** https://github.com/solzito148/budget · https://github.com/solzito148/budget/tree/master/CLAUDE  
-**Drive docs Claude:** https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW
-
 Los xlsx van **en esa raíz** (no en la subcarpeta `Gastos/`).
+
+## Flujo obligatorio (cada turno que toque Excel)
+
+1. **Leer desde Drive** — `GOOGLEDRIVE_DOWNLOAD_FILE` (o equivalente) con el **file id** canónico → volcar el binario al path local del repo.
+2. **Editar** solo esa copia local (openpyxl / script).
+3. Si tocó Sol/Almacén/AVA/BBVA/percepciones → regenerar `SOL/build_gastos_sol.py`.
+4. **Overwrite en Drive** el **mismo file id** (`GOOGLEDRIVE_UPLOAD_UPDATE_FILE`).
+5. Verificar que el archivo aparece actualizado en la carpeta canónica.
+6. Recién entonces commit/PR y dar por cerrado.
+
+No omitir el download “porque el local ya está”. No omitir el upload “por ahora”.
+
+Si Sol editó a mano en Drive (o en otra sesión) y el local/git difiere → **gana Drive**. Re-bajar y reaplicar el cambio sobre esa base.
 
 ## Archivos canónicos
 | Local | Drive file id | Nombre en Drive |
@@ -39,9 +45,12 @@ Los xlsx van **en esa raíz** (no en la subcarpeta `Gastos/`).
 
 Inventario: `CIUDAD/_inbox/drive_excel_canonico.json`.
 
-## Cómo sincronizar
-1. Editar Excel local del repo.
-2. Overwrite el **mismo file id** (`GOOGLEDRIVE_UPLOAD_UPDATE_FILE`).
+## Cómo sincronizar (técnico)
+1. Download: `GOOGLEDRIVE_DOWNLOAD_FILE` → `downloaded_file_content.s3url` → guardar en el path `local` de la tabla.
+2. Upload: stage local → S3 (`upload_local_file` / workbench) → `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` con el mismo `fileId`.
 3. Excel nuevo → crear en `1fc6P038_VTOXtH_GzZRti1rv_UD14w29` y registrar el id aquí + en el JSON.
 4. Sheets nativos (`GASTOS2026`, `Gastos Personales`) → actualizar celdas en Drive, no solo notas en chat.
 5. No usar otras carpetas como destino salvo indicación explícita de Sol.
+
+**GitHub (repo + docs Claude):** https://github.com/solzito148/budget · https://github.com/solzito148/budget/tree/master/CLAUDE  
+**Drive docs Claude:** https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW

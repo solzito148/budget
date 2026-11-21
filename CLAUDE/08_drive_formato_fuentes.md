@@ -30,8 +30,9 @@ Solo Sol puede autorizar corregir un error del extracto.
 ## Flujo de trabajo completo
 
 ```
-Extracto oficial
-  → clasificar (árbol 02)
+Drive (fuente de verdad)
+  → DESCARGAR Excel canónico al path local
+  → Extracto oficial → clasificar (árbol 02)
   → escribir Excel propiedad (CIUDAD / OHIGGINS / BONORINO / AVA)
   → si tocó Sol/Almacén/AVA/BBVA/percepciones: regenerar SOL/build_gastos_sol.py
   → overwrite mismos file ids en Drive raíz 03_Finanzas_y_Gastos
@@ -39,8 +40,11 @@ Extracto oficial
   → recién ahí dar por cerrado
 ```
 
+**Drive gana siempre** si hay conflicto con git/local. Nunca editar partiendo de una copia vieja del repo sin re-bajar.
+
 ## Drive
 
+- **Fuente de verdad** de los Excel (leer siempre desde ahí; guardar siempre ahí)
 - Excels: https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29  
 - Docs Claude: https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW  
 - GitHub: https://github.com/solzito148/budget  
