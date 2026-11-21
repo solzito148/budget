@@ -192,6 +192,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Jenny Mercedes Torres Perez** → hoja `Gasto Personal Sol` · categoría `CUIDADO PERSONAL` · subcategoría `Cejas y pestañas` (perfilado de cejas y pestañas; comentario `CUIDADO PERSONAL · Cejas y pestañas · Jenny Mercedes Torres Perez`). Nunca Almacén
 - **Paws** / Paws Pet Market / **Panda** → `Almacen Detalle` · `RAMON · Otros` (pet shop Ramón). **Valeria Mele** → `RAMON · Veterinario`. Nunca Gasto Personal Sol
 - **Cova Abreu** / Cova Abreu Gibiana Del Valle → `Almacen Detalle` · `RAMON · Comida` (comida Ramón; siempre Almacén). Nunca Gasto Personal Sol ni COMPRAS
+- **Acrule** / Acrel / MERPAGO*ACRULESRL → hoja `Gasto Personal Sol` · categoría `CASA · Hidroponía` (compra sistema de cultivo hidroponía para la casa). Nunca Almacén
 - **Jardin Del Pilar** → hoja `Gasto Personal Sol` · categoría `FUNERAL` (no suma al total CIUDAD)
 
 - **Copetin Catering** / COPETIN CATERING → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (comentario `COMIDA · Oficina · Copetin Catering`). Nunca Almacén. Ignorar cancelados/devueltos y reservas MP
