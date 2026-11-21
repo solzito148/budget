@@ -185,6 +185,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Itsclassic**, **Analia Roay** / Analia Veronica Roay, **Jazmin Chebar** / JAZMINCHEBAR, **Aylen Difeo** → hoja `Gasto Personal Sol` · categoría `VESTIMENTA` (no suma al total CIUDAD)
 - **Levis** / MERPAGO*LEVIS y **Jackie Smith** / MERPAGO*JACKIESMITH → siempre GPS `VESTIMENTA` (nunca ROPA genérica ni COMPRAS)
 - **Longchamp** / MERPAGO*LONGCHAMP → siempre hoja `Gasto Personal Sol` · categoría `VESTIMENTA` (nunca ROPA genérica ni Almacén)
+- **Fabiola Lucero** → hoja `Gasto Personal Sol` · categoría `DONACIONES` · subcategoría `Perros` (comentario `DONACIONES · Perros · Fabiola Lucero`). Nunca Almacén ni COMPRAS genérico
 - **Jardin Del Pilar** → hoja `Gasto Personal Sol` · categoría `FUNERAL` (no suma al total CIUDAD)
 
 - **Copetin Catering** / COPETIN CATERING → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (comentario `COMIDA · Oficina · Copetin Catering`). Nunca Almacén. Ignorar cancelados/devueltos y reservas MP
