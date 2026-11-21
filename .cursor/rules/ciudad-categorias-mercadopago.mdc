@@ -102,7 +102,7 @@ Etiqueta `COMIDA · {comercio}`. Incluye:
 
 ### Ramón — SIEMPRE Almacén CIUDAD, NUNCA Gasto Personal Sol
 Todo gasto de Ramón (perro) va a `Almacen Detalle` (ALMACEN SOL), sin excepción:
-- `RAMON · Comida` — Kalbby / Compraenkalbb / DR BARF
+- `RAMON · Comida` — Kalbby / Compraenkalbb / DR BARF · **Cova Abreu** / Cova Abreu Gibiana Del Valle
 - `RAMON · Veterinario` — **Valeria Mele** / El Perro Verde · **Leocan** (veterinaria Ramón; siempre Almacén). Nunca Paws
 - `RAMON · Otros` — **Paws** / Paws Pet Market / **Panda** (pet shop Ramón; siempre Almacén). Otros de Ramón que no sean comida ni veterinario
 - Otras mascotas (no Ramón) → `Gasto Personal Sol`
@@ -191,6 +191,7 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Mariela Rosatelli** / Mariela Rosetti → hoja `Gasto Personal Sol` · categoría `MANICURA` (service de uñas; comentario `MANICURA · Mariela Rosatelli`). Nunca Almacén ni COMPRAS genérico
 - **Jenny Mercedes Torres Perez** → hoja `Gasto Personal Sol` · categoría `CUIDADO PERSONAL` · subcategoría `Cejas y pestañas` (perfilado de cejas y pestañas; comentario `CUIDADO PERSONAL · Cejas y pestañas · Jenny Mercedes Torres Perez`). Nunca Almacén
 - **Paws** / Paws Pet Market / **Panda** → `Almacen Detalle` · `RAMON · Otros` (pet shop Ramón). **Valeria Mele** → `RAMON · Veterinario`. Nunca Gasto Personal Sol
+- **Cova Abreu** / Cova Abreu Gibiana Del Valle → `Almacen Detalle` · `RAMON · Comida` (comida Ramón; siempre Almacén). Nunca Gasto Personal Sol ni COMPRAS
 - **Jardin Del Pilar** → hoja `Gasto Personal Sol` · categoría `FUNERAL` (no suma al total CIUDAD)
 
 - **Copetin Catering** / COPETIN CATERING → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (comentario `COMIDA · Oficina · Copetin Catering`). Nunca Almacén. Ignorar cancelados/devueltos y reservas MP
