@@ -193,6 +193,10 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Paws** / Paws Pet Market / **Panda** → `Almacen Detalle` · `RAMON · Otros` (pet shop Ramón). **Valeria Mele** → `RAMON · Veterinario`. Nunca Gasto Personal Sol
 - **Cova Abreu** / Cova Abreu Gibiana Del Valle → `Almacen Detalle` · `RAMON · Comida` (comida Ramón; siempre Almacén). Nunca Gasto Personal Sol ni COMPRAS
 - **Acrule** / Acrel / MERPAGO*ACRULESRL → hoja `Gasto Personal Sol` · categoría `CASA · Hidroponía` (compra sistema de cultivo hidroponía para la casa). Nunca Almacén
+- **Analia Beatriz Maradona** → hoja `Gasto Personal Sol` · categoría `MANICURA` (comentario `MANICURA · Analia Beatriz Maradona`). Nunca Almacén ni COMPRAS genérico
+- **Alicia de Luca** → `Almacen Detalle` · `ENTRETENIMIENTO · Cenas` (+ `· propina` si corresponde). Restaurante Asunción 4102. Nunca Gasto Personal Sol ni COMPRAS
+- **YUNGA** / Yunga Plant Based → `Almacen Detalle` · `COMIDA · Yunga` (vegano Villa Crespo). Nunca Gasto Personal Sol ni COMPRAS
+- **Deertech** / Deer Tech / MERPAGO*DEERTECH → hoja `Gasto Personal Sol` · categoría `TECNOLOGÍA` (electrónica JBL/Belkin/AKG). Nunca Almacén ni COMPRAS genérico
 - **Jardin Del Pilar** → hoja `Gasto Personal Sol` · categoría `FUNERAL` (no suma al total CIUDAD)
 
 - **Copetin Catering** / COPETIN CATERING → hoja `Gasto Personal Sol` · categoría `COMIDA · Oficina` (comentario `COMIDA · Oficina · Copetin Catering`). Nunca Almacén. Ignorar cancelados/devueltos y reservas MP
@@ -202,6 +206,8 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 - **Hotel Madero** (si el extracto BBVA dice HOTEL MADERO; cena / propina) → siempre `ENTRETENIMIENTO · Salidas comida` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Oporto Almacen** / Oporto → hoja `Gasto Personal Sol` · categoría `ENTRETENIMIENTO · Comidas` (no suma al total CIUDAD). Nunca Almacen Detalle
 - **Cosi Mi Piace** (cena / propina) → siempre `ENTRETENIMIENTO · Cenas` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Alicia de Luca** (cena / propina) → siempre `ENTRETENIMIENTO · Cenas` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
+- **Yunga** / Yunga Plant Based → siempre `COMIDA · Yunga` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Movistar Arena** → siempre `ENTRETENIMIENTO · Recitales` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol ni telefonía
 - **Plateanet** → siempre `ENTRETENIMIENTO · Teatro` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
 - **Hoyts** / MOD*HOYTS → siempre `ENTRETENIMIENTO · Cine` en `Almacen Detalle` (ALMACEN SOL). Nunca Gasto Personal Sol
