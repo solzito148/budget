@@ -41,6 +41,12 @@ alwaysApply: true
 - **BONORINO** también tiene ABL partida **1084069** y Metrogas cliente **30010713734** (pagos por MP). Un ABL de ~$28.000 o un Metrogas pagado por MP **no** son automáticamente CIUDAD: CIUDAD paga Metrogas por débito BBVA.
 - **Antes de subir un Excel a Drive, bajar la versión actual del Drive y partir de ella.** Nunca pisar el Drive con una versión vieja del repo.
 
+## Ciclo mensual (obligatorio)
+- **Nunca borrar meses anteriores**: solo agregar. Antes de guardar: `python3 tools/verificar_no_borrado.py vigente.xlsx nuevo.xlsx`.
+- **Todos los meses con todos los valores** de cada servicio (faltantes en `Consolidado_2026.xlsx › Faltantes`).
+- **Rendición CIUDAD todos los meses** (`python3 tools/consolidar_2026.py` → hoja `Rendición CIUDAD`).
+- Paso a paso: `CLAUDE/11_ciclo_mensual.md`. Indicaciones de Sol: `CLAUDE/10_aprendizajes_sol.md`.
+
 ## Regla madre y dudas
 - Una planilla por propiedad + una planilla de gastos personales de Sol. Cada gasto es **de una propiedad o personal de Sol**, nunca ambos.
 - Gastos personales de Sol salen de **resúmenes oficiales** y de **compras registradas en los mails**.

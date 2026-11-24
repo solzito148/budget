@@ -71,7 +71,7 @@
       },
       "OHIGGINS": {
         "local": "OHIGGINS/Gastos_OHIGGINS_2026.xlsx",
-        "drive_id": "1Z4mMslCudFWh9UWRTSfB6NE8MBfA4TpY"
+        "drive_id": "1z2ju1ql6L5GIGTKNUQoe0B1bz1WJMBSI"
       },
       "BONORINO": {
         "local": "BONORINO/Gastos_BONORINO_2026.xlsx",
@@ -92,7 +92,7 @@
       },
       "CONSOLIDADO": {
         "local": "CONSOLIDADO/Consolidado_2026.xlsx",
-        "drive_id": "1NE_b6EThd-jOEOBLI4KQKin94OA5uzZe",
+        "drive_id": "11PNFTeAInOWRVKCp2yztw-qavghsjQkQ",
         "build": "python3 tools/consolidar_2026.py"
       }
     }

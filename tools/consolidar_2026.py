@@ -189,6 +189,49 @@ def main():
     for col in "ABCDEFGHIJ":
         lq.column_dimensions[col].width = 18
 
+    # Rendición CIUDAD: un bloque por mes con cada servicio, almacenes y saldo
+    rd = wb.create_sheet("Rendición CIUDAD", 1)
+    rd["A1"] = "Rendición CIUDAD 1132 — mes a mes (50/50 Sol · Chris)"
+    rd["A1"].font = Font(bold=True, size=14)
+    rd["A2"] = ("Servicios ÷ 2 + (Almacén Sol + Almacén Chris) ÷ 2 − Almacén Chris = lo que Chris le debe a Sol. "
+                "Ene–abr: se registra, no se cobra. AVA / OHIGGINS / BONORINO no entran.")
+    serv_rows = [(g, v) for p, t, g, v in rows if p == "CIUDAD 1132" and t.startswith("SERVICIOS")]
+    for i, mes in enumerate(MESES[:MES_CERRADO + 1]):
+        rd.append([])
+        r0 = rd.max_row + 1
+        rd.append([mes.upper(), "Monto", "Nota"])
+        for c in range(1, 4):
+            rd.cell(r0, c).fill = NAVY
+            rd.cell(r0, c).font = WHITE
+        faltan = []
+        for g, v in serv_rows:
+            val = v[i]
+            rd.append([g, val, None if val else "FALTA"])
+            if not val and any(v[:i + 1]):
+                faltan.append(g)
+                rd.cell(rd.max_row, 3).fill = YEL
+        s = serv_ciudad[i]
+        a_sol = sum(v[i] for v in sol.values())
+        a_ch = sum(v[i] for v in chris.values())
+        cs, ca = math.ceil(s / 2), math.ceil((a_sol + a_ch) / 2)
+        debe = cs + ca - a_ch
+        for lab, val in (("Servicios CIUDAD", s), ("Almacén Sol", a_sol), ("Almacén Chris", a_ch),
+                         ("Total CIUDAD", s + a_sol + a_ch), ("50% servicios", cs), ("50% almacén", ca),
+                         ("A cargo de Chris", cs + ca), ("Menos lo que pagó Chris", -a_ch),
+                         ("CHRIS DEBE A SOL", debe)):
+            rd.append([lab, val])
+            rd.cell(rd.max_row, 1).font = BOLD
+        rd.cell(rd.max_row, 1).fill = GREY
+        rd.cell(rd.max_row, 2).fill = GREY
+        estado = ("CALCULADO · NO COBRAR (ene–abr)" if i < 4 else
+                  "INCOMPLETO · faltan: " + ", ".join(faltan) if faltan else "COMPLETO · A COBRAR")
+        rd.append(["Estado", estado])
+        for rr in range(r0 + 1, rd.max_row + 1):
+            rd.cell(rr, 2).number_format = NUM
+    rd.column_dimensions["A"].width = 44
+    rd.column_dimensions["B"].width = 16
+    rd.column_dimensions["C"].width = 40
+
     OUT.parent.mkdir(exist_ok=True)
     wb.save(OUT)
     print("OK", OUT, "filas", len(rows), "faltantes", fal.max_row - 2)
