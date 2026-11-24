@@ -25,3 +25,4 @@ Todo lo que Sol indica se anota acá con fecha y se pasa a las reglas correspond
 - **Luz OHIGGINS (Edenor Chagas):** mes de la matriz = **mes de emisión de la factura** (criterio original de la planilla; no correr meses ya cargados).
 - **Almacén Chris 2026 confirmado por Sol (24/11):** ene–abr $0 · may $176.932 · jun $101.000 · jul $155.800 · ago $0 · sep $237.104 (24) · oct $335.669 (26).
 - **Gmail → registro (24/11):** Sol pidió extraer de Gmail pagos, compras y facturas de cada mes y guardarlos → `REGISTROS/registro_gmail_2026.csv` (Drive `Budget_2026_vigente`). Gas CIUDAD julio: factura $73.694,19 (vto 05/08) cobrada por BBVA en agosto junto con la siguiente → no es faltante.
+- **Chris agosto 2026 = $80.000** (Sol, 24/11). Se agregó como fila nueva en `Almacen Detalle`; mayo se mantiene en $176.932 salvo que Sol indique lo contrario.
