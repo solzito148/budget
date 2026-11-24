@@ -19,7 +19,7 @@ Ese 50% ya está en GPS: **no duplicarlo** como gasto nuevo en Cashflow Compromi
 
 Al cargar/actualizar cada cuota:
 
-1. Buscar **dólar MEP tipo vendedor (venta / bolsa)** de la **fecha de vencimiento**.  
+1. Buscar **dólar MEP tipo vendedor (venta / bolsa)** del **día anterior al vencimiento** (indicación de Sol 24/11).  
 2. Si no hay rueda → último hábil anterior.  
 3. `Valor USD = Monto ARS ÷ TC MEP venta`.  
 4. Nunca reusar un TC fijo ni asumir USD constante.  
@@ -29,7 +29,7 @@ Cuotas futuras PENDIENTE: sin monto USD hasta factura + TC del vencimiento.
 
 ### Análisis vs IPC+CAC
 
-Mes a mes: `% Δ` cuota vs anterior, comparado con **IPC INDEC + índice CAC/CAMARCO** del mes de referencia (mes calendario anterior al período de la cuota).  
+Mes a mes: `% Δ` cuota vs anterior, comparado con **IPC INDEC + índice CAC/CAMARCO** del mes de referencia **M-2** (último índice publicado cuando se calcula la cuota). Verificado: la cuota se ajusta por **CAC de M-2** (ver `10_aprendizajes_sol.md`).  
 Veredicto: subió **MÁS** o **MENOS** que `IPC+CAC`.
 
 ## BBVA — Cashflow Cuotas
