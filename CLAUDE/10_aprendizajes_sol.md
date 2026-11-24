@@ -29,3 +29,5 @@ Todo lo que Sol indica se anota acá con fecha y se pasa a las reglas correspond
 - **El Patio de los Duendes / Kiosko Duendes = siempre COMIDA de Gastos Personales Sol** (24/11). Movidos mar ($1.930 + $17.049) y oct ($2.300) desde Almacén; agregado oct $23.000.
 - Sol pide **todo completo**: cada mes con todos los servicios, almacenes y personales cargados.
 - **AVA cuota 14 (diciembre):** $6.818.814, vence 04/12/2026 (Sancor: "Cuota Ava Palpa - Bs As - 202 Y Cochera/S 49"). Cargada PENDIENTE; al pagarla: MEP del vencimiento, matriz diciembre y 50% Sol a Gasto Personal Sol.
+- **Regla AVA → calendario (24/11):** cada vez que Sol pasa una cuota de AVA, crear en su Google Calendar un evento de día completo el día de vencimiento: "Pagar cuota AVA Palpa N° X — $monto", con monto, 50/50, cómo pagar y recordatorios 2 días antes y el mismo día. Cuota 14 creada (04/12/2026).
+- **Chris mayo 2026 = $176.932** confirmado (24/11), además de agosto $80.000.

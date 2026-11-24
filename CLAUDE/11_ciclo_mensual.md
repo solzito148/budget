@@ -24,7 +24,7 @@ Indicado por Sol el 2026-11-24. **Obligatorio.**
 2b. **Registro Gmail:** toda factura / comprobante / boleta leída de Gmail se agrega a `REGISTROS/registro_gmail_2026.csv` (propiedad, clave, concepto, mes, emisión, vencimiento, monto, pagado, tipo, fuente, nota, gmail_id) y se sube a `Budget_2026_vigente`. Metrogas y Edenor traen el importe solo en el HTML del mail (no en el resumen).
 3. **Clasificar** con el árbol (`02_arbol_decision_clasificacion.md`); dudas → tabla por pantalla a Sol.
 4. **Cargar agregando** en cada propiedad (matriz `2026` + `Detalle`), Almacén Sol/Chris, Gasto Personal Sol, MP No Gasto.
-5. **AVA:** cuota del mes con MEP vendedor del vencimiento (argentinadatos), 50% Sol en Gasto Personal Sol.
+5. **AVA:** cuando Sol pasa el aviso de la cuota → registrarla PENDIENTE (monto, vencimiento, 50/50) **y crear el evento de pago en su Google Calendar** el día del vencimiento (todo el día, recordatorios 2 días antes y el mismo día). Al pagarse: PAGADO, MEP vendedor del vencimiento (argentinadatos), matriz del mes y 50% Sol en Gasto Personal Sol.
 6. **Regenerar:** `python3 SOL/build_gastos_sol.py` y `python3 tools/consolidar_2026.py`.
 7. **Controlar:**
    - `tools/verificar_no_borrado.py` contra la versión vigente (ningún mes anterior pierde datos).
