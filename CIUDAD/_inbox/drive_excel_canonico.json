@@ -94,6 +94,10 @@
         "local": "CONSOLIDADO/Consolidado_2026.xlsx",
         "drive_id": "11PNFTeAInOWRVKCp2yztw-qavghsjQkQ",
         "build": "python3 tools/consolidar_2026.py"
+      },
+      "REGISTRO_GMAIL": {
+        "local": "REGISTROS/registro_gmail_2026.csv",
+        "drive_id": "11P9NaAFGiMHJJ8nxEimZjyJojL-fSlB2"
       }
     }
   }

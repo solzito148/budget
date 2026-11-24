@@ -21,6 +21,7 @@ Indicado por Sol el 2026-11-24. **Obligatorio.**
    - Gmail **enviados**: comprobantes de expensas (De Filippo = CIUDAD, Kalmus = OHIGGINS, pereyragladys = BONORINO) y cuota AVA (Sancor).
    - `ORIGINAL_Tabla_Susi` → Limpieza Susana (col. Y) y compras Susana.
    - **Gastos de Chris**: Sol los pasa por chat (mes + detalle + importe, sin fecha) → Almacén Chris.
+2b. **Registro Gmail:** toda factura / comprobante / boleta leída de Gmail se agrega a `REGISTROS/registro_gmail_2026.csv` (propiedad, clave, concepto, mes, emisión, vencimiento, monto, pagado, tipo, fuente, nota, gmail_id) y se sube a `Budget_2026_vigente`. Metrogas y Edenor traen el importe solo en el HTML del mail (no en el resumen).
 3. **Clasificar** con el árbol (`02_arbol_decision_clasificacion.md`); dudas → tabla por pantalla a Sol.
 4. **Cargar agregando** en cada propiedad (matriz `2026` + `Detalle`), Almacén Sol/Chris, Gasto Personal Sol, MP No Gasto.
 5. **AVA:** cuota del mes con MEP vendedor del vencimiento (argentinadatos), 50% Sol en Gasto Personal Sol.
