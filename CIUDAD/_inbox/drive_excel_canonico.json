@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-11-24",
   "policy": "OBLIGATORIO desde 2026-10-23: toda alta/edición de planillas de gastos debe overwrite en esta carpeta Drive antes de cerrar la tarea. Git/local solo no alcanza.",
   "root_folder": {
     "name": "03_Finanzas_y_Gastos",
@@ -55,6 +55,46 @@
       "url": "https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW",
       "prompt_file_id": "17aot4a45n00T3Ini27HzybFDOWfZr5Q-",
       "note": "Prompt + MDs de lógicas para Claude Projects"
+    }
+  },
+  "vigente": {
+    "folder": {
+      "name": "Budget_2026_vigente",
+      "id": "11oJnS46jQbLB5CjVu6hVyU7CH536ScNj",
+      "url": "https://drive.google.com/drive/folders/11oJnS46jQbLB5CjVu6hVyU7CH536ScNj"
+    },
+    "note": "Desde 2026-11-24 las planillas vigentes viven en esta subcarpeta. Los xlsx viejos de la raíz quedan como histórico (el conector de Claude no puede sobrescribirlos). Al actualizar: subir archivo nuevo a esta carpeta, mandar a la papelera el anterior (de esta carpeta) y actualizar estos ids.",
+    "files": {
+      "CIUDAD": {
+        "local": "CIUDAD/Gastos_CIUDAD_1132_2026.xlsx",
+        "drive_id": "1u00XosSxrZVyH-jjJBNktUpLrfYonZXm"
+      },
+      "OHIGGINS": {
+        "local": "OHIGGINS/Gastos_OHIGGINS_2026.xlsx",
+        "drive_id": "1Z4mMslCudFWh9UWRTSfB6NE8MBfA4TpY"
+      },
+      "BONORINO": {
+        "local": "BONORINO/Gastos_BONORINO_2026.xlsx",
+        "drive_id": "1pmoaIq76UvUdJEeONXjOMqspPAkbXlk6"
+      },
+      "AVA": {
+        "local": "AVA/Gastos_AVA_2026.xlsx",
+        "drive_id": "1G7ptgrOaLW_r0gHWhPyLBZ4uqfOZPmze"
+      },
+      "SOL": {
+        "local": "SOL/Gastos_SOL_2026.xlsx",
+        "drive_id": "1_--2H2pPUz1Kvl99QsKS8AA0okP3LGWc",
+        "drive_name": "Gastos_Personales_SOL_2026.xlsx"
+      },
+      "RENDICIONES": {
+        "local": "CIUDAD/Rendiciones_2026.xlsx",
+        "drive_id": "11MdqJcqfn1fSfbIEq-4seAQRhmThWzb7"
+      },
+      "CONSOLIDADO": {
+        "local": "CONSOLIDADO/Consolidado_2026.xlsx",
+        "drive_id": "1NE_b6EThd-jOEOBLI4KQKin94OA5uzZe",
+        "build": "python3 tools/consolidar_2026.py"
+      }
     }
   }
 }

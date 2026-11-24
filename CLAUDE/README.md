@@ -35,6 +35,7 @@ Documentación operativa del sistema de gastos (CIUDAD / SOL / OHIGGINS / BONORI
 | [`07_ava_bbva_cashflow.md`](07_ava_bbva_cashflow.md) | AVA 50/50, MEP, BBVA, compromisos |
 | [`08_drive_formato_fuentes.md`](08_drive_formato_fuentes.md) | Jerarquía de fuentes, formato, Drive |
 | [`09_mapa_comercios.md`](09_mapa_comercios.md) | Lookup rápido comercio → destino |
+| [`10_aprendizajes_sol.md`](10_aprendizajes_sol.md) | **Bitácora de indicaciones de Sol** (leer siempre) |
 
 ## Fuente de verdad en el repo
 
