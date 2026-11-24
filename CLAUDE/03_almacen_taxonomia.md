@@ -77,3 +77,10 @@ YPF, Shell, Generacion 20 Combustibles → Almacén detalle tipo `Combustible �
 ## Spotify
 
 **No** Almacén ni GPS. → CIUDAD `2026` · `STREAMING` (USD × TC MEP del mes).
+
+## ALMACEN CHRIS
+
+- Compras de Chris durante el mes (verdulería, almacén, supermercado, etc.). Chris se las pasa a Sol y Sol las informa por chat.
+- **Todas** van a `Almacen Detalle` columna `Importe Chris` → fila `ALMACEN CHRIS` de la hoja `2026` (CIUDAD).
+- Fuente válida: lo que Sol informa por chat (no se pide extracto). Comentario: `Rendición Chris · informado por Sol`.
+- Usar las mismas etiquetas de detalle que Almacén Sol (`SUPERMERCADO · …`, `COMIDA · Verdulería`, `RAMON · …`, etc.).

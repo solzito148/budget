@@ -26,7 +26,8 @@ alwaysApply: true
 
 ## Liquidación mensual CIUDAD 50/50 (Sol ↔ Chris)
 - Todos los gastos de CIUDAD (servicios + ALMACEN SOL + ALMACEN CHRIS) se suman por mes y se dividen 50/50.
-- Sol paga casi todos los servicios; Chris rinde sus gastos a fin de mes → se cargan en `Almacen Detalle` columna `Importe Chris`.
+- Sol paga casi todos los servicios. Chris compra durante el mes (verdulería, almacén, súper, etc.), le pasa los gastos a Sol y **Sol los informa por chat**.
+- **Todos** los gastos de Chris → fila `ALMACEN CHRIS` de CIUDAD (detalle en `Almacen Detalle` columna `Importe Chris`). Lo que Sol informa por chat es fuente válida para estos gastos (no hay extracto de Chris). Nunca a GPS ni a otra propiedad.
 - Hoja `2026`: `CADA UNO` = TOTAL ÷ 2; `Pendiente Chris` = CADA UNO − lo pagado por Chris = lo que Chris le transfiere a Sol.
 - Transferencias de Chris a Sol = pago de la liquidación (`Transferencias recibidas`), nunca gasto.
 
