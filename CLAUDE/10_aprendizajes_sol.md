@@ -26,3 +26,6 @@ Todo lo que Sol indica se anota acá con fecha y se pasa a las reglas correspond
 - **Almacén Chris 2026 confirmado por Sol (24/11):** ene–abr $0 · may $176.932 · jun $101.000 · jul $155.800 · ago $0 · sep $237.104 (24) · oct $335.669 (26).
 - **Gmail → registro (24/11):** Sol pidió extraer de Gmail pagos, compras y facturas de cada mes y guardarlos → `REGISTROS/registro_gmail_2026.csv` (Drive `Budget_2026_vigente`). Gas CIUDAD julio: factura $73.694,19 (vto 05/08) cobrada por BBVA en agosto junto con la siguiente → no es faltante.
 - **Chris agosto 2026 = $80.000** (Sol, 24/11). Se agregó como fila nueva en `Almacen Detalle`; mayo se mantiene en $176.932 salvo que Sol indique lo contrario.
+- **El Patio de los Duendes / Kiosko Duendes = siempre COMIDA de Gastos Personales Sol** (24/11). Movidos mar ($1.930 + $17.049) y oct ($2.300) desde Almacén; agregado oct $23.000.
+- Sol pide **todo completo**: cada mes con todos los servicios, almacenes y personales cargados.
+- **AVA cuota 14 (diciembre):** $6.818.814, vence 04/12/2026 (Sancor: "Cuota Ava Palpa - Bs As - 202 Y Cochera/S 49"). Cargada PENDIENTE; al pagarla: MEP del vencimiento, matriz diciembre y 50% Sol a Gasto Personal Sol.

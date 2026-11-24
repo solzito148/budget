@@ -31,6 +31,7 @@
 | Feed | GPS | `COMIDA · Oficina` |
 | Copetin Catering | GPS | `COMIDA · Oficina` |
 | Oporto | GPS | `ENTRETENIMIENTO · Comidas` |
+| El Patio de los Duendes / Kiosko Duendes | GPS | `COMIDA · El Patio de los Duendes` (siempre personal Sol) |
 | Cabify / Uber / Didi / Emova / Ebanx | GPS | `TRANSPORTE · …` (Ebanx→Uber) |
 | Google One / OpenAI / Cursor / Claude / Vercel / metricscheck | GPS | `SUSCRIPCIONES · IA` |
 | Apple / iCloud / App Store | GPS | `SUSCRIPCIONES · Apple` |

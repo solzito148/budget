@@ -97,6 +97,7 @@ Etiqueta `COMIDA · {comercio}`. Incluye:
 
 ### Excepciones (NO Almacén COMIDA)
 - **Feed** → `Gasto Personal Sol` · `COMIDA · Oficina` (nunca Almacen Detalle)
+- **El Patio de los Duendes** / **Kiosko Duendes** (incl. propina) → siempre hoja `Gasto Personal Sol` · `COMIDA · El Patio de los Duendes`. Nunca Almacén.
 - **Oporto Almacen** → `Gasto Personal Sol` · `ENTRETENIMIENTO · Comidas`
 - **Kalbby** / **DR BARF** → no es COMIDA genérica: va a `RAMON · Comida`
 

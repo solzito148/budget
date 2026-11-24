@@ -67,7 +67,7 @@
     "files": {
       "CIUDAD": {
         "local": "CIUDAD/Gastos_CIUDAD_1132_2026.xlsx",
-        "drive_id": "1CCGL4bRh9tf4U7qmyKCLKIpCrPS4mOQx"
+        "drive_id": "1cVtawMK2RqRuW87PCmi0NQDfpzc7-avz"
       },
       "OHIGGINS": {
         "local": "OHIGGINS/Gastos_OHIGGINS_2026.xlsx",
@@ -79,25 +79,25 @@
       },
       "AVA": {
         "local": "AVA/Gastos_AVA_2026.xlsx",
-        "drive_id": "1G7ptgrOaLW_r0gHWhPyLBZ4uqfOZPmze"
+        "drive_id": "1quapncZNtzBQV6o43RGj4xzxmo1oEVUv"
       },
       "SOL": {
         "local": "SOL/Gastos_SOL_2026.xlsx",
-        "drive_id": "1_--2H2pPUz1Kvl99QsKS8AA0okP3LGWc",
+        "drive_id": "1G8d1IVDh17FYwqvpI6CQSrW64MelLbGi",
         "drive_name": "Gastos_Personales_SOL_2026.xlsx"
       },
       "RENDICIONES": {
         "local": "CIUDAD/Rendiciones_2026.xlsx",
-        "drive_id": "1zbCXZOsX8tDe6tACodyBozK7GJ5Unhcl"
+        "drive_id": "1Bhg19qTpaZAJehjzyr1CcLCZ3UwqH8yH"
       },
       "CONSOLIDADO": {
         "local": "CONSOLIDADO/Consolidado_2026.xlsx",
-        "drive_id": "1XsVvQc_83otpiZ8XvwaLS2_o1IYfiTiQ",
+        "drive_id": "15VhXfFL5v8oPjF-Wqa3RyIRV5aurCiLz",
         "build": "python3 tools/consolidar_2026.py"
       },
       "REGISTRO_GMAIL": {
         "local": "REGISTROS/registro_gmail_2026.csv",
-        "drive_id": "11P9NaAFGiMHJJ8nxEimZjyJojL-fSlB2"
+        "drive_id": "18dHgHsSEBnLga5C_zkrbqR22_PjsO4Do"
       }
     }
   }
