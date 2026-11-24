@@ -31,7 +31,8 @@ Indicado por Sol el 2026-11-24. **Obligatorio.**
    - `Consolidado › Faltantes`: resolver o preguntar.
 8. **Rendición CIUDAD del mes** (ver abajo) y avisarle a Sol el saldo.
 9. **Guardar en Drive** (`Budget_2026_vigente`), actualizar ids en el JSON, commit + push.
-10. Anotar en `10_aprendizajes_sol.md` cualquier indicación nueva de Sol.
+10. **Pasarle a Sol el link** de cada planilla actualizada y de la carpeta `Budget_2026_vigente`.
+11. Anotar en `10_aprendizajes_sol.md` cualquier indicación nueva de Sol.
 
 ## Rendición CIUDAD (cálculo)
 
