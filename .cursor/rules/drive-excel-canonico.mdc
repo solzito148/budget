@@ -6,7 +6,7 @@ alwaysApply: true
 # Drive canónico — TODO va a Drive
 
 ## Carpeta vigente (desde 2026-11-24)
-Las planillas vigentes están en **`Budget_2026_vigente`** (id `11oJnS46jQbLB5CjVu6hVyU7CH536ScNj`), dentro de `03_Finanzas_y_Gastos`. Ids actuales en `CIUDAD/_inbox/drive_excel_canonico.json` → `vigente.files`. Los xlsx de la raíz quedan como histórico. Sol no sube archivos a mano: el asistente guarda en Drive. Antes de editar, bajar la versión vigente del Drive y combinar; nunca pisar con una versión vieja.
+Las planillas vigentes están en **`03_Finanzas_y_Gastos`** (id `1fc6P038_VTOXtH_GzZRti1rv_UD14w29`). Ids actuales en `CIUDAD/_inbox/drive_excel_canonico.json` → `vigente.files`. Los xlsx de la raíz quedan como histórico. Sol no sube archivos a mano: el asistente guarda en Drive. Antes de editar, bajar la versión vigente del Drive y combinar; nunca pisar con una versión vieja.
 
 ## Regla dura (desde 2026-10-23)
 **Ninguna tarea de gastos queda completa** si solo se cambió el Excel en git/local.

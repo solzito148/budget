@@ -9,7 +9,7 @@ Indicado por Sol el 2026-11-24. **Obligatorio.**
    - Antes de guardar, correr `python3 tools/verificar_no_borrado.py <vigente.xlsx> <nuevo.xlsx>`: si algún mes perdió filas o importes, **no se guarda**.
 2. **Todos los meses con todos los valores.** Cada servicio de cada propiedad tiene importe en cada mes cerrado. Un mes vacío es un faltante: se busca (extracto MP, resumen BBVA, Gmail recibidos/enviados) o se le pregunta a Sol. Lista en `Consolidado_2026.xlsx › Faltantes`.
 3. **Rendición de CIUDAD todos los meses.** Al cerrar cada mes se arma la rendición CIUDAD 50/50 (hoja `Rendición CIUDAD` del consolidado + `Rendiciones_2026.xlsx › Rendición Chris`).
-4. **Drive siempre al día.** Se parte de la versión vigente en Drive (`Budget_2026_vigente`) y se guarda ahí al terminar. Sol no sube archivos.
+4. **Drive siempre al día.** Se parte de la versión vigente en Drive (`03_Finanzas_y_Gastos`) y se guarda ahí al terminar. Sol no sube archivos.
 
 ## Paso a paso de cada mes (M)
 
@@ -21,7 +21,7 @@ Indicado por Sol el 2026-11-24. **Obligatorio.**
    - Gmail **enviados**: comprobantes de expensas (De Filippo = CIUDAD, Kalmus = OHIGGINS, pereyragladys = BONORINO) y cuota AVA (Sancor).
    - `ORIGINAL_Tabla_Susi` → Limpieza Susana (col. Y) y compras Susana.
    - **Gastos de Chris**: Sol los pasa por chat (mes + detalle + importe, sin fecha) → Almacén Chris.
-2b. **Registro Gmail:** toda factura / comprobante / boleta leída de Gmail se agrega a `REGISTROS/registro_gmail_2026.csv` (propiedad, clave, concepto, mes, emisión, vencimiento, monto, pagado, tipo, fuente, nota, gmail_id) y se sube a `Budget_2026_vigente`. Metrogas y Edenor traen el importe solo en el HTML del mail (no en el resumen).
+2b. **Registro Gmail:** toda factura / comprobante / boleta leída de Gmail se agrega a `REGISTROS/registro_gmail_2026.csv` (propiedad, clave, concepto, mes, emisión, vencimiento, monto, pagado, tipo, fuente, nota, gmail_id) y se sube a `03_Finanzas_y_Gastos`. Metrogas y Edenor traen el importe solo en el HTML del mail (no en el resumen).
 3. **Clasificar** con el árbol (`02_arbol_decision_clasificacion.md`); dudas → tabla por pantalla a Sol.
 4. **Cargar agregando** en cada propiedad (matriz `2026` + `Detalle`), Almacén Sol/Chris, Gasto Personal Sol, MP No Gasto.
 5. **AVA:** cuando Sol pasa el aviso de la cuota → registrarla PENDIENTE (monto, vencimiento, 50/50) **y crear el evento de pago en su Google Calendar** el día del vencimiento (todo el día, recordatorios 2 días antes y el mismo día). Al pagarse: PAGADO, MEP vendedor del vencimiento (argentinadatos), matriz del mes y 50% Sol en Gasto Personal Sol.
@@ -30,8 +30,8 @@ Indicado por Sol el 2026-11-24. **Obligatorio.**
    - `tools/verificar_no_borrado.py` contra la versión vigente (ningún mes anterior pierde datos).
    - `Consolidado › Faltantes`: resolver o preguntar.
 8. **Rendición CIUDAD del mes** (ver abajo) y avisarle a Sol el saldo.
-9. **Guardar en Drive** (`Budget_2026_vigente`), actualizar ids en el JSON, commit + push.
-10. **Pasarle a Sol el link** de cada planilla actualizada y de la carpeta `Budget_2026_vigente`.
+9. **Guardar en Drive** (`03_Finanzas_y_Gastos`), actualizar ids en el JSON, commit + push.
+10. **Pasarle a Sol el link** de cada planilla actualizada y de la carpeta `03_Finanzas_y_Gastos`.
 11. Anotar en `10_aprendizajes_sol.md` cualquier indicación nueva de Sol.
 
 ## Rendición CIUDAD (cálculo)
