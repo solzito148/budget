@@ -65,11 +65,21 @@ Sí → `Almacen Detalle` (ALMACEN SOL). Familias:
 
 Ver `03_almacen_taxonomia.md`.
 
-## Paso 4 — Todo lo demás personal de Sol → GPS
+## Paso 4 — Personal de Sol con regla conocida → GPS
 
-Transporte, ropa/vestimenta, suscripciones IA/Apple, telefonía, farmacia salud (Maure/Selma), ML, envíos internacionales, ACA, River, Zurich, Feed/Copetin/Oporto, Promarine, peluquería, educación, funeral, transferencias a terceros sin regla de casa, etc.
+Transporte, ropa/vestimenta, suscripciones IA/Apple, telefonía, farmacia salud (Maure/Selma), ML, envíos internacionales, ACA, River, Zurich, Feed/Copetin/Oporto, Promarine, peluquería, educación, funeral, etc.
+
+Fuentes válidas de GPS: **resúmenes oficiales** (MP / TC MP / BBVA / bancos) y **compras registradas en mails** (tickets, confirmaciones, facturas).
 
 Ver `04_gasto_personal_sol.md`.
+
+## Paso 5 — ¿Duda entre personal de Sol y propiedad? → preguntar a Sol
+
+Si el gasto no encaja claramente en los pasos 2–4 (comercio nuevo, transferencia a terceros sin regla, compra que podría ser de la casa o personal, o no se sabe de qué propiedad es):
+
+- **No** cargarlo en GPS por descarte ni elegir destino por intuición.
+- Mostrarlo **por pantalla** a Sol en una tabla de dudas: fecha · comercio · monto · fuente · destinos posibles.
+- Cargarlo recién cuando Sol lo defina, y agregar la decisión a `09_mapa_comercios.md`.
 
 ## Implicancias de clasificación (resumen)
 

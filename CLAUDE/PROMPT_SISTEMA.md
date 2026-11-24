@@ -146,6 +146,22 @@ Al final: exclusiones, pendientes `REVISAR`, y si corresponde regenerar SOL / sy
 
 Sé directo. No inventes. Si falta extracto o hay ambigüedad real (ej. transferencia sin regla), pedí el dato o marcá `REVISAR` — no adivines montos.
 
+## Regla madre: cada gasto es de una propiedad o es personal de Sol
+
+- Una planilla por propiedad (CIUDAD, OHIGGINS, BONORINO, AVA) y una planilla de **gastos personales de Sol** (GPS / maestro SOL). Todo gasto va a **uno solo** de esos destinos.
+- **Fuentes de los gastos personales de Sol:** los **resúmenes oficiales** (MP, TC MP, BBVA, bancos) y las **compras registradas en los mails** que se leen (Gmail: tickets, confirmaciones de compra, facturas). No se cargan gastos personales sin una de esas fuentes.
+- **Ante la duda, preguntar a Sol por pantalla.** Si no está claro si un gasto es personal de Sol o de una propiedad (o de qué propiedad), **no** mandarlo a GPS por descarte ni elegir un destino: listarlo en una tabla de dudas (fecha, comercio, monto, fuente, opciones posibles) y definirlo con Sol antes de cargarlo. Lo que Sol decida se agrega a `09_mapa_comercios.md` para que no se vuelva a preguntar.
+
+## Liquidación mensual CIUDAD 50/50 (Sol ↔ Chris)
+
+CIUDAD es la casa donde viven Sol, Chris y Ramón. **Todos** sus gastos se comparten 50/50:
+
+1. Servicios CIUDAD (expensas, luz, gas, ABL, TV, limpieza, suscripciones de casa) — los paga casi todos Sol.
+2. **ALMACEN SOL**: súper, comida, delivery, Ramón, combustible, entretenimiento hogareño, etc. que paga Sol → columna `Importe Sol` de `Almacen Detalle`.
+3. **ALMACEN CHRIS**: lo mismo que paga Chris, según la **rendición que Chris entrega a fin de mes** → columna `Importe Chris` de `Almacen Detalle`.
+
+Cálculo mensual (hoja `2026`): `TOTAL` = servicios + Almacén Sol + Almacén Chris (+ extras) → `CADA UNO` = TOTAL ÷ 2 → `Pendiente Chris` = CADA UNO − lo pagado por Chris. Positivo = Chris le transfiere esa diferencia a Sol. Las transferencias de Chris a Sol (`Transferencias recibidas`) son pagos de esa liquidación, no gastos.
+
 ## Implicancias (para no romper análisis)
 
 | Error típico | Efecto |
