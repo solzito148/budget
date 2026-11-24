@@ -5,6 +5,12 @@ alwaysApply: true
 
 # Drive canónico — TODO va a Drive
 
+## Regla dura — cargar SIEMPRE en la plantilla (Sol, 2026-11-23)
+Cuando Sol **pase gastos** (lista, CSV, PDF, captura, chat):
+1. **Cargarlos en la plantilla Excel** correspondiente (`Almacen Detalle` / `Gasto Personal Sol` / `Detalle` / propiedad / etc.).
+2. **No alcanza** con leerlos, catalogarlos, resumirlos o dejarlos “pendientes de cargar”.
+3. Después: overwrite en Drive + commit (misma regla de abajo).
+
 ## Regla dura (desde 2026-10-23)
 **Ninguna tarea de gastos queda completa** si solo se cambió el Excel en git/local.
 
