@@ -98,6 +98,10 @@
       "REGISTRO_GMAIL": {
         "local": "REGISTROS/registro_gmail_2026.csv",
         "drive_id": "18dHgHsSEBnLga5C_zkrbqR22_PjsO4Do"
+      },
+      "GMAIL_DETALLE": {
+        "local": "REGISTROS/gmail_detalle_2026.csv",
+        "drive_id": "1-bs4B_IvjeRk0K1ZttODnM67LlAU3rnf"
       }
     }
   }
