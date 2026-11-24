@@ -83,4 +83,5 @@ YPF, Shell, Generacion 20 Combustibles → Almacén detalle tipo `Combustible �
 - Compras de Chris durante el mes (verdulería, almacén, supermercado, etc.). Chris se las pasa a Sol y Sol las informa por chat.
 - **Todas** van a `Almacen Detalle` columna `Importe Chris` → fila `ALMACEN CHRIS` de la hoja `2026` (CIUDAD).
 - Fuente válida: lo que Sol informa por chat (no se pide extracto). Comentario: `Rendición Chris · informado por Sol`.
+- Sol informa solo **detalle, importe y mes**. **No se pide ni se carga fecha** (columna Fecha vacía; el total mensual se calcula por la columna Mes). Excepción a la regla de fecha obligatoria.
 - Usar las mismas etiquetas de detalle que Almacén Sol (`SUPERMERCADO · …`, `COMIDA · Verdulería`, `RAMON · …`, etc.).

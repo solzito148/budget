@@ -158,7 +158,7 @@ CIUDAD es la casa donde viven Sol, Chris y Ramón. **Todos** sus gastos se compa
 
 1. Servicios CIUDAD (expensas, luz, gas, ABL, TV, limpieza, suscripciones de casa) — los paga casi todos Sol.
 2. **ALMACEN SOL**: súper, comida, delivery, Ramón, combustible, entretenimiento hogareño, etc. que paga Sol → columna `Importe Sol` de `Almacen Detalle`.
-3. **ALMACEN CHRIS**: compras que hace Chris durante el mes (verdulería, almacén, supermercado, etc.). Chris se las pasa a Sol y **Sol las informa por el chat** → **todas** van a la fila `ALMACEN CHRIS` de la planilla CIUDAD, cargadas línea por línea en `Almacen Detalle` columna `Importe Chris` (con fecha, detalle y comentario `Rendición Chris · informado por Sol`).
+3. **ALMACEN CHRIS**: compras que hace Chris durante el mes (verdulería, almacén, supermercado, etc.). Chris se las pasa a Sol y **Sol las informa por el chat** → **todas** van a la fila `ALMACEN CHRIS` de la planilla CIUDAD, cargadas línea por línea en `Almacen Detalle` columna `Importe Chris` con **mes, detalle e importe** (comentario `Rendición Chris · informado por Sol`). **No lleva fecha**: Sol informa solo detalle, importe y mes; la columna Fecha queda vacía (excepción a la regla de fecha obligatoria).
    - **Excepción a la jerarquía de fuentes:** para los gastos de Chris, lo que Sol informa por chat **es la fuente válida** (no hay resumen oficial de Chris). No pedir extracto.
    - Gastos de Chris **nunca** van a GPS ni a otra propiedad.
 

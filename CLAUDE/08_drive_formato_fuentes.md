@@ -24,6 +24,7 @@ Solo Sol puede autorizar corregir un error del extracto.
 
 - Montos **enteros**, redondeo **ceil** (hacia arriba)  
 - Fecha del gasto = fecha del movimiento / cobro según resumen  
+- Excepción: gastos de Chris informados por Sol → solo mes + detalle + importe, **sin fecha**  
 - Editar **solo** el Excel canónico de la propiedad correspondiente  
 - Comentario con comercio/detalle cuando la categoría sea genérica (farmacia, AVA cuota N, etc.)
 

@@ -207,5 +207,6 @@ Nunca van a Almacen Detalle ni a la matriz `2026` de CIUDAD (excepto PedidosYa P
 
 ## Formato
 - **Fecha obligatoria:** todo registro cargado en cualquier Excel (GPS, Almacén, Detalle, MP No Gasto, Inversión, Dinero Retirado, Pago de Tarjetas, propiedades BONORINO/OHIGGINS/AVA, maestro SOL) **debe llevar siempre la fecha del gasto** (fecha del movimiento / cobro según el resumen oficial). **Nunca** crear ni dejar filas sin fecha; si no hay fecha en el extracto, no cargar hasta tenerla o marcar `REVISAR` solo con fecha tentativa del resumen y comentario explícito.
+- **Única excepción a la fecha obligatoria:** gastos de Chris (`Almacen Detalle` columna `Importe Chris`) informados por Sol en el chat → solo mes + detalle + importe, sin fecha.
 - Montos enteros, ceil hacia arriba
 - Solo editar archivo canónico de la propiedad
