@@ -1,0 +1,12 @@
+# Cargar gastos — sin confirmación, siempre agregar
+
+## Regla dura
+Cada indicación y cada gasto que pase Sol (chat, CSV, PDF, resumen, texto) **se carga en las planillas canónicas de inmediato**.
+
+1. **Sin pedir confirmación.** No preguntar “¿lo cargo?”, “¿confirmás?” ni esperar OK. Categorizar con las reglas del repo y escribir en el Excel/Sheet.
+2. **Nunca borrar lo anterior.** No vaciar filas, no sobrescribir historial, no reemplazar bloques previos. **Siempre agregar** filas nuevas al final de la hoja correspondiente.
+3. Si un gasto estaba mal ubicado y Sol pide moverlo (ej. Almacén → Gasto Personal), **agregar** en el destino correcto; no borrar en masa otras filas. Solo tocar la fila puntual del ítem indicado.
+4. Después de editar: regenerar maestro SOL si aplica, overwrite Drive canónico, commit/push.
+
+## Destino
+Usar las reglas de `ciudad-categorias-mercadopago.mdc` y `contexto-hogar-propiedades.mdc` para elegir hoja/archivo. Si falta un dato crítico (fecha), marcar `REVISAR` con la mejor fecha del resumen y cargar igual; no dejar el gasto afuera esperando confirmación.
