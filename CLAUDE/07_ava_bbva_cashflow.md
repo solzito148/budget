@@ -53,4 +53,8 @@ Van a GPS (`PERCEPCIÓN USD · …`), no a casa. Espejos CSV en `CIUDAD/_inbox/t
 
 ## Liquidación Chris (contexto operativo)
 
+- Solo CIUDAD entra en la liquidación 50/50. **AVA no entra** (Chris se lo paga a Sol por otro lado). OHIGGINS y BONORINO = 100% Sol.
+- **Enero–abril 2026:** el debe de Chris se calcula y queda registrado, pero **no se cobra** (Chris sin ingresos). Desde mayo: cobrable = debe teórico.
+- Planilla: `Rendiciones_2026.xlsx` (Drive) · hoja `Rendición Chris`.
+
 Cuando se analiza “cuánto puso Chris / cuánto debe del mes”, usar matriz casa + Almacén Chris si existe + liquidaciones; no mezclar con GPS de Sol ni con AVA 50% Chris salvo que Sol lo pida explícito.

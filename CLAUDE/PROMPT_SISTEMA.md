@@ -152,6 +152,16 @@ Sé directo. No inventes. Si falta extracto o hay ambigüedad real (ej. transfer
 - **Fuentes de los gastos personales de Sol:** los **resúmenes oficiales** (MP, TC MP, BBVA, bancos) y las **compras registradas en los mails** que se leen (Gmail: tickets, confirmaciones de compra, facturas). No se cargan gastos personales sin una de esas fuentes.
 - **Ante la duda, preguntar a Sol por pantalla.** Si no está claro si un gasto es personal de Sol o de una propiedad (o de qué propiedad), **no** mandarlo a GPS por descarte ni elegir un destino: listarlo en una tabla de dudas (fecha, comercio, monto, fuente, opciones posibles) y definirlo con Sol antes de cargarlo. Lo que Sol decida se agrega a `09_mapa_comercios.md` para que no se vuelva a preguntar.
 
+## Servicios: importe todos los meses (regla general)
+
+- **Cada servicio de cada propiedad tiene que tener su importe cargado en todos los meses** (expensas, luz, gas, ABL, TV/internet, limpieza, streaming). Un mes vacío es un faltante a resolver, no un cero.
+- **Expensas:** se pagan por **transferencia desde Mercado Pago** al consorcio. El respaldo es el **mail enviado** (Gmail `in:sent`) donde Sol reenvía la liquidación al administrador con el **comprobante de transferencia** adjunto (imagen MP: fecha, monto, CBU, n.º de operación). Mes de la matriz = **período** de la liquidación (asunto del mail), no la fecha de pago.
+  - CIUDAD → De Filippo (`expensasdefilippo@gmail.com`, asunto "Envío expensa CIUDAD DE LA PAZ 1132")
+  - OHIGGINS → Kalmus (`expensas@estudiokalmus.com.ar`, asunto "Expensas O´HIGGINS 2219 - {mes}") · desde ago-2026 cuenta nueva Galicia CBU `0070692220000003412822`
+  - BONORINO → `pereyragladys@hotmail.com` (asunto "Liquidacion del mes de MM/2026")
+- **BONORINO** también tiene ABL partida **1084069** y Metrogas cliente **30010713734** (pagos por MP). Un ABL de ~$28.000 o un Metrogas pagado por MP **no** son automáticamente CIUDAD: CIUDAD paga Metrogas por débito BBVA.
+- **Antes de subir un Excel a Drive, bajar la versión actual del Drive y partir de ella.** Nunca pisar el Drive con una versión vieja del repo.
+
 ## Liquidación mensual CIUDAD 50/50 (Sol ↔ Chris)
 
 CIUDAD es la casa donde viven Sol, Chris y Ramón. **Todos** sus gastos se comparten 50/50:

@@ -2,6 +2,16 @@
 
 **GitHub:** https://github.com/solzito148/budget/tree/master/CLAUDE · **Drive Excels:** https://drive.google.com/drive/folders/1fc6P038_VTOXtH_GzZRti1rv_UD14w29 · **Drive docs:** https://drive.google.com/drive/folders/1Lfu_3vQjZQ3L3tiBI5eAk661bnyC1UnW
 
+## Servicios: importe todos los meses (regla general)
+
+- **Cada servicio de cada propiedad tiene que tener su importe cargado en todos los meses** (expensas, luz, gas, ABL, TV/internet, limpieza, streaming). Un mes vacío es un faltante a resolver, no un cero.
+- **Expensas:** se pagan por **transferencia desde Mercado Pago** al consorcio. El respaldo es el **mail enviado** (Gmail `in:sent`) donde Sol reenvía la liquidación al administrador con el **comprobante de transferencia** adjunto (imagen MP: fecha, monto, CBU, n.º de operación). Mes de la matriz = **período** de la liquidación (asunto del mail), no la fecha de pago.
+  - CIUDAD → De Filippo (`expensasdefilippo@gmail.com`, asunto "Envío expensa CIUDAD DE LA PAZ 1132")
+  - OHIGGINS → Kalmus (`expensas@estudiokalmus.com.ar`, asunto "Expensas O´HIGGINS 2219 - {mes}") · desde ago-2026 cuenta nueva Galicia CBU `0070692220000003412822`
+  - BONORINO → `pereyragladys@hotmail.com` (asunto "Liquidacion del mes de MM/2026")
+- **BONORINO** también tiene ABL partida **1084069** y Metrogas cliente **30010713734** (pagos por MP). Un ABL de ~$28.000 o un Metrogas pagado por MP **no** son automáticamente CIUDAD: CIUDAD paga Metrogas por débito BBVA.
+- **Antes de subir un Excel a Drive, bajar la versión actual del Drive y partir de ella.** Nunca pisar el Drive con una versión vieja del repo.
+
 ## Expensas — mapear por consorcio / CBU / CUIT
 
 | Señal | Propiedad | Archivo |
